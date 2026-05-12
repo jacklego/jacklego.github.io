@@ -1,0 +1,12 @@
+---
+title: "2025"
+description: Classic Movie Monsters
+# date: 10-31-2025
+listing:
+  contents: pumpkins
+  sort: "date asc"
+  type: grid
+  fields: [title, image]
+page-layout: full
+image: pumpkins/dracula/dracula.jpg
+---

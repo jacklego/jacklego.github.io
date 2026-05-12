@@ -1,0 +1,7 @@
+title-block-banner: true
+listing:
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  image-height: 360px

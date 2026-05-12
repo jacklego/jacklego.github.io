@@ -1,0 +1,12 @@
+---
+title: "2024"
+description: Treehouse of Horror
+# date: 10-31-2024
+listing:
+  contents: pumpkins
+  sort: "date asc"
+  type: grid
+  fields: [title, image]
+page-layout: full
+image: pumpkins/homer/homer.jpg
+---

@@ -1,0 +1,12 @@
+---
+title: "2017"
+description: ""
+# date: 10-31-2017
+listing:
+  contents: pumpkins
+  sort: "date asc"
+  type: grid
+  fields: [title, image]
+page-layout: full
+# image: pumpkins/dracula/dracula.jpg
+---

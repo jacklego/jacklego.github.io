@@ -1,0 +1,6 @@
+# Enable banner style title blocks
+title-block-banner: true
+listing:
+  categories: false
+  sort-ui: false
+  filter-ui: false

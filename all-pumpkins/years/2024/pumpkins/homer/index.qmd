@@ -1,0 +1,5 @@
+---
+title: Homer
+image: homer.jpg
+date: 10/01/24
+---

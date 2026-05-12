@@ -1,0 +1,5 @@
+---
+title: Dracula
+image: dracula.jpg
+date: 10/01/25
+---

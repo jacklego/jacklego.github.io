@@ -1,0 +1,12 @@
+---
+title: "All Pumpkins"
+listing:
+  contents: /years/*/index.qmd
+  feed: true
+  sort: "title desc"
+  type: default
+  date-format: "YYYY"
+  fields: [title, image, description]
+page-layout: full
+background: /non-pumpkins/carvings/rose-melon.jpg
+---
