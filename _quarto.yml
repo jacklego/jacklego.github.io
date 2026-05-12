@@ -2,20 +2,38 @@ project:
   type: website
 
 website:
-  title: "jacklego.github.io"
+  description: "Peter's Pumpkin Carvings"
+  site-url: https://peterspumpkinpatch.org
+  title: "Peter's Pumpkin Patch"
+  favicon: _favicon/favicon.ico
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: black
+    left: 
+      - text: "This Year's Patch"
+        href: all-pumpkins/2025
+      - text: "All Pumpkins"
+        href: all-pumpkins
+      - text: "Non-Pumpkins"
+        href: non-pumpkins
+    # right:
+    #   - icon: instagram
+    #     href: https://instagram.com/
+    #   - icon: twitter-x
+    #     href: https://x.com
+  page-footer: 
+    background: $footer-bg
+    left: "&#169; 2010 -- 2026 Peter T. Wiegand"
+    right: "Website by [Connor T. Wiegand](https://github.com/connortwiegand/){target='_blank'} <br/> Made with [Quarto](https://quarto.org/) | [Source code](https://github.com/connortwiegand/){target='blank'}"
+  
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+    theme: [darkly, sass/theme.scss]
+    fontcolor: $body-color
+    # lightbox: true
 
+pthemes:
+  2025: Classic Movie Monsters
 
 
