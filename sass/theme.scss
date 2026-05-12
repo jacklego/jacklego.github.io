@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+$headings-font-family: "Libre Bodoni", fantasy, serif;
+$font-family-base: "Libre Caslon Text", serif;
+$font-size-root: 24px;
+
+$body-color: rgb(252, 96, 0);
+$headings-color: $body-color;
+$body-bg: black;
+
+$navbar-fg: rgb(236,151,18);
+$navbar-bg: black;
+
+$footer-bg: rgb(45,45,45);
+
+/*-- scss:rules --*/
+
+nav #navbarCollapse .nav-item a {
+  font-family: $headings-font-family;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#title-block-header {
+  text-align: center;
+  h1.title, .description {
+    color: $body-color;
+  }
+}
+
+img.navbar-logo {
+  max-height: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: $headings-font-family;
+  text-decoration: underline;
+  color: $body-color;
+}
