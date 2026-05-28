@@ -1,0 +1,5 @@
+---
+title: (Klaatu) The Day the Earth Stood Still
+image: the-day-the-earth-stood-still.jpg
+date: 10/03/25
+---

@@ -1,0 +1,5 @@
+---
+title: Haunted House
+image: haunted-house.jpg
+date: 10/11/25
+---

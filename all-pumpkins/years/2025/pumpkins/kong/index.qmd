@@ -1,0 +1,5 @@
+---
+title: Kong
+image: kong.jpg
+date: 10/08/25
+---
