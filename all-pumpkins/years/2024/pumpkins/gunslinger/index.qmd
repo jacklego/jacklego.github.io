@@ -1,0 +1,8 @@
+---
+title: "Gunslinger"
+image: gunslinger.jpg
+date: 10/13/24
+
+meta:
+  themed: false
+---

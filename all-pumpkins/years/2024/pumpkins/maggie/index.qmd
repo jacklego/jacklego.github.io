@@ -1,0 +1,5 @@
+---
+title: "Maggie"
+image: maggie.jpg
+date: 10/03/24
+---

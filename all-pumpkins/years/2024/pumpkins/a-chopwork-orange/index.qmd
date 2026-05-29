@@ -1,0 +1,11 @@
+---
+title: "A Chopwork Orange"
+image: a-chopwork-orange.jpg
+date: 10/12/24
+---
+
+::: {layout-ncol=2}
+![Itchy](_itchy.jpg)
+
+![Scratchy](_scratchy.jpg)
+:::

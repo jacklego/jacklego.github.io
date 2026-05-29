@@ -1,0 +1,5 @@
+---
+title: "Sideshow Bob"
+image: sideshow-bob.jpg
+date: 10/01/24
+---
