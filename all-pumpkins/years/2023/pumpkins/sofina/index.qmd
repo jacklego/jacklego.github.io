@@ -1,0 +1,5 @@
+---
+title: "Sofina (Dnd)"
+image: sofina.jpg
+date: 10/12/23
+---
