@@ -1,8 +1,9 @@
 ---
-title: "Nw Vape"
-image: nw-vape.jpg
+title: "NW Vape Logo"
+image: nw-vape-logo.jpg
 date: 10/09/23
 
 meta:
   themed: false
+  logo: true
 ---
