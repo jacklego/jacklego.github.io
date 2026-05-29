@@ -1,0 +1,5 @@
+---
+title: Sid Phillips
+image: sid.jpg
+
+---
