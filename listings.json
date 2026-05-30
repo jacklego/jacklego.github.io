@@ -21,34 +21,113 @@
     ]
   },
   {
-    "listing": "/all-pumpkins/years/2022/index.html",
+    "listing": "/all-pumpkins/years/2021/pumpkins/sid/index.html",
     "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2023/index.html",
+    "listing": "/all-pumpkins/years/2015/index.html",
     "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/le-chiffre/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/baron-samedi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/blofeld/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/oddjob/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/scaramanga/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/zao/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/index.html",
+    "items": [
+      "/all-pumpkins/years/2024/pumpkins/sideshow-bob/index.html",
+      "/all-pumpkins/years/2024/pumpkins/groundskeeper-willie/index.html",
+      "/all-pumpkins/years/2024/pumpkins/maggie/index.html",
+      "/all-pumpkins/years/2024/pumpkins/bart/index.html",
+      "/all-pumpkins/years/2024/pumpkins/homer/index.html",
+      "/all-pumpkins/years/2024/pumpkins/lisa/index.html",
+      "/all-pumpkins/years/2024/pumpkins/kang/index.html",
+      "/all-pumpkins/years/2024/pumpkins/krusty/index.html",
+      "/all-pumpkins/years/2024/pumpkins/flanders/index.html",
+      "/all-pumpkins/years/2024/pumpkins/mr-burns/index.html",
+      "/all-pumpkins/years/2024/pumpkins/marge/index.html",
+      "/all-pumpkins/years/2024/pumpkins/a-chopwork-orange/index.html",
+      "/all-pumpkins/years/2024/pumpkins/gunslinger/index.html"
+    ]
   },
   {
     "listing": "/all-pumpkins/years/2024/pumpkins/homer/index.html",
     "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2019/index.html",
+    "listing": "/all-pumpkins/years/2024/pumpkins/sideshow-bob/index.html",
     "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2013/index.html",
+    "listing": "/all-pumpkins/years/2024/pumpkins/kang/index.html",
     "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2025/index.html",
-    "items": [
-      "/all-pumpkins/years/2025/pumpkins/dracula/index.html",
-      "/all-pumpkins/years/2025/pumpkins/frank/index.html"
-    ]
+    "listing": "/all-pumpkins/years/2024/pumpkins/flanders/index.html",
+    "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2025/pumpkins/frank/index.html",
+    "listing": "/all-pumpkins/years/2024/pumpkins/lisa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/mr-burns/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2016/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2017/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2012/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/wolfman/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/mummy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/frankenstein/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/the-day-the-earth-stood-still/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/haunted-house/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/black-lagoon/index.html",
     "items": []
   },
   {
@@ -76,33 +155,126 @@
     "items": []
   },
   {
+    "listing": "/all-pumpkins/years/2025/pumpkins/invisible-man/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/nosferatu/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2025/pumpkins/godzilla/index.html",
+    "items": []
+  },
+  {
     "listing": "/all-pumpkins/years/2025/pumpkins/dracula/index.html",
     "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2012/index.html",
+    "listing": "/all-pumpkins/years/2025/pumpkins/kong/index.html",
     "items": []
   },
   {
-    "listing": "/all-pumpkins/years/2017/index.html",
-    "items": []
-  },
-  {
-    "listing": "/all-pumpkins/years/2016/index.html",
-    "items": []
-  },
-  {
-    "listing": "/all-pumpkins/years/2024/index.html",
+    "listing": "/all-pumpkins/years/2025/index.html",
     "items": [
-      "/all-pumpkins/years/2024/pumpkins/homer/index.html"
+      "/all-pumpkins/years/2025/pumpkins/dracula/index.html",
+      "/all-pumpkins/years/2025/pumpkins/frankenstein/index.html",
+      "/all-pumpkins/years/2025/pumpkins/the-day-the-earth-stood-still/index.html",
+      "/all-pumpkins/years/2025/pumpkins/black-lagoon/index.html",
+      "/all-pumpkins/years/2025/pumpkins/mummy/index.html",
+      "/all-pumpkins/years/2025/pumpkins/invisible-man/index.html",
+      "/all-pumpkins/years/2025/pumpkins/godzilla/index.html",
+      "/all-pumpkins/years/2025/pumpkins/kong/index.html",
+      "/all-pumpkins/years/2025/pumpkins/nosferatu/index.html",
+      "/all-pumpkins/years/2025/pumpkins/wolfman/index.html",
+      "/all-pumpkins/years/2025/pumpkins/haunted-house/index.html"
     ]
   },
   {
-    "listing": "/all-pumpkins/years/2015/index.html",
+    "listing": "/all-pumpkins/years/2013/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2019/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/bart/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/maggie/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/krusty/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/gunslinger/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/a-chopwork-orange/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/groundskeeper-willie/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2024/pumpkins/marge/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/largo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/tarantula/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/sofina/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/jaws/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/nw-vape/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/pumpkins/bond-collection/index.html",
+    "items": []
+  },
+  {
+    "listing": "/all-pumpkins/years/2023/index.html",
+    "items": [
+      "/all-pumpkins/years/2023/pumpkins/largo/index.html",
+      "/all-pumpkins/years/2023/pumpkins/scaramanga/index.html",
+      "/all-pumpkins/years/2023/pumpkins/zao/index.html",
+      "/all-pumpkins/years/2023/pumpkins/le-chiffre/index.html",
+      "/all-pumpkins/years/2023/pumpkins/tarantula/index.html",
+      "/all-pumpkins/years/2023/pumpkins/oddjob/index.html",
+      "/all-pumpkins/years/2023/pumpkins/blofeld/index.html",
+      "/all-pumpkins/years/2023/pumpkins/jaws/index.html",
+      "/all-pumpkins/years/2023/pumpkins/nw-vape/index.html",
+      "/all-pumpkins/years/2023/pumpkins/baron-samedi/index.html",
+      "/all-pumpkins/years/2023/pumpkins/bond-collection/index.html",
+      "/all-pumpkins/years/2023/pumpkins/sofina/index.html"
+    ]
+  },
+  {
+    "listing": "/all-pumpkins/years/2022/index.html",
     "items": []
   },
   {
     "listing": "/all-pumpkins/years/2021/index.html",
-    "items": []
+    "items": [
+      "/all-pumpkins/years/2021/pumpkins/sid/index.html"
+    ]
   }
 ]
