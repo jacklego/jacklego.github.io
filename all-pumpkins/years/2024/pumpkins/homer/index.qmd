@@ -3,3 +3,5 @@ title: Homer
 image: homer.jpg
 date: 10/05/24
 ---
+
+![]({{< meta image >}}){fig-align="center"}

@@ -3,3 +3,5 @@ title: Kong
 image: kong.jpg
 date: 10/08/25
 ---
+
+![]({{< meta image >}}){fig-align="center"}

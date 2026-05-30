@@ -3,3 +3,5 @@ title: Sid Phillips
 image: sid.jpg
 
 ---
+
+![]({{< meta image >}}){fig-align="center"}

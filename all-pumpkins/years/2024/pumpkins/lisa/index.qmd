@@ -3,3 +3,5 @@ title: "Lisa"
 image: lisa.jpg
 date: 10/06/24
 ---
+
+![]({{< meta image >}}){fig-align="center"}

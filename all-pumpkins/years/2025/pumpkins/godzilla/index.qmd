@@ -3,3 +3,5 @@ title: Godzilla
 image: godzilla.jpg
 date: 10/07/25
 ---
+
+![]({{< meta image >}}){fig-align="center"}

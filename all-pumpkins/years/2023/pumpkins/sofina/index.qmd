@@ -3,3 +3,5 @@ title: "Sofina (DnD)"
 image: sofina.jpg
 date: 10/12/23
 ---
+
+![]({{< meta image >}}){fig-align="center"}

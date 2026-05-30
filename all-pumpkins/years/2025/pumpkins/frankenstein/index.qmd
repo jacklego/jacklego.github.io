@@ -3,3 +3,5 @@ title: Frankenstein
 image: frankenstein.jpg
 date: 10/02/25
 ---
+
+![]({{< meta image >}}){fig-align="center"}

@@ -2,4 +2,7 @@
 title: Dracula
 image: dracula.jpg
 date: 10/01/25
+date-format: "YYYY"
 ---
+
+![]({{< meta image >}}){fig-align="center"}

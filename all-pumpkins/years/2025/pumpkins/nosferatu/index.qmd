@@ -3,3 +3,5 @@ title: Nosferatu
 image: nosferatu.jpg
 date: 10/09/25
 ---
+
+![]({{< meta image >}}){fig-align="center"}

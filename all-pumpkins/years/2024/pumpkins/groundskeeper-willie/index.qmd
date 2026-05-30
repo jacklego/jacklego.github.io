@@ -3,3 +3,5 @@ title: "Groundskeeper Willie"
 image: groundskeeper-willie.jpg
 date: 10/02/24
 ---
+
+![]({{< meta image >}}){fig-align="center"}

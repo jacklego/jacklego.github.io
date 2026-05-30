@@ -3,3 +3,5 @@ title: Creature from the Black Lagoon
 image: black-lagoon.jpg
 date: 10/04/25
 ---
+
+![]({{< meta image >}}){fig-align="center"}

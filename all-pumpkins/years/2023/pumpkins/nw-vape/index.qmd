@@ -7,3 +7,5 @@ meta:
   themed: false
   logo: true
 ---
+
+![]({{< meta image >}}){fig-align="center"}

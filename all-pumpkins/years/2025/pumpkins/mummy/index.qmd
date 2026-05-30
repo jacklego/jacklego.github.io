@@ -3,3 +3,5 @@ title: Mummy
 image: mummy.jpg
 date: 10/05/25
 ---
+
+![]({{< meta image >}}){fig-align="center"}

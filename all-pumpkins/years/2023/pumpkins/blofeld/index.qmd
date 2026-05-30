@@ -3,3 +3,5 @@ title: "Ernst Stavro Blofeld (You Only Live Twice)"
 image: ernst-stavro-blofeld.jpg
 date: 10/07/23
 ---
+
+![]({{< meta image >}}){fig-align="center"}
