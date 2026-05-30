@@ -8,5 +8,4 @@ listing:
   date-format: "YYYY"
   fields: [title, image, description]
 page-layout: full
-background: /non-pumpkins/carvings/rose-melon.jpg
 ---

@@ -14,8 +14,14 @@ $navbar-fg: rgb(236,151,18);
 $navbar-bg: black;
 
 $footer-bg: rgb(45,45,45);
+$light: white;
+$success: #00A33F;
 
 /*-- scss:rules --*/
+
+#navbarCollapse{
+  flex-shrink: 2;
+}
 
 nav #navbarCollapse .nav-item a {
   font-family: $headings-font-family;
@@ -30,8 +36,48 @@ nav #navbarCollapse .nav-item a {
   }
 }
 
+#quarto-announcement {
+  i {
+    color: $navbar-fg;
+  }
+
+  .quarto-announcement-content {
+    color: white;
+
+    a {
+      color: black;
+    }
+  }
+}
+
+main #title-block-header,
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  display: none;
+}
+
+div.quarto-post {
+  align-items: center;
+
+  .body {
+    margin-left: 3rem;
+  }
+
+  .metadata {
+    display: none;
+  }
+}
+
+
+a.navbar-brand {
+  overflow: clip;
+}
+
 img.navbar-logo {
   max-height: 2.5rem;
+}
+
+ul.navbar-nav {
+  text-align: center;
 }
 
 h1,

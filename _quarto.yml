@@ -6,6 +6,13 @@ website:
   site-url: https://peterspumpkinpatch.org
   title: "Peter's Pumpkin Patch"
   favicon: _favicon/favicon.ico
+  open-graph: true
+  announcement: 
+    icon: cone-striped
+    dismissable: true
+    content: "This website is currently under construction. To view the original site, visit [jacklego2.wixsite.com/peter-spumpkinpatch](https://jacklego2.wixsite.com/peter-spumpkinpatch)"
+    type: success
+    position: above-navbar
   navbar:
     background: black
     left: 
