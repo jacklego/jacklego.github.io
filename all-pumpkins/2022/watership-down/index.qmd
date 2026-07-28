@@ -7,7 +7,6 @@ meta:
   source: "Watership Down"
   captured: "2022-10-30T08:09:06"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

@@ -7,7 +7,6 @@ meta:
   source: "Peter Pan"
   captured: "2021-10-26T19:09:07"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

@@ -3,7 +3,6 @@ title: "Jaws (The Spy Who Loved Me)"
 image: jaws.jpg
 date: 10/08/23
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

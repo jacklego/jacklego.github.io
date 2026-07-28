@@ -7,7 +7,6 @@ meta:
   source: "The Rocky Horror Picture Show"
   captured: "2019-10-25T23:29:47"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

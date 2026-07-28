@@ -7,7 +7,6 @@ meta:
   source: "Charlotte's Web"
   captured: "2022-10-30T17:57:10"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

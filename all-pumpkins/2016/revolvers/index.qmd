@@ -6,7 +6,6 @@ date: 10/06/16
 meta:
   captured: "2016-10-29T19:44:15"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

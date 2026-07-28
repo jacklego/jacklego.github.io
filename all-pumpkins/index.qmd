@@ -1,11 +1,14 @@
 ---
 title: "All Pumpkins"
 listing:
-  contents: /years/*/index.qmd
+  contents: ./*/index.qmd
   feed: true
   sort: "title desc"
   type: default
   date-format: "YYYY"
   fields: [title, image, description]
+  categories: false
+  sort-ui: false
+  filter-ui: false
 page-layout: full
 ---

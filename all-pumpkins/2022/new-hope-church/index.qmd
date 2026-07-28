@@ -8,7 +8,6 @@ meta:
   themed: false
   logo: true
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

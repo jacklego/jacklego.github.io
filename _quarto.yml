@@ -17,7 +17,7 @@ website:
     background: black
     left: 
       - text: "This Year's Patch"
-        href: all-pumpkins/years/2025
+        href: all-pumpkins/2025
       - text: "All Pumpkins"
         href: all-pumpkins
       - text: "Non-Pumpkins"
@@ -40,7 +40,7 @@ format:
     fontcolor: $body-color
     # lightbox: true
 
-pthemes:
-  2025: Classic Movie Monsters
+# pthemes:
+#   2025: Classic Movie Monsters
 
 

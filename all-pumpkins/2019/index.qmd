@@ -3,10 +3,15 @@ title: "2019"
 description: "The Rocky Horror Picture Show"
 # date: 10-31-2019
 listing:
-  contents: ./pumpkins/*/index.qmd
+  contents: ./*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  image-height: 360px
 page-layout: full
-image: pumpkins/frank-n-furter/frank-n-furter.jpg
+image: frank-n-furter/frank-n-furter.jpg
 ---

@@ -7,7 +7,6 @@ meta:
   source: "Pirates of the Caribbean"
   captured: "2013-10-27T18:23:46"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

@@ -7,7 +7,6 @@ meta:
   source: "Star Wars"
   captured: "2015-10-27T00:03:19"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

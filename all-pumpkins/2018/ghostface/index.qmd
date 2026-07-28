@@ -7,7 +7,6 @@ meta:
   source: "Scream"
   captured: "2018-10-28T23:49:24"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

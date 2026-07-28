@@ -8,7 +8,6 @@ meta:
   captured: "2018-10-30T09:50:09"
   wix: "Heeeeere's Johnny!"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

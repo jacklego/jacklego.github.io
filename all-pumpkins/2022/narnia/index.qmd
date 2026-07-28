@@ -7,7 +7,6 @@ meta:
   source: "The Lion, the Witch and the Wardrobe"
   captured: "2022-10-31T08:02:03"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

@@ -8,7 +8,6 @@ meta:
   captured: "2016-10-27T19:50:06"
   uncertain: true
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

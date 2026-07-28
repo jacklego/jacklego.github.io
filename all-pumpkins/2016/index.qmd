@@ -3,10 +3,15 @@ title: "2016"
 description: ""
 # date: 10-31-2016
 listing:
-  contents: ./pumpkins/*/index.qmd
+  contents: ./*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  image-height: 360px
 page-layout: full
-image: pumpkins/deadpool/deadpool.jpg
+image: deadpool/deadpool.jpg
 ---

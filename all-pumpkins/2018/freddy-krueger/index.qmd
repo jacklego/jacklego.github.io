@@ -7,7 +7,6 @@ meta:
   source: "A Nightmare on Elm Street"
   captured: "2018-10-27T10:45:48"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

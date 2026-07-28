@@ -8,7 +8,6 @@ meta:
   version: 1
   logo: true
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

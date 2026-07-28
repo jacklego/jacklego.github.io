@@ -7,7 +7,6 @@ meta:
   source: "Fantasia"
   captured: "2021-10-24T18:55:11"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

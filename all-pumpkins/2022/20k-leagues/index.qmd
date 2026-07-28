@@ -7,7 +7,6 @@ meta:
   source: "Twenty Thousand Leagues Under the Seas"
   captured: "2022-10-27T19:39:41"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

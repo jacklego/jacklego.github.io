@@ -7,7 +7,6 @@ meta:
   source: "Harry Potter"
   captured: "2022-10-22T18:39:53"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

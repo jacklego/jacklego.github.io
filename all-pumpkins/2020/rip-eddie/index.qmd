@@ -9,7 +9,6 @@ meta:
   wix: "R.I.P. Sir Sean (mislabelled on the old site)"
   note: "Carved for Eddie Van Halen, who died 6 October 2020"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

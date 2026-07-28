@@ -3,7 +3,6 @@ title: "Krusty"
 image: krusty.jpg
 date: 10/08/24
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

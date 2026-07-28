@@ -7,7 +7,6 @@ meta:
   source: "Michael Jackson"
   captured: "2017-10-30T18:39:12"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

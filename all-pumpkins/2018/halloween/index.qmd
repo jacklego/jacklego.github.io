@@ -7,7 +7,6 @@ meta:
   source: "Halloween (1978)"
   captured: "2018-10-28T18:12:34"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

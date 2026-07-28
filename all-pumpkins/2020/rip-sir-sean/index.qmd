@@ -9,7 +9,6 @@ meta:
   wix: "R.I.P. Eddie (mislabelled on the old site)"
   note: "Carved the day Sean Connery died, 31 October 2020"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

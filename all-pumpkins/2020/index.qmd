@@ -3,10 +3,15 @@ title: "2020"
 description: Star Wars Villains
 # date: 10-31-2020
 listing:
-  contents: ./pumpkins/*/index.qmd
+  contents: ./*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  image-height: 360px
 page-layout: full
-image: pumpkins/darth-vader/darth-vader.jpg
+image: darth-vader/darth-vader.jpg
 ---

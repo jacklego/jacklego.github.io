@@ -1,4 +1,6 @@
-version: 1.2
+version: 3.0
+
+currentYear: 2025
 
 ptheme:
   2010: ""

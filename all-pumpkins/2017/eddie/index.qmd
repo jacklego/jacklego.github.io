@@ -9,7 +9,6 @@ meta:
   wix: "Eddie-Killers"
   note: "Eddie as he appears on the Killers album art"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

@@ -7,7 +7,6 @@ meta:
   source: "The Little Mermaid"
   captured: "2021-10-24T19:35:22"
 
-listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}
