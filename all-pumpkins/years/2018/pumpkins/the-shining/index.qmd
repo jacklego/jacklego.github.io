@@ -5,6 +5,7 @@ date: 10/01/18
 
 meta:
   source: "The Shining"
+  captured: "2018-10-30T09:50:09"
   wix: "Heeeeere's Johnny!"
 
 listing: false

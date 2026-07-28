@@ -3,6 +3,9 @@ title: "Alice Cooper"
 image: alice-cooper.jpg
 date: 10/09/17
 
+meta:
+  captured: "2017-10-22T19:09:16"
+
 listing: false
 ---
 

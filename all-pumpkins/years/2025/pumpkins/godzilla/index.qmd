@@ -3,6 +3,9 @@ title: Godzilla
 image: godzilla.jpg
 date: 10/07/25
 
+meta:
+  captured: "2025-10-27T18:56:01"
+
 listing: false
 ---
 

@@ -4,6 +4,7 @@ image: ozzy.jpg
 date: 10/11/17
 
 meta:
+  captured: "2017-10-31T18:16:44"
   wix: "Ozzy Pumpkin"
 
 listing: false

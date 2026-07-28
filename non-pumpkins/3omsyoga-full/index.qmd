@@ -1,6 +1,6 @@
 ---
 title: "3 Oms Yoga"
-image: namaste-platter.jpg
+image: 3oms-yoga_full-spread.jpg
 year: 2015
 
 meta:

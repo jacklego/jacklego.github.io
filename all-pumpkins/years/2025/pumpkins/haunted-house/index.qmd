@@ -3,6 +3,9 @@ title: Haunted House
 image: haunted-house.jpg
 date: 10/11/25
 
+meta:
+  captured: "2025-10-27T18:36:41"
+
 listing: false
 ---
 

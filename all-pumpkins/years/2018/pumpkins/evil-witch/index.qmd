@@ -5,6 +5,7 @@ date: 10/02/18
 
 meta:
   source: "Snow White and the Seven Dwarfs"
+  captured: "2018-10-29T19:40:32"
 
 listing: false
 ---

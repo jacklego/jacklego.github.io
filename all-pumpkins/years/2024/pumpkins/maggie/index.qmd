@@ -3,6 +3,9 @@ title: "Maggie"
 image: maggie.jpg
 date: 10/03/24
 
+meta:
+  captured: "2024-10-26T18:34:43"
+
 listing: false
 ---
 

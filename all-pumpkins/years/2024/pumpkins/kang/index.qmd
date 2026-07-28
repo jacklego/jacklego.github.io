@@ -3,6 +3,9 @@ title: "Kang"
 image: kang.jpg
 date: 10/07/24
 
+meta:
+  captured: "2024-10-30T19:29:21"
+
 listing: false
 ---
 

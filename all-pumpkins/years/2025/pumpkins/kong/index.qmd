@@ -3,6 +3,9 @@ title: Kong
 image: kong.jpg
 date: 10/08/25
 
+meta:
+  captured: "2025-10-30T18:28:23"
+
 listing: false
 ---
 

@@ -5,6 +5,7 @@ date: 10/04/15
 
 meta:
   source: "Star Wars"
+  captured: "2015-10-30T23:59:20"
 
 listing: false
 ---

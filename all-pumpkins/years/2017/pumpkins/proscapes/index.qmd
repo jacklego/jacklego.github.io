@@ -4,6 +4,7 @@ image: proscapes.jpg
 date: 10/01/17
 
 meta:
+  captured: "2017-10-17T19:33:32"
   logo: true
 
 listing: false

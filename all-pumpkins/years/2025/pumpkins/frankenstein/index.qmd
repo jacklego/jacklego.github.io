@@ -3,6 +3,9 @@ title: Frankenstein
 image: frankenstein.jpg
 date: 10/02/25
 
+meta:
+  captured: "2025-10-30T18:34:53"
+
 listing: false
 ---
 

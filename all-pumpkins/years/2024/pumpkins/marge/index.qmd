@@ -3,6 +3,9 @@ title: "Marge"
 image: marge.jpg
 date: 10/11/24
 
+meta:
+  captured: "2024-10-30T18:16:37"
+
 listing: false
 ---
 

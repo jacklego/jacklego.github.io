@@ -3,6 +3,9 @@ title: Wolfman
 image: wolfman.jpg
 date: 10/10/25
 
+meta:
+  captured: "2025-10-24T23:00:17"
+
 listing: false
 ---
 

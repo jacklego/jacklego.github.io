@@ -5,6 +5,7 @@ date: 10/02/11
 
 meta:
   source: "Star Wars"
+  captured: "2011-10-29T06:33:48"
   version: 2
 
 listing: false

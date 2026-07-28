@@ -5,6 +5,7 @@ date: 10/10/18
 
 meta:
   source: "Halloween (1978)"
+  captured: "2018-10-28T18:12:34"
 
 listing: false
 ---

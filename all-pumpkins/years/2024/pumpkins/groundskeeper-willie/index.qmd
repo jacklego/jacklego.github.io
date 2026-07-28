@@ -3,6 +3,9 @@ title: "Groundskeeper Willie"
 image: groundskeeper-willie.jpg
 date: 10/02/24
 
+meta:
+  captured: "2024-10-28T19:41:09"
+
 listing: false
 ---
 

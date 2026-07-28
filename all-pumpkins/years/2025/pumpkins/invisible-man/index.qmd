@@ -3,6 +3,9 @@ title: Invisible Man
 image: invisible-man.jpg
 date: 10/06/25
 
+meta:
+  captured: "2025-10-29T18:41:53"
+
 listing: false
 ---
 

@@ -3,6 +3,9 @@ title: "Beast"
 image: beast.jpg
 date: 10/04/18
 
+meta:
+  captured: "2018-10-28T17:23:49"
+
 listing: false
 ---
 

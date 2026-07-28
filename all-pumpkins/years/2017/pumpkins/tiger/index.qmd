@@ -3,6 +3,9 @@ title: "Tiger"
 image: tiger.jpg
 date: 10/02/17
 
+meta:
+  captured: "2017-10-21T23:24:23"
+
 listing: false
 ---
 

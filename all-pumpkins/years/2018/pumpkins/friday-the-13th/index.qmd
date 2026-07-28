@@ -5,6 +5,7 @@ date: 10/07/18
 
 meta:
   source: "Friday the 13th"
+  captured: "2018-10-28T17:25:17"
 
 listing: false
 ---

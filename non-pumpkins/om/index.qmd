@@ -1,6 +1,6 @@
 ---
 title: "Om"
-image: namaste.jpg
+image: om.jpg
 year: 2015
 
 meta:

@@ -4,6 +4,7 @@ image: mushrooms.jpg
 date: 10/01/14
 
 meta:
+  captured: "2014-10-23T23:48:41"
   uncertain: true
 
 listing: false

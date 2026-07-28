@@ -5,6 +5,7 @@ date: 10/03/18
 
 meta:
   source: "Frankenstein (1931)"
+  captured: "2018-10-29T19:51:08"
   version: 1
 
 listing: false
