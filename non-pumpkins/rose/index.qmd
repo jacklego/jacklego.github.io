@@ -1,0 +1,11 @@
+---
+title: "Rose"
+image: rose.jpg
+year: 2015
+
+meta:
+  medium: watermelon
+  captured: "2015-05-17T16:38:52"
+---
+
+![]({{< meta image >}}){fig-align="center"}

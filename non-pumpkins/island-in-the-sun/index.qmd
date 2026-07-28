@@ -1,0 +1,11 @@
+---
+title: "Island in the Sun"
+image: island.jpg
+year: 2015
+
+meta:
+  medium: watermelon
+  captured: "2015-05-17T10:41:12"
+---
+
+![]({{< meta image >}}){fig-align="center"}

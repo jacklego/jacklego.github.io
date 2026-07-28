@@ -5,5 +5,11 @@ listing:
   contents: carvings
   sort: "title asc"
   type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  image-height: 360px
 page-layout: full
+title-block-banner: true
 ---

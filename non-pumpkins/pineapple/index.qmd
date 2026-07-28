@@ -1,0 +1,11 @@
+---
+title: "Pineapple"
+image: pineapple.jpg
+year: 2015
+
+meta:
+  medium: watermelon
+  captured: "2015-05-29T21:37:05"
+---
+
+![]({{< meta image >}}){fig-align="center"}

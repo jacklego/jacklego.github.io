@@ -1,0 +1,10 @@
+---
+title: "Om"
+image: namaste.jpg
+year: 2015
+
+meta:
+  medium: watermelon
+---
+
+![]({{< meta image >}}){fig-align="center"}
