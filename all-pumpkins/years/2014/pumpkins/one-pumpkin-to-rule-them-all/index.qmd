@@ -1,0 +1,14 @@
+---
+title: "One Pumpkin to Rule Them All (The Lord of the Rings)"
+image: one-pumpkin-to-rule-them-all.jpg
+date: 10/04/14
+
+meta:
+  source: "The Lord of the Rings"
+  captured: "2014-10-30T00:02:58"
+  note: "Lettering is pseudo-Tengwar"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

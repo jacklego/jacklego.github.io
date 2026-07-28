@@ -1,0 +1,13 @@
+---
+title: "Mrs. Frisby and the Rats of NIMH"
+image: mrs-frisby.jpg
+date: 10/03/22
+
+meta:
+  source: "Mrs. Frisby and the Rats of NIMH"
+  captured: "2022-10-29T18:24:17"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

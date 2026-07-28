@@ -3,10 +3,10 @@ title: "2015"
 description: ""
 # date: 10-31-2015
 listing:
-  contents: pumpkins
+  contents: ./pumpkins/*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]
 page-layout: full
-# image: pumpkins/dracula/dracula.jpg
+image: pumpkins/millennium-falcon/millennium-falcon.jpg
 ---

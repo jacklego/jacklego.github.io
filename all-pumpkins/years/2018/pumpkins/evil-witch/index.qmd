@@ -1,0 +1,12 @@
+---
+title: "Evil Witch (Snow White)"
+image: evil-witch.jpg
+date: 10/02/18
+
+meta:
+  source: "Snow White and the Seven Dwarfs"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

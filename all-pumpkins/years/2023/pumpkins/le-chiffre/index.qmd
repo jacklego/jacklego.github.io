@@ -2,6 +2,8 @@
 title: "Le Chiffre (Casino Royale)"
 image: le-chiffre.jpg
 date: 10/04/23
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

@@ -1,0 +1,13 @@
+---
+title: "Monster Mash"
+image: monster-mash.jpg
+date: 10/09/21
+
+meta:
+  captured: "2021-10-25T19:44:09"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

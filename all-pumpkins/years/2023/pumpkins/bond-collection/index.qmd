@@ -2,6 +2,8 @@
 title: "Bond Collection"
 image: bond-collection.jpg
 date: 10/11/23
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

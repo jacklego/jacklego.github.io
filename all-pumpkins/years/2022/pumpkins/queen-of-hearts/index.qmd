@@ -1,0 +1,13 @@
+---
+title: "Queen of Hearts (Alice in Wonderland)"
+image: queen-of-hearts.jpg
+date: 10/08/22
+
+meta:
+  source: "Alice in Wonderland"
+  captured: "2022-10-23T18:24:12"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

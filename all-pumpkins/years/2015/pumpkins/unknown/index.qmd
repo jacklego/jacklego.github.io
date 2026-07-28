@@ -1,0 +1,12 @@
+---
+title: "Unknown"
+image: unknown.jpg
+date: 10/01/15
+
+meta:
+  uncertain: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

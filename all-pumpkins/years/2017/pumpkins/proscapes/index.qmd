@@ -1,0 +1,12 @@
+---
+title: "Proscapes"
+image: proscapes.jpg
+date: 10/01/17
+
+meta:
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

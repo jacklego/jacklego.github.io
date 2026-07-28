@@ -1,0 +1,15 @@
+---
+title: "North Coast Brewing"
+image: north-coast.jpg
+date: 10/03/17
+
+meta:
+  captured: "2017-10-14T19:43:30"
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+![Another angle](_alt.jpg){fig-align="center"}

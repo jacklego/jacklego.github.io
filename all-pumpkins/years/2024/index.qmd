@@ -3,7 +3,7 @@ title: "2024"
 description: Treehouse of Horror
 # date: 10-31-2024
 listing:
-  contents: pumpkins
+  contents: ./pumpkins/*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]

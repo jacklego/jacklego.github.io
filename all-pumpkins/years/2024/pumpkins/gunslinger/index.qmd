@@ -5,6 +5,8 @@ date: 10/13/24
 
 meta:
   themed: false
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

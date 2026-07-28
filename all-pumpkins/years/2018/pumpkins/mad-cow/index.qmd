@@ -1,0 +1,20 @@
+---
+title: "Mad Cow"
+image: mad-cow.jpg
+date: 10/14/18
+
+meta:
+  captured: "2018-10-15T00:22:14"
+  wix: "Porkula"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+::: {layout-ncol=2}
+![Another angle](_alt.jpg)
+
+![In daylight](_light.jpg)
+
+:::

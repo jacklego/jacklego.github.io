@@ -1,0 +1,14 @@
+---
+title: "Falkor & Atreyu (The NeverEnding Story)"
+image: falkor-and-atreyu.jpg
+date: 10/10/22
+
+meta:
+  source: "The NeverEnding Story"
+  captured: "2022-10-20T19:09:42"
+  wix: "Dragonkeeper"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

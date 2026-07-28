@@ -1,0 +1,13 @@
+---
+title: "Captain Barbossa (Pirates of the Caribbean)"
+image: barbossa.jpg
+date: 10/01/11
+
+meta:
+  source: "Pirates of the Caribbean"
+  captured: "2011-10-22T08:34:55"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

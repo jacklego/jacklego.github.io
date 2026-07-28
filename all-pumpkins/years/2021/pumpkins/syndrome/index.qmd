@@ -1,0 +1,13 @@
+---
+title: "Syndrome (The Incredibles)"
+image: syndrome.jpg
+date: 10/10/21
+
+meta:
+  source: "The Incredibles"
+  captured: "2021-10-30T18:43:47"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

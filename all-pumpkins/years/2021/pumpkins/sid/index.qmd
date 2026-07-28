@@ -1,7 +1,13 @@
 ---
-title: Sid Phillips
+title: "Sid Phillips (Toy Story)"
 image: sid.jpg
+date: 10/11/21
 
+meta:
+  source: "Toy Story"
+  captured: "2021-10-30T18:32:26"
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

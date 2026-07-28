@@ -1,0 +1,13 @@
+---
+title: "Spider-Man"
+image: spiderman.jpg
+date: 10/03/10
+
+meta:
+  source: "Marvel"
+  captured: "2004-10-27T19:43:22"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

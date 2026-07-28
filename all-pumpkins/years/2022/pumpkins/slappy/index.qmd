@@ -1,0 +1,13 @@
+---
+title: "Slappy the Dummy (Goosebumps)"
+image: slappy.jpg
+date: 10/09/22
+
+meta:
+  source: "Goosebumps"
+  captured: "2022-10-21T19:29:37"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

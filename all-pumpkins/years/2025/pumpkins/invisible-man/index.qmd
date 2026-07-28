@@ -2,6 +2,8 @@
 title: Invisible Man
 image: invisible-man.jpg
 date: 10/06/25
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

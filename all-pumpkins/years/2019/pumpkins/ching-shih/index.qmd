@@ -1,0 +1,13 @@
+---
+title: "Ching Shih"
+image: ching-shih.jpg
+date: 10/10/19
+
+meta:
+  captured: "2019-10-22T23:19:33"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

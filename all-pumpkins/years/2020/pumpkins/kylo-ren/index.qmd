@@ -1,0 +1,13 @@
+---
+title: "Kylo Ren"
+image: kylo-ren.jpg
+date: 10/03/20
+
+meta:
+  source: "Star Wars"
+  captured: "2020-10-28T19:42:45"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

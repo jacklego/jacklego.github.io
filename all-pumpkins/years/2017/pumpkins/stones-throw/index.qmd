@@ -1,0 +1,13 @@
+---
+title: "Stone's Throw Brewing"
+image: stones-throw.jpg
+date: 10/06/17
+
+meta:
+  version: 2
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

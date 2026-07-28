@@ -1,0 +1,13 @@
+---
+title: "NASCAR Trophy"
+image: nascar-trophy.jpg
+date: 10/09/19
+
+meta:
+  captured: "2019-10-24T18:49:24"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

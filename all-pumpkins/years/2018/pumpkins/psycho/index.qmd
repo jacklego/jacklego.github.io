@@ -1,0 +1,13 @@
+---
+title: "Psycho (1960)"
+image: psycho.jpg
+date: 10/05/18
+
+meta:
+  source: "Psycho (1960)"
+  captured: "2018-10-27T19:21:14"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

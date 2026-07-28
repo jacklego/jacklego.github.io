@@ -3,10 +3,10 @@ title: "2023"
 description: Bond Villains
 # date: 10-31-2023
 listing:
-  contents: pumpkins
+  contents: ./pumpkins/*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]
 page-layout: full
-# image: pumpkins/dracula/dracula.jpg
+image: pumpkins/bond-collection/bond-collection.jpg
 ---

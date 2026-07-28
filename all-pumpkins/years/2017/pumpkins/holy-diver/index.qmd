@@ -1,0 +1,12 @@
+---
+title: "Holy Diver (Dio)"
+image: holy-diver.jpg
+date: 10/10/17
+
+meta:
+  source: "Dio"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

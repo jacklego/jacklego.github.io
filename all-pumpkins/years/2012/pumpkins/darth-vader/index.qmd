@@ -1,0 +1,14 @@
+---
+title: "Darth Vader"
+image: darth-vader.jpg
+date: 10/03/12
+
+meta:
+  source: "Star Wars"
+  captured: "2012-10-27T18:50:46"
+  version: 1
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

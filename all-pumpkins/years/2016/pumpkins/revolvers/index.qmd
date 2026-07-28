@@ -1,0 +1,16 @@
+---
+title: "Revolvers"
+image: revolvers.jpg
+date: 10/06/16
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+::: {layout-ncol=2}
+![Aimed left](_aimed-left.jpg)
+
+![Aimed right](_aimed-right.jpg)
+
+:::

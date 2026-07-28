@@ -3,10 +3,10 @@ title: "2021"
 description: Disney Villains
 # date: 10-31-2021
 listing:
-  contents: pumpkins
+  contents: ./pumpkins/*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]
 page-layout: full
-# image: pumpkins/dracula/dracula.jpg
+image: pumpkins/cruella-de-vil/cruella-de-vil.jpg
 ---

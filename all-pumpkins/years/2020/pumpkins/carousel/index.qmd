@@ -1,0 +1,13 @@
+---
+title: "Carousel"
+image: carousel.jpg
+date: 10/08/20
+
+meta:
+  captured: "2020-10-28T18:27:44"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

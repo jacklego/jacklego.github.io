@@ -1,0 +1,17 @@
+---
+title: "Lips"
+image: lips.jpg
+date: 10/02/19
+
+meta:
+  source: "The Rocky Horror Picture Show"
+  captured: "2019-10-26T23:30:05"
+  logo: true
+  wix: "Rocky Horror logo"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+![In daylight](_light.jpg){fig-align="center"}

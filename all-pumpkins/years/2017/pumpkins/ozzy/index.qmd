@@ -1,0 +1,12 @@
+---
+title: "Ozzy Osbourne"
+image: ozzy.jpg
+date: 10/11/17
+
+meta:
+  wix: "Ozzy Pumpkin"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

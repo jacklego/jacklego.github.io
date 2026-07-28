@@ -1,0 +1,14 @@
+---
+title: "Boba Fett"
+image: boba-fett.jpg
+date: 10/07/20
+
+meta:
+  source: "Star Wars"
+  captured: "2020-10-29T07:52:54"
+  version: 2
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

@@ -1,0 +1,12 @@
+---
+title: "Samurai"
+image: samurai.jpg
+date: 10/04/16
+
+meta:
+  captured: "2016-10-16T22:48:19"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

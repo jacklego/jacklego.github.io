@@ -1,0 +1,13 @@
+---
+title: "Lucky Lion"
+image: lucky-lion.jpg
+date: 10/09/20
+
+meta:
+  captured: "2020-10-23T19:12:36"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

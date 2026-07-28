@@ -1,0 +1,12 @@
+---
+title: "Pirate Skull with Tentacles"
+image: pirate-skull-tentacles.jpg
+date: 10/03/16
+
+meta:
+  captured: "2016-10-26T00:39:54"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

@@ -1,0 +1,13 @@
+---
+title: "Supreme Leader Snoke"
+image: snoke.jpg
+date: 10/01/20
+
+meta:
+  source: "Star Wars"
+  captured: "2020-10-26T19:43:16"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

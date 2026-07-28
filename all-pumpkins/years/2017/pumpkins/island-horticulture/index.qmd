@@ -1,0 +1,24 @@
+---
+title: "Island Horticulture"
+image: island-horticulture.jpg
+date: 10/04/17
+
+meta:
+  captured: "2017-10-15T19:50:41"
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+::: {layout-ncol=2}
+![Another angle](_colored-alt.jpg)
+
+![Before colouring](_uncolored.jpg)
+
+![Before colouring, another angle](_uncolored-alt.jpg)
+
+![In daylight](_light.jpg)
+
+:::

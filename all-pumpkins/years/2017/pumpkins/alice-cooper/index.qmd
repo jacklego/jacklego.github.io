@@ -1,0 +1,9 @@
+---
+title: "Alice Cooper"
+image: alice-cooper.jpg
+date: 10/09/17
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

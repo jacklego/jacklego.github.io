@@ -1,0 +1,13 @@
+---
+title: "Charlotte's Web"
+image: charlottes-web.jpg
+date: 10/04/22
+
+meta:
+  source: "Charlotte's Web"
+  captured: "2022-10-30T17:57:10"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

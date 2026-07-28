@@ -1,0 +1,13 @@
+---
+title: "Luke vs. The New Order"
+image: luke-vs-the-new-order.jpg
+date: 10/02/20
+
+meta:
+  source: "Star Wars"
+  captured: "2020-10-29T19:39:45"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

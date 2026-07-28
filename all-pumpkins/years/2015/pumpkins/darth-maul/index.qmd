@@ -1,0 +1,14 @@
+---
+title: "Darth Maul"
+image: darth-maul.jpg
+date: 10/06/15
+
+meta:
+  source: "Star Wars"
+  captured: "2015-10-24T23:36:14"
+  version: 1
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

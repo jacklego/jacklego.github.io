@@ -1,0 +1,12 @@
+---
+title: "Mushrooms"
+image: mushrooms.jpg
+date: 10/01/14
+
+meta:
+  uncertain: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

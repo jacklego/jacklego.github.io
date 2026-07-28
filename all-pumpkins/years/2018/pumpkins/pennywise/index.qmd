@@ -1,0 +1,13 @@
+---
+title: "Pennywise (It)"
+image: pennywise.jpg
+date: 10/09/18
+
+meta:
+  source: "It"
+  captured: "2018-10-26T22:36:38"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

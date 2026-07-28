@@ -1,0 +1,13 @@
+---
+title: "Shan Yu (Mulan)"
+image: shan-yu.jpg
+date: 10/08/21
+
+meta:
+  source: "Mulan"
+  captured: "2021-10-21T19:10:18"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

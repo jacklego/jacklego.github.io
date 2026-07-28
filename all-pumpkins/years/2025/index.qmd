@@ -3,7 +3,7 @@ title: "2025"
 description: Classic Movie Monsters
 # date: 10-31-2025
 listing:
-  contents: pumpkins
+  contents: ./pumpkins/*/index.qmd
   sort: "date asc"
   type: grid
   fields: [title, image]

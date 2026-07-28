@@ -1,0 +1,13 @@
+---
+title: "Captain Phasma"
+image: captain-phasma.jpg
+date: 10/05/20
+
+meta:
+  source: "Star Wars"
+  captured: "2020-10-25T18:43:49"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

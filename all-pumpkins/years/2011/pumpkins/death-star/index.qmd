@@ -1,0 +1,15 @@
+---
+title: "Death Star"
+image: death-star.jpg
+date: 10/02/11
+
+meta:
+  source: "Star Wars"
+  version: 2
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+![In daylight](_light.jpg){fig-align="center"}

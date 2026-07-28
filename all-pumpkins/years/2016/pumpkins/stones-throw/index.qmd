@@ -1,0 +1,16 @@
+---
+title: "Stone's Throw Brewing"
+image: stones-throw.jpg
+date: 10/10/16
+
+meta:
+  captured: "2016-10-29T19:20:36"
+  version: 1
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+![In daylight](_light.jpg){fig-align="center"}

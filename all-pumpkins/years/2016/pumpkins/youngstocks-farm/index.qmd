@@ -1,0 +1,13 @@
+---
+title: "Youngstock's Farm"
+image: youngstocks-farm.jpg
+date: 10/11/16
+
+meta:
+  captured: "2016-10-08T21:02:52"
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

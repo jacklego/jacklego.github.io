@@ -2,6 +2,8 @@
 title: "A Chopwork Orange"
 image: a-chopwork-orange.jpg
 date: 10/12/24
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

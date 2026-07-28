@@ -1,0 +1,14 @@
+---
+title: "New Hope Church"
+image: new-hope-church.jpg
+date: 10/11/22
+
+meta:
+  captured: "2022-10-26T17:58:51"
+  themed: false
+  logo: true
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

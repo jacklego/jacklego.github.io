@@ -2,6 +2,8 @@
 title: "Marge"
 image: marge.jpg
 date: 10/11/24
+
+listing: false
 ---
 
 ![]({{< meta image >}}){fig-align="center"}

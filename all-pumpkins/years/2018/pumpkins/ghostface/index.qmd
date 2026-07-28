@@ -1,0 +1,12 @@
+---
+title: "Ghostface (Scream)"
+image: ghostface.jpg
+date: 10/06/18
+
+meta:
+  source: "Scream"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

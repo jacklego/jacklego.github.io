@@ -1,0 +1,13 @@
+---
+title: "Disco Ball"
+image: disco-ball.jpg
+date: 10/13/21
+
+meta:
+  captured: "2021-10-27T19:49:25"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

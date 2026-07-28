@@ -1,0 +1,13 @@
+---
+title: "Deadpool"
+image: deadpool.jpg
+date: 10/02/16
+
+meta:
+  source: "Marvel"
+  captured: "2016-10-29T21:23:34"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

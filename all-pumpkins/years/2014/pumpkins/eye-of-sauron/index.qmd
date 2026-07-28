@@ -1,0 +1,13 @@
+---
+title: "The Eye of Sauron (The Lord of the Rings)"
+image: eye-of-sauron.jpg
+date: 10/03/14
+
+meta:
+  source: "The Lord of the Rings"
+  captured: "2014-10-30T18:27:13"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

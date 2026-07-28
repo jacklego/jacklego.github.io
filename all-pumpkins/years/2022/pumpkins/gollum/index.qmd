@@ -1,0 +1,13 @@
+---
+title: "Gollum (The Hobbit)"
+image: gollum.jpg
+date: 10/06/22
+
+meta:
+  source: "The Hobbit"
+  captured: "2022-10-24T17:55:05"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

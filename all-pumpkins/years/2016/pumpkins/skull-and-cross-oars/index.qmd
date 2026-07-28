@@ -1,0 +1,12 @@
+---
+title: "Skull and Cross-Oars"
+image: skull-and-cross-oars.jpg
+date: 10/08/16
+
+meta:
+  captured: "2016-10-09T19:59:31"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

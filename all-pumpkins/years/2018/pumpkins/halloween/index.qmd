@@ -1,0 +1,12 @@
+---
+title: "Halloween (1978)"
+image: halloween.jpg
+date: 10/10/18
+
+meta:
+  source: "Halloween (1978)"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

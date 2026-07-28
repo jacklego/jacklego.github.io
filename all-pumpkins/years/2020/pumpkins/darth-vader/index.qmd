@@ -1,0 +1,15 @@
+---
+title: "Darth Vader"
+image: darth-vader.jpg
+date: 10/04/20
+
+meta:
+  source: "Star Wars"
+  captured: "2020-10-30T18:58:00"
+  version: 3
+  wix: "I Find Your Lack of Faith Disturbing"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

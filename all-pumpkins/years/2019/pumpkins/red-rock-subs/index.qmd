@@ -1,0 +1,15 @@
+---
+title: "Red Rock Subs"
+image: red-rock-subs.jpg
+date: 10/11/19
+
+meta:
+  captured: "2019-10-19T20:57:46"
+  themed: false
+  logo: true
+  wix: "Sandwich shop logo"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

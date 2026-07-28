@@ -1,0 +1,14 @@
+---
+title: "Grizzly (1976)"
+image: grizzly.jpg
+date: 10/12/18
+
+meta:
+  source: "Grizzly (1976)"
+  captured: "2018-10-21T19:06:42"
+  note: "The old Wix site captioned this one 'Xiezhi' by mistake"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

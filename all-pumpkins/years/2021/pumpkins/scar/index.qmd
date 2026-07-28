@@ -1,0 +1,13 @@
+---
+title: "Scar (The Lion King)"
+image: scar.jpg
+date: 10/04/21
+
+meta:
+  source: "The Lion King"
+  captured: "2021-10-27T20:58:23"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

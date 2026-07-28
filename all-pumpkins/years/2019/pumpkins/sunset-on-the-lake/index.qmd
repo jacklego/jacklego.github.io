@@ -1,0 +1,15 @@
+---
+title: "Sunset on the Lake"
+image: sunset-on-the-lake.jpg
+date: 10/07/19
+
+meta:
+  captured: "2019-10-03T23:20:13"
+  themed: false
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
+
+![In daylight](_light.jpg){fig-align="center"}

@@ -1,0 +1,12 @@
+---
+title: "Fire-Breathing Dragon"
+image: fire-breathing-dragon.jpg
+date: 10/02/12
+
+meta:
+  captured: "2012-10-26T23:19:59"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}

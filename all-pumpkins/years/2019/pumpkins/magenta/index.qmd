@@ -1,0 +1,13 @@
+---
+title: "Magenta"
+image: magenta.jpg
+date: 10/04/19
+
+meta:
+  source: "The Rocky Horror Picture Show"
+  captured: "2019-10-29T20:09:52"
+
+listing: false
+---
+
+![]({{< meta image >}}){fig-align="center"}
