@@ -29,7 +29,7 @@ website:
     #     href: https://x.com
   page-footer: 
     background: $footer-bg
-    left: "&#169; 2010 -- 2026 Peter T. Wiegand"
+    left: "&#169; 2004 -- 2026 Peter T. Wiegand"
     right: "Website by [Connor T. Wiegand](https://github.com/connortwiegand/){target='_blank'} <br/> Made with [Quarto](https://quarto.org/) | [Source code](https://github.com/connortwiegand/){target='blank'}"
   
 

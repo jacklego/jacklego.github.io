@@ -1,0 +1,9 @@
+---
+title: Page Not Found
+---
+
+Spooky! The page you are looking for does not exist. Check the URL for errors or try using the site's search feature to find the page you're looking for.
+
+![Even spookier...this pumpkin carving isn't even real, it's generated!](_fake-404-pumpkin.png)
+
+ 
