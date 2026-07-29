@@ -1,12 +1,13 @@
 ---
-title: "Mushrooms"
-image: _mushrooms__thumb.jpg
-full: mushrooms.jpg
+title: "Army of Mushrooms (Infected Mushroom)"
+image: _army-of-mushrooms__thumb.jpg
+full: army-of-mushrooms.jpg
 date: 10/01/14
 
 meta:
+  source: "Infected Mushroom"
   captured: "2014-10-23T23:48:41"
-  uncertain: true
+  note: "From the cover art of Army of Mushrooms (2012), illustrated by Anton Semenov"
 
 ---
 

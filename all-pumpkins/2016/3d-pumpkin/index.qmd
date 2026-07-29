@@ -1,13 +1,11 @@
 ---
-title: "Thanos"
-image: _thanos__thumb.jpg
-full: thanos.jpg
+title: "3D Pumpkin"
+image: _3d-pumpkin__thumb.jpg
+full: 3d-pumpkin.jpg
 date: 10/09/16
 
 meta:
-  source: "Marvel"
   captured: "2016-10-27T19:50:06"
-  uncertain: true
 
 ---
 
