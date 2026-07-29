@@ -13,5 +13,5 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
-image: bond-collection/bond-collection.jpg
+image: bond-collection/_bond-collection__thumb.jpg
 ---

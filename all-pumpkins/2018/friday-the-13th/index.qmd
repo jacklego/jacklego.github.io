@@ -1,6 +1,7 @@
 ---
 title: "Friday the 13th"
-image: friday-the-13th.jpg
+image: _friday-the-13th__thumb.jpg
+full: friday-the-13th.jpg
 date: 10/07/18
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

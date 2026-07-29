@@ -1,6 +1,7 @@
 ---
 title: "Mrs. Frisby and the Rats of NIMH"
-image: mrs-frisby.jpg
+image: _mrs-frisby__thumb.jpg
+full: mrs-frisby.jpg
 date: 10/03/22
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,8 +1,9 @@
 ---
 title: "Tarantula (Dr No)"
-image: tarantula.jpg
+image: _tarantula__thumb.jpg
+full: tarantula.jpg
 date: 10/05/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

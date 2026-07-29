@@ -1,8 +1,9 @@
 ---
 title: "Emilio Largo (Thunderball)"
-image: emilio-largo.jpg
+image: _emilio-largo__thumb.jpg
+full: emilio-largo.jpg
 date: 10/01/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

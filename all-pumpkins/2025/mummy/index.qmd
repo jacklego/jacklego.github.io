@@ -1,6 +1,7 @@
 ---
 title: Mummy
-image: mummy.jpg
+image: _mummy__thumb.jpg
+full: mummy.jpg
 date: 10/05/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

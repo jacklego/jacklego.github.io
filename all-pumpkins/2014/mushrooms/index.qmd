@@ -1,6 +1,7 @@
 ---
 title: "Mushrooms"
-image: mushrooms.jpg
+image: _mushrooms__thumb.jpg
+full: mushrooms.jpg
 date: 10/01/14
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: Invisible Man
-image: invisible-man.jpg
+image: _invisible-man__thumb.jpg
+full: invisible-man.jpg
 date: 10/06/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

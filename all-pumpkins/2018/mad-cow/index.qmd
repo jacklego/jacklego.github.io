@@ -1,6 +1,7 @@
 ---
 title: "Mad Cow"
-image: mad-cow.jpg
+image: _mad-cow__thumb.jpg
+full: mad-cow.jpg
 date: 10/14/18
 
 meta:
@@ -9,7 +10,7 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ::: {layout-ncol=2}
 ![Another angle](_alt.jpg)

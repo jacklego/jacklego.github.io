@@ -1,6 +1,7 @@
 ---
 title: "Spider-Man"
-image: spiderman.jpg
+image: _spiderman__thumb.jpg
+full: spiderman.jpg
 date: 10/03/10
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

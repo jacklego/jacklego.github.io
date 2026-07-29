@@ -1,6 +1,7 @@
 ---
 title: "Lips"
-image: lips.jpg
+image: _lips__thumb.jpg
+full: lips.jpg
 date: 10/02/19
 
 meta:
@@ -11,6 +12,6 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ![In daylight](_light.jpg){fig-align="center"}

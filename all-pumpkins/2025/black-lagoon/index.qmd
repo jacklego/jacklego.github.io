@@ -1,6 +1,7 @@
 ---
 title: Creature from the Black Lagoon
-image: black-lagoon.jpg
+image: _black-lagoon__thumb.jpg
+full: black-lagoon.jpg
 date: 10/04/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -13,5 +13,5 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
-image: r2d2/r2d2.jpg
+image: r2d2/_r2d2__thumb.jpg
 ---

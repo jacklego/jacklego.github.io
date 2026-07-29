@@ -1,6 +1,7 @@
 ---
 title: "Dr. Frank-N-Furter"
-image: frank-n-furter.jpg
+image: _frank-n-furter__thumb.jpg
+full: frank-n-furter.jpg
 date: 10/01/19
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: "Riff Raff"
-image: riff-raff.jpg
+image: _riff-raff__thumb.jpg
+full: riff-raff.jpg
 date: 10/03/19
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

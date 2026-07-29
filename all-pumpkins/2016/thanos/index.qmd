@@ -1,6 +1,7 @@
 ---
 title: "Thanos"
-image: thanos.jpg
+image: _thanos__thumb.jpg
+full: thanos.jpg
 date: 10/09/16
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

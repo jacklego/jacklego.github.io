@@ -1,6 +1,7 @@
 ---
 title: "Lopez Island Creamery"
-image: lopez-island-creamery.jpg
+image: _lopez-island-creamery__thumb.jpg
+full: lopez-island-creamery.jpg
 date: 10/01/16
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

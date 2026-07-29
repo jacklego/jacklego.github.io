@@ -1,6 +1,7 @@
 ---
 title: "Death Star"
-image: death-star.jpg
+image: _death-star__thumb.jpg
+full: death-star.jpg
 date: 10/02/11
 
 meta:
@@ -10,6 +11,6 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ![In daylight](_light.jpg){fig-align="center"}

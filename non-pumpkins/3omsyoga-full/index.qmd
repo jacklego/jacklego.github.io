@@ -1,6 +1,7 @@
 ---
 title: "3 Oms Yoga"
-image: 3oms-yoga_full-spread.jpg
+image: _3oms-yoga_full-spread__thumb.jpg
+full: 3oms-yoga_full-spread.jpg
 year: 2015
 
 meta:
@@ -8,4 +9,4 @@ meta:
   captured: "2015-05-30T09:18:34"
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

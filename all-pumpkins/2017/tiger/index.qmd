@@ -1,6 +1,7 @@
 ---
 title: "Tiger"
-image: tiger.jpg
+image: _tiger__thumb.jpg
+full: tiger.jpg
 date: 10/02/17
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

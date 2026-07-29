@@ -1,6 +1,7 @@
 ---
 title: "NW Vape Logo"
-image: nw-vape-logo.jpg
+image: _nw-vape-logo__thumb.jpg
+full: nw-vape-logo.jpg
 date: 10/09/23
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

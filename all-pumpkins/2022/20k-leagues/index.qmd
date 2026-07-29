@@ -1,6 +1,7 @@
 ---
 title: "20,000 Leagues Under the Sea"
-image: 20k-leagues.jpg
+image: _20k-leagues__thumb.jpg
+full: 20k-leagues.jpg
 date: 10/01/22
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

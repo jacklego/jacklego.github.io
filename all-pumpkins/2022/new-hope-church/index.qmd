@@ -1,6 +1,7 @@
 ---
 title: "New Hope Church"
-image: new-hope-church.jpg
+image: _new-hope-church__thumb.jpg
+full: new-hope-church.jpg
 date: 10/11/22
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

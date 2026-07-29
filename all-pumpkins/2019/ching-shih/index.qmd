@@ -1,6 +1,7 @@
 ---
 title: "Ching Shih"
-image: ching-shih.jpg
+image: _ching-shih__thumb.jpg
+full: ching-shih.jpg
 date: 10/10/19
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

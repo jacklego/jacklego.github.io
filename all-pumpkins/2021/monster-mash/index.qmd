@@ -1,6 +1,7 @@
 ---
 title: "Monster Mash"
-image: monster-mash.jpg
+image: _monster-mash__thumb.jpg
+full: monster-mash.jpg
 date: 10/09/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

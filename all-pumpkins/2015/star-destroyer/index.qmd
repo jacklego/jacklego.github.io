@@ -1,6 +1,7 @@
 ---
 title: "Star Destroyer"
-image: star-destroyer.jpg
+image: _star-destroyer__thumb.jpg
+full: star-destroyer.jpg
 date: 10/07/15
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

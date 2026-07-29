@@ -1,8 +1,9 @@
 ---
 title: "Krusty"
-image: krusty.jpg
+image: _krusty__thumb.jpg
+full: krusty.jpg
 date: 10/08/24
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

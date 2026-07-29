@@ -1,6 +1,7 @@
 ---
 title: "Captain Phasma"
-image: captain-phasma.jpg
+image: _captain-phasma__thumb.jpg
+full: captain-phasma.jpg
 date: 10/05/20
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

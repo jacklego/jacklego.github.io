@@ -1,6 +1,7 @@
 ---
 title: "Magenta"
-image: magenta.jpg
+image: _magenta__thumb.jpg
+full: magenta.jpg
 date: 10/04/19
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

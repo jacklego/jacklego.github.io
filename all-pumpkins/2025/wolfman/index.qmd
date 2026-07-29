@@ -1,6 +1,7 @@
 ---
 title: Wolfman
-image: wolfman.jpg
+image: _wolfman__thumb.jpg
+full: wolfman.jpg
 date: 10/10/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

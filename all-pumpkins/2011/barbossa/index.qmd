@@ -1,6 +1,7 @@
 ---
 title: "Captain Barbossa (Pirates of the Caribbean)"
-image: barbossa.jpg
+image: _barbossa__thumb.jpg
+full: barbossa.jpg
 date: 10/01/11
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

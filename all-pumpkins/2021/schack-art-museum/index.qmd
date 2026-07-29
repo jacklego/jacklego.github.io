@@ -1,6 +1,7 @@
 ---
 title: "Schack Art Museum"
-image: schack-art-museum.jpg
+image: _schack-art-museum__thumb.jpg
+full: schack-art-museum.jpg
 date: 10/12/21
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

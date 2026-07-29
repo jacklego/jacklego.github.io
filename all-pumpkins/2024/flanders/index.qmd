@@ -1,8 +1,9 @@
 ---
 title: "Flanders"
-image: flanders.jpg
+image: _flanders__thumb.jpg
+full: flanders.jpg
 date: 10/09/24
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

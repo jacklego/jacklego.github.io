@@ -1,6 +1,7 @@
 ---
 title: "R2-D2"
-image: r2d2.jpg
+image: _r2d2__thumb.jpg
+full: r2d2.jpg
 date: 10/01/13
 
 meta:
@@ -9,6 +10,6 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ![In daylight](_light.jpg){fig-align="center"}

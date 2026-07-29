@@ -1,6 +1,7 @@
 ---
 title: "Scar (The Lion King)"
-image: scar.jpg
+image: _scar__thumb.jpg
+full: scar.jpg
 date: 10/04/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: "Darth Maul"
-image: darth-maul.jpg
+image: _darth-maul__thumb.jpg
+full: darth-maul.jpg
 date: 10/06/15
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

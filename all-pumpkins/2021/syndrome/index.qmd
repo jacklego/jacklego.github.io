@@ -1,6 +1,7 @@
 ---
 title: "Syndrome (The Incredibles)"
-image: syndrome.jpg
+image: _syndrome__thumb.jpg
+full: syndrome.jpg
 date: 10/10/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

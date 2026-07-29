@@ -1,6 +1,7 @@
 ---
 title: "Xiezhi"
-image: xiezhi.jpg
+image: _xiezhi__thumb.jpg
+full: xiezhi.jpg
 date: 10/11/18
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

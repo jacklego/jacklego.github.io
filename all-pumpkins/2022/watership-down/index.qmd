@@ -1,6 +1,7 @@
 ---
 title: "Watership Down"
-image: watership-down.jpg
+image: _watership-down__thumb.jpg
+full: watership-down.jpg
 date: 10/05/22
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

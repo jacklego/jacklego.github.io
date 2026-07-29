@@ -1,6 +1,7 @@
 ---
 title: "Lord Voldemort (Harry Potter)"
-image: voldemort.jpg
+image: _voldemort__thumb.jpg
+full: voldemort.jpg
 date: 10/07/22
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

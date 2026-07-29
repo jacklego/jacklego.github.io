@@ -1,6 +1,7 @@
 ---
 title: "Boba Fett"
-image: boba-fett.jpg
+image: _boba-fett__thumb.jpg
+full: boba-fett.jpg
 date: 10/07/20
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

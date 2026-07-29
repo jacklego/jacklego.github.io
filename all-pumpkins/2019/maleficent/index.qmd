@@ -1,6 +1,7 @@
 ---
 title: "Maleficent (Sleeping Beauty)"
-image: maleficent.jpg
+image: _maleficent__thumb.jpg
+full: maleficent.jpg
 date: 10/08/19
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

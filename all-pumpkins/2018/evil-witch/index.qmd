@@ -1,6 +1,7 @@
 ---
 title: "Evil Witch (Snow White)"
-image: evil-witch.jpg
+image: _evil-witch__thumb.jpg
+full: evil-witch.jpg
 date: 10/02/18
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

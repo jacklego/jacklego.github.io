@@ -1,6 +1,7 @@
 ---
 title: "Yzma (The Emperor's New Groove)"
-image: yzma.jpg
+image: _yzma__thumb.jpg
+full: yzma.jpg
 date: 10/01/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: "Revolvers"
-image: revolvers.jpg
+image: _revolvers__thumb.jpg
+full: revolvers.jpg
 date: 10/06/16
 
 meta:
@@ -8,7 +9,7 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ::: {layout-ncol=2}
 ![Aimed left](_aimed-left.jpg)

@@ -1,6 +1,7 @@
 ---
 title: "Grizzly (1976)"
-image: grizzly.jpg
+image: _grizzly__thumb.jpg
+full: grizzly.jpg
 date: 10/12/18
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

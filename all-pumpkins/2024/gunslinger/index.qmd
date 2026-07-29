@@ -1,6 +1,7 @@
 ---
 title: "Gunslinger"
-image: gunslinger.jpg
+image: _gunslinger__thumb.jpg
+full: gunslinger.jpg
 date: 10/13/24
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

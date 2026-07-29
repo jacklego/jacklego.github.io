@@ -1,6 +1,7 @@
 ---
 title: "Red Rock Subs"
-image: red-rock-subs.jpg
+image: _red-rock-subs__thumb.jpg
+full: red-rock-subs.jpg
 date: 10/11/19
 
 meta:
@@ -11,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

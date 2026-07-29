@@ -1,6 +1,7 @@
 ---
 title: "Dungeons & Dragons"
-image: dnd-logo.jpg
+image: _dnd-logo__thumb.jpg
+full: dnd-logo.jpg
 date: 10/01/12
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

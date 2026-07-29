@@ -1,6 +1,7 @@
 ---
 title: "North Coast Brewing"
-image: north-coast.jpg
+image: _north-coast__thumb.jpg
+full: north-coast.jpg
 date: 10/03/17
 
 meta:
@@ -9,6 +10,6 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ![Another angle](_alt.jpg){fig-align="center"}

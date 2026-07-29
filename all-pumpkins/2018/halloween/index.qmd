@@ -1,6 +1,7 @@
 ---
 title: "Halloween (1978)"
-image: halloween.jpg
+image: _halloween__thumb.jpg
+full: halloween.jpg
 date: 10/10/18
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

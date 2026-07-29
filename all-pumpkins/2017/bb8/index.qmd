@@ -1,6 +1,7 @@
 ---
 title: "BB-8"
-image: bb8.jpg
+image: _bb8__thumb.jpg
+full: bb8.jpg
 date: 10/05/17
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

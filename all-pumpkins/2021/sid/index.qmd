@@ -1,6 +1,7 @@
 ---
 title: "Sid Phillips (Toy Story)"
-image: sid.jpg
+image: _sid__thumb.jpg
+full: sid.jpg
 date: 10/11/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

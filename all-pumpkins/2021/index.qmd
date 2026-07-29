@@ -13,5 +13,5 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
-image: cruella-de-vil/cruella-de-vil.jpg
+image: cruella-de-vil/_cruella-de-vil__thumb.jpg
 ---

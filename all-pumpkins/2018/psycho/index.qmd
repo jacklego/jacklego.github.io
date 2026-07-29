@@ -1,6 +1,7 @@
 ---
 title: "Psycho (1960)"
-image: psycho.jpg
+image: _psycho__thumb.jpg
+full: psycho.jpg
 date: 10/05/18
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

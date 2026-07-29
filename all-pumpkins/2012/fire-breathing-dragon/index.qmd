@@ -1,6 +1,7 @@
 ---
 title: "Fire-Breathing Dragon"
-image: fire-breathing-dragon.jpg
+image: _fire-breathing-dragon__thumb.jpg
+full: fire-breathing-dragon.jpg
 date: 10/02/12
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

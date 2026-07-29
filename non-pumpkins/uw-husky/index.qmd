@@ -1,6 +1,7 @@
 ---
 title: "UW Husky"
-image: husky.jpg
+image: _husky__thumb.jpg
+full: husky.jpg
 year: 2016
 
 meta:
@@ -8,4 +9,4 @@ meta:
   captured: "2016-06-18T09:09:51"
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

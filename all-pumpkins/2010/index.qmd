@@ -13,6 +13,6 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
-image: death-star/death-star.jpg
+image: death-star/_death-star__thumb.jpg
 ---
 

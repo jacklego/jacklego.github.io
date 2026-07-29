@@ -1,6 +1,7 @@
 ---
 title: Frankenstein
-image: frankenstein.jpg
+image: _frankenstein__thumb.jpg
+full: frankenstein.jpg
 date: 10/02/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

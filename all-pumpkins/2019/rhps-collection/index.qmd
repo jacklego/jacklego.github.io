@@ -1,6 +1,7 @@
 ---
 title: "The Rocky Horror Collection"
-image: rhps-collection.jpg
+image: _rhps-collection__thumb.jpg
+full: rhps-collection.jpg
 date: 10/06/19
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

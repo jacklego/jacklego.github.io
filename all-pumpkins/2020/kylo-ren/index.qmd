@@ -1,6 +1,7 @@
 ---
 title: "Kylo Ren"
-image: kylo-ren.jpg
+image: _kylo-ren__thumb.jpg
+full: kylo-ren.jpg
 date: 10/03/20
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: "Holy Diver (Dio)"
-image: holy-diver.jpg
+image: _holy-diver__thumb.jpg
+full: holy-diver.jpg
 date: 10/10/17
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

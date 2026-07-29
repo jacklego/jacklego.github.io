@@ -1,10 +1,11 @@
 ---
 title: "Om"
-image: om.jpg
+image: _om__thumb.jpg
+full: om.jpg
 year: 2015
 
 meta:
   medium: watermelon
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

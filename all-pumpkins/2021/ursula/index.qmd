@@ -1,6 +1,7 @@
 ---
 title: "Ursula (The Little Mermaid)"
-image: ursula.jpg
+image: _ursula__thumb.jpg
+full: ursula.jpg
 date: 10/07/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

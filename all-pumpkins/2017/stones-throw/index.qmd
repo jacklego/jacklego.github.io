@@ -1,6 +1,7 @@
 ---
 title: "Stone's Throw Brewing"
-image: stones-throw.jpg
+image: _stones-throw__thumb.jpg
+full: stones-throw.jpg
 date: 10/06/17
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

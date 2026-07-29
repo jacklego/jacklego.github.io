@@ -1,6 +1,7 @@
 ---
 title: Kong
-image: kong.jpg
+image: _kong__thumb.jpg
+full: kong.jpg
 date: 10/08/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

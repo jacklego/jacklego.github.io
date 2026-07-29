@@ -1,6 +1,7 @@
 ---
 title: "Tatooine (Star Wars)"
-image: tatooine.jpg
+image: _tatooine__thumb.jpg
+full: tatooine.jpg
 date: 10/05/15
 
 meta:
@@ -9,6 +10,6 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ![Another angle](_alt.jpg){fig-align="center"}

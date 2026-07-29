@@ -1,6 +1,7 @@
 ---
 title: "Marge"
-image: marge.jpg
+image: _marge__thumb.jpg
+full: marge.jpg
 date: 10/11/24
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

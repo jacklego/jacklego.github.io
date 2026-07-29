@@ -1,8 +1,9 @@
 ---
 title: "Baron Samedi (Live And Let Die)"
-image: baron-samedi.jpg
+image: _baron-samedi__thumb.jpg
+full: baron-samedi.jpg
 date: 10/10/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

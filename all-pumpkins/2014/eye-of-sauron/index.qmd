@@ -1,6 +1,7 @@
 ---
 title: "The Eye of Sauron (The Lord of the Rings)"
-image: eye-of-sauron.jpg
+image: _eye-of-sauron__thumb.jpg
+full: eye-of-sauron.jpg
 date: 10/03/14
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

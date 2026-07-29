@@ -1,8 +1,9 @@
 ---
 title: "Bond Collection"
-image: bond-collection.jpg
+image: _bond-collection__thumb.jpg
+full: bond-collection.jpg
 date: 10/11/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

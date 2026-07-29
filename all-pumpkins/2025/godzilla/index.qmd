@@ -1,6 +1,7 @@
 ---
 title: Godzilla
-image: godzilla.jpg
+image: _godzilla__thumb.jpg
+full: godzilla.jpg
 date: 10/07/25
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

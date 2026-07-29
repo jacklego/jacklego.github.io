@@ -1,6 +1,7 @@
 ---
 title: "Chernabog (Fantasia)"
-image: chernabog.jpg
+image: _chernabog__thumb.jpg
+full: chernabog.jpg
 date: 10/06/21
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

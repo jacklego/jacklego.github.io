@@ -1,6 +1,7 @@
 ---
 title: "Skull and Cross-Oars"
-image: skull-and-cross-oars.jpg
+image: _skull-and-cross-oars__thumb.jpg
+full: skull-and-cross-oars.jpg
 date: 10/08/16
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

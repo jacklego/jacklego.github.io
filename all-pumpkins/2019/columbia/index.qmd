@@ -1,6 +1,7 @@
 ---
 title: "Columbia"
-image: columbia.jpg
+image: _columbia__thumb.jpg
+full: columbia.jpg
 date: 10/05/19
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

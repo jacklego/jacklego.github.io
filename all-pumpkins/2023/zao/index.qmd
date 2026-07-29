@@ -1,8 +1,9 @@
 ---
 title: "Zao (Die Another Day)"
-image: zao.jpg
+image: _zao__thumb.jpg
+full: zao.jpg
 date: 10/03/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: Homer
-image: homer.jpg
+image: _homer__thumb.jpg
+full: homer.jpg
 date: 10/05/24
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

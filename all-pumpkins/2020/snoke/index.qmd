@@ -1,6 +1,7 @@
 ---
 title: "Supreme Leader Snoke"
-image: snoke.jpg
+image: _snoke__thumb.jpg
+full: snoke.jpg
 date: 10/01/20
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

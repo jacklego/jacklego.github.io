@@ -1,6 +1,7 @@
 ---
 title: "Falkor & Atreyu (The NeverEnding Story)"
-image: falkor-and-atreyu.jpg
+image: _falkor-and-atreyu__thumb.jpg
+full: falkor-and-atreyu.jpg
 date: 10/10/22
 
 meta:
@@ -10,4 +11,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

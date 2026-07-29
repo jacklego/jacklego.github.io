@@ -1,6 +1,7 @@
 ---
 title: "Sunset on the Lake"
-image: sunset-on-the-lake.jpg
+image: _sunset-on-the-lake__thumb.jpg
+full: sunset-on-the-lake.jpg
 date: 10/07/19
 
 meta:
@@ -9,6 +10,6 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ![In daylight](_light.jpg){fig-align="center"}

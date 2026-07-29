@@ -1,6 +1,7 @@
 ---
 title: "R.I.P. Eddie"
-image: rip-eddie.jpg
+image: _rip-eddie__thumb.jpg
+full: rip-eddie.jpg
 date: 10/11/20
 
 meta:
@@ -11,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

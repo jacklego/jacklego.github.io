@@ -1,8 +1,9 @@
 ---
 title: "Francisco Scaramanga (Man W Golden Gun)"
-image: francisco-scaramanga.jpg
+image: _francisco-scaramanga__thumb.jpg
+full: francisco-scaramanga.jpg
 date: 10/02/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

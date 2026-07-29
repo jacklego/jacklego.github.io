@@ -1,6 +1,7 @@
 ---
 title: "Gollum (The Hobbit)"
-image: gollum.jpg
+image: _gollum__thumb.jpg
+full: gollum.jpg
 date: 10/06/22
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

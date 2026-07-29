@@ -1,6 +1,7 @@
 ---
 title: "Beast"
-image: beast.jpg
+image: _beast__thumb.jpg
+full: beast.jpg
 date: 10/04/18
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

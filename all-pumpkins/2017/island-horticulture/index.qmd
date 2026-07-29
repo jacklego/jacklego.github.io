@@ -1,6 +1,7 @@
 ---
 title: "Island Horticulture"
-image: island-horticulture.jpg
+image: _island-horticulture__thumb.jpg
+full: island-horticulture.jpg
 date: 10/04/17
 
 meta:
@@ -9,7 +10,7 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
 
 ::: {layout-ncol=2}
 ![Another angle](_colored-alt.jpg)

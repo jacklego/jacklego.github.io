@@ -1,6 +1,7 @@
 ---
 title: "Lucky Lion"
-image: lucky-lion.jpg
+image: _lucky-lion__thumb.jpg
+full: lucky-lion.jpg
 date: 10/09/20
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

@@ -1,6 +1,7 @@
 ---
 title: "Alice Cooper"
-image: alice-cooper.jpg
+image: _alice-cooper__thumb.jpg
+full: alice-cooper.jpg
 date: 10/09/17
 
 meta:
@@ -8,4 +9,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

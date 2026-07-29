@@ -1,8 +1,9 @@
 ---
 title: "Sofina (DnD)"
-image: sofina.jpg
+image: _sofina__thumb.jpg
+full: sofina.jpg
 date: 10/12/23
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

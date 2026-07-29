@@ -13,5 +13,5 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
-image: fire-breathing-dragon/fire-breathing-dragon.jpg
+image: fire-breathing-dragon/_fire-breathing-dragon__thumb.jpg
 ---

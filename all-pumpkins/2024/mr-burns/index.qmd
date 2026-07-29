@@ -1,8 +1,9 @@
 ---
 title: "Mr. Burns"
-image: mr-burns.jpg
+image: _mr-burns__thumb.jpg
+full: mr-burns.jpg
 date: 10/10/24
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

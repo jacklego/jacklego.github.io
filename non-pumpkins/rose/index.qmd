@@ -1,6 +1,7 @@
 ---
 title: "Rose"
-image: rose.jpg
+image: _rose__thumb.jpg
+full: rose.jpg
 year: 2015
 
 meta:
@@ -8,4 +9,4 @@ meta:
   captured: "2015-05-17T16:38:52"
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}

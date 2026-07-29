@@ -1,6 +1,7 @@
 ---
 title: "NASCAR Trophy"
-image: nascar-trophy.jpg
+image: _nascar-trophy__thumb.jpg
+full: nascar-trophy.jpg
 date: 10/09/19
 
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ---
 
-![]({{< meta image >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center"}
