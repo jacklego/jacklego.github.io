@@ -3,7 +3,7 @@ title: "Non-Pumpkins"
 description: ""
 listing:
   contents: ./*/index.qmd
-  sort: "title asc"
+  sort: "order asc"
   type: grid
   fields: [title, image]
   field-types:
@@ -12,7 +12,6 @@ listing:
   sort-ui: false
   filter-ui: false
   grid-columns: 2
-  image-height: 360px
 page-layout: full
 body-classes: patch-listing
 ---

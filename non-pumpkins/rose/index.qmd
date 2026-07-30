@@ -6,6 +6,7 @@ image-alt: "A watermelon carved with a rose."
 full: rose.jpg
 year: 2015
 date: 2015-05-17
+order: 4
 
 meta:
   medium: watermelon

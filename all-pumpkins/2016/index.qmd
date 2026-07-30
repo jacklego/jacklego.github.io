@@ -13,7 +13,6 @@ listing:
   sort-ui: false
   filter-ui: false
   grid-columns: 2
-  image-height: 360px
 page-layout: full
 body-classes: patch-listing
 image: deadpool/_deadpool__thumb.jpg

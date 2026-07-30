@@ -6,6 +6,7 @@ image-alt: "A watermelon carved with an island in the sun."
 full: island.jpg
 year: 2015
 date: 2015-05-17
+order: 3
 
 meta:
   medium: watermelon

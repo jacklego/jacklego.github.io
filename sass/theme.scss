@@ -109,6 +109,13 @@ div.quarto-post {
   }
 }
 
+.quarto-grid-item p.card-img-top>img {
+  height: auto !important; // defeat Quarto's inline style
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+}
+
 
 a.navbar-brand {
   overflow: clip;

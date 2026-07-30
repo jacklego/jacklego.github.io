@@ -6,6 +6,7 @@ image-alt: "A watermelon carved with a pineapple."
 full: pineapple.jpg
 year: 2015
 date: 2015-05-29
+order: 6
 
 meta:
   medium: watermelon
