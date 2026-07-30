@@ -14,15 +14,15 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="island-horticulture"}
 
 ::: {layout-ncol=2}
-![Another angle](_colored-alt.jpg){fig-alt="The coloured Island Horticulture pumpkin from another angle."}
+![Another angle](_colored-alt.jpg){fig-alt="The colored Island Horticulture pumpkin from another angle." group="island-horticulture"}
 
-![Before colouring](_uncolored.jpg){fig-alt="The Island Horticulture pumpkin before colouring."}
+![Before coloring](_uncolored.jpg){fig-alt="The Island Horticulture pumpkin before coloring." group="island-horticulture"}
 
-![Before colouring, another angle](_uncolored-alt.jpg){fig-alt="The uncoloured Island Horticulture pumpkin from another angle."}
+![Before coloring, another angle](_uncolored-alt.jpg){fig-alt="The uncolored Island Horticulture pumpkin from another angle." group="island-horticulture"}
 
-![In daylight](_light.jpg){fig-alt="The Island Horticulture pumpkin photographed in daylight."}
+![In daylight](_light.jpg){fig-alt="The Island Horticulture pumpkin photographed in daylight." group="island-horticulture"}
 
 :::

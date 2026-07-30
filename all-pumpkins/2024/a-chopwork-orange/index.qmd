@@ -13,10 +13,10 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="a-chopwork-orange"}
 
 ::: {layout-ncol=2}
-![Itchy](_itchy.jpg){fig-alt="Itchy, carved into the A Chopwork Orange pumpkin."}
+![Itchy](_itchy.jpg){fig-alt="Itchy, carved into the A Chopwork Orange pumpkin." group="a-chopwork-orange"}
 
-![Scratchy](_scratchy.jpg){fig-alt="Scratchy, carved into the A Chopwork Orange pumpkin."}
+![Scratchy](_scratchy.jpg){fig-alt="Scratchy, carved into the A Chopwork Orange pumpkin." group="a-chopwork-orange"}
 :::

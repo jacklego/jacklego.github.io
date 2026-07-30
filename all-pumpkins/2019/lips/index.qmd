@@ -16,6 +16,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="lips"}
 
-![In daylight](_light.jpg){fig-align="center" fig-alt="The Rocky Horror lips pumpkin photographed in daylight."}
+![In daylight](_light.jpg){fig-align="center" fig-alt="The Rocky Horror lips pumpkin photographed in daylight." group="lips"}

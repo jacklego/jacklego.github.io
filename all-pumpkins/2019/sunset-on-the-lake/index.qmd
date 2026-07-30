@@ -14,6 +14,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="sunset-on-the-lake"}
 
-![In daylight](_light.jpg){fig-align="center" fig-alt="The Sunset on the Lake pumpkin photographed in daylight."}
+![In daylight](_light.jpg){fig-align="center" fig-alt="The Sunset on the Lake pumpkin photographed in daylight." group="sunset-on-the-lake"}

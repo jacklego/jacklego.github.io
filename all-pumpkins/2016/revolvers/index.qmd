@@ -13,11 +13,11 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="revolvers"}
 
 ::: {layout-ncol=2}
-![Aimed left](_aimed-left.jpg){fig-alt="The revolvers pumpkin with the barrels aimed to the left."}
+![Aimed left](_aimed-left.jpg){fig-alt="The revolvers pumpkin with the barrels aimed to the left." group="revolvers"}
 
-![Aimed right](_aimed-right.jpg){fig-alt="The revolvers pumpkin with the barrels aimed to the right."}
+![Aimed right](_aimed-right.jpg){fig-alt="The revolvers pumpkin with the barrels aimed to the right." group="revolvers"}
 
 :::

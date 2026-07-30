@@ -14,11 +14,11 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="mad-cow"}
 
 ::: {layout-ncol=2}
-![Another angle](_alt.jpg){fig-alt="The same Mad Cow pumpkin from another angle."}
+![Another angle](_alt.jpg){fig-alt="The same Mad Cow pumpkin from another angle." group="mad-cow"}
 
-![In daylight](_light.jpg){fig-alt="The Mad Cow pumpkin photographed in daylight."}
+![In daylight](_light.jpg){fig-alt="The Mad Cow pumpkin photographed in daylight." group="mad-cow"}
 
 :::

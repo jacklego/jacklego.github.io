@@ -14,6 +14,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}" group="r2d2"}
 
-![In daylight](_light.jpg){fig-align="center" fig-alt="The same R2-D2 pumpkin photographed in daylight."}
+![In daylight](_light.jpg){fig-align="center" fig-alt="The same R2-D2 pumpkin photographed in daylight." group="r2d2"}

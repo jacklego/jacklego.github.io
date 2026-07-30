@@ -10,7 +10,7 @@ date: 2020-10-31
 meta:
   captured: "2020-10-31T09:44:18"
   themed: false
-  wix: "R.I.P. Eddie (mislabelled on the old site)"
+  wix: "R.I.P. Eddie (mislabeled on the old site)"
   note: "Carved the day Sean Connery died, 31 October 2020"
 
 ---
