@@ -2,6 +2,7 @@
 title: "Stone's Throw Brewing"
 image: _stones-throw__thumb.jpg
 full: stones-throw.jpg
+extras: 1
 date: 10/10/16
 
 meta:

@@ -2,6 +2,7 @@
 title: "North Coast Brewing"
 image: _north-coast__thumb.jpg
 full: north-coast.jpg
+extras: 1
 date: 10/03/17
 
 meta:

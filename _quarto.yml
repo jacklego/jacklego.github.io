@@ -7,6 +7,7 @@ website:
   title: "Peter's Pumpkin Patch"
   favicon: _favicon/favicon.ico
   open-graph: true
+  twitter-card: true
   announcement: 
     icon: cone-striped
     dismissable: true

@@ -5,6 +5,8 @@ listing:
   contents: ./*/index.qmd
   sort: "title asc"
   type: grid
+  field-types:
+    extras: number
   categories: false
   sort-ui: false
   filter-ui: false

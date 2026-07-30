@@ -2,6 +2,7 @@
 title: "Sunset on the Lake"
 image: _sunset-on-the-lake__thumb.jpg
 full: sunset-on-the-lake.jpg
+extras: 1
 date: 10/07/19
 
 meta:

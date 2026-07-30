@@ -68,6 +68,33 @@ div.quarto-post {
 }
 
 
+// Multi-image badge on listing cards.
+//
+// A carving with extra photos beyond its main one carries `extras: <n>` in its
+// front matter, and every grid listing declares `field-types: {extras: number}`.
+// Quarto stamps numeric sortable fields onto the card wrapper as a data
+// attribute, so `[data-listing-extras-sort]` is present only on those cards --
+// no markup or listing template of our own required.
+.g-col-1[data-listing-extras-sort] .quarto-grid-item .card-body.post-contents {
+  position: relative;
+  padding-right: 2rem;
+
+  &::after {
+    content: "\f42b"; // images (bs-icons)
+    // see also: `stack`, `collection`, `layers`
+    font-family: "bootstrap-icons";
+    font-size: 1rem;
+    line-height: 1;
+    color: $body-color;
+    opacity: 0.75;
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+
 a.navbar-brand {
   overflow: clip;
 }
