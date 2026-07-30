@@ -3,6 +3,7 @@ title: "Carousel"
 image: _carousel__thumb.jpg
 full: carousel.jpg
 order: 8
+date: 2020-10-28
 
 meta:
   captured: "2020-10-28T18:27:44"

@@ -3,6 +3,7 @@ title: Haunted House
 image: _haunted-house__thumb.jpg
 full: haunted-house.jpg
 order: 11
+date: 2025-10-27
 
 meta:
   captured: "2025-10-27T18:36:41"

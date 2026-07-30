@@ -3,6 +3,7 @@ title: "Scar (The Lion King)"
 image: _scar__thumb.jpg
 full: scar.jpg
 order: 4
+date: 2021-10-27
 
 meta:
   source: "The Lion King"

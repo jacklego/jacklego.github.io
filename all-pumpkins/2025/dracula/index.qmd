@@ -3,7 +3,10 @@ title: Dracula
 image: _dracula__thumb.jpg
 full: dracula.jpg
 order: 1
-date-format: "YYYY"
+date: 2025-10-29
+
+meta:
+  captured: "2025-10-29T19:06:21"
 
 ---
 

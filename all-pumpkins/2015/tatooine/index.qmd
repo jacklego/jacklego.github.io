@@ -4,6 +4,7 @@ image: _tatooine__thumb.jpg
 full: tatooine.jpg
 extras: 1
 order: 5
+date: 2015-10-25
 
 meta:
   source: "Star Wars"

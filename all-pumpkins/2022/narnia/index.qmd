@@ -3,6 +3,7 @@ title: "The Chronicles of Narnia"
 image: _narnia__thumb.jpg
 full: narnia.jpg
 order: 2
+date: 2022-10-31
 
 meta:
   source: "The Lion, the Witch and the Wardrobe"

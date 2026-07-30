@@ -3,6 +3,7 @@ title: "Maleficent (Sleeping Beauty)"
 image: _maleficent__thumb.jpg
 full: maleficent.jpg
 order: 8
+date: 2019-10-27
 
 meta:
   source: "Sleeping Beauty"

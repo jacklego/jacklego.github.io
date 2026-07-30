@@ -4,6 +4,7 @@ image: _mad-cow__thumb.jpg
 full: mad-cow.jpg
 extras: 2
 order: 14
+date: 2018-10-15
 
 meta:
   captured: "2018-10-15T00:22:14"

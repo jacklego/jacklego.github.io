@@ -3,6 +3,7 @@ title: "Tiger"
 image: _tiger__thumb.jpg
 full: tiger.jpg
 order: 2
+date: 2017-10-21
 
 meta:
   captured: "2017-10-21T23:24:23"

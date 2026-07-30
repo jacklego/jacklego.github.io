@@ -3,6 +3,7 @@ title: "Army of Mushrooms (Infected Mushroom)"
 image: _army-of-mushrooms__thumb.jpg
 full: army-of-mushrooms.jpg
 order: 1
+date: 2014-10-23
 
 meta:
   source: "Infected Mushroom"

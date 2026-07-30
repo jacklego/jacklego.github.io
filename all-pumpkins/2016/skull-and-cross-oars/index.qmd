@@ -3,6 +3,7 @@ title: "Skull and Cross-Oars"
 image: _skull-and-cross-oars__thumb.jpg
 full: skull-and-cross-oars.jpg
 order: 8
+date: 2016-10-09
 
 meta:
   captured: "2016-10-09T19:59:31"

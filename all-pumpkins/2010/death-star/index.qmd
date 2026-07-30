@@ -4,6 +4,7 @@ image: _death-star__thumb.jpg
 full: death-star.jpg
 extras: 1
 order: 1
+date: 2009-10-25
 
 meta:
   source: "Star Wars"

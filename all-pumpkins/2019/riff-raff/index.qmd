@@ -3,6 +3,7 @@ title: "Riff Raff"
 image: _riff-raff__thumb.jpg
 full: riff-raff.jpg
 order: 3
+date: 2019-10-28
 
 meta:
   source: "The Rocky Horror Picture Show"

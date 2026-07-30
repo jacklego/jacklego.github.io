@@ -3,6 +3,7 @@ title: "Groundskeeper Willie"
 image: _groundskeeper-willie__thumb.jpg
 full: groundskeeper-willie.jpg
 order: 2
+date: 2024-10-28
 
 meta:
   captured: "2024-10-28T19:41:09"

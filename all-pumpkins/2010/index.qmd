@@ -1,7 +1,7 @@
 ---
 title: "2010"
 description: ""
-# date: 10-31-2010
+date: 2010-10-31
 listing:
   contents: ./*/index.qmd
   sort: "order asc"

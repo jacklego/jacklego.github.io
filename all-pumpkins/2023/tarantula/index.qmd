@@ -3,6 +3,10 @@ title: "Tarantula (Dr No)"
 image: _tarantula__thumb.jpg
 full: tarantula.jpg
 order: 5
+date: 2023-10-29
+
+meta:
+  captured: "2023-10-29T18:38:47"
 
 ---
 

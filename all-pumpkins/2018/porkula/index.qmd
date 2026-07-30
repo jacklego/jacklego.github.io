@@ -3,6 +3,7 @@ title: "Porkula"
 image: _porkula__thumb.jpg
 full: porkula.jpg
 order: 13
+date: 2018-10-15
 
 meta:
   captured: "2018-10-15T21:34:09"

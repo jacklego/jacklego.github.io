@@ -3,6 +3,7 @@ title: "Freddy Krueger (A Nightmare on Elm Street)"
 image: _freddy-krueger__thumb.jpg
 full: freddy-krueger.jpg
 order: 8
+date: 2018-10-27
 
 meta:
   source: "A Nightmare on Elm Street"

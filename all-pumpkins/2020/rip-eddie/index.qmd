@@ -3,6 +3,7 @@ title: "R.I.P. Eddie"
 image: _rip-eddie__thumb.jpg
 full: rip-eddie.jpg
 order: 11
+date: 2020-10-07
 
 meta:
   captured: "2020-10-07T22:08:18"

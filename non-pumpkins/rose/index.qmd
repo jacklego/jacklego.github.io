@@ -3,6 +3,7 @@ title: "Rose"
 image: _rose__thumb.jpg
 full: rose.jpg
 year: 2015
+date: 2015-05-17
 
 meta:
   medium: watermelon

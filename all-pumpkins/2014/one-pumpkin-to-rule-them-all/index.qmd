@@ -3,6 +3,7 @@ title: "One Pumpkin to Rule Them All (The Lord of the Rings)"
 image: _one-pumpkin-to-rule-them-all__thumb.jpg
 full: one-pumpkin-to-rule-them-all.jpg
 order: 4
+date: 2014-10-30
 
 meta:
   source: "The Lord of the Rings"

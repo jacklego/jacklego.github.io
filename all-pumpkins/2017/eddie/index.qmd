@@ -3,6 +3,7 @@ title: "Eddie (Iron Maiden)"
 image: _eddie__thumb.jpg
 full: eddie.jpg
 order: 8
+date: 2017-10-31
 
 meta:
   source: "Iron Maiden"

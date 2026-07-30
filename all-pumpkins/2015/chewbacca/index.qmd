@@ -3,6 +3,7 @@ title: "Chewbacca"
 image: _chewbacca__thumb.jpg
 full: chewbacca.jpg
 order: 4
+date: 2015-10-30
 
 meta:
   source: "Star Wars"

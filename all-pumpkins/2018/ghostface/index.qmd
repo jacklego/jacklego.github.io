@@ -3,6 +3,7 @@ title: "Ghostface (Scream)"
 image: _ghostface__thumb.jpg
 full: ghostface.jpg
 order: 6
+date: 2018-10-28
 
 meta:
   source: "Scream"

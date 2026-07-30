@@ -4,6 +4,7 @@ image: _north-coast__thumb.jpg
 full: north-coast.jpg
 extras: 1
 order: 3
+date: 2017-10-14
 
 meta:
   captured: "2017-10-14T19:43:30"

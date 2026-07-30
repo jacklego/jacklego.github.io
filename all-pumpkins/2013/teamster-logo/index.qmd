@@ -3,6 +3,7 @@ title: "Teamsters"
 image: _teamster-logo__thumb.jpg
 full: teamster-logo.jpg
 order: 2
+date: 2013-10-22
 
 meta:
   captured: "2013-10-22T22:03:06"

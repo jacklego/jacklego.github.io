@@ -3,6 +3,7 @@ title: "Dungeons & Dragons"
 image: _dnd-logo__thumb.jpg
 full: dnd-logo.jpg
 order: 1
+date: 2012-10-26
 
 meta:
   source: "Dungeons & Dragons"

@@ -3,6 +3,7 @@ title: "Yzma (The Emperor's New Groove)"
 image: _yzma__thumb.jpg
 full: yzma.jpg
 order: 1
+date: 2021-10-29
 
 meta:
   source: "The Emperor's New Groove"

@@ -3,6 +3,7 @@ title: Invisible Man
 image: _invisible-man__thumb.jpg
 full: invisible-man.jpg
 order: 6
+date: 2025-10-29
 
 meta:
   captured: "2025-10-29T18:41:53"

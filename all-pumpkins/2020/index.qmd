@@ -1,7 +1,7 @@
 ---
 title: "2020"
 description: Star Wars Villains
-# date: 10-31-2020
+date: 2020-10-31
 listing:
   contents: ./*/index.qmd
   sort: "order asc"

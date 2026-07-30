@@ -3,6 +3,7 @@ title: "Falkor & Atreyu (The NeverEnding Story)"
 image: _falkor-and-atreyu__thumb.jpg
 full: falkor-and-atreyu.jpg
 order: 10
+date: 2022-10-20
 
 meta:
   source: "The NeverEnding Story"

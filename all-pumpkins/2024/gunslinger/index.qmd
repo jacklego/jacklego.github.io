@@ -3,6 +3,7 @@ title: "Gunslinger"
 image: _gunslinger__thumb.jpg
 full: gunslinger.jpg
 order: 13
+date: 2024-10-29
 
 meta:
   captured: "2024-10-29T19:24:30"

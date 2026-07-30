@@ -3,6 +3,7 @@ title: "Ozzy Osbourne"
 image: _ozzy__thumb.jpg
 full: ozzy.jpg
 order: 11
+date: 2017-10-31
 
 meta:
   captured: "2017-10-31T18:16:44"

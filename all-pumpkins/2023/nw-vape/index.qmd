@@ -3,8 +3,10 @@ title: "NW Vape Logo"
 image: _nw-vape-logo__thumb.jpg
 full: nw-vape-logo.jpg
 order: 9
+date: 2023-10-28
 
 meta:
+  captured: "2023-10-28T10:34:56"
   themed: false
   logo: true
 

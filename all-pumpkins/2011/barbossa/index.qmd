@@ -3,6 +3,7 @@ title: "Captain Barbossa (Pirates of the Caribbean)"
 image: _barbossa__thumb.jpg
 full: barbossa.jpg
 order: 1
+date: 2011-10-22
 
 meta:
   source: "Pirates of the Caribbean"

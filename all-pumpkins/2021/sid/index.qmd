@@ -3,6 +3,7 @@ title: "Sid Phillips (Toy Story)"
 image: _sid__thumb.jpg
 full: sid.jpg
 order: 11
+date: 2021-10-30
 
 meta:
   source: "Toy Story"

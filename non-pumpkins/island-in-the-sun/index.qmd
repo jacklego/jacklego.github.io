@@ -3,6 +3,7 @@ title: "Island in the Sun"
 image: _island__thumb.jpg
 full: island.jpg
 year: 2015
+date: 2015-05-17
 
 meta:
   medium: watermelon

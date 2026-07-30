@@ -3,6 +3,7 @@ title: "Heeeeere's Johnny! (The Shining)"
 image: _the-shining__thumb.jpg
 full: the-shining.jpg
 order: 1
+date: 2018-10-30
 
 meta:
   source: "The Shining"

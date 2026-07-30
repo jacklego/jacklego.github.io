@@ -3,6 +3,7 @@ title: "Kang"
 image: _kang__thumb.jpg
 full: kang.jpg
 order: 7
+date: 2024-10-30
 
 meta:
   captured: "2024-10-30T19:29:21"

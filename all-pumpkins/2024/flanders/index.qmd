@@ -3,6 +3,10 @@ title: "Flanders"
 image: _flanders__thumb.jpg
 full: flanders.jpg
 order: 9
+date: 2024-10-22
+
+meta:
+  captured: "2024-10-22T19:32:58"
 
 ---
 

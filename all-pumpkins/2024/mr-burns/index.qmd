@@ -3,6 +3,10 @@ title: "Mr. Burns"
 image: _mr-burns__thumb.jpg
 full: mr-burns.jpg
 order: 10
+date: 2024-10-25
+
+meta:
+  captured: "2024-10-25T20:14:15"
 
 ---
 

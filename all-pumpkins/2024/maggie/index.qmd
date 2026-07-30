@@ -3,6 +3,7 @@ title: "Maggie"
 image: _maggie__thumb.jpg
 full: maggie.jpg
 order: 3
+date: 2024-10-26
 
 meta:
   captured: "2024-10-26T18:34:43"

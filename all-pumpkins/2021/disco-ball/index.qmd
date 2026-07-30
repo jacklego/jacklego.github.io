@@ -3,6 +3,7 @@ title: "Disco Ball"
 image: _disco-ball__thumb.jpg
 full: disco-ball.jpg
 order: 13
+date: 2021-10-27
 
 meta:
   captured: "2021-10-27T19:49:25"

@@ -1,7 +1,7 @@
 ---
 title: "2023"
 description: Bond Villains
-# date: 10-31-2023
+date: 2023-10-31
 listing:
   contents: ./*/index.qmd
   sort: "order asc"

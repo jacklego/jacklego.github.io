@@ -3,6 +3,7 @@ title: "Boba Fett"
 image: _boba-fett__thumb.jpg
 full: boba-fett.jpg
 order: 2
+date: 2014-10-27
 
 meta:
   source: "Star Wars"

@@ -3,6 +3,7 @@ title: "Proscapes"
 image: _proscapes__thumb.jpg
 full: proscapes.jpg
 order: 1
+date: 2017-10-17
 
 meta:
   captured: "2017-10-17T19:33:32"

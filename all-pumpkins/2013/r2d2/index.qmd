@@ -4,6 +4,7 @@ image: _r2d2__thumb.jpg
 full: r2d2.jpg
 extras: 1
 order: 1
+date: 2013-10-27
 
 meta:
   source: "Star Wars"

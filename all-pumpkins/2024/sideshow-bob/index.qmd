@@ -3,6 +3,10 @@ title: "Sideshow Bob"
 image: _sideshow-bob__thumb.jpg
 full: sideshow-bob.jpg
 order: 1
+date: 2024-10-28
+
+meta:
+  captured: "2024-10-28T07:00:33"
 
 ---
 

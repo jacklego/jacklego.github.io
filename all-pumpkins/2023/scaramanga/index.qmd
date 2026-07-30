@@ -3,6 +3,10 @@ title: "Francisco Scaramanga (Man W Golden Gun)"
 image: _francisco-scaramanga__thumb.jpg
 full: francisco-scaramanga.jpg
 order: 2
+date: 2023-10-23
+
+meta:
+  captured: "2023-10-23T18:42:45"
 
 ---
 

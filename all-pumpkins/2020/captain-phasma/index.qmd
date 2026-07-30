@@ -3,6 +3,7 @@ title: "Captain Phasma"
 image: _captain-phasma__thumb.jpg
 full: captain-phasma.jpg
 order: 5
+date: 2020-10-25
 
 meta:
   source: "Star Wars"

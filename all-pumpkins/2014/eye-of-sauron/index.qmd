@@ -3,6 +3,7 @@ title: "The Eye of Sauron (The Lord of the Rings)"
 image: _eye-of-sauron__thumb.jpg
 full: eye-of-sauron.jpg
 order: 3
+date: 2014-10-30
 
 meta:
   source: "The Lord of the Rings"

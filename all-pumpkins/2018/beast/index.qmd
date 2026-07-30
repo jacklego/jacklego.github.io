@@ -3,6 +3,7 @@ title: "Beast"
 image: _beast__thumb.jpg
 full: beast.jpg
 order: 4
+date: 2018-10-28
 
 meta:
   captured: "2018-10-28T17:23:49"

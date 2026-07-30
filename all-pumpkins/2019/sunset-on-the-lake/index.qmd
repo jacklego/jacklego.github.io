@@ -4,6 +4,7 @@ image: _sunset-on-the-lake__thumb.jpg
 full: sunset-on-the-lake.jpg
 extras: 1
 order: 7
+date: 2019-10-03
 
 meta:
   captured: "2019-10-03T23:20:13"

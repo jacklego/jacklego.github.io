@@ -3,6 +3,7 @@ title: "Columbia"
 image: _columbia__thumb.jpg
 full: columbia.jpg
 order: 5
+date: 2019-10-30
 
 meta:
   source: "The Rocky Horror Picture Show"

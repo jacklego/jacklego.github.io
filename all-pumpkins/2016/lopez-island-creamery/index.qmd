@@ -3,6 +3,7 @@ title: "Lopez Island Creamery"
 image: _lopez-island-creamery__thumb.jpg
 full: lopez-island-creamery.jpg
 order: 1
+date: 2016-10-01
 
 meta:
   captured: "2016-10-01T22:09:58"

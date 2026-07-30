@@ -3,6 +3,10 @@ title: "Zao (Die Another Day)"
 image: _zao__thumb.jpg
 full: zao.jpg
 order: 3
+date: 2023-10-24
+
+meta:
+  captured: "2023-10-24T18:05:15"
 
 ---
 

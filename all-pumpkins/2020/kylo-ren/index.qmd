@@ -3,6 +3,7 @@ title: "Kylo Ren"
 image: _kylo-ren__thumb.jpg
 full: kylo-ren.jpg
 order: 3
+date: 2020-10-28
 
 meta:
   source: "Star Wars"

@@ -3,6 +3,10 @@ title: "Lisa"
 image: _lisa__thumb.jpg
 full: lisa.jpg
 order: 6
+date: 2024-10-24
+
+meta:
+  captured: "2024-10-24T19:30:01"
 
 ---
 

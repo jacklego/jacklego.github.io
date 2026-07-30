@@ -3,6 +3,10 @@ title: "Ernst Stavro Blofeld (You Only Live Twice)"
 image: _ernst-stavro-blofeld__thumb.jpg
 full: ernst-stavro-blofeld.jpg
 order: 7
+date: 2023-10-29
+
+meta:
+  captured: "2023-10-29T19:47:50"
 
 ---
 

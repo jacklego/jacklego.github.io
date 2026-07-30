@@ -3,6 +3,7 @@ title: "Red Rock Subs"
 image: _red-rock-subs__thumb.jpg
 full: red-rock-subs.jpg
 order: 11
+date: 2019-10-19
 
 meta:
   captured: "2019-10-19T20:57:46"

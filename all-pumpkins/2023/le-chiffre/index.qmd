@@ -3,6 +3,10 @@ title: "Le Chiffre (Casino Royale)"
 image: _le-chiffre__thumb.jpg
 full: le-chiffre.jpg
 order: 4
+date: 2023-10-25
+
+meta:
+  captured: "2023-10-25T19:16:30"
 
 ---
 

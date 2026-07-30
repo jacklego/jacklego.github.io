@@ -3,6 +3,10 @@ title: "Sofina (DnD)"
 image: _sofina__thumb.jpg
 full: sofina.jpg
 order: 12
+date: 2023-10-30
+
+meta:
+  captured: "2023-10-30T18:48:08"
 
 ---
 

@@ -3,6 +3,10 @@ title: "Baron Samedi (Live And Let Die)"
 image: _baron-samedi__thumb.jpg
 full: baron-samedi.jpg
 order: 10
+date: 2023-10-27
+
+meta:
+  captured: "2023-10-27T19:23:50"
 
 ---
 

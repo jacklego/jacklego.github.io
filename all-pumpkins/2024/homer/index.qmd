@@ -3,6 +3,7 @@ title: Homer
 image: _homer__thumb.jpg
 full: homer.jpg
 order: 5
+date: 2024-10-29
 
 meta:
   captured: "2024-10-29T18:34:12"

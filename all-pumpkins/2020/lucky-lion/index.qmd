@@ -3,6 +3,7 @@ title: "Lucky Lion"
 image: _lucky-lion__thumb.jpg
 full: lucky-lion.jpg
 order: 9
+date: 2020-10-23
 
 meta:
   captured: "2020-10-23T19:12:36"

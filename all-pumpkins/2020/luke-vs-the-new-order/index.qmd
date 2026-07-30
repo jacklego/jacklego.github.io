@@ -3,6 +3,7 @@ title: "Luke vs. The New Order"
 image: _luke-vs-the-new-order__thumb.jpg
 full: luke-vs-the-new-order.jpg
 order: 2
+date: 2020-10-29
 
 meta:
   source: "Star Wars"

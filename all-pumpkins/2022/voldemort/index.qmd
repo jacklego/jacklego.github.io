@@ -3,6 +3,7 @@ title: "Lord Voldemort (Harry Potter)"
 image: _voldemort__thumb.jpg
 full: voldemort.jpg
 order: 7
+date: 2022-10-22
 
 meta:
   source: "Harry Potter"

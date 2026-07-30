@@ -3,6 +3,7 @@ title: "Ursula (The Little Mermaid)"
 image: _ursula__thumb.jpg
 full: ursula.jpg
 order: 7
+date: 2021-10-24
 
 meta:
   source: "The Little Mermaid"

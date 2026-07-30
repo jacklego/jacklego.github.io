@@ -4,6 +4,7 @@ image: _lips__thumb.jpg
 full: lips.jpg
 extras: 1
 order: 2
+date: 2019-10-26
 
 meta:
   source: "The Rocky Horror Picture Show"

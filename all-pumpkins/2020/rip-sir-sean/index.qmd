@@ -3,6 +3,7 @@ title: "R.I.P. Sir Sean"
 image: _rip-sir-sean__thumb.jpg
 full: rip-sir-sean.jpg
 order: 10
+date: 2020-10-31
 
 meta:
   captured: "2020-10-31T09:44:18"

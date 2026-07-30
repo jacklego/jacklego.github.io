@@ -3,6 +3,7 @@ title: "Holy Diver (Dio)"
 image: _holy-diver__thumb.jpg
 full: holy-diver.jpg
 order: 10
+date: 2017-10-22
 
 meta:
   source: "Dio"

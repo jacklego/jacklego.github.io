@@ -3,6 +3,7 @@ title: "3 Oms Yoga"
 image: _3oms-yoga_full-spread__thumb.jpg
 full: 3oms-yoga_full-spread.jpg
 year: 2015
+date: 2015-05-30
 
 meta:
   medium: watermelon

@@ -3,6 +3,10 @@ title: "Jaws (The Spy Who Loved Me)"
 image: _jaws__thumb.jpg
 full: jaws.jpg
 order: 8
+date: 2023-10-30
+
+meta:
+  captured: "2023-10-30T18:43:34"
 
 ---
 

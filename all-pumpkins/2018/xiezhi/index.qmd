@@ -3,6 +3,7 @@ title: "Xiezhi"
 image: _xiezhi__thumb.jpg
 full: xiezhi.jpg
 order: 11
+date: 2018-10-21
 
 meta:
   captured: "2018-10-21T23:56:13"

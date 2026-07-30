@@ -3,6 +3,7 @@ title: "Mrs. Frisby and the Rats of NIMH"
 image: _mrs-frisby__thumb.jpg
 full: mrs-frisby.jpg
 order: 3
+date: 2022-10-29
 
 meta:
   source: "Mrs. Frisby and the Rats of NIMH"

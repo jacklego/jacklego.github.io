@@ -3,6 +3,7 @@ title: "Darth Vader"
 image: _darth-vader__thumb.jpg
 full: darth-vader.jpg
 order: 7
+date: 2016-10-15
 
 meta:
   source: "Star Wars"

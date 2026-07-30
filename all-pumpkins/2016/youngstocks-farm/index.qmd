@@ -3,6 +3,7 @@ title: "Youngstock's Farm"
 image: _youngstocks-farm__thumb.jpg
 full: youngstocks-farm.jpg
 order: 11
+date: 2016-10-08
 
 meta:
   captured: "2016-10-08T21:02:52"

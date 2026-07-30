@@ -3,6 +3,7 @@ title: "Cruella de Vil (101 Dalmatians)"
 image: _cruella-de-vil__thumb.jpg
 full: cruella-de-vil.jpg
 order: 3
+date: 2021-10-29
 
 meta:
   source: "101 Dalmatians"

@@ -3,6 +3,7 @@ title: "Psycho (1960)"
 image: _psycho__thumb.jpg
 full: psycho.jpg
 order: 5
+date: 2018-10-27
 
 meta:
   source: "Psycho (1960)"

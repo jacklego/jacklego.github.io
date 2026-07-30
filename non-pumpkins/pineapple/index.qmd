@@ -3,6 +3,7 @@ title: "Pineapple"
 image: _pineapple__thumb.jpg
 full: pineapple.jpg
 year: 2015
+date: 2015-05-29
 
 meta:
   medium: watermelon

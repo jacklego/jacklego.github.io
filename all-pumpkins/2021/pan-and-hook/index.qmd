@@ -3,6 +3,7 @@ title: "Pan & Hook (Peter Pan)"
 image: _pan-and-hook__thumb.jpg
 full: pan-and-hook.jpg
 order: 5
+date: 2021-10-26
 
 meta:
   source: "Peter Pan"

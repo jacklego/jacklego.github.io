@@ -3,6 +3,7 @@ title: Wolfman
 image: _wolfman__thumb.jpg
 full: wolfman.jpg
 order: 10
+date: 2025-10-24
 
 meta:
   captured: "2025-10-24T23:00:17"

@@ -3,6 +3,7 @@ title: "Celtic Square Knot"
 image: _celtic-square-knot__thumb.jpg
 full: celtic-square-knot.jpg
 order: 5
+date: 2016-10-26
 
 meta:
   captured: "2016-10-26T20:17:01"

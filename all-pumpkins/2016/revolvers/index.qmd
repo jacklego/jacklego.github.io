@@ -4,6 +4,7 @@ image: _revolvers__thumb.jpg
 full: revolvers.jpg
 extras: 2
 order: 6
+date: 2016-10-29
 
 meta:
   captured: "2016-10-29T19:44:15"

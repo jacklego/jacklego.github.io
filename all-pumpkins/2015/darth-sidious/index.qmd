@@ -3,6 +3,7 @@ title: "Darth Sidious"
 image: _darth-sidious__thumb.jpg
 full: darth-sidious.jpg
 order: 3
+date: 2015-10-27
 
 meta:
   source: "Star Wars"

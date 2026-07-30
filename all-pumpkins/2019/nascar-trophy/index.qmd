@@ -3,6 +3,7 @@ title: "NASCAR Trophy"
 image: _nascar-trophy__thumb.jpg
 full: nascar-trophy.jpg
 order: 9
+date: 2019-10-24
 
 meta:
   captured: "2019-10-24T18:49:24"

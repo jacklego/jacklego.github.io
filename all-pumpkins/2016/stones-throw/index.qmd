@@ -4,6 +4,7 @@ image: _stones-throw__thumb.jpg
 full: stones-throw.jpg
 extras: 1
 order: 10
+date: 2016-10-29
 
 meta:
   captured: "2016-10-29T19:20:36"
