@@ -3,4 +3,4 @@ title: "Peter's Pumpkin Patch"
 page-layout: full
 ---
 
-{{< include _message.txt >}}
+{{< include _homepage-memo.md >}}
