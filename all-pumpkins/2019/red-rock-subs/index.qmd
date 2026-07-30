@@ -1,5 +1,5 @@
 ---
-title: "Red Rock Subs"
+title: "Red Rock Subs Logo"
 description: "The Red Rock Subs logo — a pumpkin carving by Peter Wiegand, 2019."
 image: _red-rock-subs__thumb.jpg
 image-alt: "A pumpkin carved with the Red Rock Subs logo."
