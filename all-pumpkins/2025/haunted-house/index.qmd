@@ -1,6 +1,8 @@
 ---
 title: Haunted House
+description: "Haunted House — a pumpkin carving by Peter Wiegand, 2025."
 image: _haunted-house__thumb.jpg
+image-alt: "A pumpkin carved with a haunted house."
 full: haunted-house.jpg
 order: 11
 date: 2025-10-27
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

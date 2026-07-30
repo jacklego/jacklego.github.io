@@ -1,6 +1,8 @@
 ---
 title: "Tatooine (Star Wars)"
+description: "Tatooine from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _tatooine__thumb.jpg
+image-alt: "A pumpkin carved with Tatooine from Star Wars."
 full: tatooine.jpg
 extras: 1
 order: 5
@@ -12,6 +14,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
-![Another angle](_alt.jpg){fig-align="center"}
+![Another angle](_alt.jpg){fig-align="center" fig-alt="The same Tatooine pumpkin from another angle."}

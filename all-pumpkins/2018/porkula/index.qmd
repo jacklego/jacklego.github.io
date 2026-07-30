@@ -1,6 +1,8 @@
 ---
 title: "Porkula"
+description: "Porkula — a pumpkin carving by Peter Wiegand, 2018."
 image: _porkula__thumb.jpg
+image-alt: "A pumpkin carved with Porkula, a vampire pig."
 full: porkula.jpg
 order: 13
 date: 2018-10-15
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

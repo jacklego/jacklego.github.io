@@ -1,6 +1,8 @@
 ---
 title: "Psycho (1960)"
+description: "Psycho (1960) — a pumpkin carving by Peter Wiegand, 2018."
 image: _psycho__thumb.jpg
+image-alt: "A pumpkin carved with imagery from Psycho (1960)."
 full: psycho.jpg
 order: 5
 date: 2018-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

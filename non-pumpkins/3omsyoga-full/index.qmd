@@ -1,6 +1,8 @@
 ---
 title: "3 Oms Yoga"
+description: "3 Oms Yoga — a watermelon carving by Peter Wiegand, 2015."
 image: _3oms-yoga_full-spread__thumb.jpg
+image-alt: "A watermelon carved with the 3 Oms Yoga design."
 full: 3oms-yoga_full-spread.jpg
 year: 2015
 date: 2015-05-30
@@ -10,4 +12,4 @@ meta:
   captured: "2015-05-30T09:18:34"
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

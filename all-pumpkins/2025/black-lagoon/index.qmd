@@ -1,6 +1,8 @@
 ---
 title: Creature from the Black Lagoon
+description: "Creature from the Black Lagoon — a pumpkin carving by Peter Wiegand, 2025."
 image: _black-lagoon__thumb.jpg
+image-alt: "A pumpkin carved with the Creature from the Black Lagoon."
 full: black-lagoon.jpg
 order: 4
 date: 2025-10-26
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Proscapes"
+description: "The Proscapes logo — a pumpkin carving by Peter Wiegand, 2017."
 image: _proscapes__thumb.jpg
+image-alt: "A pumpkin carved with the Proscapes logo."
 full: proscapes.jpg
 order: 1
 date: 2017-10-17
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Boba Fett"
+description: "Boba Fett from Star Wars — a pumpkin carving by Peter Wiegand, 2014."
 image: _boba-fett__thumb.jpg
+image-alt: "A pumpkin carved with Boba Fett from Star Wars."
 full: boba-fett.jpg
 order: 2
 date: 2014-10-27
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

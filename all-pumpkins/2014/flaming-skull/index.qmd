@@ -1,6 +1,8 @@
 ---
 title: "Flaming Skull"
+description: "Flaming Skull — a pumpkin carving by Peter Wiegand, 2014."
 image: _flaming-skull__thumb.jpg
+image-alt: "A pumpkin carved with a flaming skull."
 full: flaming-skull.jpg
 order: 5
 date: 2014-10-29
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

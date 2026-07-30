@@ -1,6 +1,8 @@
 ---
 title: "Red Rock Subs"
+description: "The Red Rock Subs logo — a pumpkin carving by Peter Wiegand, 2019."
 image: _red-rock-subs__thumb.jpg
+image-alt: "A pumpkin carved with the Red Rock Subs logo."
 full: red-rock-subs.jpg
 order: 11
 date: 2019-10-19
@@ -13,4 +15,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

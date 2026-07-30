@@ -1,6 +1,8 @@
 ---
 title: "Fire-Breathing Dragon"
+description: "Fire-Breathing Dragon — a pumpkin carving by Peter Wiegand, 2012."
 image: _fire-breathing-dragon__thumb.jpg
+image-alt: "A pumpkin carved with a fire-breathing dragon."
 full: fire-breathing-dragon.jpg
 order: 2
 date: 2012-10-26
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

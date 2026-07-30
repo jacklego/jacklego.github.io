@@ -1,6 +1,8 @@
 ---
 title: "North Coast Brewing"
+description: "The North Coast Brewing logo — a pumpkin carving by Peter Wiegand, 2017."
 image: _north-coast__thumb.jpg
+image-alt: "A pumpkin carved with the North Coast Brewing logo."
 full: north-coast.jpg
 extras: 1
 order: 3
@@ -12,6 +14,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
-![Another angle](_alt.jpg){fig-align="center"}
+![Another angle](_alt.jpg){fig-align="center" fig-alt="The same North Coast Brewing pumpkin from another angle."}

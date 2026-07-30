@@ -1,6 +1,8 @@
 ---
 title: "Lord Voldemort (Harry Potter)"
+description: "Lord Voldemort from Harry Potter — a pumpkin carving by Peter Wiegand, 2022."
 image: _voldemort__thumb.jpg
+image-alt: "A pumpkin carved with Lord Voldemort from Harry Potter."
 full: voldemort.jpg
 order: 7
 date: 2022-10-22
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

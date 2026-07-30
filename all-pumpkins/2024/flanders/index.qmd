@@ -1,6 +1,8 @@
 ---
 title: "Flanders"
+description: "Ned Flanders from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _flanders__thumb.jpg
+image-alt: "A pumpkin carved with Ned Flanders from The Simpsons."
 full: flanders.jpg
 order: 9
 date: 2024-10-22
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

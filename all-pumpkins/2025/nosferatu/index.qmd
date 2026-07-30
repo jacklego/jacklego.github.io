@@ -1,6 +1,8 @@
 ---
 title: Nosferatu
+description: "Nosferatu — a pumpkin carving by Peter Wiegand, 2025."
 image: _nosferatu__thumb.jpg
+image-alt: "A pumpkin carved with Nosferatu."
 full: nosferatu.jpg
 order: 9
 date: 2025-10-25
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

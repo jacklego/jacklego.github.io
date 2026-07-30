@@ -1,6 +1,8 @@
 ---
 title: "NW Vape Logo"
+description: "The NW Vape logo — a pumpkin carving by Peter Wiegand, 2023."
 image: _nw-vape-logo__thumb.jpg
+image-alt: "A pumpkin carved with the NW Vape logo."
 full: nw-vape-logo.jpg
 order: 9
 date: 2023-10-28
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

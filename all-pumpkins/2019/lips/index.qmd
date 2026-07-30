@@ -1,6 +1,8 @@
 ---
 title: "Lips"
+description: "The Rocky Horror Picture Show lips logo — a pumpkin carving by Peter Wiegand, 2019."
 image: _lips__thumb.jpg
+image-alt: "A pumpkin carved with the lips logo from The Rocky Horror Picture Show."
 full: lips.jpg
 extras: 1
 order: 2
@@ -14,6 +16,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
-![In daylight](_light.jpg){fig-align="center"}
+![In daylight](_light.jpg){fig-align="center" fig-alt="The Rocky Horror lips pumpkin photographed in daylight."}

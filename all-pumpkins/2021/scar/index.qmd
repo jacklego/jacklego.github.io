@@ -1,6 +1,8 @@
 ---
 title: "Scar (The Lion King)"
+description: "Scar from The Lion King — a pumpkin carving by Peter Wiegand, 2021."
 image: _scar__thumb.jpg
+image-alt: "A pumpkin carved with Scar from The Lion King."
 full: scar.jpg
 order: 4
 date: 2021-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

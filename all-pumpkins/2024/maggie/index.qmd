@@ -1,6 +1,8 @@
 ---
 title: "Maggie"
+description: "Maggie Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _maggie__thumb.jpg
+image-alt: "A pumpkin carved with Maggie Simpson from The Simpsons."
 full: maggie.jpg
 order: 3
 date: 2024-10-26
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

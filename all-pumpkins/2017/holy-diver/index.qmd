@@ -1,6 +1,8 @@
 ---
 title: "Holy Diver (Dio)"
+description: "Holy Diver from Dio — a pumpkin carving by Peter Wiegand, 2017."
 image: _holy-diver__thumb.jpg
+image-alt: "A pumpkin carved with the Holy Diver album art by Dio."
 full: holy-diver.jpg
 order: 10
 date: 2017-10-22
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Rose"
+description: "Rose — a watermelon carving by Peter Wiegand, 2015."
 image: _rose__thumb.jpg
+image-alt: "A watermelon carved with a rose."
 full: rose.jpg
 year: 2015
 date: 2015-05-17
@@ -10,4 +12,4 @@ meta:
   captured: "2015-05-17T16:38:52"
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

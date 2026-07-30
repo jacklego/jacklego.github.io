@@ -1,6 +1,8 @@
 ---
 title: "Mrs. Frisby and the Rats of NIMH"
+description: "Mrs. Frisby and the Rats of NIMH — a pumpkin carving by Peter Wiegand, 2022."
 image: _mrs-frisby__thumb.jpg
+image-alt: "A pumpkin carved with imagery from Mrs. Frisby and the Rats of NIMH."
 full: mrs-frisby.jpg
 order: 3
 date: 2022-10-29
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

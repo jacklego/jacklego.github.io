@@ -1,6 +1,8 @@
 ---
 title: "Stone's Throw Brewing"
+description: "The Stone's Throw Brewing logo — a pumpkin carving by Peter Wiegand, 2017."
 image: _stones-throw__thumb.jpg
+image-alt: "A pumpkin carved with the Stone's Throw Brewing logo."
 full: stones-throw.jpg
 order: 6
 date: 2017-10-28
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Darth Sidious"
+description: "Darth Sidious from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _darth-sidious__thumb.jpg
+image-alt: "A pumpkin carved with Darth Sidious from Star Wars."
 full: darth-sidious.jpg
 order: 3
 date: 2015-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

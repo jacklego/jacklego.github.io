@@ -1,6 +1,8 @@
 ---
 title: "Francisco Scaramanga (Man W Golden Gun)"
+description: "Francisco Scaramanga from The Man with the Golden Gun — a pumpkin carving by Peter Wiegand, 2023."
 image: _francisco-scaramanga__thumb.jpg
+image-alt: "A pumpkin carved with Francisco Scaramanga from The Man with the Golden Gun."
 full: francisco-scaramanga.jpg
 order: 2
 date: 2023-10-23
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

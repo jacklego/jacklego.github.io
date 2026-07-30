@@ -1,6 +1,8 @@
 ---
 title: "Charlotte's Web"
+description: "Charlotte's Web — a pumpkin carving by Peter Wiegand, 2022."
 image: _charlottes-web__thumb.jpg
+image-alt: "A pumpkin carved with imagery from Charlotte's Web."
 full: charlottes-web.jpg
 order: 4
 date: 2022-10-30
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

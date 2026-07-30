@@ -55,6 +55,18 @@ main #title-block-header,
   display: none;
 }
 
+// On a carving page, `description:` is SEO metadata -- it feeds
+// <meta name="description">, og:description and twitter:description -- not a
+// subtitle. Quarto renders it into the title banner regardless, so hide it.
+//
+// The `carving` class comes from `body-classes:` in `all-pumpkins/_metadata.yml`
+// and `non-pumpkins/_metadata.yml`; the listing pages (year pages and the two
+// section indexes) override it with `body-classes: patch-listing`, so their
+// descriptions -- the season's theme -- stay visible.
+body.carving #title-block-header .description {
+  display: none;
+}
+
 div.quarto-post {
   align-items: center;
 

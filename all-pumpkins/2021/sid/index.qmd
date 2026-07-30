@@ -1,6 +1,8 @@
 ---
 title: "Sid Phillips (Toy Story)"
+description: "Sid Phillips from Toy Story — a pumpkin carving by Peter Wiegand, 2021."
 image: _sid__thumb.jpg
+image-alt: "A pumpkin carved with Sid Phillips from Toy Story."
 full: sid.jpg
 order: 11
 date: 2021-10-30
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

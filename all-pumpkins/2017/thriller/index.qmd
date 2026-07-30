@@ -1,6 +1,8 @@
 ---
 title: "Thriller (Michael Jackson)"
+description: "Michael Jackson's Thriller — a pumpkin carving by Peter Wiegand, 2017."
 image: _thriller__thumb.jpg
+image-alt: "A pumpkin carved with Michael Jackson's Thriller."
 full: thriller.jpg
 order: 7
 date: 2017-10-30
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

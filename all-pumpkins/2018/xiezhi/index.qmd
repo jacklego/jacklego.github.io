@@ -1,6 +1,8 @@
 ---
 title: "Xiezhi"
+description: "Xiezhi — a pumpkin carving by Peter Wiegand, 2018."
 image: _xiezhi__thumb.jpg
+image-alt: "A pumpkin carved with a xiezhi, a beast from Chinese mythology."
 full: xiezhi.jpg
 order: 11
 date: 2018-10-21
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: Dracula
+description: "Dracula — a pumpkin carving by Peter Wiegand, 2025."
 image: _dracula__thumb.jpg
+image-alt: "A pumpkin carved with Dracula."
 full: dracula.jpg
 order: 1
 date: 2025-10-29
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

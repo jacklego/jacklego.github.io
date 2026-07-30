@@ -1,6 +1,8 @@
 ---
 title: "Alice Cooper"
+description: "Alice Cooper — a pumpkin carving by Peter Wiegand, 2017."
 image: _alice-cooper__thumb.jpg
+image-alt: "A pumpkin carved with Alice Cooper."
 full: alice-cooper.jpg
 order: 9
 date: 2017-10-22
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

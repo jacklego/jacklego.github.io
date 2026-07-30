@@ -1,6 +1,8 @@
 ---
 title: "Mr. Burns"
+description: "Mr. Burns from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _mr-burns__thumb.jpg
+image-alt: "A pumpkin carved with Mr. Burns from The Simpsons."
 full: mr-burns.jpg
 order: 10
 date: 2024-10-25
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

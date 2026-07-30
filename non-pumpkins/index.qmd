@@ -5,6 +5,7 @@ listing:
   contents: ./*/index.qmd
   sort: "title asc"
   type: grid
+  fields: [title, image]
   field-types:
     extras: number
   categories: false
@@ -13,4 +14,5 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
+body-classes: patch-listing
 ---

@@ -1,6 +1,8 @@
 ---
 title: "Schack Art Museum"
+description: "The Schack Art Museum logo — a pumpkin carving by Peter Wiegand, 2021."
 image: _schack-art-museum__thumb.jpg
+image-alt: "A pumpkin carved with the Schack Art Museum logo."
 full: schack-art-museum.jpg
 order: 12
 date: 2021-10-23
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

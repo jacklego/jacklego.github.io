@@ -1,6 +1,8 @@
 ---
 title: "Spider-Man"
+description: "Spider-Man from Marvel — a pumpkin carving by Peter Wiegand, 2004."
 image: _spiderman__thumb.jpg
+image-alt: "A pumpkin carved with Marvel's Spider-Man."
 full: spiderman.jpg
 order: 3
 date: 2004-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

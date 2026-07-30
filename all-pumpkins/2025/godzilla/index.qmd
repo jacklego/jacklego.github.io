@@ -1,6 +1,8 @@
 ---
 title: Godzilla
+description: "Godzilla — a pumpkin carving by Peter Wiegand, 2025."
 image: _godzilla__thumb.jpg
+image-alt: "A pumpkin carved with Godzilla."
 full: godzilla.jpg
 order: 7
 date: 2025-10-27
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

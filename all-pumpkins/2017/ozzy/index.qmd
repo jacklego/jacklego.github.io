@@ -1,6 +1,8 @@
 ---
 title: "Ozzy Osbourne"
+description: "Ozzy Osbourne — a pumpkin carving by Peter Wiegand, 2017."
 image: _ozzy__thumb.jpg
+image-alt: "A pumpkin carved with Ozzy Osbourne."
 full: ozzy.jpg
 order: 11
 date: 2017-10-31
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

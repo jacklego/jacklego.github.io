@@ -1,6 +1,8 @@
 ---
 title: "Pirate Skull with Tentacles"
+description: "Pirate Skull with Tentacles — a pumpkin carving by Peter Wiegand, 2016."
 image: _pirate-skull-tentacles__thumb.jpg
+image-alt: "A pumpkin carved with a pirate skull wreathed in tentacles."
 full: pirate-skull-tentacles.jpg
 order: 3
 date: 2016-10-26
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

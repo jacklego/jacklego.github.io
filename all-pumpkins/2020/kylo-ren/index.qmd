@@ -1,6 +1,8 @@
 ---
 title: "Kylo Ren"
+description: "Kylo Ren from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _kylo-ren__thumb.jpg
+image-alt: "A pumpkin carved with Kylo Ren from Star Wars."
 full: kylo-ren.jpg
 order: 3
 date: 2020-10-28
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

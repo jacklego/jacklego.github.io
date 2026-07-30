@@ -1,6 +1,8 @@
 ---
 title: "Maleficent (Sleeping Beauty)"
+description: "Maleficent from Sleeping Beauty — a pumpkin carving by Peter Wiegand, 2019."
 image: _maleficent__thumb.jpg
+image-alt: "A pumpkin carved with Maleficent from Sleeping Beauty."
 full: maleficent.jpg
 order: 8
 date: 2019-10-27
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

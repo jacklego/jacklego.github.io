@@ -1,6 +1,8 @@
 ---
 title: "BB-8"
+description: "BB-8 from Star Wars — a pumpkin carving by Peter Wiegand, 2017."
 image: _bb8__thumb.jpg
+image-alt: "A pumpkin carved with BB-8 from Star Wars."
 full: bb8.jpg
 order: 5
 date: 2017-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

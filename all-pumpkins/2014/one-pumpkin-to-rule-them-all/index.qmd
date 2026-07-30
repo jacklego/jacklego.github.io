@@ -1,6 +1,8 @@
 ---
 title: "One Pumpkin to Rule Them All (The Lord of the Rings)"
+description: "One Pumpkin to Rule Them All from The Lord of the Rings — a pumpkin carving by Peter Wiegand, 2014."
 image: _one-pumpkin-to-rule-them-all__thumb.jpg
+image-alt: "A pumpkin carved with a ring of pseudo-Tengwar lettering, after The Lord of the Rings."
 full: one-pumpkin-to-rule-them-all.jpg
 order: 4
 date: 2014-10-30
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

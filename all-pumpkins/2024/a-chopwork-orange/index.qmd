@@ -1,6 +1,8 @@
 ---
 title: "A Chopwork Orange"
+description: "A Chopwork Orange, from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _a-chopwork-orange__thumb.jpg
+image-alt: "A pumpkin carved with A Chopwork Orange, from The Simpsons."
 full: a-chopwork-orange.jpg
 extras: 2
 order: 12
@@ -11,10 +13,10 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
 ::: {layout-ncol=2}
-![Itchy](_itchy.jpg)
+![Itchy](_itchy.jpg){fig-alt="Itchy, carved into the A Chopwork Orange pumpkin."}
 
-![Scratchy](_scratchy.jpg)
+![Scratchy](_scratchy.jpg){fig-alt="Scratchy, carved into the A Chopwork Orange pumpkin."}
 :::

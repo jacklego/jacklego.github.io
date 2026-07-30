@@ -1,6 +1,8 @@
 ---
 title: "Chinese Dragon"
+description: "Chinese Dragon — a pumpkin carving by Peter Wiegand, 2015."
 image: _chinese-dragon__thumb.jpg
+image-alt: "A pumpkin carved with a Chinese dragon."
 full: chinese-dragon.jpg
 order: 2
 date: 2015-10-18
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

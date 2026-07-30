@@ -1,6 +1,8 @@
 ---
 title: "Freddy Krueger (A Nightmare on Elm Street)"
+description: "Freddy Krueger from A Nightmare on Elm Street — a pumpkin carving by Peter Wiegand, 2018."
 image: _freddy-krueger__thumb.jpg
+image-alt: "A pumpkin carved with Freddy Krueger from A Nightmare on Elm Street."
 full: freddy-krueger.jpg
 order: 8
 date: 2018-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

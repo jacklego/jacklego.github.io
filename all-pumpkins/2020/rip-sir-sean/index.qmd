@@ -1,6 +1,8 @@
 ---
 title: "R.I.P. Sir Sean"
+description: "R.I.P. Sir Sean — a pumpkin carving by Peter Wiegand in memory of Sean Connery, 2020."
 image: _rip-sir-sean__thumb.jpg
+image-alt: "A pumpkin carved in memory of Sean Connery."
 full: rip-sir-sean.jpg
 order: 10
 date: 2020-10-31
@@ -13,4 +15,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

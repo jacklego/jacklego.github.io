@@ -1,6 +1,8 @@
 ---
 title: "Star Destroyer"
+description: "Star Destroyer from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _star-destroyer__thumb.jpg
+image-alt: "A pumpkin carved with a Star Destroyer from Star Wars."
 full: star-destroyer.jpg
 order: 7
 date: 2015-10-29
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

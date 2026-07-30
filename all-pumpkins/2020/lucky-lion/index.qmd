@@ -1,6 +1,8 @@
 ---
 title: "Lucky Lion"
+description: "Lucky Lion — a pumpkin carving by Peter Wiegand, 2020."
 image: _lucky-lion__thumb.jpg
+image-alt: "A pumpkin carved with a lucky lion."
 full: lucky-lion.jpg
 order: 9
 date: 2020-10-23
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

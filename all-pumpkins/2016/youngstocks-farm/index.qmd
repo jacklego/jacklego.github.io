@@ -1,6 +1,8 @@
 ---
 title: "Youngstock's Farm"
+description: "The Youngstock's Farm logo — a pumpkin carving by Peter Wiegand, 2016."
 image: _youngstocks-farm__thumb.jpg
+image-alt: "A pumpkin carved with the Youngstock's Farm logo."
 full: youngstocks-farm.jpg
 order: 11
 date: 2016-10-08
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

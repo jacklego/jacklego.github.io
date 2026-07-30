@@ -1,6 +1,8 @@
 ---
 title: "Mad Cow"
+description: "Mad Cow — a pumpkin carving by Peter Wiegand, 2018."
 image: _mad-cow__thumb.jpg
+image-alt: "A pumpkin carved with a mad cow."
 full: mad-cow.jpg
 extras: 2
 order: 14
@@ -12,11 +14,11 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
 ::: {layout-ncol=2}
-![Another angle](_alt.jpg)
+![Another angle](_alt.jpg){fig-alt="The same Mad Cow pumpkin from another angle."}
 
-![In daylight](_light.jpg)
+![In daylight](_light.jpg){fig-alt="The Mad Cow pumpkin photographed in daylight."}
 
 :::

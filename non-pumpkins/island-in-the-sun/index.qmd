@@ -1,6 +1,8 @@
 ---
 title: "Island in the Sun"
+description: "Island in the Sun — a watermelon carving by Peter Wiegand, 2015."
 image: _island__thumb.jpg
+image-alt: "A watermelon carved with an island in the sun."
 full: island.jpg
 year: 2015
 date: 2015-05-17
@@ -10,4 +12,4 @@ meta:
   captured: "2015-05-17T10:41:12"
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

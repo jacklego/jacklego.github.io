@@ -15,6 +15,7 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
+body-classes: patch-listing
 image: death-star/_death-star__thumb.jpg
 ---
 

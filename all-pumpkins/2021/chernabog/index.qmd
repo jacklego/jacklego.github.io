@@ -1,6 +1,8 @@
 ---
 title: "Chernabog (Fantasia)"
+description: "Chernabog from Fantasia — a pumpkin carving by Peter Wiegand, 2021."
 image: _chernabog__thumb.jpg
+image-alt: "A pumpkin carved with Chernabog from Fantasia."
 full: chernabog.jpg
 order: 6
 date: 2021-10-24
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

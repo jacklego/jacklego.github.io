@@ -11,4 +11,5 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
+body-classes: patch-listing
 ---

@@ -1,6 +1,8 @@
 ---
 title: "The Chronicles of Narnia"
+description: "The Chronicles of Narnia, from The Lion, the Witch and the Wardrobe — a pumpkin carving by Peter Wiegand, 2022."
 image: _narnia__thumb.jpg
+image-alt: "A pumpkin carved with imagery from The Lion, the Witch and the Wardrobe."
 full: narnia.jpg
 order: 2
 date: 2022-10-31
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

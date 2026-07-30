@@ -1,13 +1,16 @@
 ---
 title: "Sofina (DnD)"
+description: "Sofina from Dungeons & Dragons — a pumpkin carving by Peter Wiegand, 2023."
 image: _sofina__thumb.jpg
+image-alt: "A pumpkin carved with Sofina from Dungeons & Dragons: Honor Among Thieves."
 full: sofina.jpg
 order: 12
 date: 2023-10-30
 
 meta:
+  source: "Dungeons & Dragons: Honor Among Thieves (2023)"
   captured: "2023-10-30T18:48:08"
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

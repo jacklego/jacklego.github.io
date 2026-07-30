@@ -1,6 +1,8 @@
 ---
 title: "Samurai"
+description: "Samurai — a pumpkin carving by Peter Wiegand, 2016."
 image: _samurai__thumb.jpg
+image-alt: "A pumpkin carved with a samurai."
 full: samurai.jpg
 order: 4
 date: 2016-10-16
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

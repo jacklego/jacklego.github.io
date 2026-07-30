@@ -1,13 +1,16 @@
 ---
 title: "Beast"
+description: "Beast — a pumpkin carving by Peter Wiegand, 2018."
 image: _beast__thumb.jpg
+image-alt: "A pumpkin carved with Beast from Beauty and the Beast."
 full: beast.jpg
 order: 4
 date: 2018-10-28
 
 meta:
+  source: "Beauty and the Beast"
   captured: "2018-10-28T17:23:49"
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

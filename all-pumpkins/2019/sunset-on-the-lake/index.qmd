@@ -1,6 +1,8 @@
 ---
 title: "Sunset on the Lake"
+description: "Sunset on the Lake — a pumpkin carving by Peter Wiegand, 2019."
 image: _sunset-on-the-lake__thumb.jpg
+image-alt: "A pumpkin carved with a sunset over a lake."
 full: sunset-on-the-lake.jpg
 extras: 1
 order: 7
@@ -12,6 +14,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
-![In daylight](_light.jpg){fig-align="center"}
+![In daylight](_light.jpg){fig-align="center" fig-alt="The Sunset on the Lake pumpkin photographed in daylight."}

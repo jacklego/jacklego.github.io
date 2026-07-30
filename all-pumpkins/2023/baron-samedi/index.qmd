@@ -1,6 +1,8 @@
 ---
 title: "Baron Samedi (Live And Let Die)"
+description: "Baron Samedi from Live and Let Die — a pumpkin carving by Peter Wiegand, 2023."
 image: _baron-samedi__thumb.jpg
+image-alt: "A pumpkin carved with Baron Samedi from Live and Let Die."
 full: baron-samedi.jpg
 order: 10
 date: 2023-10-27
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

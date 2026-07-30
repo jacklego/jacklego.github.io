@@ -1,6 +1,8 @@
 ---
 title: "Grizzly (1976)"
+description: "Grizzly (1976) — a pumpkin carving by Peter Wiegand, 2018."
 image: _grizzly__thumb.jpg
+image-alt: "A pumpkin carved with imagery from Grizzly (1976)."
 full: grizzly.jpg
 order: 12
 date: 2018-10-21
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Carousel"
+description: "Carousel — a pumpkin carving by Peter Wiegand, 2020."
 image: _carousel__thumb.jpg
+image-alt: "A pumpkin carved with a carousel."
 full: carousel.jpg
 order: 8
 date: 2020-10-28
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Captain Phasma"
+description: "Captain Phasma from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _captain-phasma__thumb.jpg
+image-alt: "A pumpkin carved with Captain Phasma from Star Wars."
 full: captain-phasma.jpg
 order: 5
 date: 2020-10-25
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

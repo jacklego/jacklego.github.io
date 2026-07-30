@@ -1,6 +1,8 @@
 ---
 title: Invisible Man
+description: "The Invisible Man — a pumpkin carving by Peter Wiegand, 2025."
 image: _invisible-man__thumb.jpg
+image-alt: "A pumpkin carved with the Invisible Man."
 full: invisible-man.jpg
 order: 6
 date: 2025-10-29
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

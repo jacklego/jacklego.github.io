@@ -1,6 +1,8 @@
 ---
 title: "Darth Maul"
+description: "Darth Maul from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _darth-maul__thumb.jpg
+image-alt: "A pumpkin carved with Darth Maul from Star Wars."
 full: darth-maul.jpg
 order: 6
 date: 2015-10-24
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

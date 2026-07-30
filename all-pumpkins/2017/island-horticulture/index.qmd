@@ -1,6 +1,8 @@
 ---
 title: "Island Horticulture"
+description: "The Island Horticulture logo — a pumpkin carving by Peter Wiegand, 2017."
 image: _island-horticulture__thumb.jpg
+image-alt: "A pumpkin carved with the Island Horticulture logo."
 full: island-horticulture.jpg
 extras: 4
 order: 4
@@ -12,15 +14,15 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
 ::: {layout-ncol=2}
-![Another angle](_colored-alt.jpg)
+![Another angle](_colored-alt.jpg){fig-alt="The coloured Island Horticulture pumpkin from another angle."}
 
-![Before colouring](_uncolored.jpg)
+![Before colouring](_uncolored.jpg){fig-alt="The Island Horticulture pumpkin before colouring."}
 
-![Before colouring, another angle](_uncolored-alt.jpg)
+![Before colouring, another angle](_uncolored-alt.jpg){fig-alt="The uncoloured Island Horticulture pumpkin from another angle."}
 
-![In daylight](_light.jpg)
+![In daylight](_light.jpg){fig-alt="The Island Horticulture pumpkin photographed in daylight."}
 
 :::

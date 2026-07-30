@@ -1,6 +1,8 @@
 ---
 title: "Tarantula (Dr No)"
+description: "Tarantula from Dr. No — a pumpkin carving by Peter Wiegand, 2023."
 image: _tarantula__thumb.jpg
+image-alt: "A pumpkin carved with the tarantula from Dr. No."
 full: tarantula.jpg
 order: 5
 date: 2023-10-29
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

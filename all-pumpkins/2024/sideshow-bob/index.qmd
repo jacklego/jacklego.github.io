@@ -1,6 +1,8 @@
 ---
 title: "Sideshow Bob"
+description: "Sideshow Bob from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _sideshow-bob__thumb.jpg
+image-alt: "A pumpkin carved with Sideshow Bob from The Simpsons."
 full: sideshow-bob.jpg
 order: 1
 date: 2024-10-28
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

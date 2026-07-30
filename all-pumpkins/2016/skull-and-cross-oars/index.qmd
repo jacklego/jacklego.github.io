@@ -1,6 +1,8 @@
 ---
 title: "Skull and Cross-Oars"
+description: "Skull and Cross-Oars — a pumpkin carving by Peter Wiegand, 2016."
 image: _skull-and-cross-oars__thumb.jpg
+image-alt: "A pumpkin carved with a skull and crossed oars."
 full: skull-and-cross-oars.jpg
 order: 8
 date: 2016-10-09
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

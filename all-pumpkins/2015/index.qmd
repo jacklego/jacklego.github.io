@@ -15,5 +15,6 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
+body-classes: patch-listing
 image: millennium-falcon/_millennium-falcon__thumb.jpg
 ---

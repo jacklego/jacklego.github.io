@@ -1,6 +1,8 @@
 ---
 title: "Marge"
+description: "Marge Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _marge__thumb.jpg
+image-alt: "A pumpkin carved with Marge Simpson from The Simpsons."
 full: marge.jpg
 order: 11
 date: 2024-10-30
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

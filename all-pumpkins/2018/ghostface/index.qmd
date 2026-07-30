@@ -1,6 +1,8 @@
 ---
 title: "Ghostface (Scream)"
+description: "Ghostface from Scream — a pumpkin carving by Peter Wiegand, 2018."
 image: _ghostface__thumb.jpg
+image-alt: "A pumpkin carved with Ghostface from Scream."
 full: ghostface.jpg
 order: 6
 date: 2018-10-28
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

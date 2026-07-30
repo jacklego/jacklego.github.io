@@ -1,6 +1,8 @@
 ---
 title: "High Society Logo"
+description: "The High Society logo — a pumpkin carving by Peter Wiegand, 2015."
 image: _high-society-logo__thumb.jpg
+image-alt: "A pumpkin carved with the High Society logo."
 full: high-society-logo.jpg
 order: 1
 date: 2015-10-10
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: Kong
+description: "Kong — a pumpkin carving by Peter Wiegand, 2025."
 image: _kong__thumb.jpg
+image-alt: "A pumpkin carved with King Kong."
 full: kong.jpg
 order: 8
 date: 2025-10-30
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Cruella (2021)"
+description: "Cruella (2021) — a pumpkin carving by Peter Wiegand, 2021."
 image: _cruella__thumb.jpg
+image-alt: "A pumpkin carved with Cruella from Cruella (2021)."
 full: cruella.jpg
 order: 2
 date: 2021-10-28
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

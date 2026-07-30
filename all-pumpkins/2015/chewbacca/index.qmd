@@ -1,6 +1,8 @@
 ---
 title: "Chewbacca"
+description: "Chewbacca from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _chewbacca__thumb.jpg
+image-alt: "A pumpkin carved with Chewbacca from Star Wars."
 full: chewbacca.jpg
 order: 4
 date: 2015-10-30
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

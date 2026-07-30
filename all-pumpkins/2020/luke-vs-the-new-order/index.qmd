@@ -1,6 +1,8 @@
 ---
 title: "Luke vs. The New Order"
+description: "Luke vs. The New Order, from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _luke-vs-the-new-order__thumb.jpg
+image-alt: "A pumpkin carved with Luke Skywalker against the New Order, from Star Wars."
 full: luke-vs-the-new-order.jpg
 order: 2
 date: 2020-10-29
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "New Hope Church"
+description: "The New Hope Church logo — a pumpkin carving by Peter Wiegand, 2022."
 image: _new-hope-church__thumb.jpg
+image-alt: "A pumpkin carved with the New Hope Church logo."
 full: new-hope-church.jpg
 order: 11
 date: 2022-10-26
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Pennywise (It)"
+description: "Pennywise from It — a pumpkin carving by Peter Wiegand, 2018."
 image: _pennywise__thumb.jpg
+image-alt: "A pumpkin carved with Pennywise from It."
 full: pennywise.jpg
 order: 9
 date: 2018-10-26
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

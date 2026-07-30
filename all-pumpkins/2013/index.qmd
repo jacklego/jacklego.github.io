@@ -15,5 +15,6 @@ listing:
   grid-columns: 2
   image-height: 360px
 page-layout: full
+body-classes: patch-listing
 image: r2d2/_r2d2__thumb.jpg
 ---

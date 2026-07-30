@@ -1,6 +1,8 @@
 ---
 title: "Deadpool"
+description: "Deadpool from Marvel — a pumpkin carving by Peter Wiegand, 2016."
 image: _deadpool__thumb.jpg
+image-alt: "A pumpkin carved with Marvel's Deadpool."
 full: deadpool.jpg
 order: 2
 date: 2016-10-29
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

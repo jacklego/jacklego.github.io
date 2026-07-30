@@ -1,6 +1,8 @@
 ---
 title: "Bart"
+description: "Bart Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _bart__thumb.jpg
+image-alt: "A pumpkin carved with Bart Simpson from The Simpsons."
 full: bart.jpg
 order: 4
 date: 2024-10-27
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Krusty"
+description: "Krusty the Clown from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _krusty__thumb.jpg
+image-alt: "A pumpkin carved with Krusty the Clown from The Simpsons."
 full: krusty.jpg
 order: 8
 date: 2024-10-24
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

@@ -1,6 +1,8 @@
 ---
 title: "Darth Vader"
+description: "Darth Vader from Star Wars — a pumpkin carving by Peter Wiegand, 2016."
 image: _darth-vader__thumb.jpg
+image-alt: "A pumpkin carved with Darth Vader from Star Wars."
 full: darth-vader.jpg
 order: 7
 date: 2016-10-15
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

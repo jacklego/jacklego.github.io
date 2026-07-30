@@ -1,6 +1,8 @@
 ---
 title: "NASCAR Trophy"
+description: "NASCAR Trophy — a pumpkin carving by Peter Wiegand, 2019."
 image: _nascar-trophy__thumb.jpg
+image-alt: "A pumpkin carved with a NASCAR trophy."
 full: nascar-trophy.jpg
 order: 9
 date: 2019-10-24
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

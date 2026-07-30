@@ -1,6 +1,8 @@
 ---
 title: "Shan Yu (Mulan)"
+description: "Shan Yu from Mulan — a pumpkin carving by Peter Wiegand, 2021."
 image: _shan-yu__thumb.jpg
+image-alt: "A pumpkin carved with Shan Yu from Mulan."
 full: shan-yu.jpg
 order: 8
 date: 2021-10-21
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

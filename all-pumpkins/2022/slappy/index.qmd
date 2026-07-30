@@ -1,6 +1,8 @@
 ---
 title: "Slappy the Dummy (Goosebumps)"
+description: "Slappy the Dummy from Goosebumps — a pumpkin carving by Peter Wiegand, 2022."
 image: _slappy__thumb.jpg
+image-alt: "A pumpkin carved with Slappy the Dummy from Goosebumps."
 full: slappy.jpg
 order: 9
 date: 2022-10-21
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

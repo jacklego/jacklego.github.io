@@ -1,6 +1,8 @@
 ---
 title: "Friday the 13th"
+description: "Friday the 13th — a pumpkin carving by Peter Wiegand, 2018."
 image: _friday-the-13th__thumb.jpg
+image-alt: "A pumpkin carved with imagery from Friday the 13th."
 full: friday-the-13th.jpg
 order: 7
 date: 2018-10-28
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

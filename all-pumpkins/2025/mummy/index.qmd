@@ -1,6 +1,8 @@
 ---
 title: Mummy
+description: "The Mummy — a pumpkin carving by Peter Wiegand, 2025."
 image: _mummy__thumb.jpg
+image-alt: "A pumpkin carved with the Mummy."
 full: mummy.jpg
 order: 5
 date: 2025-10-28
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

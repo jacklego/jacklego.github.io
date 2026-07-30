@@ -1,6 +1,8 @@
 ---
 title: "Revolvers"
+description: "Revolvers — a pumpkin carving by Peter Wiegand, 2016."
 image: _revolvers__thumb.jpg
+image-alt: "A pumpkin carved with a pair of revolvers."
 full: revolvers.jpg
 extras: 2
 order: 6
@@ -11,11 +13,11 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
 ::: {layout-ncol=2}
-![Aimed left](_aimed-left.jpg)
+![Aimed left](_aimed-left.jpg){fig-alt="The revolvers pumpkin with the barrels aimed to the left."}
 
-![Aimed right](_aimed-right.jpg)
+![Aimed right](_aimed-right.jpg){fig-alt="The revolvers pumpkin with the barrels aimed to the right."}
 
 :::

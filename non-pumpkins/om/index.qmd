@@ -1,6 +1,8 @@
 ---
 title: "Om"
+description: "Om — a watermelon carving by Peter Wiegand, 2015."
 image: _om__thumb.jpg
+image-alt: "A watermelon carved with an om symbol."
 full: om.jpg
 year: 2015
 date: 2015-05-29
@@ -10,4 +12,4 @@ meta:
   medium: watermelon
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

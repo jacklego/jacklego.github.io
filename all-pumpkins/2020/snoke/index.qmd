@@ -1,6 +1,8 @@
 ---
 title: "Supreme Leader Snoke"
+description: "Supreme Leader Snoke from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _snoke__thumb.jpg
+image-alt: "A pumpkin carved with Supreme Leader Snoke from Star Wars."
 full: snoke.jpg
 order: 1
 date: 2020-10-26
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

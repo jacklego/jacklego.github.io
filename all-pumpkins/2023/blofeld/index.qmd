@@ -1,6 +1,8 @@
 ---
 title: "Ernst Stavro Blofeld (You Only Live Twice)"
+description: "Ernst Stavro Blofeld from You Only Live Twice — a pumpkin carving by Peter Wiegand, 2023."
 image: _ernst-stavro-blofeld__thumb.jpg
+image-alt: "A pumpkin carved with Ernst Stavro Blofeld from You Only Live Twice."
 full: ernst-stavro-blofeld.jpg
 order: 7
 date: 2023-10-29
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

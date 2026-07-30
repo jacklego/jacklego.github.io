@@ -1,6 +1,8 @@
 ---
 title: "Yzma (The Emperor's New Groove)"
+description: "Yzma from The Emperor's New Groove — a pumpkin carving by Peter Wiegand, 2021."
 image: _yzma__thumb.jpg
+image-alt: "A pumpkin carved with Yzma from The Emperor's New Groove."
 full: yzma.jpg
 order: 1
 date: 2021-10-29
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

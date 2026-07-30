@@ -1,6 +1,8 @@
 ---
 title: "Teamsters"
+description: "The Teamsters logo — a pumpkin carving by Peter Wiegand, 2013."
 image: _teamster-logo__thumb.jpg
+image-alt: "A pumpkin carved with the Teamsters logo."
 full: teamster-logo.jpg
 order: 2
 date: 2013-10-22
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

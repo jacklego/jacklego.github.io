@@ -1,6 +1,8 @@
 ---
 title: "Dungeons & Dragons"
+description: "The Dungeons & Dragons logo — a pumpkin carving by Peter Wiegand, 2012."
 image: _dnd-logo__thumb.jpg
+image-alt: "A pumpkin carved with the Dungeons & Dragons logo."
 full: dnd-logo.jpg
 order: 1
 date: 2012-10-26
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

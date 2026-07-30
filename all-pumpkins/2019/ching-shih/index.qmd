@@ -1,6 +1,8 @@
 ---
 title: "Ching Shih"
+description: "Ching Shih — a pumpkin carving by Peter Wiegand, 2019."
 image: _ching-shih__thumb.jpg
+image-alt: "A pumpkin carved with Ching Shih, the Chinese pirate."
 full: ching-shih.jpg
 order: 10
 date: 2019-10-22
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

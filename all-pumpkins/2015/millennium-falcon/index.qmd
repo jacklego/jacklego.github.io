@@ -1,6 +1,8 @@
 ---
 title: "Millennium Falcon"
+description: "Millennium Falcon from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _millennium-falcon__thumb.jpg
+image-alt: "A pumpkin carved with the Millennium Falcon from Star Wars."
 full: millennium-falcon.jpg
 order: 8
 date: 2015-10-27
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

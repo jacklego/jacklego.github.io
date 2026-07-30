@@ -1,6 +1,8 @@
 ---
 title: "Army of Mushrooms (Infected Mushroom)"
+description: "Army of Mushrooms from Infected Mushroom — a pumpkin carving by Peter Wiegand, 2014."
 image: _army-of-mushrooms__thumb.jpg
+image-alt: "A pumpkin carved with the Army of Mushrooms cover art by Infected Mushroom."
 full: army-of-mushrooms.jpg
 order: 1
 date: 2014-10-23
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

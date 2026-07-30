@@ -1,6 +1,8 @@
 ---
 title: "Heeeeere's Johnny! (The Shining)"
+description: "Heeeeere's Johnny!, from The Shining — a pumpkin carving by Peter Wiegand, 2018."
 image: _the-shining__thumb.jpg
+image-alt: "A pumpkin carved with the Heeeeere's Johnny! scene from The Shining."
 full: the-shining.jpg
 order: 1
 date: 2018-10-30
@@ -12,4 +14,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

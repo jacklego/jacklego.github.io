@@ -1,6 +1,8 @@
 ---
 title: "Death Star"
+description: "Death Star from Star Wars — a pumpkin carving by Peter Wiegand, 2011."
 image: _death-star__thumb.jpg
+image-alt: "A pumpkin carved with the Death Star from Star Wars."
 full: death-star.jpg
 extras: 1
 order: 2
@@ -13,6 +15,6 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
 
-![In daylight](_light.jpg){fig-align="center"}
+![In daylight](_light.jpg){fig-align="center" fig-alt="The same Death Star pumpkin photographed in daylight."}

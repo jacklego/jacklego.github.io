@@ -1,6 +1,8 @@
 ---
 title: "Celtic Square Knot"
+description: "Celtic Square Knot — a pumpkin carving by Peter Wiegand, 2016."
 image: _celtic-square-knot__thumb.jpg
+image-alt: "A pumpkin carved with a Celtic square knot."
 full: celtic-square-knot.jpg
 order: 5
 date: 2016-10-26
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

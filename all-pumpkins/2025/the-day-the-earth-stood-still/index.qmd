@@ -1,6 +1,8 @@
 ---
 title: (Klaatu) The Day the Earth Stood Still
+description: "Klaatu from The Day the Earth Stood Still — a pumpkin carving by Peter Wiegand, 2025."
 image: _the-day-the-earth-stood-still__thumb.jpg
+image-alt: "A pumpkin carved with Klaatu from The Day the Earth Stood Still."
 full: the-day-the-earth-stood-still.jpg
 order: 3
 date: 2025-10-26
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

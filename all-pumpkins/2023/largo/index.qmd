@@ -1,6 +1,8 @@
 ---
 title: "Emilio Largo (Thunderball)"
+description: "Emilio Largo from Thunderball — a pumpkin carving by Peter Wiegand, 2023."
 image: _emilio-largo__thumb.jpg
+image-alt: "A pumpkin carved with Emilio Largo from Thunderball."
 full: emilio-largo.jpg
 order: 1
 date: 2023-10-22
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

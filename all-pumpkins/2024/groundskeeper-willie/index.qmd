@@ -1,6 +1,8 @@
 ---
 title: "Groundskeeper Willie"
+description: "Groundskeeper Willie from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _groundskeeper-willie__thumb.jpg
+image-alt: "A pumpkin carved with Groundskeeper Willie from The Simpsons."
 full: groundskeeper-willie.jpg
 order: 2
 date: 2024-10-28
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

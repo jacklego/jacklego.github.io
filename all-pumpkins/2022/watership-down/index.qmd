@@ -1,6 +1,8 @@
 ---
 title: "Watership Down"
+description: "Watership Down — a pumpkin carving by Peter Wiegand, 2022."
 image: _watership-down__thumb.jpg
+image-alt: "A pumpkin carved with imagery from Watership Down."
 full: watership-down.jpg
 order: 5
 date: 2022-10-30
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

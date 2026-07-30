@@ -1,6 +1,8 @@
 ---
 title: "R.I.P. Eddie"
+description: "R.I.P. Eddie — a pumpkin carving by Peter Wiegand in memory of Eddie Van Halen, 2020."
 image: _rip-eddie__thumb.jpg
+image-alt: "A pumpkin carved in memory of Eddie Van Halen."
 full: rip-eddie.jpg
 order: 11
 date: 2020-10-07
@@ -13,4 +15,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

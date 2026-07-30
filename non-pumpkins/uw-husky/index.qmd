@@ -1,6 +1,8 @@
 ---
 title: "UW Husky"
+description: "The UW Husky logo — a watermelon carving by Peter Wiegand, 2016."
 image: _husky__thumb.jpg
+image-alt: "A watermelon carved with the UW Husky logo."
 full: husky.jpg
 year: 2016
 date: 2016-06-18
@@ -10,4 +12,4 @@ meta:
   captured: "2016-06-18T09:09:51"
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

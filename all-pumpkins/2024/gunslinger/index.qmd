@@ -1,6 +1,8 @@
 ---
 title: "Gunslinger"
+description: "Gunslinger — a pumpkin carving by Peter Wiegand, 2024."
 image: _gunslinger__thumb.jpg
+image-alt: "A pumpkin carved with a gunslinger."
 full: gunslinger.jpg
 order: 13
 date: 2024-10-29
@@ -11,4 +13,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

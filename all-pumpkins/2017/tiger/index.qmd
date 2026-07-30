@@ -1,6 +1,8 @@
 ---
 title: "Tiger"
+description: "Tiger — a pumpkin carving by Peter Wiegand, 2017."
 image: _tiger__thumb.jpg
+image-alt: "A pumpkin carved with a tiger."
 full: tiger.jpg
 order: 2
 date: 2017-10-21
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

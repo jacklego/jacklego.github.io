@@ -1,6 +1,8 @@
 ---
 title: Wolfman
+description: "The Wolfman — a pumpkin carving by Peter Wiegand, 2025."
 image: _wolfman__thumb.jpg
+image-alt: "A pumpkin carved with the Wolfman."
 full: wolfman.jpg
 order: 10
 date: 2025-10-24
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

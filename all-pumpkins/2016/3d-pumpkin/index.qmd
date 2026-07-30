@@ -1,6 +1,8 @@
 ---
 title: "3D Pumpkin"
+description: "3D Pumpkin — a pumpkin carving by Peter Wiegand, 2016."
 image: _3d-pumpkin__thumb.jpg
+image-alt: "A pumpkin with a three-dimensional carving."
 full: 3d-pumpkin.jpg
 order: 9
 date: 2016-10-27
@@ -10,4 +12,4 @@ meta:
 
 ---
 
-![]({{< meta full >}}){fig-align="center"}
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
