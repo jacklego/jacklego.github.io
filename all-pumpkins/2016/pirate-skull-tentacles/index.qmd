@@ -2,7 +2,7 @@
 title: "Pirate Skull with Tentacles"
 image: _pirate-skull-tentacles__thumb.jpg
 full: pirate-skull-tentacles.jpg
-date: 10/03/16
+order: 3
 
 meta:
   captured: "2016-10-26T00:39:54"

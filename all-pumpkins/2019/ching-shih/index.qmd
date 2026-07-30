@@ -2,7 +2,7 @@
 title: "Ching Shih"
 image: _ching-shih__thumb.jpg
 full: ching-shih.jpg
-date: 10/10/19
+order: 10
 
 meta:
   captured: "2019-10-22T23:19:33"

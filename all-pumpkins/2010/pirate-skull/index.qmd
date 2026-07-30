@@ -2,7 +2,7 @@
 title: "Pirate Skull"
 image: _pirate-skull__thumb.jpg
 full: pirate-skull.jpg
-date: 10/02/10
+order: 2
 
 meta:
   version: 1

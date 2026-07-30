@@ -4,7 +4,7 @@ description: ""
 # date: 10-31-2014
 listing:
   contents: ./*/index.qmd
-  sort: "date asc"
+  sort: "order asc"
   type: grid
   fields: [title, image]
   field-types:

@@ -2,7 +2,7 @@
 title: "NW Vape Logo"
 image: _nw-vape-logo__thumb.jpg
 full: nw-vape-logo.jpg
-date: 10/09/23
+order: 9
 
 meta:
   themed: false

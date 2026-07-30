@@ -2,7 +2,7 @@
 title: "20,000 Leagues Under the Sea"
 image: _20k-leagues__thumb.jpg
 full: 20k-leagues.jpg
-date: 10/01/22
+order: 1
 
 meta:
   source: "Twenty Thousand Leagues Under the Seas"

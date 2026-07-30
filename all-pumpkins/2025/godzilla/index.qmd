@@ -2,7 +2,7 @@
 title: Godzilla
 image: _godzilla__thumb.jpg
 full: godzilla.jpg
-date: 10/07/25
+order: 7
 
 meta:
   captured: "2025-10-27T18:56:01"

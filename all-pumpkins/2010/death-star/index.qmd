@@ -3,7 +3,7 @@ title: "Death Star"
 image: _death-star__thumb.jpg
 full: death-star.jpg
 extras: 1
-date: 10/01/10
+order: 1
 
 meta:
   source: "Star Wars"

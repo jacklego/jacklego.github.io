@@ -2,7 +2,7 @@
 title: "The Rocky Horror Collection"
 image: _rhps-collection__thumb.jpg
 full: rhps-collection.jpg
-date: 10/06/19
+order: 6
 
 meta:
   source: "The Rocky Horror Picture Show"

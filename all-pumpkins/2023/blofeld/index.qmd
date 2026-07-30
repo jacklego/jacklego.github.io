@@ -2,7 +2,7 @@
 title: "Ernst Stavro Blofeld (You Only Live Twice)"
 image: _ernst-stavro-blofeld__thumb.jpg
 full: ernst-stavro-blofeld.jpg
-date: 10/07/23
+order: 7
 
 ---
 

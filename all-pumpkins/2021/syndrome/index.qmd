@@ -2,7 +2,7 @@
 title: "Syndrome (The Incredibles)"
 image: _syndrome__thumb.jpg
 full: syndrome.jpg
-date: 10/10/21
+order: 10
 
 meta:
   source: "The Incredibles"

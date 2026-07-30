@@ -3,7 +3,7 @@ title: "Mad Cow"
 image: _mad-cow__thumb.jpg
 full: mad-cow.jpg
 extras: 2
-date: 10/14/18
+order: 14
 
 meta:
   captured: "2018-10-15T00:22:14"

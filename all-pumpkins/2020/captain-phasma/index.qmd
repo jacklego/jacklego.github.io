@@ -2,7 +2,7 @@
 title: "Captain Phasma"
 image: _captain-phasma__thumb.jpg
 full: captain-phasma.jpg
-date: 10/05/20
+order: 5
 
 meta:
   source: "Star Wars"

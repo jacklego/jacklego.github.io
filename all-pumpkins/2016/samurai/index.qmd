@@ -2,7 +2,7 @@
 title: "Samurai"
 image: _samurai__thumb.jpg
 full: samurai.jpg
-date: 10/04/16
+order: 4
 
 meta:
   captured: "2016-10-16T22:48:19"

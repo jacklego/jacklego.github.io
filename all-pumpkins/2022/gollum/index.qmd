@@ -2,7 +2,7 @@
 title: "Gollum (The Hobbit)"
 image: _gollum__thumb.jpg
 full: gollum.jpg
-date: 10/06/22
+order: 6
 
 meta:
   source: "The Hobbit"

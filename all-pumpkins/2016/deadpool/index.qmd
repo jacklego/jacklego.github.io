@@ -2,7 +2,7 @@
 title: "Deadpool"
 image: _deadpool__thumb.jpg
 full: deadpool.jpg
-date: 10/02/16
+order: 2
 
 meta:
   source: "Marvel"

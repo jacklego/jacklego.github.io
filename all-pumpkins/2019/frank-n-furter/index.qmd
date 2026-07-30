@@ -2,7 +2,7 @@
 title: "Dr. Frank-N-Furter"
 image: _frank-n-furter__thumb.jpg
 full: frank-n-furter.jpg
-date: 10/01/19
+order: 1
 
 meta:
   source: "The Rocky Horror Picture Show"

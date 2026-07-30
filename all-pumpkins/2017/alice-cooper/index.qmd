@@ -2,7 +2,7 @@
 title: "Alice Cooper"
 image: _alice-cooper__thumb.jpg
 full: alice-cooper.jpg
-date: 10/09/17
+order: 9
 
 meta:
   captured: "2017-10-22T19:09:16"

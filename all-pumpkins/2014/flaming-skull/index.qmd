@@ -2,7 +2,7 @@
 title: "Flaming Skull"
 image: _flaming-skull__thumb.jpg
 full: flaming-skull.jpg
-date: 10/05/14
+order: 5
 
 meta:
   captured: "2014-10-29T21:10:01"

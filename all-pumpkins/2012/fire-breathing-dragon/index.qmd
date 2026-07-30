@@ -2,7 +2,7 @@
 title: "Fire-Breathing Dragon"
 image: _fire-breathing-dragon__thumb.jpg
 full: fire-breathing-dragon.jpg
-date: 10/02/12
+order: 2
 
 meta:
   captured: "2012-10-26T23:19:59"

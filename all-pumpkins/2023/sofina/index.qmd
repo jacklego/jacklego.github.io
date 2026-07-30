@@ -2,7 +2,7 @@
 title: "Sofina (DnD)"
 image: _sofina__thumb.jpg
 full: sofina.jpg
-date: 10/12/23
+order: 12
 
 ---
 

@@ -2,7 +2,7 @@
 title: Kong
 image: _kong__thumb.jpg
 full: kong.jpg
-date: 10/08/25
+order: 8
 
 meta:
   captured: "2025-10-30T18:28:23"

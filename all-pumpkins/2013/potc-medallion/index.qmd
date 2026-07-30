@@ -2,7 +2,7 @@
 title: "Cursed Aztec Gold (Pirates of the Caribbean)"
 image: _potc-medallion__thumb.jpg
 full: potc-medallion.jpg
-date: 10/03/13
+order: 3
 
 meta:
   source: "Pirates of the Caribbean"

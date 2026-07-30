@@ -2,7 +2,7 @@
 title: "Boba Fett"
 image: _boba-fett__thumb.jpg
 full: boba-fett.jpg
-date: 10/07/20
+order: 7
 
 meta:
   source: "Star Wars"

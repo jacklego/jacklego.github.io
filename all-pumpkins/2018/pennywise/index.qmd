@@ -2,7 +2,7 @@
 title: "Pennywise (It)"
 image: _pennywise__thumb.jpg
 full: pennywise.jpg
-date: 10/09/18
+order: 9
 
 meta:
   source: "It"

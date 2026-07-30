@@ -3,7 +3,7 @@ title: "R2-D2"
 image: _r2d2__thumb.jpg
 full: r2d2.jpg
 extras: 1
-date: 10/01/13
+order: 1
 
 meta:
   source: "Star Wars"

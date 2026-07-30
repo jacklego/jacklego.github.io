@@ -2,7 +2,7 @@
 title: Frankenstein
 image: _frankenstein__thumb.jpg
 full: frankenstein.jpg
-date: 10/02/25
+order: 2
 
 meta:
   captured: "2025-10-30T18:34:53"

@@ -2,7 +2,7 @@
 title: "Frankenstein (1931)"
 image: _frankenstein__thumb.jpg
 full: frankenstein.jpg
-date: 10/03/18
+order: 3
 
 meta:
   source: "Frankenstein (1931)"

@@ -2,7 +2,7 @@
 title: "Friday the 13th"
 image: _friday-the-13th__thumb.jpg
 full: friday-the-13th.jpg
-date: 10/07/18
+order: 7
 
 meta:
   source: "Friday the 13th"

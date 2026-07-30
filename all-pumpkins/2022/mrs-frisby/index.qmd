@@ -2,7 +2,7 @@
 title: "Mrs. Frisby and the Rats of NIMH"
 image: _mrs-frisby__thumb.jpg
 full: mrs-frisby.jpg
-date: 10/03/22
+order: 3
 
 meta:
   source: "Mrs. Frisby and the Rats of NIMH"

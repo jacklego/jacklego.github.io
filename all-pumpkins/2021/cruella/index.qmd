@@ -2,7 +2,7 @@
 title: "Cruella (2021)"
 image: _cruella__thumb.jpg
 full: cruella.jpg
-date: 10/02/21
+order: 2
 
 meta:
   source: "Cruella (2021)"

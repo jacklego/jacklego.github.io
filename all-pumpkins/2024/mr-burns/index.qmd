@@ -2,7 +2,7 @@
 title: "Mr. Burns"
 image: _mr-burns__thumb.jpg
 full: mr-burns.jpg
-date: 10/10/24
+order: 10
 
 ---
 

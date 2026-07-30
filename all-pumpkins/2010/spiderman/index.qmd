@@ -2,7 +2,7 @@
 title: "Spider-Man"
 image: _spiderman__thumb.jpg
 full: spiderman.jpg
-date: 10/03/10
+order: 3
 
 meta:
   source: "Marvel"

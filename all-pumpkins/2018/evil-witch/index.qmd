@@ -2,7 +2,7 @@
 title: "Evil Witch (Snow White)"
 image: _evil-witch__thumb.jpg
 full: evil-witch.jpg
-date: 10/02/18
+order: 2
 
 meta:
   source: "Snow White and the Seven Dwarfs"

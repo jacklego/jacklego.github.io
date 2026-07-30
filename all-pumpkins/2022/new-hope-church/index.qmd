@@ -2,7 +2,7 @@
 title: "New Hope Church"
 image: _new-hope-church__thumb.jpg
 full: new-hope-church.jpg
-date: 10/11/22
+order: 11
 
 meta:
   captured: "2022-10-26T17:58:51"

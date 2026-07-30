@@ -2,7 +2,7 @@
 title: "Slappy the Dummy (Goosebumps)"
 image: _slappy__thumb.jpg
 full: slappy.jpg
-date: 10/09/22
+order: 9
 
 meta:
   source: "Goosebumps"

@@ -3,7 +3,7 @@ title: "Revolvers"
 image: _revolvers__thumb.jpg
 full: revolvers.jpg
 extras: 2
-date: 10/06/16
+order: 6
 
 meta:
   captured: "2016-10-29T19:44:15"

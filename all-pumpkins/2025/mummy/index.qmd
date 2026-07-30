@@ -2,7 +2,7 @@
 title: Mummy
 image: _mummy__thumb.jpg
 full: mummy.jpg
-date: 10/05/25
+order: 5
 
 meta:
   captured: "2025-10-28T19:23:32"

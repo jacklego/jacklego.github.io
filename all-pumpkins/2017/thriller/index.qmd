@@ -2,7 +2,7 @@
 title: "Thriller (Michael Jackson)"
 image: _thriller__thumb.jpg
 full: thriller.jpg
-date: 10/07/17
+order: 7
 
 meta:
   source: "Michael Jackson"

@@ -2,7 +2,7 @@
 title: Nosferatu
 image: _nosferatu__thumb.jpg
 full: nosferatu.jpg
-date: 10/09/25
+order: 9
 
 meta:
   captured: "2025-10-25T19:48:16"

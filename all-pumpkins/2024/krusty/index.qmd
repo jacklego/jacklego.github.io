@@ -2,7 +2,7 @@
 title: "Krusty"
 image: _krusty__thumb.jpg
 full: krusty.jpg
-date: 10/08/24
+order: 8
 
 ---
 

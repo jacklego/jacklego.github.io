@@ -2,7 +2,7 @@
 title: (Klaatu) The Day the Earth Stood Still
 image: _the-day-the-earth-stood-still__thumb.jpg
 full: the-day-the-earth-stood-still.jpg
-date: 10/03/25
+order: 3
 
 meta:
   captured: "2025-10-26T18:24:39"

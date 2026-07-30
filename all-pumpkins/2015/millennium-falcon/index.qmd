@@ -2,7 +2,7 @@
 title: "Millennium Falcon"
 image: _millennium-falcon__thumb.jpg
 full: millennium-falcon.jpg
-date: 10/08/15
+order: 8
 
 meta:
   source: "Star Wars"

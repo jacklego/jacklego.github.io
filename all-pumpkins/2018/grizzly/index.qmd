@@ -2,7 +2,7 @@
 title: "Grizzly (1976)"
 image: _grizzly__thumb.jpg
 full: grizzly.jpg
-date: 10/12/18
+order: 12
 
 meta:
   source: "Grizzly (1976)"

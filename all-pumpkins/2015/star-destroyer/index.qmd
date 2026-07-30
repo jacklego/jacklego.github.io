@@ -2,7 +2,7 @@
 title: "Star Destroyer"
 image: _star-destroyer__thumb.jpg
 full: star-destroyer.jpg
-date: 10/07/15
+order: 7
 
 meta:
   source: "Star Wars"

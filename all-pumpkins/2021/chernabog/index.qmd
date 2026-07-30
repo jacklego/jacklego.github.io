@@ -2,7 +2,7 @@
 title: "Chernabog (Fantasia)"
 image: _chernabog__thumb.jpg
 full: chernabog.jpg
-date: 10/06/21
+order: 6
 
 meta:
   source: "Fantasia"

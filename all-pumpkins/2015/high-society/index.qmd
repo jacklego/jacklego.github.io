@@ -2,7 +2,7 @@
 title: "High Society Logo"
 image: _high-society-logo__thumb.jpg
 full: high-society-logo.jpg
-date: 10/01/15
+order: 1
 
 meta:
   captured: "2015-10-10T21:38:37"

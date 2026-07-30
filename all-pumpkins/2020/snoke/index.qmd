@@ -2,7 +2,7 @@
 title: "Supreme Leader Snoke"
 image: _snoke__thumb.jpg
 full: snoke.jpg
-date: 10/01/20
+order: 1
 
 meta:
   source: "Star Wars"

@@ -2,7 +2,7 @@
 title: "Emilio Largo (Thunderball)"
 image: _emilio-largo__thumb.jpg
 full: emilio-largo.jpg
-date: 10/01/23
+order: 1
 
 ---
 

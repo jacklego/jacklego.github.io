@@ -2,7 +2,7 @@
 title: "Magenta"
 image: _magenta__thumb.jpg
 full: magenta.jpg
-date: 10/04/19
+order: 4
 
 meta:
   source: "The Rocky Horror Picture Show"

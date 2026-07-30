@@ -2,7 +2,7 @@
 title: "Lisa"
 image: _lisa__thumb.jpg
 full: lisa.jpg
-date: 10/06/24
+order: 6
 
 ---
 

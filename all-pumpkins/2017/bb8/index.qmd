@@ -2,7 +2,7 @@
 title: "BB-8"
 image: _bb8__thumb.jpg
 full: bb8.jpg
-date: 10/05/17
+order: 5
 
 meta:
   source: "Star Wars"

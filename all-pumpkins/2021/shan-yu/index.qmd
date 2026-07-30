@@ -2,7 +2,7 @@
 title: "Shan Yu (Mulan)"
 image: _shan-yu__thumb.jpg
 full: shan-yu.jpg
-date: 10/08/21
+order: 8
 
 meta:
   source: "Mulan"

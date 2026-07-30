@@ -2,7 +2,7 @@
 title: "Kylo Ren"
 image: _kylo-ren__thumb.jpg
 full: kylo-ren.jpg
-date: 10/03/20
+order: 3
 
 meta:
   source: "Star Wars"

@@ -2,7 +2,7 @@
 title: "Schack Art Museum"
 image: _schack-art-museum__thumb.jpg
 full: schack-art-museum.jpg
-date: 10/12/21
+order: 12
 
 meta:
   captured: "2021-10-23T10:10:48"
