@@ -16,6 +16,7 @@ website:
     position: above-navbar
   navbar:
     background: black
+    tools-collapse: true
     left: 
       - text: "This Year's Patch"
         href: all-pumpkins/2025
