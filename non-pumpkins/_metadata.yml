@@ -1,4 +1,5 @@
 title-block-banner: true
+title-block-categories: false
 
 # Carving pages hide the front matter `description:` (it is SEO metadata,
 # not a subtitle). Listing pages override this -- see sass/theme.scss.
