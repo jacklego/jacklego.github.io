@@ -1,5 +1,6 @@
 ---
 title: "A Chopwork Orange"
+pagetitle: "A Chopwork Orange pumpkin carving"
 description: "A Chopwork Orange, from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _a-chopwork-orange__thumb.jpg
 image-alt: "A pumpkin carved with A Chopwork Orange, from The Simpsons."

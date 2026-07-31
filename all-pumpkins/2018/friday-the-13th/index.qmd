@@ -1,5 +1,6 @@
 ---
 title: "Friday the 13th"
+pagetitle: "Friday the 13th pumpkin carving"
 description: "Friday the 13th — a pumpkin carving by Peter Wiegand, 2018."
 image: _friday-the-13th__thumb.jpg
 image-alt: "A pumpkin carved with imagery from Friday the 13th."

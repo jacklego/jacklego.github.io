@@ -1,5 +1,6 @@
 ---
 title: "Revolvers"
+pagetitle: "Revolvers pumpkin carving"
 description: "Revolvers — a pumpkin carving by Peter Wiegand, 2016."
 image: _revolvers__thumb.jpg
 image-alt: "A pumpkin carved with a pair of revolvers."

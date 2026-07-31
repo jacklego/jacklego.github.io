@@ -1,5 +1,6 @@
 ---
 title: "Eddie (Iron Maiden)"
+pagetitle: "Eddie pumpkin carving (Iron Maiden)"
 description: "Eddie from Iron Maiden — a pumpkin carving by Peter Wiegand, 2017."
 image: _eddie__thumb.jpg
 image-alt: "A pumpkin carved with Eddie from Iron Maiden, as he appears on the Killers album art."

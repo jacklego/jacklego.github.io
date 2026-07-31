@@ -1,5 +1,6 @@
 ---
 title: "Pineapple"
+pagetitle: "Pineapple watermelon carving"
 description: "Pineapple — a watermelon carving by Peter Wiegand, 2015."
 image: _pineapple__thumb.jpg
 image-alt: "A watermelon carved with a pineapple."

@@ -1,5 +1,6 @@
 ---
 title: "Tiger"
+pagetitle: "Tiger pumpkin carving"
 description: "Tiger — a pumpkin carving by Peter Wiegand, 2017."
 image: _tiger__thumb.jpg
 image-alt: "A pumpkin carved with a tiger."

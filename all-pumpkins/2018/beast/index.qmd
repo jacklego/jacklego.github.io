@@ -1,5 +1,6 @@
 ---
 title: "Beast"
+pagetitle: "Beast pumpkin carving (Beauty and the Beast)"
 description: "Beast — a pumpkin carving by Peter Wiegand, 2018."
 image: _beast__thumb.jpg
 image-alt: "A pumpkin carved with Beast from Beauty and the Beast."

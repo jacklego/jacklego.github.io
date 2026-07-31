@@ -1,5 +1,6 @@
 ---
 title: "Dr. Frank-N-Furter"
+pagetitle: "Dr. Frank-N-Furter pumpkin carving"
 description: "Dr. Frank-N-Furter from The Rocky Horror Picture Show — a pumpkin carving by Peter Wiegand, 2019."
 image: _frank-n-furter__thumb.jpg
 image-alt: "A pumpkin carved with Dr. Frank-N-Furter from The Rocky Horror Picture Show."

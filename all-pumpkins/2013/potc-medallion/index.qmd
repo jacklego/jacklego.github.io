@@ -1,5 +1,6 @@
 ---
 title: "Cursed Aztec Gold (Pirates of the Caribbean)"
+pagetitle: "Cursed Aztec Gold pumpkin carving"
 description: "Cursed Aztec Gold from Pirates of the Caribbean — a pumpkin carving by Peter Wiegand, 2013."
 image: _potc-medallion__thumb.jpg
 image-alt: "A pumpkin carved with the cursed Aztec gold medallion from Pirates of the Caribbean."

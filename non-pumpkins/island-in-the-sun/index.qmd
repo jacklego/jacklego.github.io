@@ -1,5 +1,6 @@
 ---
 title: "Island in the Sun"
+pagetitle: "Island in the Sun watermelon carving"
 description: "Island in the Sun — a watermelon carving by Peter Wiegand, 2015."
 image: _island__thumb.jpg
 image-alt: "A watermelon carved with an island in the sun."

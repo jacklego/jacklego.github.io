@@ -1,5 +1,6 @@
 ---
 title: "Sideshow Bob"
+pagetitle: "Sideshow Bob pumpkin carving"
 description: "Sideshow Bob from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _sideshow-bob__thumb.jpg
 image-alt: "A pumpkin carved with Sideshow Bob from The Simpsons."

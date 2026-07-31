@@ -1,5 +1,6 @@
 ---
 title: "Francisco Scaramanga (Man W Golden Gun)"
+pagetitle: "Francisco Scaramanga pumpkin carving"
 description: "Francisco Scaramanga from The Man with the Golden Gun — a pumpkin carving by Peter Wiegand, 2023."
 image: _francisco-scaramanga__thumb.jpg
 image-alt: "A pumpkin carved with Francisco Scaramanga from The Man with the Golden Gun."

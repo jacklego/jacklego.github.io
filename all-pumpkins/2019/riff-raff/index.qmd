@@ -1,5 +1,6 @@
 ---
 title: "Riff Raff"
+pagetitle: "Riff Raff pumpkin carving (Rocky Horror)"
 description: "Riff Raff from The Rocky Horror Picture Show — a pumpkin carving by Peter Wiegand, 2019."
 image: _riff-raff__thumb.jpg
 image-alt: "A pumpkin carved with Riff Raff from The Rocky Horror Picture Show."

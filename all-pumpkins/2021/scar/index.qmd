@@ -1,5 +1,6 @@
 ---
 title: "Scar (The Lion King)"
+pagetitle: "Scar pumpkin carving (The Lion King)"
 description: "Scar from The Lion King — a pumpkin carving by Peter Wiegand, 2021."
 image: _scar__thumb.jpg
 image-alt: "A pumpkin carved with Scar from The Lion King."

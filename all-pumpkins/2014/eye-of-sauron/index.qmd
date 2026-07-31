@@ -1,5 +1,6 @@
 ---
 title: "The Eye of Sauron (The Lord of the Rings)"
+pagetitle: "The Eye of Sauron pumpkin carving"
 description: "The Eye of Sauron from The Lord of the Rings — a pumpkin carving by Peter Wiegand, 2014."
 image: _eye-of-sauron__thumb.jpg
 image-alt: "A pumpkin carved with the Eye of Sauron from The Lord of the Rings."

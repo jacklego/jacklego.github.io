@@ -1,5 +1,6 @@
 ---
 title: "Darth Sidious"
+pagetitle: "Darth Sidious pumpkin carving"
 description: "Darth Sidious from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _darth-sidious__thumb.jpg
 image-alt: "A pumpkin carved with Darth Sidious from Star Wars."

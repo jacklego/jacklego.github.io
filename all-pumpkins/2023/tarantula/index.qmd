@@ -1,5 +1,6 @@
 ---
 title: "Tarantula (Dr No)"
+pagetitle: "Tarantula pumpkin carving"
 description: "Tarantula from Dr. No — a pumpkin carving by Peter Wiegand, 2023."
 image: _tarantula__thumb.jpg
 image-alt: "A pumpkin carved with the tarantula from Dr. No."

@@ -1,5 +1,6 @@
 ---
 title: "Schack Art Museum"
+pagetitle: "Schack Art Museum logo pumpkin carving"
 description: "The Schack Art Museum logo — a pumpkin carving by Peter Wiegand, 2021."
 image: _schack-art-museum__thumb.jpg
 image-alt: "A pumpkin carved with the Schack Art Museum logo."

@@ -1,5 +1,6 @@
 ---
 title: "Red Rock Subs Logo"
+pagetitle: "Red Rock Subs logo pumpkin carving"
 description: "The Red Rock Subs logo — a pumpkin carving by Peter Wiegand, 2019."
 image: _red-rock-subs__thumb.jpg
 image-alt: "A pumpkin carved with the Red Rock Subs logo."

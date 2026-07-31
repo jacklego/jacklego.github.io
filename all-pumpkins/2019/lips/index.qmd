@@ -1,5 +1,6 @@
 ---
 title: "Lips"
+pagetitle: "Rocky Horror Picture Show lips logo pumpkin carving"
 description: "The Rocky Horror Picture Show lips logo — a pumpkin carving by Peter Wiegand, 2019."
 image: _lips__thumb.jpg
 image-alt: "A pumpkin carved with the lips logo from The Rocky Horror Picture Show."

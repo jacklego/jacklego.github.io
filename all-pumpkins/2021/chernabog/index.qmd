@@ -1,5 +1,6 @@
 ---
 title: "Chernabog (Fantasia)"
+pagetitle: "Chernabog pumpkin carving"
 description: "Chernabog from Fantasia — a pumpkin carving by Peter Wiegand, 2021."
 image: _chernabog__thumb.jpg
 image-alt: "A pumpkin carved with Chernabog from Fantasia."

@@ -1,5 +1,6 @@
 ---
 title: "Oddjob (Goldfinger)"
+pagetitle: "Oddjob pumpkin carving"
 description: "Oddjob from Goldfinger — a pumpkin carving by Peter Wiegand, 2023."
 image: _oddjob__thumb.jpg
 image-alt: "A pumpkin carved with Oddjob from Goldfinger."

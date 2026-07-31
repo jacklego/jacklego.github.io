@@ -1,5 +1,6 @@
 ---
 title: "Island Horticulture"
+pagetitle: "Island Horticulture logo pumpkin carving"
 description: "The Island Horticulture logo — a pumpkin carving by Peter Wiegand, 2017."
 image: _island-horticulture__thumb.jpg
 image-alt: "A pumpkin carved with the Island Horticulture logo."

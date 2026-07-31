@@ -1,5 +1,6 @@
 ---
 title: "Columbia"
+pagetitle: "Columbia pumpkin carving (Rocky Horror)"
 description: "Columbia from The Rocky Horror Picture Show — a pumpkin carving by Peter Wiegand, 2019."
 image: _columbia__thumb.jpg
 image-alt: "A pumpkin carved with Columbia from The Rocky Horror Picture Show."

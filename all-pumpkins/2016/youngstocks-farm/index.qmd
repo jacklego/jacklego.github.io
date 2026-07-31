@@ -1,5 +1,6 @@
 ---
 title: "Youngstock's Farm"
+pagetitle: "Youngstock's Farm logo pumpkin carving"
 description: "The Youngstock's Farm logo — a pumpkin carving by Peter Wiegand, 2016."
 image: _youngstocks-farm__thumb.jpg
 image-alt: "A pumpkin carved with the Youngstock's Farm logo."

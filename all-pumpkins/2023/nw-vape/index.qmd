@@ -1,5 +1,6 @@
 ---
 title: "NW Vape Logo"
+pagetitle: "NW Vape logo pumpkin carving"
 description: "The NW Vape logo — a pumpkin carving by Peter Wiegand, 2023."
 image: _nw-vape-logo__thumb.jpg
 image-alt: "A pumpkin carved with the NW Vape logo."

@@ -1,5 +1,6 @@
 ---
 title: "Gollum (The Hobbit)"
+pagetitle: "Gollum pumpkin carving"
 description: "Gollum from The Hobbit — a pumpkin carving by Peter Wiegand, 2022."
 image: _gollum__thumb.jpg
 image-alt: "A pumpkin carved with Gollum from The Hobbit."

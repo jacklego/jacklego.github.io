@@ -1,5 +1,6 @@
 ---
 title: "Kylo Ren"
+pagetitle: "Kylo Ren pumpkin carving"
 description: "Kylo Ren from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _kylo-ren__thumb.jpg
 image-alt: "A pumpkin carved with Kylo Ren from Star Wars."

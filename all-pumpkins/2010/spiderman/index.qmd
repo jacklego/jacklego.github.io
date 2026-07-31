@@ -1,5 +1,6 @@
 ---
 title: "Spider-Man"
+pagetitle: "Spider-Man pumpkin carving"
 description: "Spider-Man from Marvel — a pumpkin carving by Peter Wiegand, 2004."
 image: _spiderman__thumb.jpg
 image-alt: "A pumpkin carved with Marvel's Spider-Man."

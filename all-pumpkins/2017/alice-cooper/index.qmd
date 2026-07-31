@@ -1,5 +1,6 @@
 ---
 title: "Alice Cooper"
+pagetitle: "Alice Cooper pumpkin carving"
 description: "Alice Cooper — a pumpkin carving by Peter Wiegand, 2017."
 image: _alice-cooper__thumb.jpg
 image-alt: "A pumpkin carved with Alice Cooper."

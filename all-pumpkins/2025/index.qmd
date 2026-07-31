@@ -1,5 +1,6 @@
 ---
 title: "2025"
+pagetitle: "2025 pumpkin carvings: Classic Movie Monsters"
 description: Classic Movie Monsters
 date: 2025-10-31
 listing:

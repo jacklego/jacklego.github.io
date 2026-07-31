@@ -1,5 +1,6 @@
 ---
 title: "Lisa"
+pagetitle: "Lisa Simpson pumpkin carving"
 description: "Lisa Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _lisa__thumb.jpg
 image-alt: "A pumpkin carved with Lisa Simpson from The Simpsons."

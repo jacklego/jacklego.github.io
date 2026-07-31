@@ -1,5 +1,6 @@
 ---
 title: Invisible Man
+pagetitle: "The Invisible Man pumpkin carving"
 description: "The Invisible Man — a pumpkin carving by Peter Wiegand, 2025."
 image: _invisible-man__thumb.jpg
 image-alt: "A pumpkin carved with the Invisible Man."

@@ -1,5 +1,6 @@
 ---
 title: "Maggie"
+pagetitle: "Maggie Simpson pumpkin carving"
 description: "Maggie Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _maggie__thumb.jpg
 image-alt: "A pumpkin carved with Maggie Simpson from The Simpsons."

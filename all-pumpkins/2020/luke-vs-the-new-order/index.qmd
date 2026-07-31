@@ -1,5 +1,6 @@
 ---
 title: "Luke vs. The New Order"
+pagetitle: "Luke vs. The New Order pumpkin carving"
 description: "Luke vs. The New Order, from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _luke-vs-the-new-order__thumb.jpg
 image-alt: "A pumpkin carved with Luke Skywalker against the New Order, from Star Wars."

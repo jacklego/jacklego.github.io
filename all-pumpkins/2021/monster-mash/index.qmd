@@ -1,5 +1,6 @@
 ---
 title: "Monster Mash"
+pagetitle: "Monster Mash pumpkin carving"
 description: "Monster Mash — a pumpkin carving by Peter Wiegand, 2021."
 image: _monster-mash__thumb.jpg
 image-alt: "A pumpkin carved with Frankenstein and Bride doing the monster mash."

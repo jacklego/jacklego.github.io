@@ -1,5 +1,6 @@
 ---
 title: "Darth Vader"
+pagetitle: "Darth Vader pumpkin carving, v2, 2016"
 description: "Darth Vader from Star Wars — a pumpkin carving by Peter Wiegand, 2016."
 image: _darth-vader__thumb.jpg
 image-alt: "A pumpkin carved with Darth Vader from Star Wars."

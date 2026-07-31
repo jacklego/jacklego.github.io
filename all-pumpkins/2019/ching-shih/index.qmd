@@ -1,5 +1,6 @@
 ---
 title: "Ching Shih"
+pagetitle: "Ching Shih pumpkin carving"
 description: "Ching Shih — a pumpkin carving by Peter Wiegand, 2019."
 image: _ching-shih__thumb.jpg
 image-alt: "A pumpkin carved with Ching Shih, the Chinese pirate."

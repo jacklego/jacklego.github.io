@@ -1,5 +1,6 @@
 ---
 title: (Klaatu) The Day the Earth Stood Still
+pagetitle: "Klaatu pumpkin carving (The Day the Earth Stood Still)"
 description: "Klaatu from The Day the Earth Stood Still — a pumpkin carving by Peter Wiegand, 2025."
 image: _the-day-the-earth-stood-still__thumb.jpg
 image-alt: "A pumpkin carved with Klaatu from The Day the Earth Stood Still."

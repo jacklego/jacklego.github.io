@@ -1,5 +1,6 @@
 ---
 title: "Ghostface (Scream)"
+pagetitle: "Ghostface pumpkin carving"
 description: "Ghostface from Scream — a pumpkin carving by Peter Wiegand, 2018."
 image: _ghostface__thumb.jpg
 image-alt: "A pumpkin carved with Ghostface from Scream."

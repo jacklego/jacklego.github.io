@@ -1,5 +1,6 @@
 ---
 title: Godzilla
+pagetitle: "Godzilla pumpkin carving"
 description: "Godzilla — a pumpkin carving by Peter Wiegand, 2025."
 image: _godzilla__thumb.jpg
 image-alt: "A pumpkin carved with Godzilla."

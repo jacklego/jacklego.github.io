@@ -1,5 +1,6 @@
 ---
 title: "Evil Witch (Snow White)"
+pagetitle: "Evil Witch pumpkin carving"
 description: "Evil Witch from Snow White and the Seven Dwarfs — a pumpkin carving by Peter Wiegand, 2018."
 image: _evil-witch__thumb.jpg
 image-alt: "A pumpkin carved with the Evil Witch from Snow White and the Seven Dwarfs."

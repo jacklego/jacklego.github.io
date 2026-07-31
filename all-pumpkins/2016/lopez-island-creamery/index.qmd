@@ -1,5 +1,6 @@
 ---
 title: "Lopez Island Creamery"
+pagetitle: "Lopez Island Creamery logo pumpkin carving"
 description: "The Lopez Island Creamery logo — a pumpkin carving by Peter Wiegand, 2016."
 image: _lopez-island-creamery__thumb.jpg
 image-alt: "A pumpkin carved with the Lopez Island Creamery logo."

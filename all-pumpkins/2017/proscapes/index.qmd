@@ -1,5 +1,6 @@
 ---
 title: "Proscapes"
+pagetitle: "Proscapes logo pumpkin carving"
 description: "The Proscapes logo — a pumpkin carving by Peter Wiegand, 2017."
 image: _proscapes__thumb.jpg
 image-alt: "A pumpkin carved with the Proscapes logo."

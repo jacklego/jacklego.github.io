@@ -1,5 +1,6 @@
 ---
 title: Homer
+pagetitle: "Homer Simpson pumpkin carving"
 description: "Homer Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _homer__thumb.jpg
 image-alt: "A pumpkin carved with Homer Simpson from The Simpsons."

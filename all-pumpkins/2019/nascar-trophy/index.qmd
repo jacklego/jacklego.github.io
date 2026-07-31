@@ -1,5 +1,6 @@
 ---
 title: "NASCAR Trophy"
+pagetitle: "NASCAR Trophy pumpkin carving"
 description: "NASCAR Trophy — a pumpkin carving by Peter Wiegand, 2019."
 image: _nascar-trophy__thumb.jpg
 image-alt: "A pumpkin carved with a NASCAR trophy."

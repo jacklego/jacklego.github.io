@@ -1,5 +1,6 @@
 ---
 title: Dracula
+pagetitle: "Dracula pumpkin carving"
 description: "Dracula — a pumpkin carving by Peter Wiegand, 2025."
 image: _dracula__thumb.jpg
 image-alt: "A pumpkin carved with Dracula."

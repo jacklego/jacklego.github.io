@@ -1,5 +1,6 @@
 ---
 title: "R.I.P. Eddie"
+pagetitle: "Eddie Van Halen memorial pumpkin carving"
 description: "R.I.P. Eddie — a pumpkin carving by Peter Wiegand in memory of Eddie Van Halen, 2020."
 image: _rip-eddie__thumb.jpg
 image-alt: "A pumpkin carved in memory of Eddie Van Halen."

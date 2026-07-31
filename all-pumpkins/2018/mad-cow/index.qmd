@@ -1,5 +1,6 @@
 ---
 title: "Mad Cow"
+pagetitle: "Mad Cow pumpkin carving"
 description: "Mad Cow — a pumpkin carving by Peter Wiegand, 2018."
 image: _mad-cow__thumb.jpg
 image-alt: "A pumpkin carved with a mad cow."

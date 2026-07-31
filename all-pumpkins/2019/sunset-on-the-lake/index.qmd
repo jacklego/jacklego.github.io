@@ -1,5 +1,6 @@
 ---
 title: "Sunset on the Lake"
+pagetitle: "Sunset on the Lake pumpkin carving"
 description: "Sunset on the Lake — a pumpkin carving by Peter Wiegand, 2019."
 image: _sunset-on-the-lake__thumb.jpg
 image-alt: "A pumpkin carved with a sunset over a lake."

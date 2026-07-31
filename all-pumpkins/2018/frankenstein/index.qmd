@@ -1,5 +1,6 @@
 ---
 title: "Frankenstein (1931)"
+pagetitle: "Frankenstein (1931) pumpkin carving"
 description: "Frankenstein (1931) — a pumpkin carving by Peter Wiegand, 2018."
 image: _frankenstein__thumb.jpg
 image-alt: "A pumpkin carved with Frankenstein's monster from Frankenstein (1931)."

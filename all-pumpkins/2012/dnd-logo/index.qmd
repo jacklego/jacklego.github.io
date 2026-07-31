@@ -1,5 +1,6 @@
 ---
 title: "Dungeons & Dragons"
+pagetitle: "Dungeons & Dragons logo pumpkin carving"
 description: "The Dungeons & Dragons logo — a pumpkin carving by Peter Wiegand, 2012."
 image: _dnd-logo__thumb.jpg
 image-alt: "A pumpkin carved with the Dungeons & Dragons logo."

@@ -1,5 +1,6 @@
 ---
 title: "All Pumpkins"
+pagetitle: "All pumpkin carvings by year"
 listing:
   contents: ./*/index.qmd
   feed: true

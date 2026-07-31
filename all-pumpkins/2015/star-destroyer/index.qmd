@@ -1,5 +1,6 @@
 ---
 title: "Star Destroyer"
+pagetitle: "Star Destroyer pumpkin carving"
 description: "Star Destroyer from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _star-destroyer__thumb.jpg
 image-alt: "A pumpkin carved with a Star Destroyer from Star Wars."

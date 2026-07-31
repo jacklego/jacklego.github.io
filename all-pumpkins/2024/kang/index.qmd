@@ -1,5 +1,6 @@
 ---
 title: "Kang"
+pagetitle: "Kang pumpkin carving"
 description: "Kang from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _kang__thumb.jpg
 image-alt: "A pumpkin carved with Kang from The Simpsons."

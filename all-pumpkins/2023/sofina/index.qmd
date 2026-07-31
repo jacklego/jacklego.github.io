@@ -1,5 +1,6 @@
 ---
 title: "Sofina (DnD)"
+pagetitle: "Sofina pumpkin carving"
 description: "Sofina from Dungeons & Dragons — a pumpkin carving by Peter Wiegand, 2023."
 image: _sofina__thumb.jpg
 image-alt: "A pumpkin carved with Sofina from Dungeons & Dragons: Honor Among Thieves."

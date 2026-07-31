@@ -1,5 +1,6 @@
 ---
 title: "Celtic Square Knot"
+pagetitle: "Celtic Square Knot pumpkin carving"
 description: "Celtic Square Knot — a pumpkin carving by Peter Wiegand, 2016."
 image: _celtic-square-knot__thumb.jpg
 image-alt: "A pumpkin carved with a Celtic square knot."

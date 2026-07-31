@@ -1,5 +1,6 @@
 ---
 title: "Teamsters Logo"
+pagetitle: "Teamsters logo pumpkin carving"
 description: "The Teamsters logo — a pumpkin carving by Peter Wiegand, 2013."
 image: _teamster-logo__thumb.jpg
 image-alt: "A pumpkin carved with the Teamsters logo."

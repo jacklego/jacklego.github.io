@@ -1,5 +1,6 @@
 ---
 title: "Cruella de Vil (101 Dalmatians)"
+pagetitle: "Cruella de Vil pumpkin carving"
 description: "Cruella de Vil from 101 Dalmatians — a pumpkin carving by Peter Wiegand, 2021."
 image: _cruella-de-vil__thumb.jpg
 image-alt: "A pumpkin carved with Cruella de Vil from 101 Dalmatians."

@@ -1,5 +1,6 @@
 ---
 title: "Tatooine"
+pagetitle: "Tatooine pumpkin carving"
 description: "Tatooine from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _tatooine__thumb.jpg
 image-alt: "A pumpkin carved with Tatooine from Star Wars."

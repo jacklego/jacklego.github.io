@@ -1,5 +1,6 @@
 ---
 title: "Pan & Hook (Peter Pan)"
+pagetitle: "Pan & Hook pumpkin carving"
 description: "Pan & Hook from Peter Pan — a pumpkin carving by Peter Wiegand, 2021."
 image: _pan-and-hook__thumb.jpg
 image-alt: "A pumpkin carved with Peter Pan and Captain Hook, from Peter Pan."

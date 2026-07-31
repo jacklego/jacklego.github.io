@@ -1,5 +1,6 @@
 ---
 title: "Flanders"
+pagetitle: "Ned Flanders pumpkin carving"
 description: "Ned Flanders from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _flanders__thumb.jpg
 image-alt: "A pumpkin carved with Ned Flanders from The Simpsons."

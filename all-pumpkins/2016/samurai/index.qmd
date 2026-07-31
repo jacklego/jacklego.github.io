@@ -1,5 +1,6 @@
 ---
 title: "Samurai"
+pagetitle: "Samurai pumpkin carving"
 description: "Samurai — a pumpkin carving by Peter Wiegand, 2016."
 image: _samurai__thumb.jpg
 image-alt: "A pumpkin carved with a samurai."

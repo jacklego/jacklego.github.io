@@ -1,5 +1,6 @@
 ---
 title: "Rose"
+pagetitle: "Rose watermelon carving"
 description: "Rose — a watermelon carving by Peter Wiegand, 2015."
 image: _rose__thumb.jpg
 image-alt: "A watermelon carved with a rose."

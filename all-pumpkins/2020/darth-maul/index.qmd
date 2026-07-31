@@ -1,5 +1,6 @@
 ---
 title: "Darth Maul"
+pagetitle: "Darth Maul pumpkin carving, v2, 2020"
 description: "Darth Maul from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _darth-maul__thumb.jpg
 image-alt: "A pumpkin carved with Darth Maul from Star Wars."

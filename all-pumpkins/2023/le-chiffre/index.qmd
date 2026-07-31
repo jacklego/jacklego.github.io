@@ -1,5 +1,6 @@
 ---
 title: "Le Chiffre (Casino Royale)"
+pagetitle: "Le Chiffre pumpkin carving"
 description: "Le Chiffre from Casino Royale — a pumpkin carving by Peter Wiegand, 2023."
 image: _le-chiffre__thumb.jpg
 image-alt: "A pumpkin carved with Le Chiffre from Casino Royale."

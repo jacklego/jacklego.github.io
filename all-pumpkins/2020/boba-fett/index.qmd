@@ -1,5 +1,6 @@
 ---
 title: "Boba Fett"
+pagetitle: "Boba Fett pumpkin carving, v2, 2020"
 description: "Boba Fett from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _boba-fett__thumb.jpg
 image-alt: "A pumpkin carved with Boba Fett from Star Wars."

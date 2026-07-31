@@ -1,5 +1,6 @@
 ---
 title: "Non-Pumpkins"
+pagetitle: "Watermelon and non-pumpkin carvings"
 description: ""
 listing:
   contents: ./*/index.qmd

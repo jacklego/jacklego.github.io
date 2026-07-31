@@ -1,5 +1,6 @@
 ---
 title: "3D Pumpkin"
+pagetitle: "3D pumpkin carving"
 description: "3D Pumpkin — a pumpkin carving by Peter Wiegand, 2016."
 image: _3d-pumpkin__thumb.jpg
 image-alt: "A pumpkin with a three-dimensional carving."

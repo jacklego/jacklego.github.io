@@ -1,5 +1,6 @@
 ---
 title: "Ernst Stavro Blofeld (You Only Live Twice)"
+pagetitle: "Ernst Stavro Blofeld pumpkin carving"
 description: "Ernst Stavro Blofeld from You Only Live Twice — a pumpkin carving by Peter Wiegand, 2023."
 image: _ernst-stavro-blofeld__thumb.jpg
 image-alt: "A pumpkin carved with Ernst Stavro Blofeld from You Only Live Twice."

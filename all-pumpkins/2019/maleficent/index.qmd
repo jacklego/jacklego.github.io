@@ -1,5 +1,6 @@
 ---
 title: "Maleficent (Sleeping Beauty)"
+pagetitle: "Maleficent pumpkin carving"
 description: "Maleficent from Sleeping Beauty — a pumpkin carving by Peter Wiegand, 2019."
 image: _maleficent__thumb.jpg
 image-alt: "A pumpkin carved with Maleficent from Sleeping Beauty."

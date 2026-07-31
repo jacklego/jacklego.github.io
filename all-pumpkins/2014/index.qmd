@@ -1,5 +1,6 @@
 ---
 title: "2014"
+pagetitle: "2014 pumpkin carvings"
 description: ""
 date: 2014-10-31
 listing:

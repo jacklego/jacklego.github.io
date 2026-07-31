@@ -1,5 +1,6 @@
 ---
 title: "Death Star"
+pagetitle: "Death Star pumpkin carving, v1, 2009"
 description: "Death Star from Star Wars — a pumpkin carving by Peter Wiegand, 2009."
 image: _death-star__thumb.jpg
 image-alt: "A pumpkin carved with the Death Star from Star Wars."

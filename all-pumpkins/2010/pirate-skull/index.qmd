@@ -1,5 +1,6 @@
 ---
 title: "Pirate Skull"
+pagetitle: "Pirate Skull pumpkin carving"
 description: "Pirate Skull — a pumpkin carving by Peter Wiegand, 2010."
 image: _pirate-skull__thumb.jpg
 image-alt: "A pumpkin carved with a pirate skull."

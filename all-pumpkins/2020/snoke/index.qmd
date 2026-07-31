@@ -1,5 +1,6 @@
 ---
 title: "Supreme Leader Snoke"
+pagetitle: "Supreme Leader Snoke pumpkin carving"
 description: "Supreme Leader Snoke from Star Wars — a pumpkin carving by Peter Wiegand, 2020."
 image: _snoke__thumb.jpg
 image-alt: "A pumpkin carved with Supreme Leader Snoke from Star Wars."

@@ -1,5 +1,6 @@
 ---
 title: "Chinese Dragon"
+pagetitle: "Chinese Dragon pumpkin carving"
 description: "Chinese Dragon — a pumpkin carving by Peter Wiegand, 2015."
 image: _chinese-dragon__thumb.jpg
 image-alt: "A pumpkin carved with a Chinese dragon."

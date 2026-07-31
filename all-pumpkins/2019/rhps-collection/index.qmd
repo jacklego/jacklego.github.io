@@ -1,5 +1,6 @@
 ---
 title: "The Rocky Horror Collection"
+pagetitle: "Rocky Horror Picture Show pumpkin carving collection"
 description: "The Rocky Horror Collection — pumpkin carvings by Peter Wiegand, 2019."
 image: _rhps-collection__thumb.jpg
 image-alt: "A group of pumpkins carved with characters from The Rocky Horror Picture Show."

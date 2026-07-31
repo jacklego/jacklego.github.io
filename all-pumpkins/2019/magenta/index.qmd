@@ -1,5 +1,6 @@
 ---
 title: "Magenta"
+pagetitle: "Magenta pumpkin carving (Rocky Horror)"
 description: "Magenta from The Rocky Horror Picture Show — a pumpkin carving by Peter Wiegand, 2019."
 image: _magenta__thumb.jpg
 image-alt: "A pumpkin carved with Magenta from The Rocky Horror Picture Show."

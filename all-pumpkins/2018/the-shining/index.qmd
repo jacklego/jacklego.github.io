@@ -1,5 +1,6 @@
 ---
 title: "Heeeeere's Johnny! (The Shining)"
+pagetitle: "Heeeeere's Johnny! pumpkin carving"
 description: "Heeeeere's Johnny!, from The Shining — a pumpkin carving by Peter Wiegand, 2018."
 image: _the-shining__thumb.jpg
 image-alt: "A pumpkin carved with the Heeeeere's Johnny! scene from The Shining."

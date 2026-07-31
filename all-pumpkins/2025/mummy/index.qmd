@@ -1,5 +1,6 @@
 ---
 title: Mummy
+pagetitle: "The Mummy pumpkin carving"
 description: "The Mummy — a pumpkin carving by Peter Wiegand, 2025."
 image: _mummy__thumb.jpg
 image-alt: "A pumpkin carved with the Mummy."

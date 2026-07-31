@@ -1,5 +1,6 @@
 ---
 title: "2022"
+pagetitle: "2022 pumpkin carvings: Storybook Characters"
 description: Storybook Characters
 date: 2022-10-31
 listing:

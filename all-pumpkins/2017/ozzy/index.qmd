@@ -1,5 +1,6 @@
 ---
 title: "Ozzy Osbourne"
+pagetitle: "Ozzy Osbourne pumpkin carving"
 description: "Ozzy Osbourne — a pumpkin carving by Peter Wiegand, 2017."
 image: _ozzy__thumb.jpg
 image-alt: "A pumpkin carved with Ozzy Osbourne."

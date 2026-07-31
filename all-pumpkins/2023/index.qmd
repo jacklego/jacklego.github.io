@@ -1,5 +1,6 @@
 ---
 title: "2023"
+pagetitle: "2023 pumpkin carvings: Bond Villains"
 description: Bond Villains
 date: 2023-10-31
 listing:

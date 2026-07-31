@@ -1,5 +1,6 @@
 ---
 title: "Om"
+pagetitle: "Om watermelon carving"
 description: "Om — a watermelon carving by Peter Wiegand, 2015."
 image: _om__thumb.jpg
 image-alt: "A watermelon carved with an om symbol."

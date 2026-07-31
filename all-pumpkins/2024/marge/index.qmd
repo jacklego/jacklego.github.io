@@ -1,5 +1,6 @@
 ---
 title: "Marge"
+pagetitle: "Marge Simpson pumpkin carving"
 description: "Marge Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _marge__thumb.jpg
 image-alt: "A pumpkin carved with Marge Simpson from The Simpsons."

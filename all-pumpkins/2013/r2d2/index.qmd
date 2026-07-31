@@ -1,5 +1,6 @@
 ---
 title: "R2-D2"
+pagetitle: "R2-D2 pumpkin carving"
 description: "R2-D2 from Star Wars — a pumpkin carving by Peter Wiegand, 2013."
 image: _r2d2__thumb.jpg
 image-alt: "A pumpkin carved with R2-D2 from Star Wars."

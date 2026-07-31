@@ -1,5 +1,6 @@
 ---
 title: "High Society Logo"
+pagetitle: "High Society logo pumpkin carving"
 description: "The High Society logo — a pumpkin carving by Peter Wiegand, 2015."
 image: _high-society-logo__thumb.jpg
 image-alt: "A pumpkin carved with the High Society logo."

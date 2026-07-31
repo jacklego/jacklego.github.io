@@ -1,5 +1,6 @@
 ---
 title: Kong
+pagetitle: "Kong pumpkin carving"
 description: "Kong — a pumpkin carving by Peter Wiegand, 2025."
 image: _kong__thumb.jpg
 image-alt: "A pumpkin carved with King Kong."

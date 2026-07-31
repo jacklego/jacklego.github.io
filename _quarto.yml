@@ -40,6 +40,7 @@ format:
     theme: [darkly, sass/theme.scss]
     fontcolor: $body-color
     lightbox: true
+    canonical-url: true
 
 # pthemes:
 #   2025: Classic Movie Monsters

@@ -1,5 +1,6 @@
 ---
 title: "Queen of Hearts (Alice in Wonderland)"
+pagetitle: "Queen of Hearts pumpkin carving"
 description: "Queen of Hearts from Alice in Wonderland — a pumpkin carving by Peter Wiegand, 2022."
 image: _queen-of-hearts__thumb.jpg
 image-alt: "A pumpkin carved with the Queen of Hearts from Alice in Wonderland."

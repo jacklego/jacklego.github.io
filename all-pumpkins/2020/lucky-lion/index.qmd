@@ -1,5 +1,6 @@
 ---
 title: "Lucky Lion"
+pagetitle: "Lucky Lion pumpkin carving"
 description: "Lucky Lion — a pumpkin carving by Peter Wiegand, 2020."
 image: _lucky-lion__thumb.jpg
 image-alt: "A pumpkin carved with a lucky lion."

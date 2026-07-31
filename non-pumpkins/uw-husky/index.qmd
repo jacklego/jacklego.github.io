@@ -1,5 +1,6 @@
 ---
 title: "UW Husky"
+pagetitle: "UW Husky logo watermelon carving"
 description: "The UW Husky logo — a watermelon carving by Peter Wiegand, 2016."
 image: _husky__thumb.jpg
 image-alt: "A watermelon carved with the UW Husky logo."

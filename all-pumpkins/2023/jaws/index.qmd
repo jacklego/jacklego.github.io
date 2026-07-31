@@ -1,5 +1,6 @@
 ---
 title: "Jaws (The Spy Who Loved Me)"
+pagetitle: "Jaws pumpkin carving (Bond henchman)"
 description: "Jaws from The Spy Who Loved Me — a pumpkin carving by Peter Wiegand, 2023."
 image: _jaws__thumb.jpg
 image-alt: "A pumpkin carved with Jaws from The Spy Who Loved Me."

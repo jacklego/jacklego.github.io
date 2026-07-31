@@ -1,5 +1,6 @@
 ---
 title: "Bart"
+pagetitle: "Bart Simpson pumpkin carving"
 description: "Bart Simpson from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _bart__thumb.jpg
 image-alt: "A pumpkin carved with Bart Simpson from The Simpsons."

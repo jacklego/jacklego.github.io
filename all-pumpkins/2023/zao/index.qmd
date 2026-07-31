@@ -1,5 +1,6 @@
 ---
 title: "Zao (Die Another Day)"
+pagetitle: "Zao pumpkin carving"
 description: "Zao from Die Another Day — a pumpkin carving by Peter Wiegand, 2023."
 image: _zao__thumb.jpg
 image-alt: "A pumpkin carved with Zao from Die Another Day."

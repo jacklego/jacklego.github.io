@@ -1,5 +1,6 @@
 ---
 title: "Disco Ball"
+pagetitle: "Disco Ball pumpkin carving"
 description: "Disco Ball — a pumpkin carving by Peter Wiegand, 2021."
 image: _disco-ball__thumb.jpg
 image-alt: "A pumpkin carved as a disco ball."

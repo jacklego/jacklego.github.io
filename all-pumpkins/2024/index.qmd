@@ -1,5 +1,6 @@
 ---
 title: "2024"
+pagetitle: "2024 pumpkin carvings: Treehouse of Horror"
 description: Treehouse of Horror
 date: 2024-10-31
 listing:

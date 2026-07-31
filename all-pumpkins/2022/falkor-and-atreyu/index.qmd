@@ -1,5 +1,6 @@
 ---
 title: "Falkor & Atreyu (The NeverEnding Story)"
+pagetitle: "Falkor & Atreyu pumpkin carving"
 description: "Falkor & Atreyu from The NeverEnding Story — a pumpkin carving by Peter Wiegand, 2022."
 image: _falkor-and-atreyu__thumb.jpg
 image-alt: "A pumpkin carved with Falkor and Atreyu from The NeverEnding Story."

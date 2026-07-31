@@ -1,5 +1,6 @@
 ---
 title: "Ursula (The Little Mermaid)"
+pagetitle: "Ursula pumpkin carving"
 description: "Ursula from The Little Mermaid — a pumpkin carving by Peter Wiegand, 2021."
 image: _ursula__thumb.jpg
 image-alt: "A pumpkin carved with Ursula from The Little Mermaid."

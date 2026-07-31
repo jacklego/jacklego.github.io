@@ -1,5 +1,6 @@
 ---
 title: "Stone's Throw Brewing"
+pagetitle: "Stone's Throw Brewing pumpkin carving"
 description: "Stone's Throw Brewing — a pumpkin carving by Peter Wiegand, 2017."
 image: _stones-throw__thumb.jpg
 image-alt: "A pumpkin carved for Stone's Throw Brewing."

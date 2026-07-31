@@ -1,5 +1,6 @@
 ---
 title: "Groundskeeper Willie"
+pagetitle: "Groundskeeper Willie pumpkin carving"
 description: "Groundskeeper Willie from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _groundskeeper-willie__thumb.jpg
 image-alt: "A pumpkin carved with Groundskeeper Willie from The Simpsons."

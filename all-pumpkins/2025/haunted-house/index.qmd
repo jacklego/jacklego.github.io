@@ -1,5 +1,6 @@
 ---
 title: Haunted House
+pagetitle: "Haunted House pumpkin carving"
 description: "Haunted House — a pumpkin carving by Peter Wiegand, 2025."
 image: _haunted-house__thumb.jpg
 image-alt: "A pumpkin carved with a haunted house."

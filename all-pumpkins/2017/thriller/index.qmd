@@ -1,5 +1,6 @@
 ---
 title: "Thriller (Michael Jackson)"
+pagetitle: "Michael Jackson's Thriller pumpkin carving"
 description: "Michael Jackson's Thriller — a pumpkin carving by Peter Wiegand, 2017."
 image: _thriller__thumb.jpg
 image-alt: "A pumpkin carved with Michael Jackson's Thriller."

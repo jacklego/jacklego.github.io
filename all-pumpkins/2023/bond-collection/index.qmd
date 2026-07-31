@@ -1,5 +1,6 @@
 ---
 title: "Bond Collection"
+pagetitle: "Various James Bond villain pumpkin carvings"
 description: "Bond Collection — pumpkin carvings by Peter Wiegand, 2023."
 image: _bond-collection__thumb.jpg
 image-alt: "A group of pumpkins carved with James Bond villains."

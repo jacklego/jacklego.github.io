@@ -1,5 +1,6 @@
 ---
 title: Frankenstein
+pagetitle: "Frankenstein pumpkin carving"
 description: "Frankenstein — a pumpkin carving by Peter Wiegand, 2025."
 image: _frankenstein__thumb.jpg
 image-alt: "A pumpkin carved with Frankenstein's monster."

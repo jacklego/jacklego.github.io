@@ -1,5 +1,6 @@
 ---
 title: "2018"
+pagetitle: "2018 pumpkin carvings: Iconic Horror Movies"
 description: "Iconic Horror Movies"
 date: 2018-10-31
 listing:

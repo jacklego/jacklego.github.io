@@ -1,5 +1,6 @@
 ---
 title: "Krusty"
+pagetitle: "Krusty the Clown pumpkin carving"
 description: "Krusty the Clown from The Simpsons — a pumpkin carving by Peter Wiegand, 2024."
 image: _krusty__thumb.jpg
 image-alt: "A pumpkin carved with Krusty the Clown from The Simpsons."

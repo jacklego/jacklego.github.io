@@ -1,5 +1,6 @@
 ---
 title: "2019"
+pagetitle: "2019 pumpkin carvings: The Rocky Horror Picture Show"
 description: "The Rocky Horror Picture Show"
 date: 2019-10-31
 listing:

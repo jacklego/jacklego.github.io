@@ -1,5 +1,6 @@
 ---
 title: "Pennywise (It)"
+pagetitle: "Pennywise pumpkin carving"
 description: "Pennywise from It — a pumpkin carving by Peter Wiegand, 2018."
 image: _pennywise__thumb.jpg
 image-alt: "A pumpkin carved with Pennywise from It."

@@ -1,5 +1,6 @@
 ---
 title: "Charlotte's Web"
+pagetitle: "Charlotte's Web pumpkin carving"
 description: "Charlotte's Web — a pumpkin carving by Peter Wiegand, 2022."
 image: _charlottes-web__thumb.jpg
 image-alt: "A pumpkin carved with imagery from Charlotte's Web."

@@ -1,5 +1,6 @@
 ---
 title: "20,000 Leagues Under the Sea"
+pagetitle: "20,000 Leagues Under the Sea pumpkin carving"
 description: "20,000 Leagues Under the Sea — a pumpkin carving by Peter Wiegand, 2022."
 image: _20k-leagues__thumb.jpg
 image-alt: "A pumpkin carved with imagery from 20,000 Leagues Under the Sea."

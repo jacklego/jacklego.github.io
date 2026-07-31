@@ -1,5 +1,6 @@
 ---
 title: "Boba Fett"
+pagetitle: "Boba Fett pumpkin carving, v1, 2014"
 description: "Boba Fett from Star Wars — a pumpkin carving by Peter Wiegand, 2014."
 image: _boba-fett__thumb.jpg
 image-alt: "A pumpkin carved with Boba Fett from Star Wars."

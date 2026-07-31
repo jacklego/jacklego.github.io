@@ -1,5 +1,6 @@
 ---
 title: "Gunslinger"
+pagetitle: "Gunslinger pumpkin carving"
 description: "Gunslinger — a pumpkin carving by Peter Wiegand, 2024."
 image: _gunslinger__thumb.jpg
 image-alt: "A pumpkin carved with a gunslinger."

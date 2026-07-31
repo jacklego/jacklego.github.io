@@ -1,5 +1,6 @@
 ---
 title: "Flaming Skull"
+pagetitle: "Flaming Skull pumpkin carving"
 description: "Flaming Skull — a pumpkin carving by Peter Wiegand, 2014."
 image: _flaming-skull__thumb.jpg
 image-alt: "A pumpkin carved with a flaming skull."

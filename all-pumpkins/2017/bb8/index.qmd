@@ -1,5 +1,6 @@
 ---
 title: "BB-8"
+pagetitle: "BB-8 pumpkin carving"
 description: "BB-8 from Star Wars — a pumpkin carving by Peter Wiegand, 2017."
 image: _bb8__thumb.jpg
 image-alt: "A pumpkin carved with BB-8 from Star Wars."

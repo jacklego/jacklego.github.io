@@ -1,5 +1,6 @@
 ---
 title: "R.I.P. Sir Sean"
+pagetitle: "Sean Connery memorial pumpkin carving"
 description: "R.I.P. Sir Sean — a pumpkin carving by Peter Wiegand in memory of Sean Connery, 2020."
 image: _rip-sir-sean__thumb.jpg
 image-alt: "A pumpkin carved in memory of Sean Connery."

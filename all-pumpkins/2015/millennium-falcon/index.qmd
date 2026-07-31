@@ -1,5 +1,6 @@
 ---
 title: "Millennium Falcon"
+pagetitle: "Millennium Falcon pumpkin carving"
 description: "Millennium Falcon from Star Wars — a pumpkin carving by Peter Wiegand, 2015."
 image: _millennium-falcon__thumb.jpg
 image-alt: "A pumpkin carved with the Millennium Falcon from Star Wars."

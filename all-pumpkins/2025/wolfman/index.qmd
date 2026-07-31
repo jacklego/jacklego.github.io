@@ -1,5 +1,6 @@
 ---
 title: Wolfman
+pagetitle: "The Wolfman pumpkin carving"
 description: "The Wolfman — a pumpkin carving by Peter Wiegand, 2025."
 image: _wolfman__thumb.jpg
 image-alt: "A pumpkin carved with the Wolfman."

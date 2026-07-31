@@ -1,5 +1,6 @@
 ---
 title: "Halloween (1978)"
+pagetitle: "Halloween (1978) pumpkin carving"
 description: "Halloween (1978) — a pumpkin carving by Peter Wiegand, 2018."
 image: _halloween__thumb.jpg
 image-alt: "A pumpkin carved with imagery from Halloween (1978)."

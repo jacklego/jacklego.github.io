@@ -1,5 +1,6 @@
 ---
 title: "Slappy the Dummy (Goosebumps)"
+pagetitle: "Slappy the Dummy pumpkin carving"
 description: "Slappy the Dummy from Goosebumps — a pumpkin carving by Peter Wiegand, 2022."
 image: _slappy__thumb.jpg
 image-alt: "A pumpkin carved with Slappy the Dummy from Goosebumps."

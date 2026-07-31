@@ -1,5 +1,6 @@
 ---
 title: "Deadpool"
+pagetitle: "Deadpool pumpkin carving"
 description: "Deadpool from Marvel — a pumpkin carving by Peter Wiegand, 2016."
 image: _deadpool__thumb.jpg
 image-alt: "A pumpkin carved with Marvel's Deadpool."
