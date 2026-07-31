@@ -8,15 +8,8 @@ website:
   favicon: _favicon/favicon.ico
   open-graph: true
   twitter-card: true
-  announcement: 
-    icon: cone-striped
-    dismissable: true
-    content: "This website is currently under construction. To view the original site, visit [jacklego2.wixsite.com/peter-spumpkinpatch](https://jacklego2.wixsite.com/peter-spumpkinpatch)"
-    type: success
-    position: above-navbar
   navbar:
     background: black
-    tools-collapse: true
     left: 
       - text: "This Year's Patch"
         href: all-pumpkins/2025
@@ -32,7 +25,7 @@ website:
   page-footer: 
     background: $footer-bg
     left: "&#169; 2004 -- 2026 Peter T. Wiegand"
-    right: "Website by [Connor T. Wiegand](https://github.com/connortwiegand/){target='_blank'} <br/> Made with [Quarto](https://quarto.org/) | [Source code](https://github.com/connortwiegand/){target='blank'}"
+    right: "Website by [Connor T. Wiegand](https://github.com/connortwiegand/){target='_blank'} <br/> Made with [Quarto](https://quarto.org/) | [Source code](https://github.com/jacklego/jacklego.github.io){target='blank'}"
   
 
 
@@ -47,3 +40,10 @@ format:
 #   2025: Classic Movie Monsters
 
 
+# website:
+  # announcement: 
+  #   icon: cone-striped
+  #   dismissable: true
+  #   content: "This website is currently under construction. To view the original site, visit [jacklego2.wixsite.com/peter-spumpkinpatch](https://jacklego2.wixsite.com/peter-spumpkinpatch)"
+  #   type: success
+  #   position: above-navbar
