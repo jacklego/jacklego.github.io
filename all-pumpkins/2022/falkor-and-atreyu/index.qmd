@@ -11,6 +11,7 @@ date: 2022-10-20
 meta:
   source: "The NeverEnding Story"
   captured: "2022-10-20T19:09:42"
+  raw-aspect-ratio: 1.3333
   wix: "Dragonkeeper"
 
 ---

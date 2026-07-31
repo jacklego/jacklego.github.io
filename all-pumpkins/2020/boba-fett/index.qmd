@@ -11,6 +11,7 @@ date: 2020-10-29
 meta:
   source: "Star Wars"
   captured: "2020-10-29T07:52:54"
+  raw-aspect-ratio: 1.3333
   version: 2
 
 ---

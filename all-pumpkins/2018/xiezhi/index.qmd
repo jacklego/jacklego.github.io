@@ -10,6 +10,7 @@ date: 2018-10-21
 
 meta:
   captured: "2018-10-21T23:56:13"
+  raw-aspect-ratio: 1.7778
   note: "The old Wix site captioned this one 'Grizzly (1976)' by mistake"
 
 ---

@@ -11,6 +11,7 @@ date: 2022-10-31
 meta:
   source: "The Lion, the Witch and the Wardrobe"
   captured: "2022-10-31T08:02:03"
+  raw-aspect-ratio: 1.3333
 
 ---
 

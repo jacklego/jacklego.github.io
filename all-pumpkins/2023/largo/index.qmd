@@ -9,7 +9,9 @@ order: 1
 date: 2023-10-22
 
 meta:
+  source: "James Bond"
   captured: "2023-10-22T18:28:52"
+  raw-aspect-ratio: 1.3333
 
 ---
 

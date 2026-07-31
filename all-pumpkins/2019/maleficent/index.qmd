@@ -11,6 +11,7 @@ date: 2019-10-27
 meta:
   source: "Sleeping Beauty"
   captured: "2019-10-27T21:06:35"
+  raw-aspect-ratio: 1.3333
   themed: false
 
 ---

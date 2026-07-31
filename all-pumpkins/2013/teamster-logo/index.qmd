@@ -10,6 +10,7 @@ date: 2013-10-22
 
 meta:
   captured: "2013-10-22T22:03:06"
+  raw-aspect-ratio: 1.3333
   logo: true
 
 ---

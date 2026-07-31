@@ -11,6 +11,7 @@ date: 2012-10-27
 meta:
   source: "Star Wars"
   captured: "2012-10-27T18:50:46"
+  raw-aspect-ratio: 1.3333
   version: 1
 
 ---

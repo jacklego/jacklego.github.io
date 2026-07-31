@@ -11,6 +11,7 @@ date: 2022-10-21
 meta:
   source: "Goosebumps"
   captured: "2022-10-21T19:29:37"
+  raw-aspect-ratio: 1.3333
 
 ---
 

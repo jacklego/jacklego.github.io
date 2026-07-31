@@ -10,6 +10,7 @@ date: 2017-10-21
 
 meta:
   captured: "2017-10-21T23:24:23"
+  raw-aspect-ratio: 1.7778
 
 ---
 

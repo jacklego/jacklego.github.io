@@ -11,6 +11,7 @@ date: 2018-10-21
 meta:
   source: "Grizzly (1976)"
   captured: "2018-10-21T19:06:42"
+  raw-aspect-ratio: 1.7778
   note: "The old Wix site captioned this one 'Xiezhi' by mistake"
 
 ---

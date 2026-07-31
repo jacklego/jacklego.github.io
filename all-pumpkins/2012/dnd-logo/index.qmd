@@ -11,6 +11,7 @@ date: 2012-10-26
 meta:
   source: "Dungeons & Dragons"
   captured: "2012-10-26T23:20:34"
+  raw-aspect-ratio: 1.3333
   logo: true
 
 ---

@@ -11,6 +11,7 @@ date: 2022-10-30
 meta:
   source: "Watership Down"
   captured: "2022-10-30T08:09:06"
+  raw-aspect-ratio: 1.3333
 
 ---
 

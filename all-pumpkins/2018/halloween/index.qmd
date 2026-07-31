@@ -11,6 +11,7 @@ date: 2018-10-28
 meta:
   source: "Halloween (1978)"
   captured: "2018-10-28T18:12:34"
+  raw-aspect-ratio: 1.7778
 
 ---
 

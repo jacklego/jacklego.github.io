@@ -12,6 +12,7 @@ date: 2019-10-26
 meta:
   source: "The Rocky Horror Picture Show"
   captured: "2019-10-26T23:30:05"
+  raw-aspect-ratio: 1.3333
   logo: true
   wix: "Rocky Horror logo"
 

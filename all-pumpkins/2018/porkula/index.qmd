@@ -10,6 +10,7 @@ date: 2018-10-15
 
 meta:
   captured: "2018-10-15T21:34:09"
+  raw-aspect-ratio: 1.7778
   wix: "The Little Vampire (2000)"
 
 ---

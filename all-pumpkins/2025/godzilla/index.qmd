@@ -10,6 +10,7 @@ date: 2025-10-27
 
 meta:
   captured: "2025-10-27T18:56:01"
+  raw-aspect-ratio: 1.3333
 
 ---
 

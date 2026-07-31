@@ -9,8 +9,9 @@ order: 6
 date: 2022-10-24
 
 meta:
-  source: "The Hobbit"
+  source: "The Hobbit/LOTR"
   captured: "2022-10-24T17:55:05"
+  raw-aspect-ratio: 1.3333
 
 ---
 

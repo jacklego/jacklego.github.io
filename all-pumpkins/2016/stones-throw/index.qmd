@@ -11,6 +11,7 @@ date: 2016-10-29
 
 meta:
   captured: "2016-10-29T19:20:36"
+  raw-aspect-ratio: 1.7778
   version: 1
   logo: true
 

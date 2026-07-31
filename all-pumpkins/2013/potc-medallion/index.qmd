@@ -11,6 +11,7 @@ date: 2013-10-27
 meta:
   source: "Pirates of the Caribbean"
   captured: "2013-10-27T18:23:46"
+  raw-aspect-ratio: 1.3333
 
 ---
 

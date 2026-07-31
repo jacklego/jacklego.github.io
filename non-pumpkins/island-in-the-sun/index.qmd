@@ -12,6 +12,7 @@ order: 3
 meta:
   medium: watermelon
   captured: "2015-05-17T10:41:12"
+  raw-aspect-ratio: 0.5625
 ---
 
 ![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

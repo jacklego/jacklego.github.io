@@ -11,6 +11,7 @@ date: 2022-10-30
 meta:
   source: "Charlotte's Web"
   captured: "2022-10-30T17:57:10"
+  raw-aspect-ratio: 1.3333
 
 ---
 

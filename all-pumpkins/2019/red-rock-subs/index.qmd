@@ -10,6 +10,7 @@ date: 2019-10-19
 
 meta:
   captured: "2019-10-19T20:57:46"
+  raw-aspect-ratio: 1.3333
   themed: false
   logo: true
   wix: "Sandwich shop logo"

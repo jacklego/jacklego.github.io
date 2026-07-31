@@ -11,6 +11,7 @@ date: 2021-10-30
 meta:
   source: "The Incredibles"
   captured: "2021-10-30T18:43:47"
+  raw-aspect-ratio: 1.3333
 
 ---
 

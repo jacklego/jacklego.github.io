@@ -11,6 +11,7 @@ date: 2014-10-23
 meta:
   source: "Infected Mushroom"
   captured: "2014-10-23T23:48:41"
+  raw-aspect-ratio: 0.5625
   note: "From the cover art of Army of Mushrooms (2012), illustrated by Anton Semenov"
 
 ---

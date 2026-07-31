@@ -11,6 +11,7 @@ date: 2021-10-29
 meta:
   source: "The Emperor's New Groove"
   captured: "2021-10-29T19:47:29"
+  raw-aspect-ratio: 1.3333
 
 ---
 

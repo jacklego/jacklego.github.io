@@ -11,6 +11,7 @@ date: 2019-10-30
 meta:
   source: "The Rocky Horror Picture Show"
   captured: "2019-10-30T20:02:18"
+  raw-aspect-ratio: 1.3333
   wix: "Group photo"
 
 ---

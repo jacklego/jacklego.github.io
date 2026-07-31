@@ -11,6 +11,7 @@ date: 2022-10-23
 meta:
   source: "Alice in Wonderland"
   captured: "2022-10-23T18:24:12"
+  raw-aspect-ratio: 1.3333
 
 ---
 

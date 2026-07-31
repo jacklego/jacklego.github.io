@@ -11,6 +11,7 @@ date: 2016-10-29
 meta:
   source: "Marvel"
   captured: "2016-10-29T21:23:34"
+  raw-aspect-ratio: 1.7778
 
 ---
 

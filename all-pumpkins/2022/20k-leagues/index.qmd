@@ -11,6 +11,7 @@ date: 2022-10-27
 meta:
   source: "Twenty Thousand Leagues Under the Seas"
   captured: "2022-10-27T19:39:41"
+  raw-aspect-ratio: 1.3333
 
 ---
 

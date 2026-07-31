@@ -11,6 +11,7 @@ date: 2021-10-24
 meta:
   source: "Fantasia"
   captured: "2021-10-24T18:55:11"
+  raw-aspect-ratio: 1.3333
 
 ---
 

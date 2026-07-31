@@ -11,6 +11,7 @@ date: 2014-10-30
 meta:
   source: "The Lord of the Rings"
   captured: "2014-10-30T00:02:58"
+  raw-aspect-ratio: 1.7778
   note: "Lettering is pseudo-Tengwar"
 
 ---

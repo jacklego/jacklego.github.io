@@ -11,6 +11,7 @@ date: 2018-10-28
 meta:
   source: "Scream"
   captured: "2018-10-28T23:49:24"
+  raw-aspect-ratio: 1.7778
 
 ---
 

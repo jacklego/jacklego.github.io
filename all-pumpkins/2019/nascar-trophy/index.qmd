@@ -10,6 +10,7 @@ date: 2019-10-24
 
 meta:
   captured: "2019-10-24T18:49:24"
+  raw-aspect-ratio: 0.7500
   themed: false
 
 ---

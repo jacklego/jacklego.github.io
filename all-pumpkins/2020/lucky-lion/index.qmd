@@ -10,6 +10,7 @@ date: 2020-10-23
 
 meta:
   captured: "2020-10-23T19:12:36"
+  raw-aspect-ratio: 1.3333
   themed: false
 
 ---

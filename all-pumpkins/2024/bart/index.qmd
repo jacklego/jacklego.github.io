@@ -9,7 +9,9 @@ order: 4
 date: 2024-10-27
 
 meta:
+  source: "The Simpsons"
   captured: "2024-10-27T18:12:28"
+  raw-aspect-ratio: 1.3333
 
 ---
 

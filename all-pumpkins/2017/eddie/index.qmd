@@ -11,6 +11,7 @@ date: 2017-10-31
 meta:
   source: "Iron Maiden"
   captured: "2017-10-31T08:25:00"
+  raw-aspect-ratio: 1.7778
   wix: "Eddie-Killers"
   note: "Eddie as he appears on the Killers album art"
 

@@ -11,6 +11,7 @@ date: 2022-10-29
 meta:
   source: "Mrs. Frisby and the Rats of NIMH"
   captured: "2022-10-29T18:24:17"
+  raw-aspect-ratio: 1.3333
 
 ---
 

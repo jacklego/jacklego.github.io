@@ -11,6 +11,7 @@ date: 2019-10-25
 meta:
   source: "The Rocky Horror Picture Show"
   captured: "2019-10-25T23:29:47"
+  raw-aspect-ratio: 1.3333
 
 ---
 
