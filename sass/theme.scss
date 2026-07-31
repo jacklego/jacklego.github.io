@@ -73,8 +73,23 @@ div.quarto-post {
   padding-bottom: .5em;
   margin-bottom: 0em;
 
+  .thumbnail img {
+    margin-top: 0em;
+  }
+
+  // Below Bootstrap's `md` breakpoint Quarto restacks the post into a column
+  // (`.quarto-post.image-left { flex-direction: column }` at max-width
+  // 767.98px), so the thumbnail spans the full width and the title sits above
+  // it. The 3rem indent is meant to hold the text off the image beside it; once
+  // they're stacked it just knocks the text off-centre.
   .body {
-    margin-left: 3rem;
+    @media (min-width: 768px) {
+      margin-left: 3rem;
+    }
+
+    @media (max-width: 767.98px) {
+      text-align: center;
+    }
   }
 
   .metadata {
@@ -117,12 +132,155 @@ div.quarto-post {
 }
 
 
-a.navbar-brand {
-  overflow: clip;
+// Carving photos run from 16:9 through 9:16, and the body column caps at
+// `calc(850px - 3em)` -- about 778px at our 24px root. Width-constrained, that
+// makes a 16:9 shot 438px tall and a 9:16 shot 1383px, so the dozen portrait
+// carvings don't fit a laptop screen while every landscape one does.
+//
+// Capping the height instead levels them out. Bootstrap's `.img-fluid` already
+// sets `height: auto`, so adding `max-height` leaves width free and the browser
+// scales to fit both bounds with the aspect ratio intact -- no `object-fit` and
+// no explicit width needed. Landscape photos are under the cap already and so
+// render exactly as they do now.
+//
+// `vh`, not `dvh`: the dynamic unit would resize the photo mid-scroll as a
+// mobile URL bar hides.
+//
+// The cap leaves portrait photos narrower than the column, but they still come
+// out centred: `fig-align="center"` wraps each image in
+// `div.quarto-figure-center > figure > p`, and Quarto centres that <p>. Nothing
+// to add here.
+body.carving #quarto-document-content img {
+  max-height: 70vh;
 }
+
 
 img.navbar-logo {
   max-height: 2.5rem;
+}
+
+// Quarto ships a static `body.nav-fixed { padding-top: 82px }` to hold content
+// clear of the fixed header, and quarto-nav.js then overwrites it with the
+// header's measured `clientHeight` on load. So the static value governs only
+// the first paint -- and pages viewed with JS off, where it is the whole story.
+//
+// 82px was never right here: the 24px root makes the navbar 108px expanded
+// (48px of padding around a 60px logo) and 68px collapsed, so content settled
+// downward on wide screens and upward on narrow ones on every load. With the
+// announcement bar gone the header is just the navbar, so a static value can
+// actually be correct.
+//
+// Computed from the box model rather than measured; the JS still corrects any
+// drift, so an error here costs a smaller flash, never a broken layout.
+body.nav-fixed {
+  padding-top: 108px;
+}
+
+
+// Every navbar dimension Bootstrap ships is expressed in `rem`, so the 24px
+// `$font-size-root` inflates all of them by half again: the wordmark lands at
+// 30px, the hamburger icon at 45px (1.5em of a 1.25rem font), and darkly's own
+// `$navbar-padding-y: 1rem` at 24px top and bottom. Add Quarto's 1em of nav
+// padding and a 390px viewport had ~108px left for "Peter's Pumpkin Patch" --
+// nineteen glyphs in a wide serif.
+//
+// Scoped to the collapsed navbar. `navbar-expand-lg` breaks at 992px, which is
+// also exactly where the space stops being tight: above it the links sit inline
+// and the bar has room to spare, so the full-size proportions are the intended
+// look and stay untouched.
+@media (max-width: 991.98px) {
+  // Overriding the Bootstrap custom properties rather than the SCSS variables
+  // behind them (`$navbar-padding-y` and friends). Those compile once and can't
+  // vary by breakpoint, but all they do is set these four, so the effect is the
+  // same and it can be confined to a media query.
+  //
+  // `--bs-navbar-toggler-font-size` is not the icon size -- `.navbar-toggler-icon`
+  // is 1.5em of it, so .8rem yields a 29px glyph.
+  .navbar {
+    --bs-navbar-padding-y: .4rem;
+    --bs-navbar-brand-font-size: .95rem;
+    --bs-navbar-toggler-font-size: .8rem;
+    --bs-navbar-brand-margin-end: .25rem;
+  }
+
+  // Quarto pads the header nav with `footer.footer .nav-footer, #quarto-header >
+  // nav { padding-left: 1em; padding-right: 1em }` -- 24px a side at our root,
+  // and the single largest slice of horizontal space in the bar. Dropping it is
+  // safe because `.navbar-container` is a `.container-fluid` carrying its own
+  // 0.75rem gutter underneath, so the logo still clears the screen edge by 18px.
+  //
+  // Override the nav on its own rather than the shared selector; the footer
+  // wants to keep its 1em.
+  #quarto-header > nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  // Quarto caps the brand at `calc(100% - 115px)`, 115px being its guess at how
+  // much room the toggler and search need. Shrinking those invalidates the
+  // guess -- the wordmark would stop ~30px short of where it now fits. Measured
+  // after the shrink: 29px icon + 10px margin + 40px search magnifier + 6px
+  // margin, so 90px with a little slack.
+  //
+  // The brand keeps Bootstrap's `overflow: hidden; text-overflow: ellipsis`
+  // rather than the `overflow: clip` that used to sit here. Nothing should reach
+  // the cap now, but if a longer title ever does, an ellipsis reads as
+  // truncation where a hard clip just looks like a rendering bug.
+  .navbar-brand-container {
+    max-width: calc(100% - 90px);
+  }
+
+  // Down from 2.5rem (60px), which was taller than the wordmark and the
+  // hamburger put together. 1.6rem lands the monogram at 38px, a little above
+  // the 29px hamburger so it still reads as the anchor of the bar.
+  img.navbar-logo {
+    max-height: 1.6rem;
+  }
+
+  // Bootstrap's reboot sets a bare `svg { vertical-align: middle }`, which on
+  // the shrunken bar sits the magnifier low against the wordmark's x-height.
+  // Only the inline search button is affected -- the detached overlay that the
+  // button opens is appended to <body>, outside #quarto-search.
+  #quarto-search svg {
+    vertical-align: text-top;
+  }
+
+  // Matching the shrunken bar: 19px of padding around a 49px brand -- the
+  // wordmark, not the logo, is the tallest thing here once the logo drops to
+  // 1.6rem.
+  body.nav-fixed {
+    padding-top: 68px;
+  }
+}
+
+// The logo and the wordmark are two separate <a>s pointing at the same href, so
+// left alone the brand highlights in halves. Driving both off their shared
+// container makes them behave as one link.
+//
+// Hovering the container rather than `:has(.navbar-brand:hover)` is deliberate:
+// it is content-sized, so its only slack is the few pixels of
+// `--bs-navbar-brand-margin-end` between the two anchors, which should read as
+// part of the brand anyway. `:focus-visible` does need `:has()`, since keyboard
+// focus lands on one child or the other and never on the container itself.
+//
+// The wordmark's <a> already has the colour rule; this only widens what
+// triggers it. The logo is an <img>, where `color` does nothing -- but the PNG
+// is a flat #ff8800 monogram on a solid black square, which makes a filter
+// chain exact rather than approximate: hue-rotate and saturate are linear
+// matrices and brightness is a multiply, so the black stays at luminance zero,
+// invisible against the black navbar, while #ff8800 lands on #19ab52 -- within
+// a hair of the #1aac52 the wordmark turns.
+//
+// No transition, so the two halves change together instantly.
+.navbar-brand-container:hover,
+.navbar-brand-container:has(.navbar-brand:focus-visible) {
+  .navbar-brand {
+    color: var(--bs-navbar-brand-hover-color);
+  }
+
+  .navbar-logo {
+    filter: hue-rotate(99deg) saturate(.74) brightness(.88);
+  }
 }
 
 ul.navbar-nav {
