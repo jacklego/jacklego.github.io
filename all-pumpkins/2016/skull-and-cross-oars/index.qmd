@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a skull and crossed oars."
 full: skull-and-cross-oars.jpg
 order: 8
 date: 2016-10-09
+categories: [Pirates & Skulls, Unthemed]
 
 meta:
   captured: "2016-10-09T19:59:31"

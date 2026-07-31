@@ -8,6 +8,7 @@ full: tatooine.jpg
 extras: 1
 order: 5
 date: 2015-10-25
+categories: [Star Wars, Movies]
 
 meta:
   source: "Star Wars"

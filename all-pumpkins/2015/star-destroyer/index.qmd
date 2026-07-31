@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a Star Destroyer from Star Wars."
 full: star-destroyer.jpg
 order: 7
 date: 2015-10-29
+categories: [Star Wars, Movies]
 
 meta:
   source: "Star Wars"

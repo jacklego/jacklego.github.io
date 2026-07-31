@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Columbia from The Rocky Horror Picture Show."
 full: columbia.jpg
 order: 5
 date: 2019-10-30
+categories: [Rocky Horror, Movies]
 
 meta:
   source: "The Rocky Horror Picture Show"

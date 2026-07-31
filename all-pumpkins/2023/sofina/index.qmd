@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Sofina from Dungeons & Dragons: Honor Among Th
 full: sofina.jpg
 order: 12
 date: 2023-10-30
+categories: [Villains, Movies]
 
 meta:
   source: "Dungeons & Dragons: Honor Among Thieves (2023)"

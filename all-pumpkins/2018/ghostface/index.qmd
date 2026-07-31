@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Ghostface from Scream."
 full: ghostface.jpg
 order: 6
 date: 2018-10-28
+categories: [Horror, Villains, Movies]
 
 meta:
   source: "Scream"

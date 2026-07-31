@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Michael Jackson's Thriller."
 full: thriller.jpg
 order: 7
 date: 2017-10-30
+categories: [Music]
 
 meta:
   source: "Michael Jackson"

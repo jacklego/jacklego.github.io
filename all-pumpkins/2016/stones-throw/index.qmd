@@ -8,6 +8,7 @@ full: stones-throw.jpg
 extras: 1
 order: 10
 date: 2016-10-29
+categories: [Logos, Unthemed]
 
 meta:
   captured: "2016-10-29T19:20:36"

@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Sideshow Bob from The Simpsons."
 full: sideshow-bob.jpg
 order: 1
 date: 2024-10-28
+categories: [The Simpsons, Villains]
 
 meta:
   source: "The Simpsons"

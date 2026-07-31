@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Marge Simpson from The Simpsons."
 full: marge.jpg
 order: 11
 date: 2024-10-30
+categories: [The Simpsons]
 
 meta:
   source: "The Simpsons"

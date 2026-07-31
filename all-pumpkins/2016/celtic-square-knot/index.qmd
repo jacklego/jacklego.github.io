@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a Celtic square knot."
 full: celtic-square-knot.jpg
 order: 5
 date: 2016-10-26
+categories: [Unthemed]
 
 meta:
   captured: "2016-10-26T20:17:01"

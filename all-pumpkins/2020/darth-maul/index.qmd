@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Darth Maul from Star Wars."
 full: darth-maul.jpg
 order: 6
 date: 2020-10-31
+categories: [Star Wars, Villains, Movies]
 
 meta:
   source: "Star Wars"

@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with imagery from Grizzly (1976)."
 full: grizzly.jpg
 order: 12
 date: 2018-10-21
+categories: [Horror, Animals, Movies]
 
 meta:
   source: "Grizzly (1976)"

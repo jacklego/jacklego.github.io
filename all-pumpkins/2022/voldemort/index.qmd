@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Lord Voldemort from Harry Potter."
 full: voldemort.jpg
 order: 7
 date: 2022-10-22
+categories: [Story Book, Villains]
 
 meta:
   source: "Harry Potter"

@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Chewbacca from Star Wars."
 full: chewbacca.jpg
 order: 4
 date: 2015-10-30
+categories: [Star Wars, Movies]
 
 meta:
   source: "Star Wars"

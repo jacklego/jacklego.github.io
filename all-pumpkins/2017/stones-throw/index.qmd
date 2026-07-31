@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved for Stone's Throw Brewing."
 full: stones-throw.jpg
 order: 6
 date: 2017-10-28
+categories: [Logos, Unthemed]
 
 meta:
   captured: "2017-10-28T18:40:23"

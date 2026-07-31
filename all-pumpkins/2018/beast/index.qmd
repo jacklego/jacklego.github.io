@@ -7,9 +7,10 @@ image-alt: "A pumpkin carved with Beast from Beauty and the Beast."
 full: beast.jpg
 order: 4
 date: 2018-10-28
+categories: [Disney, Monsters, Movies]
 
 meta:
-  source: "Beauty and the Beast"
+  source: "Beauty and the Beast (Disney)"
   captured: "2018-10-28T17:23:49"
   raw-aspect-ratio: 1.7778
 

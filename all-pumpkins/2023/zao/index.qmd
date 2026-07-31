@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Zao from Die Another Day."
 full: zao.jpg
 order: 3
 date: 2023-10-24
+categories: [James Bond, Villains, Movies]
 
 meta:
   source: "James Bond"

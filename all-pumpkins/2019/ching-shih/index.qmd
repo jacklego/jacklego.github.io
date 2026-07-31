@@ -7,11 +7,12 @@ image-alt: "A pumpkin carved with Ching Shih, the Chinese pirate."
 full: ching-shih.jpg
 order: 10
 date: 2019-10-22
+categories: [Pirates & Skulls, Unthemed]
 
 meta:
   captured: "2019-10-22T23:19:33"
   raw-aspect-ratio: 1.3333
-  themed: false
+  off-theme: true
 
 ---
 

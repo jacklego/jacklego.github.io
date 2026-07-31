@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Darth Sidious from Star Wars."
 full: darth-sidious.jpg
 order: 3
 date: 2015-10-27
+categories: [Star Wars, Villains, Movies]
 
 meta:
   source: "Star Wars"

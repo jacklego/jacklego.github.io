@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a pirate skull wreathed in tentacles."
 full: pirate-skull-tentacles.jpg
 order: 3
 date: 2016-10-26
+categories: [Pirates & Skulls, Unthemed]
 
 meta:
   captured: "2016-10-26T00:39:54"

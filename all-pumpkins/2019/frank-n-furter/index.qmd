@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Dr. Frank-N-Furter from The Rocky Horror Pictu
 full: frank-n-furter.jpg
 order: 1
 date: 2019-10-25
+categories: [Rocky Horror, Movies]
 
 meta:
   source: "The Rocky Horror Picture Show"

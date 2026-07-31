@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Syndrome from The Incredibles."
 full: syndrome.jpg
 order: 10
 date: 2021-10-30
+categories: [Disney, Villains, Movies]
 
 meta:
   source: "The Incredibles"

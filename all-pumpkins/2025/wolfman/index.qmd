@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with the Wolfman."
 full: wolfman.jpg
 order: 10
 date: 2025-10-24
+categories: [Horror, Monsters, Movies]
 
 meta:
   captured: "2025-10-24T23:00:17"

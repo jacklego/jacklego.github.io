@@ -8,6 +8,7 @@ full: north-coast.jpg
 extras: 1
 order: 3
 date: 2017-10-14
+categories: [Logos, Unthemed]
 
 meta:
   captured: "2017-10-14T19:43:30"

@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Cruella de Vil from 101 Dalmatians."
 full: cruella-de-vil.jpg
 order: 3
 date: 2021-10-29
+categories: [Disney, Villains, Movies]
 
 meta:
   source: "101 Dalmatians"

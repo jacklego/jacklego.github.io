@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Kang from The Simpsons."
 full: kang.jpg
 order: 7
 date: 2024-10-30
+categories: [The Simpsons, Villains]
 
 meta:
   source: "The Simpsons"

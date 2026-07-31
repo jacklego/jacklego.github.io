@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with the Heeeeere's Johnny! scene from The Shining.
 full: the-shining.jpg
 order: 1
 date: 2018-10-30
+categories: [Horror, Villains, Movies]
 
 meta:
   source: "The Shining"

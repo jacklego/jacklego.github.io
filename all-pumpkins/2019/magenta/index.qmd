@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Magenta from The Rocky Horror Picture Show."
 full: magenta.jpg
 order: 4
 date: 2019-10-29
+categories: [Rocky Horror, Movies]
 
 meta:
   source: "The Rocky Horror Picture Show"

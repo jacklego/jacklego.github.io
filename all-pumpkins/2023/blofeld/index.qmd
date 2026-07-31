@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Ernst Stavro Blofeld from You Only Live Twice.
 full: ernst-stavro-blofeld.jpg
 order: 7
 date: 2023-10-29
+categories: [James Bond, Villains, Movies]
 
 meta:
   source: "James Bond"

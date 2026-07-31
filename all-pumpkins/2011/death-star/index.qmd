@@ -8,6 +8,7 @@ full: death-star.jpg
 extras: 1
 order: 2
 date: 2011-10-29
+categories: [Star Wars, Movies]
 
 meta:
   source: "Star Wars"

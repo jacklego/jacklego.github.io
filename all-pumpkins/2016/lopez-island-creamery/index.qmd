@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with the Lopez Island Creamery logo."
 full: lopez-island-creamery.jpg
 order: 1
 date: 2016-10-01
+categories: [Logos, Unthemed]
 
 meta:
   captured: "2016-10-01T22:09:58"

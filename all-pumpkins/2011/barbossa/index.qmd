@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Captain Barbossa from Pirates of the Caribbean
 full: barbossa.jpg
 order: 1
 date: 2011-10-22
+categories: [Villains, Pirates & Skulls, Movies]
 
 meta:
   source: "Pirates of the Caribbean"

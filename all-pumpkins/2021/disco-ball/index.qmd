@@ -7,11 +7,12 @@ image-alt: "A pumpkin carved as a disco ball."
 full: disco-ball.jpg
 order: 13
 date: 2021-10-27
+categories: [Unthemed]
 
 meta:
   captured: "2021-10-27T19:49:25"
   raw-aspect-ratio: 1.3333
-  themed: false
+  off-theme: true
 
 ---
 

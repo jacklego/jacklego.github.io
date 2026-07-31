@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with imagery from 20,000 Leagues Under the Sea."
 full: 20k-leagues.jpg
 order: 1
 date: 2022-10-27
+categories: [Story Book]
 
 meta:
   source: "Twenty Thousand Leagues Under the Seas"

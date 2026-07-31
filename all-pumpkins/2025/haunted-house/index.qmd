@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a haunted house."
 full: haunted-house.jpg
 order: 11
 date: 2025-10-27
+categories: [Horror, Unthemed]
 
 meta:
   captured: "2025-10-27T18:36:41"

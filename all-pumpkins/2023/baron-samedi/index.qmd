@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Baron Samedi from Live and Let Die."
 full: baron-samedi.jpg
 order: 10
 date: 2023-10-27
+categories: [James Bond, Villains, Movies]
 
 meta:
   source: "James Bond"

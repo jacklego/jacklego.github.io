@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Ozzy Osbourne."
 full: ozzy.jpg
 order: 11
 date: 2017-10-31
+categories: [Music]
 
 meta:
   captured: "2017-10-31T18:16:44"

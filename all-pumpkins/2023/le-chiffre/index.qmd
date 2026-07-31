@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Le Chiffre from Casino Royale."
 full: le-chiffre.jpg
 order: 4
 date: 2023-10-25
+categories: [James Bond, Villains, Movies]
 
 meta:
   source: "James Bond"

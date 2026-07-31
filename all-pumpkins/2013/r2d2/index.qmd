@@ -8,6 +8,7 @@ full: r2d2.jpg
 extras: 1
 order: 1
 date: 2013-10-27
+categories: [Star Wars, Movies]
 
 meta:
   source: "Star Wars"

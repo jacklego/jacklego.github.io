@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Yzma from The Emperor's New Groove."
 full: yzma.jpg
 order: 1
 date: 2021-10-29
+categories: [Disney, Villains, Movies]
 
 meta:
   source: "The Emperor's New Groove"

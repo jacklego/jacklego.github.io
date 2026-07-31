@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a tiger."
 full: tiger.jpg
 order: 2
 date: 2017-10-21
+categories: [Animals, Unthemed]
 
 meta:
   captured: "2017-10-21T23:24:23"

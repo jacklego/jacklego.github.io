@@ -7,11 +7,11 @@ image-alt: "A pumpkin carved with Porkula, a vampire pig."
 full: porkula.jpg
 order: 13
 date: 2018-10-15
+categories: [Monsters, Animals, Unthemed]
 
 meta:
   captured: "2018-10-15T21:34:09"
   raw-aspect-ratio: 1.7778
-  wix: "The Little Vampire (2000)"
 
 ---
 

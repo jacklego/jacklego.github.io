@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with imagery from Mrs. Frisby and the Rats of NIMH.
 full: mrs-frisby.jpg
 order: 3
 date: 2022-10-29
+categories: [Story Book, Animals]
 
 meta:
   source: "Mrs. Frisby and the Rats of NIMH"

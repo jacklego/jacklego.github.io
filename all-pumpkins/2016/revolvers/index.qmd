@@ -8,6 +8,7 @@ full: revolvers.jpg
 extras: 2
 order: 6
 date: 2016-10-29
+categories: [Unthemed]
 
 meta:
   captured: "2016-10-29T19:44:15"

@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Supreme Leader Snoke from Star Wars."
 full: snoke.jpg
 order: 1
 date: 2020-10-26
+categories: [Star Wars, Villains, Movies]
 
 meta:
   source: "Star Wars"

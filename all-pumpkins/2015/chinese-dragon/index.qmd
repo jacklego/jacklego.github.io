@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a Chinese dragon."
 full: chinese-dragon.jpg
 order: 2
 date: 2015-10-18
+categories: [Monsters, Unthemed]
 
 meta:
   captured: "2015-10-18T23:00:35"

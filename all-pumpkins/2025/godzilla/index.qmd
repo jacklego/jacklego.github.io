@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Godzilla."
 full: godzilla.jpg
 order: 7
 date: 2025-10-27
+categories: [Monsters, Movies]
 
 meta:
   captured: "2025-10-27T18:56:01"

@@ -7,11 +7,12 @@ image-alt: "A pumpkin carved with a lucky lion."
 full: lucky-lion.jpg
 order: 9
 date: 2020-10-23
+categories: [Animals, Unthemed]
 
 meta:
   captured: "2020-10-23T19:12:36"
   raw-aspect-ratio: 1.3333
-  themed: false
+  off-theme: true
 
 ---
 

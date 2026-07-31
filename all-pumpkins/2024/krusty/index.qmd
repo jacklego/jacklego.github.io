@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Krusty the Clown from The Simpsons."
 full: krusty.jpg
 order: 8
 date: 2024-10-24
+categories: [The Simpsons]
 
 meta:
   source: "The Simpsons"

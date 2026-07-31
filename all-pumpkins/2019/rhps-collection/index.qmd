@@ -7,6 +7,7 @@ image-alt: "A group of pumpkins carved with characters from The Rocky Horror Pic
 full: rhps-collection.jpg
 order: 6
 date: 2019-10-30
+categories: [Rocky Horror, Movies]
 
 meta:
   source: "The Rocky Horror Picture Show"

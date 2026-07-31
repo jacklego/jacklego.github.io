@@ -7,6 +7,7 @@ image-alt: "A watermelon carved with an om symbol."
 full: om.jpg
 year: 2015
 date: 2015-05-29
+categories: [Melons, Unthemed]
 order: 5
 
 meta:

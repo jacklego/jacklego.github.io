@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Chernabog from Fantasia."
 full: chernabog.jpg
 order: 6
 date: 2021-10-24
+categories: [Disney, Monsters, Villains, Movies]
 
 meta:
   source: "Fantasia"

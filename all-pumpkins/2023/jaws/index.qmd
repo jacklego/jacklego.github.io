@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Jaws from The Spy Who Loved Me."
 full: jaws.jpg
 order: 8
 date: 2023-10-30
+categories: [James Bond, Villains, Movies]
 
 meta:
   source: "James Bond"

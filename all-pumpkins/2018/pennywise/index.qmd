@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Pennywise from It."
 full: pennywise.jpg
 order: 9
 date: 2018-10-26
+categories: [Horror, Monsters, Villains, Movies]
 
 meta:
   source: "It"

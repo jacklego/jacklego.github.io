@@ -7,11 +7,12 @@ image-alt: "A pumpkin carved with Frankenstein and Bride doing the monster mash.
 full: monster-mash.jpg
 order: 9
 date: 2021-10-25
+categories: [Horror, Monsters, Music, Unthemed]
 
 meta:
   captured: "2021-10-25T19:44:09"
   raw-aspect-ratio: 1.3333
-  themed: false
+  off-theme: true
 
 ---
 

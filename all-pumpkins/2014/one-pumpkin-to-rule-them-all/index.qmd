@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a ring of pseudo-Tengwar lettering, after The 
 full: one-pumpkin-to-rule-them-all.jpg
 order: 4
 date: 2014-10-30
+categories: [Lord of the Rings, Movies]
 
 meta:
   source: "The Lord of the Rings"

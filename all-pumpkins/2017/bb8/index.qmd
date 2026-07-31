@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with BB-8 from Star Wars."
 full: bb8.jpg
 order: 5
 date: 2017-10-27
+categories: [Star Wars, Movies]
 
 meta:
   source: "Star Wars"

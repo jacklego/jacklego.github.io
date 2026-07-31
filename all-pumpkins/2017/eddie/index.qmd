@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Eddie from Iron Maiden, as he appears on the K
 full: eddie.jpg
 order: 8
 date: 2017-10-31
+categories: [Music]
 
 meta:
   source: "Iron Maiden"

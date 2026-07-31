@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with imagery from Watership Down."
 full: watership-down.jpg
 order: 5
 date: 2022-10-30
+categories: [Story Book, Animals]
 
 meta:
   source: "Watership Down"

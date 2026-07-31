@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Peter Pan and Captain Hook, from Peter Pan."
 full: pan-and-hook.jpg
 order: 5
 date: 2021-10-26
+categories: [Disney, Villains, Pirates & Skulls, Movies]
 
 meta:
   source: "Peter Pan"

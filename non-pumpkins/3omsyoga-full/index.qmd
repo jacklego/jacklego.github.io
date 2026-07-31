@@ -7,6 +7,7 @@ image-alt: "A watermelon carved with the 3 Oms Yoga design."
 full: 3oms-yoga_full-spread.jpg
 year: 2015
 date: 2015-05-30
+categories: [Logos, Melons, Unthemed]
 order: 1
 
 meta:

@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with the Holy Diver album art by Dio."
 full: holy-diver.jpg
 order: 10
 date: 2017-10-22
+categories: [Music]
 
 meta:
   source: "Dio"

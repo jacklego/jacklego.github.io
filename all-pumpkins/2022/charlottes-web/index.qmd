@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with imagery from Charlotte's Web."
 full: charlottes-web.jpg
 order: 4
 date: 2022-10-30
+categories: [Story Book, Animals]
 
 meta:
   source: "Charlotte's Web"

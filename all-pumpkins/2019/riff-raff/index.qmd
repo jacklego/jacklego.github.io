@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Riff Raff from The Rocky Horror Picture Show."
 full: riff-raff.jpg
 order: 3
 date: 2019-10-28
+categories: [Rocky Horror, Movies]
 
 meta:
   source: "The Rocky Horror Picture Show"

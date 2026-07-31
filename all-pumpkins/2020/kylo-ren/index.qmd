@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Kylo Ren from Star Wars."
 full: kylo-ren.jpg
 order: 3
 date: 2020-10-28
+categories: [Star Wars, Villains, Movies]
 
 meta:
   source: "Star Wars"

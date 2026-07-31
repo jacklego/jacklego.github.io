@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with a flaming skull."
 full: flaming-skull.jpg
 order: 5
 date: 2014-10-29
+categories: [Pirates & Skulls, Unthemed]
 
 meta:
   captured: "2014-10-29T21:10:01"

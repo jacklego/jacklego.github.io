@@ -1,18 +1,19 @@
 ---
-title: "Mad Cow"
-pagetitle: "Mad Cow pumpkin carving"
-description: "Mad Cow — a pumpkin carving by Peter Wiegand, 2018."
+title: "Mad Cow (The Little Vampire)"
+pagetitle: "Mad Cow pumpkin carving (The Little Vampire)"
+description: "The mad cow from The Little Vampire — a pumpkin carving by Peter Wiegand, 2018."
 image: _mad-cow__thumb.jpg
-image-alt: "A pumpkin carved with a mad cow."
+image-alt: "A pumpkin carved with the mad cow from The Little Vampire."
 full: mad-cow.jpg
 extras: 2
 order: 14
 date: 2018-10-15
+categories: [Monsters, Animals, Movies]
 
 meta:
+  source: "The Little Vampire (2000)"
   captured: "2018-10-15T00:22:14"
   raw-aspect-ratio: 1.7778
-  wix: "Porkula"
 
 ---
 

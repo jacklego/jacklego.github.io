@@ -7,11 +7,12 @@ image-alt: "A pumpkin carved with the Red Rock Subs logo."
 full: red-rock-subs.jpg
 order: 11
 date: 2019-10-19
+categories: [Logos, Unthemed]
 
 meta:
   captured: "2019-10-19T20:57:46"
   raw-aspect-ratio: 1.3333
-  themed: false
+  off-theme: true
   logo: true
   wix: "Sandwich shop logo"
 

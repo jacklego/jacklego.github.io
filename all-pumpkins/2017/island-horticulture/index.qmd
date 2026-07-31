@@ -8,6 +8,7 @@ full: island-horticulture.jpg
 extras: 4
 order: 4
 date: 2017-10-15
+categories: [Logos, Unthemed]
 
 meta:
   captured: "2017-10-15T19:50:41"

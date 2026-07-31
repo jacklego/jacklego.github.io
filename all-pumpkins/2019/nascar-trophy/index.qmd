@@ -7,11 +7,12 @@ image-alt: "A pumpkin carved with a NASCAR trophy."
 full: nascar-trophy.jpg
 order: 9
 date: 2019-10-24
+categories: [Unthemed]
 
 meta:
   captured: "2019-10-24T18:49:24"
   raw-aspect-ratio: 0.7500
-  themed: false
+  off-theme: true
 
 ---
 

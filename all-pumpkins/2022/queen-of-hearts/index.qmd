@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with the Queen of Hearts from Alice in Wonderland."
 full: queen-of-hearts.jpg
 order: 8
 date: 2022-10-23
+categories: [Disney, Story Book, Villains, Movies]
 
 meta:
   source: "Alice in Wonderland"

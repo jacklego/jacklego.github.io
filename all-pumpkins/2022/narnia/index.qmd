@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with imagery from The Lion, the Witch and the Wardr
 full: narnia.jpg
 order: 2
 date: 2022-10-31
+categories: [Story Book]
 
 meta:
   source: "The Lion, the Witch and the Wardrobe"

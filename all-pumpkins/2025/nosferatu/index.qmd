@@ -7,6 +7,7 @@ image-alt: "A pumpkin carved with Nosferatu."
 full: nosferatu.jpg
 order: 9
 date: 2025-10-25
+categories: [Horror, Monsters, Movies]
 
 meta:
   captured: "2025-10-25T19:48:16"

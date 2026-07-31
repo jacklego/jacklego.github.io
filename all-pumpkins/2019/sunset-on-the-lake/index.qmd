@@ -8,11 +8,12 @@ full: sunset-on-the-lake.jpg
 extras: 1
 order: 7
 date: 2019-10-03
+categories: [Unthemed]
 
 meta:
   captured: "2019-10-03T23:20:13"
   raw-aspect-ratio: 1.3333
-  themed: false
+  off-theme: true
 
 ---
 
