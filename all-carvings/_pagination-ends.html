@@ -1,0 +1,115 @@
+<script>
+// Always show the first and last page in the listing pager.
+//
+// Quarto builds the pager with List.js and hard-codes the plugin options to
+// `{item: "<li class='page-item'>..."}` -- there is no front matter knob for
+// the rest. List.js then falls back to its own defaults, `innerWindow: 2` with
+// `outerWindow`, `left` and `right` all 0, and those three are exactly what
+// control the ends: its `left(n)` test is `n <= 0` and its `right(n)` test is
+// `n > totalPages - 0`, so neither ever passes. The result is a pager that
+// shows nothing but the current page plus or minus two --
+//
+//     ... 3 4 [5] 6 7 ...
+//
+// with page 1 and page 9 unreachable in one click, and the `...` inert (List.js
+// renders it as `.page-item.disabled`, which Quarto's own click binding then
+// skips by selector). Passing `outerWindow: 1` would be the one-line fix if the
+// options were reachable; since they aren't, this puts the two ends back after
+// each render.
+//
+// Runs on `updated`, which List.js fires after every page change, filter and
+// search, because it rebuilds the whole `<ul>` each time and drops whatever we
+// added last round.
+window.document.addEventListener("DOMContentLoaded", () => {
+  const listings = window["quarto-listings"] || {};
+
+  for (const id of Object.keys(listings)) {
+    const list = listings[id];
+    const listingEl = window.document.getElementById(id);
+    if (!listingEl) continue;
+
+    // `showPage` and `setPageHash` are top-level declarations in Quarto's
+    // quarto-listing.js, which is a classic script -- so they are globals, and
+    // reusing them keeps these two buttons behaving exactly like the ones
+    // List.js draws (including the `#listing-listing-page=N` deep link). The
+    // fallback covers them being scoped away in some future Quarto.
+    const goTo = (page) => {
+      if (typeof setPageHash === "function") setPageHash(id, page);
+      if (typeof showPage === "function") showPage(id, page);
+      else list.show((page - 1) * list.page + 1, list.page);
+      return false;
+    };
+
+    const pageItem = (page) => {
+      const li = window.document.createElement("li");
+      li.className = "page-item";
+      li.dataset.pagerEnd = "";
+      const a = window.document.createElement("a");
+      a.className = "page page-link";
+      a.href = "#";
+      a.setAttribute("data-i", page);
+      a.setAttribute("data-page", list.page);
+      a.textContent = page;
+      a.onclick = () => goTo(page);
+      li.appendChild(a);
+      return li;
+    };
+
+    const dots = () => {
+      const li = window.document.createElement("li");
+      li.className = "page-item disabled";
+      li.dataset.pagerEnd = "";
+      li.innerHTML = '<a class="page page-link">...</a>';
+      return li;
+    };
+
+    const addEnds = () => {
+      const pagination = listingEl.querySelector(".pagination");
+      if (!pagination) return;
+
+      // List.js rebuilds the pager on `updated`, but the first call here runs
+      // against markup it already drew, so clear any of ours still standing.
+      pagination
+        .querySelectorAll("[data-pager-end]")
+        .forEach((el) => el.remove());
+
+      const numbered = Array.from(
+        pagination.querySelectorAll("li.page-item:not(.disabled)")
+      );
+      if (numbered.length === 0) return;
+
+      const pageOf = (li) =>
+        parseInt(li.firstElementChild.getAttribute("data-i"), 10);
+      const total = Math.ceil(list.matchingItems.length / list.page);
+      const first = pageOf(numbered[0]);
+      const last = pageOf(numbered[numbered.length - 1]);
+
+      // Insert a gap marker of our own only when List.js hasn't already drawn
+      // one and the jump actually skips a page -- otherwise `1 ... 2` or a
+      // doubled `... ...`.
+      if (first > 1) {
+        const leading = pagination.firstElementChild;
+        if (first > 2 && !leading.classList.contains("disabled")) {
+          pagination.insertBefore(dots(), leading);
+        }
+        pagination.insertBefore(pageItem(1), pagination.firstElementChild);
+      }
+      if (last < total) {
+        if (last < total - 1 && !pagination.lastElementChild.classList.contains("disabled")) {
+          pagination.appendChild(dots());
+        }
+        pagination.appendChild(pageItem(total));
+      }
+    };
+
+    // Deferred by a task, not run inline: List.js rebuilds the whole `<ul>`
+    // *after* it has finished notifying `updated` handlers, so anything added
+    // from inside the handler is discarded a moment later. Quarto defers its
+    // own `refreshPaginationHandlers` the same way and for the same reason.
+    // Ours is queued second, after Quarto's, which is why the items below
+    // carry their own click handler rather than waiting to be given one.
+    list.on("updated", () => setTimeout(addEnds));
+    addEnds();
+  }
+});
+</script>

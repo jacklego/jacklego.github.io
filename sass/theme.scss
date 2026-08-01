@@ -297,3 +297,137 @@ h6 {
   text-decoration: underline;
   color: $body-color;
 }
+
+
+// ---------------------------------------------------------------------------
+// The category filter and pager on `all-carvings`
+// ---------------------------------------------------------------------------
+
+// Bootstrap 5 drives every pager state off `--bs-pagination-*` custom
+// properties, so setting those covers default, hover, focus, active and
+// disabled in one place instead of chasing `.active > .page-link` and its
+// siblings. Darkly's own values are grey on grey, which reads as a row of
+// disabled buttons.
+//
+// Black throughout, a 1px orange border throughout, orange numerals, and the
+// current page in green.
+.pagination {
+  --bs-pagination-border-width: 1px;
+
+  --bs-pagination-bg: #{$body-bg};
+  --bs-pagination-color: #{$body-color};
+  --bs-pagination-border-color: #{$body-color};
+
+  --bs-pagination-hover-bg: #{$body-bg};
+  --bs-pagination-hover-color: #{$success};
+  --bs-pagination-hover-border-color: #{$body-color};
+
+  --bs-pagination-focus-bg: #{$body-bg};
+  --bs-pagination-focus-color: #{$success};
+
+  --bs-pagination-active-bg: #{$body-bg};
+  --bs-pagination-active-color: #{$success};
+  --bs-pagination-active-border-color: #{$body-color};
+
+  // The `...` separators are `.page-item.disabled`. Without these they'd fall
+  // back to Bootstrap's muted grey and break the row of orange boxes -- they
+  // are still unclickable, just no longer styled as an error.
+  --bs-pagination-disabled-bg: #{$body-bg};
+  --bs-pagination-disabled-color: #{$body-color};
+  --bs-pagination-disabled-border-color: #{$body-color};
+}
+
+// The custom properties above never reach the current page or the `...`,
+// because Quarto's own listing stylesheet paints both with
+//
+//   ul.pagination { li.disabled, li.active { a { color: $pagination-active-color } } }
+//
+// -- Bootstrap's `$white`. At (0,2,3) that outruns `.active > .page-link`
+// (0,2,0), so the variable is set correctly and simply loses. Repeating the
+// selector with an extra class on each half puts us at (0,4,3), which wins
+// outright rather than depending on which of the two stylesheets Quarto happens
+// to emit last.
+ul.pagination {
+  li.page-item.active a.page-link {
+    color: $success;
+  }
+
+  li.page-item.disabled a.page-link {
+    color: $body-color;
+  }
+}
+
+// Quarto ships only `font-weight: 600` for the selected category, which at this
+// body size is nearly invisible against the other seventeen.
+.quarto-listing-category .category.active {
+  color: $success;
+}
+
+// `Lord of the Rings (3)` is the longest label in the filter, and at the
+// inherited 1rem/24px its count tag wraps onto a second line; `Pirates &
+// Skulls (8)` sits a few pixels off doing the same. Shrinking the list as a
+// whole keeps the column tidy without special-casing two entries.
+#quarto-margin-sidebar .quarto-listing-category {
+  font-size: 0.9rem;
+}
+
+// Below Bootstrap's `md` breakpoint Quarto hides the margin sidebar outright
+// (`@include media-breakpoint-down(md) { #quarto-margin-sidebar { display:
+// none } }`). On a page whose sidebar holds a table of contents that is a fair
+// call -- the content is still all there. Here it is the only way to filter,
+// so hiding it removes the point of the page on a phone.
+//
+// The sidebar is a grid item of `#quarto-content.page-columns`, placed at
+// `grid-column: body-end / page-end` across the full content row, so simply
+// un-hiding it would drop it on top of the listing. There is no spare row to
+// move it to either -- `.page-rows-contents` defines exactly two, and the
+// second is the pager's. Dropping the outer grid to block flow puts it above
+// the listing instead, which is what the DOM order already says: Quarto emits
+// the margin sidebar before `<main>`.
+//
+// Scoped with `:has()` so it can only ever reach a page that actually has a
+// margin sidebar -- today that is this one. Carving pages and the year grids
+// keep their grid untouched. `main.content` is not itself a `page-columns`
+// grid, so nothing inside it depends on the outer one.
+@media (max-width: 767.98px) {
+  #quarto-content.page-columns:has(#quarto-margin-sidebar) {
+    display: block;
+  }
+
+  #quarto-margin-sidebar {
+    display: block;
+
+    // `.sidebar` is `position: sticky` with `max-height: 100vh; overflow-y:
+    // auto`, which in block flow would pin a scrollbox to the top of the page.
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding-top: 0;
+    margin-bottom: 1.5em;
+
+    .quarto-listing-category-title {
+      margin-bottom: 0.4em;
+    }
+
+    // Seventeen categories stacked vertically would push the first card off
+    // the bottom of the screen, so they wrap into a row of tappable chips.
+    // Bordered rather than bare text: on a phone these need to read as
+    // controls, and there's no hover to hint at it.
+    .quarto-listing-category {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4em;
+      font-size: 0.8rem;
+
+      .category {
+        border: 1px solid $body-color;
+        border-radius: $border-radius;
+        padding: 0.1em 0.6em;
+      }
+
+      .category.active {
+        border-color: $success;
+      }
+    }
+  }
+}

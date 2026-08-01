@@ -13,10 +13,12 @@ website:
     left: 
       - text: "This Year's Patch"
         href: all-pumpkins/2025
-      - text: "All Pumpkins"
+      - text: "Pumpkins"
         href: all-pumpkins
       - text: "Non-Pumpkins"
         href: non-pumpkins
+      - text: "Browse All"
+        href: all-carvings
     # right:
     #   - icon: instagram
     #     href: https://instagram.com/
