@@ -92,7 +92,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 24,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -143,13 +144,13 @@ window.Quarto = {
 
 <meta property="og:title" content="Everything – Peter’s Pumpkin Patch">
 <meta property="og:description" content="Every carving – feel free to filter by theme">
-<meta property="og:image" content="https://peterspumpkinpatch.org/non-pumpkins/uw-husky/_husky__thumb.jpg">
+<meta property="og:image" content="https://peterspumpkinpatch.org/pumpkins/2025/frankenstein/_frankenstein__thumb.jpg">
 <meta property="og:site_name" content="Peter’s Pumpkin Patch">
-<meta property="og:image:alt" content="A watermelon carved with the UW Husky logo.">
+<meta property="og:image:alt" content="A pumpkin carved with Frankenstein&amp;#039;s monster.">
 <meta name="twitter:title" content="Everything – Peter’s Pumpkin Patch">
 <meta name="twitter:description" content="Every carving – feel free to filter by theme">
-<meta name="twitter:image" content="https://peterspumpkinpatch.org/non-pumpkins/uw-husky/_husky__thumb.jpg">
-<meta name="twitter:image:alt" content="A watermelon carved with the UW Husky logo.">
+<meta name="twitter:image" content="https://peterspumpkinpatch.org/pumpkins/2025/frankenstein/_frankenstein__thumb.jpg">
+<meta name="twitter:image:alt" content="A pumpkin carved with Frankenstein&amp;#039;s monster.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://peterspumpkinpatch.org/all-carvings/">
 </head>
@@ -176,11 +177,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../all-pumpkins/2025"> 
+    <a class="nav-link" href="../pumpkins/2025"> 
 <span class="menu-text">This Year’s Patch</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../all-pumpkins"> 
+    <a class="nav-link" href="../pumpkins"> 
 <span class="menu-text">Pumpkins</span></a>
   </li>  
   <li class="nav-item">
@@ -204,7 +205,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QW5pbWFscw==">Animals <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9nb3M=">Logos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVsb25z">Melons <span class="quarto-category-count">(6)</span></div><div class="category" data-category="VW50aGVtZWQ=">Unthemed <span class="quarto-category-count">(6)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(148)</span></div><div class="category" data-category="QW5pbWFscw==">Animals <span class="quarto-category-count">(12)</span></div><div class="category" data-category="RGlzbmV5">Disney <span class="quarto-category-count">(16)</span></div><div class="category" data-category="SG9ycm9y">Horror <span class="quarto-category-count">(19)</span></div><div class="category" data-category="SmFtZXMlMjBCb25k">James Bond <span class="quarto-category-count">(11)</span></div><div class="category" data-category="TG9nb3M=">Logos <span class="quarto-category-count">(17)</span></div><div class="category" data-category="TG9yZCUyMG9mJTIwdGhlJTIwUmluZ3M=">Lord of the Rings <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TWVsb25z">Melons <span class="quarto-category-count">(6)</span></div><div class="category" data-category="TW9uc3RlcnM=">Monsters <span class="quarto-category-count">(20)</span></div><div class="category" data-category="TW92aWVz">Movies <span class="quarto-category-count">(80)</span></div><div class="category" data-category="TXVzaWM=">Music <span class="quarto-category-count">(8)</span></div><div class="category" data-category="UGlyYXRlcyUyMCUyNiUyMFNrdWxscw==">Pirates &amp; Skulls <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Um9ja3klMjBIb3Jyb3I=">Rocky Horror <span class="quarto-category-count">(6)</span></div><div class="category" data-category="U3RhciUyMFdhcnM=">Star Wars <span class="quarto-category-count">(20)</span></div><div class="category" data-category="U3RvcnklMjBCb29r">Story Book <span class="quarto-category-count">(10)</span></div><div class="category" data-category="VGhlJTIwU2ltcHNvbnM=">The Simpsons <span class="quarto-category-count">(12)</span></div><div class="category" data-category="VW50aGVtZWQ=">Unthemed <span class="quarto-category-count">(43)</span></div><div class="category" data-category="VmlsbGFpbnM=">Villains <span class="quarto-category-count">(48)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -238,11 +239,1545 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="QW5pbWFscyUyQ0xvZ29zJTJDTWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1466233200000" data-listing-file-modified-sort="1785540943453" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="0" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761807600000" data-listing-file-modified-sort="1785540157591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/frankenstein/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/frankenstein/_frankenstein__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Frankenstein&amp;#039;s monster.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Frankenstein
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="TW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761807600000" data-listing-file-modified-sort="1785540157594" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/kong/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/kong/_kong__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with King Kong.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kong
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761721200000" data-listing-file-modified-sort="1785540157591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/dracula/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/dracula/_dracula__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Dracula.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dracula
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761721200000" data-listing-file-modified-sort="1785540157593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/invisible-man/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/invisible-man/_invisible-man__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Invisible Man.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Invisible Man
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761634800000" data-listing-file-modified-sort="1785540157594" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/mummy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/mummy/_mummy__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Mummy.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mummy
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="TW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761548400000" data-listing-file-modified-sort="1785540157592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/godzilla/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/godzilla/_godzilla__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Godzilla.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Godzilla
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="SG9ycm9yJTJDVW50aGVtZWQ=" data-listing-date-sort="1761548400000" data-listing-file-modified-sort="1785540157592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/haunted-house/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/haunted-house/_haunted-house__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a haunted house.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Haunted House
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761462000000" data-listing-file-modified-sort="1785540157590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/black-lagoon/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/black-lagoon/_black-lagoon__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Creature from the Black Lagoon.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Creature from the Black Lagoon
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="TW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761462000000" data-listing-file-modified-sort="1785540157595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/the-day-the-earth-stood-still/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/the-day-the-earth-stood-still/_the-day-the-earth-stood-still__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Klaatu from The Day the Earth Stood Still.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+(Klaatu) The Day the Earth Stood Still
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761375600000" data-listing-file-modified-sort="1785540157595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/nosferatu/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/nosferatu/_nosferatu__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Nosferatu.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nosferatu
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1761289200000" data-listing-file-modified-sort="1785540157596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2025/wolfman/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2025/wolfman/_wolfman__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Wolfman.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Wolfman
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1730358000000" data-listing-file-modified-sort="1785540157582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26" data-listing-extras-sort="2">
+<a href="../pumpkins/2024/a-chopwork-orange/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/a-chopwork-orange/_a-chopwork-orange__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with A Chopwork Orange, from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Chopwork Orange
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="VGhlJTIwU2ltcHNvbnMlMkNWaWxsYWlucw==" data-listing-date-sort="1730271600000" data-listing-file-modified-sort="1785540157586" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/kang/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/kang/_kang__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Kang from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kang
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1730271600000" data-listing-file-modified-sort="1785540157588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/marge/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/marge/_marge__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Marge Simpson from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Marge
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1730185200000" data-listing-file-modified-sort="1785540943445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/gunslinger/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/gunslinger/_gunslinger__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a gunslinger.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gunslinger
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1730185200000" data-listing-file-modified-sort="1785540157586" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/homer/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/homer/_homer__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Homer Simpson from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Homer
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1730098800000" data-listing-file-modified-sort="1785540157585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/groundskeeper-willie/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/groundskeeper-willie/_groundskeeper-willie__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Groundskeeper Willie from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Groundskeeper Willie
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="VGhlJTIwU2ltcHNvbnMlMkNWaWxsYWlucw==" data-listing-date-sort="1730098800000" data-listing-file-modified-sort="1785540157590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/sideshow-bob/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/sideshow-bob/_sideshow-bob__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Sideshow Bob from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sideshow Bob
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1730012400000" data-listing-file-modified-sort="1785540157583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/bart/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/bart/_bart__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Bart Simpson from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bart
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1729926000000" data-listing-file-modified-sort="1785540157588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/maggie/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/maggie/_maggie__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Maggie Simpson from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Maggie
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="VGhlJTIwU2ltcHNvbnMlMkNWaWxsYWlucw==" data-listing-date-sort="1729839600000" data-listing-file-modified-sort="1785540157589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/mr-burns/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/mr-burns/_mr-burns__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Mr. Burns from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mr.&nbsp;Burns
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1729753200000" data-listing-file-modified-sort="1785540157587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/krusty/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/krusty/_krusty__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Krusty the Clown from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Krusty
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1729753200000" data-listing-file-modified-sort="1785540157587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/lisa/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/lisa/_lisa__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Lisa Simpson from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lisa
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="23" data-categories="VGhlJTIwU2ltcHNvbnM=" data-listing-date-sort="1729580400000" data-listing-file-modified-sort="1785540157584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2024/flanders/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../pumpkins/2024/flanders/_flanders__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Ned Flanders from The Simpsons.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Flanders
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="24" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698649200000" data-listing-file-modified-sort="1785540157577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/bond-collection/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/bond-collection/_bond-collection__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A group of pumpkins carved with James Bond villains.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bond Collection
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="25" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698649200000" data-listing-file-modified-sort="1785540157578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/jaws/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/jaws/_jaws__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Jaws from The Spy Who Loved Me.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jaws (The Spy Who Loved Me)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="26" data-categories="VmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698649200000" data-listing-file-modified-sort="1785540157581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/sofina/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/sofina/_sofina__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Sofina from Dungeons &amp; Dragons: Honor Among Thieves.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sofina (DnD)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="27" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698562800000" data-listing-file-modified-sort="1785540157576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/blofeld/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/blofeld/_ernst-stavro-blofeld__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Ernst Stavro Blofeld from You Only Live Twice.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ernst Stavro Blofeld (You Only Live Twice)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="28" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNBbmltYWxzJTJDTW92aWVz" data-listing-date-sort="1698562800000" data-listing-file-modified-sort="1785540157581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/tarantula/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/tarantula/_tarantula__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the tarantula from Dr. No.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tarantula (Dr No)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="29" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1698476400000" data-listing-file-modified-sort="1785540943442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/nw-vape/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/nw-vape/_nw-vape-logo__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the NW Vape logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+NW Vape Logo
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="30" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698476400000" data-listing-file-modified-sort="1785540157580" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/oddjob/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/oddjob/_oddjob__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Oddjob from Goldfinger.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Oddjob (Goldfinger)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="31" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698390000000" data-listing-file-modified-sort="1785540157576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/baron-samedi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/baron-samedi/_baron-samedi__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Baron Samedi from Live and Let Die.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Baron Samedi (Live And Let Die)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="32" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698217200000" data-listing-file-modified-sort="1785540157579" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/le-chiffre/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/le-chiffre/_le-chiffre__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Le Chiffre from Casino Royale.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Le Chiffre (Casino Royale)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="33" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698130800000" data-listing-file-modified-sort="1785540157582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/zao/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/zao/_zao__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Zao from Die Another Day.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Zao (Die Another Day)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="34" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1698044400000" data-listing-file-modified-sort="1785540157580" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/scaramanga/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/scaramanga/_francisco-scaramanga__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Francisco Scaramanga from The Man with the Golden Gun.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Francisco Scaramanga (Man W Golden Gun)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="35" data-categories="SmFtZXMlMjBCb25kJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1697958000000" data-listing-file-modified-sort="1785540157578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2023/largo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2023/largo/_emilio-largo__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Emilio Largo from Thunderball.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Emilio Largo (Thunderball)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="36" data-categories="U3RvcnklMjBCb29r" data-listing-date-sort="1667199600000" data-listing-file-modified-sort="1785540157571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/narnia/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/narnia/_narnia__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from The Lion, the Witch and the Wardrobe.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Chronicles of Narnia
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="37" data-categories="U3RvcnklMjBCb29rJTJDQW5pbWFscw==" data-listing-date-sort="1667113200000" data-listing-file-modified-sort="1785540157568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/charlottes-web/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/charlottes-web/_charlottes-web__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Charlotte&amp;#039;s Web.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Charlotte’s Web
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="38" data-categories="U3RvcnklMjBCb29rJTJDQW5pbWFscw==" data-listing-date-sort="1667113200000" data-listing-file-modified-sort="1785540157575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/watership-down/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/watership-down/_watership-down__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Watership Down.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Watership Down
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="39" data-categories="U3RvcnklMjBCb29rJTJDQW5pbWFscw==" data-listing-date-sort="1667026800000" data-listing-file-modified-sort="1785540157570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/mrs-frisby/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/mrs-frisby/_mrs-frisby__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Mrs. Frisby and the Rats of NIMH.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mrs.&nbsp;Frisby and the Rats of NIMH
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="40" data-categories="U3RvcnklMjBCb29r" data-listing-date-sort="1666854000000" data-listing-file-modified-sort="1785540157567" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/20k-leagues/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/20k-leagues/_20k-leagues__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from 20,000 Leagues Under the Sea.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+20,000 Leagues Under the Sea
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="41" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1666767600000" data-listing-file-modified-sort="1785540943438" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/new-hope-church/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/new-hope-church/_new-hope-church__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the New Hope Church logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+New Hope Church
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="42" data-categories="TG9yZCUyMG9mJTIwdGhlJTIwUmluZ3MlMkNTdG9yeSUyMEJvb2slMkNNb3ZpZXM=" data-listing-date-sort="1666594800000" data-listing-file-modified-sort="1785540157569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/gollum/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/gollum/_gollum__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Gollum from The Hobbit.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gollum (The Hobbit)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="43" data-categories="RGlzbmV5JTJDU3RvcnklMjBCb29rJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1666508400000" data-listing-file-modified-sort="1785540157573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/queen-of-hearts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/queen-of-hearts/_queen-of-hearts__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Queen of Hearts from Alice in Wonderland.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Queen of Hearts (Alice in Wonderland)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="44" data-categories="U3RvcnklMjBCb29rJTJDVmlsbGFpbnM=" data-listing-date-sort="1666422000000" data-listing-file-modified-sort="1785540157574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/voldemort/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/voldemort/_voldemort__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Lord Voldemort from Harry Potter.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lord Voldemort (Harry Potter)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="45" data-categories="U3RvcnklMjBCb29rJTJDSG9ycm9yJTJDVmlsbGFpbnM=" data-listing-date-sort="1666335600000" data-listing-file-modified-sort="1785540157573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/slappy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/slappy/_slappy__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Slappy the Dummy from Goosebumps.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Slappy the Dummy (Goosebumps)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="46" data-categories="U3RvcnklMjBCb29rJTJDTW92aWVz" data-listing-date-sort="1666249200000" data-listing-file-modified-sort="1785540157568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2022/falkor-and-atreyu/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2022/falkor-and-atreyu/_falkor-and-atreyu__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Falkor and Atreyu from The NeverEnding Story.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Falkor &amp; Atreyu (The NeverEnding Story)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="47" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1635577200000" data-listing-file-modified-sort="1785540157565" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/sid/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/sid/_sid__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Sid Phillips from Toy Story.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sid Phillips (Toy Story)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="48" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1635577200000" data-listing-file-modified-sort="1785540157565" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/syndrome/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/syndrome/_syndrome__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Syndrome from The Incredibles.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Syndrome (The Incredibles)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="49" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1635490800000" data-listing-file-modified-sort="1785540157560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/cruella-de-vil/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/cruella-de-vil/_cruella-de-vil__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Cruella de Vil from 101 Dalmatians.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cruella de Vil (101 Dalmatians)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="50" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1635490800000" data-listing-file-modified-sort="1785540157567" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/yzma/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/yzma/_yzma__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Yzma from The Emperor&amp;#039;s New Groove.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yzma (The Emperor’s New Groove)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="51" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1635404400000" data-listing-file-modified-sort="1785540157560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/cruella/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/cruella/_cruella__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Cruella from Cruella (2021).">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cruella (2021)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="52" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1635318000000" data-listing-file-modified-sort="1785540943431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/disco-ball/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/disco-ball/_disco-ball__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved as a disco ball.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Disco Ball
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="53" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNBbmltYWxzJTJDTW92aWVz" data-listing-date-sort="1635318000000" data-listing-file-modified-sort="1785540157562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/scar/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/scar/_scar__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Scar from The Lion King.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Scar (The Lion King)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="54" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNQaXJhdGVzJTIwJTI2JTIwU2t1bGxzJTJDTW92aWVz" data-listing-date-sort="1635231600000" data-listing-file-modified-sort="1785540157562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/pan-and-hook/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/pan-and-hook/_pan-and-hook__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Peter Pan and Captain Hook, from Peter Pan.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pan &amp; Hook (Peter Pan)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="55" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNdXNpYyUyQ1VudGhlbWVk" data-listing-date-sort="1635145200000" data-listing-file-modified-sort="1785540943432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/monster-mash/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/monster-mash/_monster-mash__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Frankenstein and Bride doing the monster mash.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Monster Mash
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="56" data-categories="RGlzbmV5JTJDTW9uc3RlcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1635058800000" data-listing-file-modified-sort="1785540157559" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/chernabog/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/chernabog/_chernabog__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Chernabog from Fantasia.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chernabog (Fantasia)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="57" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1635058800000" data-listing-file-modified-sort="1785540157566" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/ursula/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/ursula/_ursula__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Ursula from The Little Mermaid.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ursula (The Little Mermaid)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="58" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1634972400000" data-listing-file-modified-sort="1785540943434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/schack-art-museum/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/schack-art-museum/_schack-art-museum__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Schack Art Museum logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Schack Art Museum
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="59" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1634799600000" data-listing-file-modified-sort="1785540157564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2021/shan-yu/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2021/shan-yu/_shan-yu__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Shan Yu from Mulan.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Shan Yu (Mulan)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="60" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1604127600000" data-listing-file-modified-sort="1785540157554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/darth-maul/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/darth-maul/_darth-maul__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Darth Maul from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Darth Maul
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="61" data-categories="SmFtZXMlMjBCb25kJTJDTW92aWVz" data-listing-date-sort="1604127600000" data-listing-file-modified-sort="1785541118401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/rip-sir-sean/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/rip-sir-sean/_rip-sir-sean__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved in memory of Sean Connery.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+R.I.P. Sir Sean
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="62" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1604041200000" data-listing-file-modified-sort="1785540157554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/darth-vader/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/darth-vader/_darth-vader__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Darth Vader from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Darth Vader
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="63" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1603954800000" data-listing-file-modified-sort="1785540157552" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/boba-fett/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/boba-fett/_boba-fett__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Boba Fett from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Boba Fett
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="64" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1603954800000" data-listing-file-modified-sort="1785540157557" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/luke-vs-the-new-order/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/luke-vs-the-new-order/_luke-vs-the-new-order__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Luke Skywalker against the New Order, from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Luke vs.&nbsp;The New Order
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="65" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1603868400000" data-listing-file-modified-sort="1785540943426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/carousel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/carousel/_carousel__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a carousel.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Carousel
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="66" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1603868400000" data-listing-file-modified-sort="1785540157555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/kylo-ren/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/kylo-ren/_kylo-ren__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Kylo Ren from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kylo Ren
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="67" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1603695600000" data-listing-file-modified-sort="1785540157558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/snoke/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/snoke/_snoke__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Supreme Leader Snoke from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Supreme Leader Snoke
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="68" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1603609200000" data-listing-file-modified-sort="1785540157553" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/captain-phasma/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/captain-phasma/_captain-phasma__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Captain Phasma from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Captain Phasma
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="69" data-categories="QW5pbWFscyUyQ1VudGhlbWVk" data-listing-date-sort="1603436400000" data-listing-file-modified-sort="1785540943427" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/lucky-lion/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/lucky-lion/_lucky-lion__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a lucky lion.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lucky Lion
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="70" data-categories="TXVzaWM=" data-listing-date-sort="1602054000000" data-listing-file-modified-sort="1785541111558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2020/rip-eddie/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2020/rip-eddie/_rip-eddie__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved in memory of Eddie Van Halen.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+R.I.P. Eddie
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="71" data-categories="Um9ja3klMjBIb3Jyb3IlMkNNb3ZpZXM=" data-listing-date-sort="1572418800000" data-listing-file-modified-sort="1785540157545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/columbia/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/columbia/_columbia__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Columbia from The Rocky Horror Picture Show.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Columbia
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="72" data-categories="Um9ja3klMjBIb3Jyb3IlMkNNb3ZpZXM=" data-listing-date-sort="1572418800000" data-listing-file-modified-sort="1785540157550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/rhps-collection/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/rhps-collection/_rhps-collection__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A group of pumpkins carved with characters from The Rocky Horror Picture Show.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Rocky Horror Collection
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="73" data-categories="Um9ja3klMjBIb3Jyb3IlMkNNb3ZpZXM=" data-listing-date-sort="1572332400000" data-listing-file-modified-sort="1785540157548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/magenta/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/magenta/_magenta__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Magenta from The Rocky Horror Picture Show.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Magenta
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="74" data-categories="Um9ja3klMjBIb3Jyb3IlMkNNb3ZpZXM=" data-listing-date-sort="1572246000000" data-listing-file-modified-sort="1785540157551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/riff-raff/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/riff-raff/_riff-raff__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Riff Raff from The Rocky Horror Picture Show.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Riff Raff
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="75" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1572159600000" data-listing-file-modified-sort="1785540943422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/maleficent/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/maleficent/_maleficent__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Maleficent from Sleeping Beauty.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Maleficent (Sleeping Beauty)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="76" data-categories="Um9ja3klMjBIb3Jyb3IlMkNMb2dvcyUyQ01vdmllcyUyQ1VudGhlbWVk" data-listing-date-sort="1572073200000" data-listing-file-modified-sort="1785540943421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-extras-sort="1">
+<a href="../pumpkins/2019/lips/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/lips/_lips__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the lips logo from The Rocky Horror Picture Show.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lips
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="77" data-categories="Um9ja3klMjBIb3Jyb3IlMkNNb3ZpZXM=" data-listing-date-sort="1571986800000" data-listing-file-modified-sort="1785540157546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/frank-n-furter/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/frank-n-furter/_frank-n-furter__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Dr. Frank-N-Furter from The Rocky Horror Picture Show.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dr.&nbsp;Frank-N-Furter
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="78" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1571900400000" data-listing-file-modified-sort="1785540943422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/nascar-trophy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/nascar-trophy/_nascar-trophy__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a NASCAR trophy.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+NASCAR Trophy
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="79" data-categories="UGlyYXRlcyUyMCUyNiUyMFNrdWxscyUyQ1VudGhlbWVk" data-listing-date-sort="1571727600000" data-listing-file-modified-sort="1785540943420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/ching-shih/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/ching-shih/_ching-shih__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Ching Shih, the Chinese pirate.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ching Shih
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="80" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1571468400000" data-listing-file-modified-sort="1785540943423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2019/red-rock-subs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/red-rock-subs/_red-rock-subs__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Red Rock Subs logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Red Rock Subs Logo
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="81" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1570086000000" data-listing-file-modified-sort="1785540943424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-extras-sort="1">
+<a href="../pumpkins/2019/sunset-on-the-lake/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2019/sunset-on-the-lake/_sunset-on-the-lake__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a sunset over a lake.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sunset on the Lake
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="82" data-categories="SG9ycm9yJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540882800000" data-listing-file-modified-sort="1785540157544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/the-shining/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/the-shining/_the-shining__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Heeeeere&amp;#039;s Johnny! scene from The Shining.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Heeeeere’s Johnny! (The Shining)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="83" data-categories="RGlzbmV5JTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540796400000" data-listing-file-modified-sort="1785540157536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/evil-witch/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/evil-witch/_evil-witch__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Evil Witch from Snow White and the Seven Dwarfs.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Evil Witch (Snow White)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="84" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1540796400000" data-listing-file-modified-sort="1785540157537" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/frankenstein/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/frankenstein/_frankenstein__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Frankenstein&amp;#039;s monster from Frankenstein (1931).">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Frankenstein (1931)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="85" data-categories="RGlzbmV5JTJDTW9uc3RlcnMlMkNNb3ZpZXM=" data-listing-date-sort="1540710000000" data-listing-file-modified-sort="1785540943413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/beast/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/beast/_beast__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Beast from Beauty and the Beast.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Beast
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="86" data-categories="SG9ycm9yJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540710000000" data-listing-file-modified-sort="1785540157538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/friday-the-13th/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/friday-the-13th/_friday-the-13th__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Friday the 13th.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Friday the 13th
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="87" data-categories="SG9ycm9yJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540710000000" data-listing-file-modified-sort="1785540157539" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/ghostface/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/ghostface/_ghostface__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Ghostface from Scream.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ghostface (Scream)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="88" data-categories="SG9ycm9yJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540710000000" data-listing-file-modified-sort="1785540157541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/halloween/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/halloween/_halloween__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Halloween (1978).">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Halloween (1978)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="89" data-categories="SG9ycm9yJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540623600000" data-listing-file-modified-sort="1785540157538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/freddy-krueger/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/freddy-krueger/_freddy-krueger__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Freddy Krueger from A Nightmare on Elm Street.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Freddy Krueger (A Nightmare on Elm Street)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="90" data-categories="SG9ycm9yJTJDVmlsbGFpbnMlMkNNb3ZpZXM=" data-listing-date-sort="1540623600000" data-listing-file-modified-sort="1785540157543" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/psycho/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/psycho/_psycho__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Psycho (1960).">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Psycho (1960)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="91" data-categories="SG9ycm9yJTJDTW9uc3RlcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1540537200000" data-listing-file-modified-sort="1785540157542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/pennywise/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/pennywise/_pennywise__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Pennywise from It.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pennywise (It)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="92" data-categories="SG9ycm9yJTJDQW5pbWFscyUyQ01vdmllcw==" data-listing-date-sort="1540105200000" data-listing-file-modified-sort="1785540157540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/grizzly/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/grizzly/_grizzly__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with imagery from Grizzly (1976).">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Grizzly (1976)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="93" data-categories="TW9uc3RlcnMlMkNBbmltYWxzJTJDVW50aGVtZWQ=" data-listing-date-sort="1540105200000" data-listing-file-modified-sort="1785540157544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/xiezhi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/xiezhi/_xiezhi__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a xiezhi, a beast from Chinese mythology.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Xiezhi
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="94" data-categories="TW9uc3RlcnMlMkNBbmltYWxzJTJDTW92aWVz" data-listing-date-sort="1539586800000" data-listing-file-modified-sort="1785541066221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27" data-listing-extras-sort="2">
+<a href="../pumpkins/2018/mad-cow/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/mad-cow/_mad-cow__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the mad cow from The Little Vampire.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mad Cow (The Little Vampire)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="95" data-categories="TW9uc3RlcnMlMkNBbmltYWxzJTJDVW50aGVtZWQ=" data-listing-date-sort="1539586800000" data-listing-file-modified-sort="1785541460038" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2018/porkula/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2018/porkula/_porkula__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Porkula, a vampire pig.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Porkula
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="96" data-categories="TXVzaWM=" data-listing-date-sort="1509433200000" data-listing-file-modified-sort="1785540157526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/eddie/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/eddie/_eddie__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Eddie from Iron Maiden, as he appears on the Killers album art.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Eddie (Iron Maiden)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="97" data-categories="TXVzaWM=" data-listing-date-sort="1509433200000" data-listing-file-modified-sort="1785540157531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/ozzy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/ozzy/_ozzy__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Ozzy Osbourne.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ozzy Osbourne
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="98" data-categories="TXVzaWM=" data-listing-date-sort="1509346800000" data-listing-file-modified-sort="1785540157534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/thriller/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/thriller/_thriller__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Michael Jackson&amp;#039;s Thriller.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Thriller (Michael Jackson)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="99" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1509174000000" data-listing-file-modified-sort="1785540943412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/stones-throw/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/stones-throw/_stones-throw__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved for Stone&amp;#039;s Throw Brewing.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Stone’s Throw Brewing
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="100" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1509087600000" data-listing-file-modified-sort="1785540157526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/bb8/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/bb8/_bb8__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with BB-8 from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BB-8
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="101" data-categories="TXVzaWM=" data-listing-date-sort="1508655600000" data-listing-file-modified-sort="1785540157524" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/alice-cooper/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/alice-cooper/_alice-cooper__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Alice Cooper.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alice Cooper
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="102" data-categories="TXVzaWM=" data-listing-date-sort="1508655600000" data-listing-file-modified-sort="1785540157528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/holy-diver/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/holy-diver/_holy-diver__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Holy Diver album art by Dio.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Holy Diver (Dio)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="103" data-categories="QW5pbWFscyUyQ1VudGhlbWVk" data-listing-date-sort="1508569200000" data-listing-file-modified-sort="1785540157535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/tiger/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/tiger/_tiger__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a tiger.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tiger
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="104" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1508223600000" data-listing-file-modified-sort="1785540943411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2017/proscapes/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/proscapes/_proscapes__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Proscapes logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Proscapes
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="105" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1508050800000" data-listing-file-modified-sort="1785540943410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45" data-listing-extras-sort="4">
+<a href="../pumpkins/2017/island-horticulture/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/island-horticulture/_island-horticulture__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Island Horticulture logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Island Horticulture
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="106" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1507964400000" data-listing-file-modified-sort="1785540943411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-extras-sort="1">
+<a href="../pumpkins/2017/north-coast/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2017/north-coast/_north-coast__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the North Coast Growers logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+North Coast Logo
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="107" data-categories="RGlzbmV5JTJDTW92aWVz" data-listing-date-sort="1477724400000" data-listing-file-modified-sort="1785540943404" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/deadpool/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/deadpool/_deadpool__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Marvel&amp;#039;s Deadpool.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Deadpool
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="108" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1477724400000" data-listing-file-modified-sort="1785540157521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32" data-listing-extras-sort="2">
+<a href="../pumpkins/2016/revolvers/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/revolvers/_revolvers__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a pair of revolvers.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Revolvers
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="109" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1477724400000" data-listing-file-modified-sort="1785540943407" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-extras-sort="1">
+<a href="../pumpkins/2016/stones-throw/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/stones-throw/_stones-throw__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Stone&amp;#039;s Throw Brewing logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Stone’s Throw Brewing
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="110" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1477551600000" data-listing-file-modified-sort="1785540157517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/3d-pumpkin/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/3d-pumpkin/_3d-pumpkin__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin with a three-dimensional carving.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+3D Pumpkin
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="111" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1477465200000" data-listing-file-modified-sort="1785540157518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/celtic-square-knot/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/celtic-square-knot/_celtic-square-knot__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a Celtic square knot.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Celtic Square Knot
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="112" data-categories="UGlyYXRlcyUyMCUyNiUyMFNrdWxscyUyQ1VudGhlbWVk" data-listing-date-sort="1477465200000" data-listing-file-modified-sort="1785540157520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/pirate-skull-tentacles/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/pirate-skull-tentacles/_pirate-skull-tentacles__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a pirate skull wreathed in tentacles.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pirate Skull with Tentacles
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="113" data-categories="VW50aGVtZWQ=" data-listing-date-sort="1476601200000" data-listing-file-modified-sort="1785540157521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/samurai/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/samurai/_samurai__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a samurai.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Samurai
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="114" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1476514800000" data-listing-file-modified-sort="1785540157518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/darth-vader/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/darth-vader/_darth-vader__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Darth Vader from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Darth Vader
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="115" data-categories="UGlyYXRlcyUyMCUyNiUyMFNrdWxscyUyQ1VudGhlbWVk" data-listing-date-sort="1475996400000" data-listing-file-modified-sort="1785540157522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/skull-and-cross-oars/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/skull-and-cross-oars/_skull-and-cross-oars__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a skull and crossed oars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Skull and Cross-Oars
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="116" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1475910000000" data-listing-file-modified-sort="1785540943408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/youngstocks-farm/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/youngstocks-farm/_youngstocks-farm__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Youngstock&amp;#039;s Farm logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Youngstock’s Farm
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="117" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1475305200000" data-listing-file-modified-sort="1785540943405" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2016/lopez-island-creamery/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2016/lopez-island-creamery/_lopez-island-creamery__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Lopez Island Creamery logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lopez Island Creamery
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="118" data-categories="QW5pbWFscyUyQ0xvZ29zJTJDTWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1466233200000" data-listing-file-modified-sort="1785540943453" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../non-pumpkins/uw-husky/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../non-pumpkins/uw-husky/_husky__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with the UW Husky logo.">
+<img loading="lazy" data-src="../non-pumpkins/uw-husky/_husky__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with the UW Husky logo.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -251,11 +1786,115 @@ UW Husky
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TG9nb3MlMkNNZWxvbnMlMkNVbnRoZW1lZA==" data-listing-date-sort="1432969200000" data-listing-file-modified-sort="1785540943452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="119" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1446188400000" data-listing-file-modified-sort="1785540157511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/chewbacca/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/chewbacca/_chewbacca__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Chewbacca from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chewbacca
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="120" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1446102000000" data-listing-file-modified-sort="1785540157516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/star-destroyer/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/star-destroyer/_star-destroyer__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a Star Destroyer from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Star Destroyer
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="121" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1445929200000" data-listing-file-modified-sort="1785540157514" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/darth-sidious/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/darth-sidious/_darth-sidious__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Darth Sidious from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Darth Sidious
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="122" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1445929200000" data-listing-file-modified-sort="1785540157515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/millennium-falcon/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/millennium-falcon/_millennium-falcon__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Millennium Falcon from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Millennium Falcon
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="123" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1445756400000" data-listing-file-modified-sort="1785540157516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18" data-listing-extras-sort="1">
+<a href="../pumpkins/2015/tatooine/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/tatooine/_tatooine__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Tatooine from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tatooine
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="124" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1445670000000" data-listing-file-modified-sort="1785540157513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/darth-maul/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/darth-maul/_darth-maul__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Darth Maul from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Darth Maul
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="125" data-categories="TW9uc3RlcnMlMkNVbnRoZW1lZA==" data-listing-date-sort="1445151600000" data-listing-file-modified-sort="1785540157512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/chinese-dragon/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/chinese-dragon/_chinese-dragon__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a Chinese dragon.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chinese Dragon
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="126" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1444460400000" data-listing-file-modified-sort="1785540943402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2015/high-society/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2015/high-society/_high-society-logo__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the High Society logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+High Society Logo
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="127" data-categories="TG9nb3MlMkNNZWxvbnMlMkNVbnRoZW1lZA==" data-listing-date-sort="1432969200000" data-listing-file-modified-sort="1785540943452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../non-pumpkins/3omsyoga-full/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../non-pumpkins/3omsyoga-full/_3oms-yoga_full-spread__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with the 3 Oms Yoga design.">
+<img loading="lazy" data-src="../non-pumpkins/3omsyoga-full/_3oms-yoga_full-spread__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with the 3 Oms Yoga design.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -264,11 +1903,11 @@ UW Husky
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1432882800000" data-listing-file-modified-sort="1785540157598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="128" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1432882800000" data-listing-file-modified-sort="1785540157598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../non-pumpkins/om/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../non-pumpkins/om/_om__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with an om symbol.">
+<img loading="lazy" data-src="../non-pumpkins/om/_om__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with an om symbol.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -277,11 +1916,11 @@ Om
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1432882800000" data-listing-file-modified-sort="1785540157599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="129" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1432882800000" data-listing-file-modified-sort="1785540157599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../non-pumpkins/pineapple/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../non-pumpkins/pineapple/_pineapple__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with a pineapple.">
+<img loading="lazy" data-src="../non-pumpkins/pineapple/_pineapple__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with a pineapple.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -290,11 +1929,11 @@ Pineapple
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1431846000000" data-listing-file-modified-sort="1785540157597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="130" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1431846000000" data-listing-file-modified-sort="1785540157597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../non-pumpkins/island-in-the-sun/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../non-pumpkins/island-in-the-sun/_island__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with an island in the sun.">
+<img loading="lazy" data-src="../non-pumpkins/island-in-the-sun/_island__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with an island in the sun.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -303,11 +1942,11 @@ Island in the Sun
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1431846000000" data-listing-file-modified-sort="1785540157600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="131" data-categories="TWVsb25zJTJDVW50aGVtZWQ=" data-listing-date-sort="1431846000000" data-listing-file-modified-sort="1785540157600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../non-pumpkins/rose/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../non-pumpkins/rose/_rose__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with a rose.">
+<img loading="lazy" data-src="../non-pumpkins/rose/_rose__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A watermelon carved with a rose.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -316,8 +1955,219 @@ Rose
 </div>
 </div></a>
 </div>
+<div class="g-col-1" data-index="132" data-categories="TG9yZCUyMG9mJTIwdGhlJTIwUmluZ3MlMkNNb3ZpZXM=" data-listing-date-sort="1414652400000" data-listing-file-modified-sort="1785540157508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2014/eye-of-sauron/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2014/eye-of-sauron/_eye-of-sauron__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Eye of Sauron from The Lord of the Rings.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Eye of Sauron (The Lord of the Rings)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="133" data-categories="TG9yZCUyMG9mJTIwdGhlJTIwUmluZ3MlMkNNb3ZpZXM=" data-listing-date-sort="1414652400000" data-listing-file-modified-sort="1785540157510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2014/one-pumpkin-to-rule-them-all/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2014/one-pumpkin-to-rule-them-all/_one-pumpkin-to-rule-them-all__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a ring of pseudo-Tengwar lettering, after The Lord of the Rings.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+One Pumpkin to Rule Them All (The Lord of the Rings)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="134" data-categories="UGlyYXRlcyUyMCUyNiUyMFNrdWxscyUyQ1VudGhlbWVk" data-listing-date-sort="1414566000000" data-listing-file-modified-sort="1785540157509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2014/flaming-skull/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2014/flaming-skull/_flaming-skull__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a flaming skull.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Flaming Skull
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="135" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1414393200000" data-listing-file-modified-sort="1785540157507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2014/boba-fett/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2014/boba-fett/_boba-fett__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Boba Fett from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Boba Fett
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="136" data-categories="TXVzaWM=" data-listing-date-sort="1414047600000" data-listing-file-modified-sort="1785540157506" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2014/army-of-mushrooms/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2014/army-of-mushrooms/_army-of-mushrooms__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Army of Mushrooms cover art by Infected Mushroom.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Army of Mushrooms (Infected Mushroom)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="137" data-categories="UGlyYXRlcyUyMCUyNiUyMFNrdWxscyUyQ01vdmllcw==" data-listing-date-sort="1382857200000" data-listing-file-modified-sort="1785540157504" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2013/potc-medallion/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2013/potc-medallion/_potc-medallion__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the cursed Aztec gold medallion from Pirates of the Caribbean.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cursed Aztec Gold (Pirates of the Caribbean)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="138" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1382857200000" data-listing-file-modified-sort="1785540157505" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18" data-listing-extras-sort="1">
+<a href="../pumpkins/2013/r2d2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2013/r2d2/_r2d2__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with R2-D2 from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+R2-D2
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="139" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1382425200000" data-listing-file-modified-sort="1785540943399" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2013/teamster-logo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2013/teamster-logo/_teamster-logo__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Teamsters logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Teamsters Logo
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="140" data-categories="U3RhciUyMFdhcnMlMkNWaWxsYWlucyUyQ01vdmllcw==" data-listing-date-sort="1351321200000" data-listing-file-modified-sort="1785540157502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2012/darth-vader/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2012/darth-vader/_darth-vader__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Darth Vader from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Darth Vader
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="141" data-categories="TG9nb3MlMkNVbnRoZW1lZA==" data-listing-date-sort="1351234800000" data-listing-file-modified-sort="1785540943398" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2012/dnd-logo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2012/dnd-logo/_dnd-logo__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Dungeons &amp; Dragons logo.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dungeons &amp; Dragons
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="142" data-categories="TW9uc3RlcnMlMkNVbnRoZW1lZA==" data-listing-date-sort="1351234800000" data-listing-file-modified-sort="1785540157504" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2012/fire-breathing-dragon/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2012/fire-breathing-dragon/_fire-breathing-dragon__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a fire-breathing dragon.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fire-Breathing Dragon
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="143" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1319871600000" data-listing-file-modified-sort="1785540157502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-extras-sort="1">
+<a href="../pumpkins/2011/death-star/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2011/death-star/_death-star__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Death Star from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Death Star
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="144" data-categories="VmlsbGFpbnMlMkNQaXJhdGVzJTIwJTI2JTIwU2t1bGxzJTJDTW92aWVz" data-listing-date-sort="1319266800000" data-listing-file-modified-sort="1785540157501" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2011/barbossa/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2011/barbossa/_barbossa__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Captain Barbossa from Pirates of the Caribbean.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Captain Barbossa (Pirates of the Caribbean)
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="145" data-categories="UGlyYXRlcyUyMCUyNiUyMFNrdWxscyUyQ1VudGhlbWVk" data-listing-date-sort="1287903600000" data-listing-file-modified-sort="1785540157500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2010/pirate-skull/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2010/pirate-skull/_pirate-skull__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with a pirate skull.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pirate Skull
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="146" data-categories="U3RhciUyMFdhcnMlMkNNb3ZpZXM=" data-listing-date-sort="1256454000000" data-listing-file-modified-sort="1785540157500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-extras-sort="1">
+<a href="../pumpkins/2010/death-star/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2010/death-star/_death-star__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with the Death Star from Star Wars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Death Star
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="147" data-categories="RGlzbmV5JTJDTW92aWVz" data-listing-date-sort="1098860400000" data-listing-file-modified-sort="1785540943396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../pumpkins/2010/spiderman/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../pumpkins/2010/spiderman/_spiderman__thumb.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A pumpkin carved with Marvel&amp;#039;s Spider-Man.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spider-Man
+</h5>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script>
 // Always show the first and last page in the listing pager.
