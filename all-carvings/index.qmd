@@ -3,7 +3,7 @@ title: "Everything"
 description: "Every carving -- feel free to filter by theme"
 listing:
   contents:
-    - ../all-pumpkins/*/*/index.qmd
+    - ../pumpkins/*/*/index.qmd
     - ../non-pumpkins/*/index.qmd
   page-size: 24
   sort: "date desc"

@@ -12,9 +12,9 @@ website:
     background: black
     left: 
       - text: "This Year's Patch"
-        href: all-pumpkins/2025
+        href: pumpkins/2025
       - text: "Pumpkins"
-        href: all-pumpkins
+        href: pumpkins
       - text: "Non-Pumpkins"
         href: non-pumpkins
       - text: "Browse All"
