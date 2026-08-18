@@ -8,5 +8,8 @@ To edit a year's image thumbnail:
 3. Change it to another thumbnail 
   - Make sure to match the formatting for the thumbnail: include the path and target the `__thumb` file
 
-To build: go to `Actions` tab in Github. 
+To build: 
+1. Go to `Actions` tab in Github
+2. On the left, click `Quarto Publish`
+3. Click `run workflow` (from `Branch:main`)
 
