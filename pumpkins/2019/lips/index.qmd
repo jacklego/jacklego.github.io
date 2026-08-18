@@ -8,7 +8,7 @@ full: lips.jpg
 extras: 1
 order: 2
 date: 2019-10-26
-categories: [Rocky Horror, Logos, Movies, Unthemed]
+categories: [Rocky Horror, Logos, Movies]
 
 meta:
   source: "The Rocky Horror Picture Show"
