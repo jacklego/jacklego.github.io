@@ -55,6 +55,14 @@ main #title-block-header,
   display: none;
 }
 
+.nav-footer-left a {
+  color: $body-color;
+
+  &:hover {
+      color: $success; 
+  }
+}
+
 // On a carving page, `description:` is SEO metadata -- it feeds
 // <meta name="description">, og:description and twitter:description -- not a
 // subtitle. Quarto renders it into the title banner regardless, so hide it.
@@ -296,6 +304,26 @@ h6 {
   // font-family: $headings-font-family;
   text-decoration: underline;
   color: $body-color;
+}
+
+
+// The `about` page (jolla template).
+//
+// Quarto's about.scss centres the body copy (`div.quarto-about-jolla main`),
+// which is fine for a one-line bio and hard to read at paragraph length. Only
+// the prose moves; the portrait and the title above it stay centred.
+// `main.content` rather than `main` so this outranks that rule on specificity
+// rather than on which stylesheet Quarto happens to emit last.
+div.quarto-about-jolla {
+  main.content {
+    text-align: left;
+  }
+
+  // The page's title is a greeting, not a section marker, so it opts out of
+  // the site-wide heading underline above.
+  #title-block-header h1.title {
+    text-decoration: none;
+  }
 }
 
 
