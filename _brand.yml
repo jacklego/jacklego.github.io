@@ -1,3 +1,11 @@
 logo: 
-  medium: _favicon/android-chrome-192x192.png
-  large: _favicon/android-chrome-512x512.png
+  images:
+    icon:
+      path: _favicon/favicon.svg
+      alt: "Peter's Pumpkin Patch icon"
+    monogram:
+      path: _favicon/monogram.svg
+      alt: "Peter's Pumpkin Patch monogram"
+  small: icon
+  medium: monogram
+  large: monogram

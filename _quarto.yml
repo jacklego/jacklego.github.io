@@ -1,5 +1,9 @@
 project:
   type: website
+  resources:
+    - "_favicon/"
+    - "favicon.ico"
+
 
 website:
   description: "Peter's Pumpkin Carvings"
@@ -37,6 +41,8 @@ format:
     fontcolor: $body-color
     lightbox: true
     canonical-url: true
+    include-in-header: 
+      - "_favicon/head.html"
 
 # pthemes:
 #   2025: Classic Movie Monsters
