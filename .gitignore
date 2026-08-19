@@ -1,8 +1,13 @@
-/.quarto/
+_site/
+site_libs/
+**/index.html
+**/index-listing.json
 **/*.quarto_ipynb
-/_site/
+.quarto/
 .vscode/
 .posscripts/
 _local/
 _full-sized-assets/
 CLAUDE.md
+
+/.quarto/
