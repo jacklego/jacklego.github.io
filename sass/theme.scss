@@ -19,6 +19,43 @@ $success: #00A33F;
 
 /*-- scss:rules --*/
 
+// Body copy was the only type on the site that never responded to the viewport.
+// Headings already do -- Bootstrap's RFS makes `h1` `calc(1.375rem + 1.5vw)`, so
+// a page title runs 34.7px on a 320px screen against 48px at 1440px -- but a
+// paragraph was a flat 24px everywhere, and 24px is about 1.5x a conventional
+// body size. Measured on the homepage memo, that put a line of text at 20
+// characters on a 320px viewport and 25 at 376px, against the 45-75 that reads
+// comfortably and the 35-45 usually aimed at on a phone. Short measure, not the
+// navbar, was what made the header look wrong beside it.
+//
+// So the root is a ramp: 19px at 320px, reaching today's 24px at 560px and
+// staying there. Measured, that takes the same lines to 27 and 31 characters,
+// brings a page title on a phone from 35.2px to 30.1px, and leaves every
+// viewport from 560px up exactly as it was.
+//
+// Written as `rem + vw` rather than plain `vw` on purpose: a pure viewport unit
+// ignores the reader's own font-size preference, while the `rem` term keeps
+// responding to it. It is not circular -- `rem` in a font-size on the root
+// element resolves against the initial value, not the value being computed --
+// and the two px bounds keep it from running away in either direction. 19px
+// stays well clear of the 16px floor below which text stops being comfortable
+// and iOS starts zooming form fields.
+//
+// The lever is the custom property, not `html { font-size }`: Bootstrap 5.3
+// declares `:root { font-size: var(--bs-root-font-size) }`, and `:root` outranks
+// a bare `html` selector, so a rule written that way silently loses. The Sass
+// `$font-size-root: 24px` in the defaults block above is deliberately left
+// alone, so anything doing arithmetic with it still sees a length.
+//
+// Everything rem-based follows this: headings, listing cards, the footer, the
+// page gutters, and the collapsed navbar's own padding. The navbar's fluid
+// scales are viewport-driven and so unaffected, and the gutters shrinking only
+// gives the bar more room than its constants assume -- verified across the whole
+// range, nothing truncates.
+:root {
+  --bs-root-font-size: clamp(19px, calc(0.77rem + 2.08vw), 24px);
+}
+
 // The navbar's proportions all derive from this one length, redefined per band by
 // the two media queries further down -- `max-width: 991.98px` for the collapsed
 // bar and `min-width: 992px` for the expanded one.
@@ -317,14 +354,18 @@ body.carving #quarto-document-content img {
     display: none;
   }
 
-  // Fitted to the measured header height with no logo in the bar -- 58.5px at
-  // 280px wide, 68.1px at 390px -- where the wordmark's line box governs
-  // instead. Adding up the box model predicts ~9px short of what the browser
-  // actually lays out, so the fitted constants win. Quarto's JS overwrites this
-  // with the header's measured `clientHeight` on load anyway, so an error here
-  // costs a smaller flash, never a broken layout.
+  // Fitted to the measured header height with no logo in the bar, where the
+  // wordmark's line box governs instead. Adding up the box model predicts ~9px
+  // short of what the browser actually lays out, so the fitted slope wins.
+  //
+  // The constant is in `rem`, not the px it was fitted as: it is the brand
+  // anchor's 0.3125rem of padding plus the navbar's own .4rem, both twice, which
+  // came to 34px only while the root was pinned at 24px. Now that the root is a
+  // ramp, 1.425rem is the same quantity expressed so it tracks. Quarto's JS
+  // overwrites this with the header's measured `clientHeight` on load anyway, so
+  // an error here costs a smaller flash, never a broken layout.
   body.nav-fixed {
-    padding-top: calc(var(--patch-navbar-scale) * 1.5 + 34px);
+    padding-top: calc(var(--patch-navbar-scale) * 1.5 + 1.425rem);
   }
 }
 
@@ -360,10 +401,11 @@ body.carving #quarto-document-content img {
   // reason everything else here is.
   //
   // With the monogram in the bar it, not the wordmark, is the tallest thing in
-  // it: 2x of logo, the brand anchor's 15px of padding, and the navbar's own
-  // .4rem twice.
+  // it: 2x of logo, the brand anchor's 0.3125rem of padding twice, and the
+  // navbar's own .4rem twice -- the latter two being the 1.425rem, in `rem` so
+  // that it tracks the root's ramp rather than assuming the old fixed 24px.
   body.nav-fixed {
-    padding-top: calc(var(--patch-navbar-scale) * 2 + 34px);
+    padding-top: calc(var(--patch-navbar-scale) * 2 + 1.425rem);
   }
 }
 
@@ -492,11 +534,16 @@ img.navbar-logo {
   }
 
   // Fitted the same way as the collapsed bar's: the logo (2x) plus the brand
-  // anchor's 15px of padding plus the navbar's own 1.6x. The search button plays
-  // no part -- it is shorter than the logo at every width -- but it does take
-  // width off the row, and it is sized globally above rather than here.
+  // anchor's padding plus the navbar's own 1.6x. Only the brand's padding is
+  // rem-based here -- 0.3125rem twice, i.e. the .625rem below, where the old
+  // 15px assumed a 24px root -- because this band's navbar padding is in the
+  // scale rather than in `rem`.
+  //
+  // The search button plays no part in the height -- it is shorter than the logo
+  // at every width -- but it does take width off the row, and it is sized
+  // globally above rather than here.
   body.nav-fixed {
-    padding-top: calc(var(--patch-navbar-scale) * 3.6 + 15px);
+    padding-top: calc(var(--patch-navbar-scale) * 3.6 + .625rem);
   }
 }
 
@@ -572,6 +619,27 @@ div.quarto-about-jolla {
   // the site-wide heading underline above.
   #title-block-header h1.title {
     text-decoration: none;
+  }
+
+  // The portrait is emitted with `style="height: 15em; width: 15em"` on the <img>
+  // itself, and nothing caps it, so on a narrow phone it ran wider than the
+  // screen -- 360px against a 280px viewport, pushing the page 116px sideways.
+  //
+  // A plain `max-width: 100%` is not enough, and not because of specificity:
+  // capping the width leaves the inline `height` untouched, so the `round` crop
+  // stops being a circle. Measured at 280px, that gives a 223x285 ellipse. Both
+  // axes have to move together -- hence `min()` on the width, `auto` on the
+  // height, and the square restored by `aspect-ratio` rather than by a second
+  // length. `!important` twice because what these beat is an inline style, which
+  // no selector can outrank.
+  //
+  // `em` here resolves against the img's inherited font size, so the portrait
+  // also follows the root ramp: 15em is 319px where the root is at its 24px
+  // ceiling and 285px where it is at the 19px floor.
+  img.about-image {
+    width: min(15em, 100%) !important;
+    height: auto !important;
+    aspect-ratio: 1;
   }
 }
 

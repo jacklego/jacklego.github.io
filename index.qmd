@@ -1,6 +1,5 @@
 ---
 title: "Peter's Pumpkin Patch"
-page-layout: full
 description: Welcome to Peter's Pumpkin Patch, where you can find all of my pumpkin carvings!
 image: ./pumpkins/2017/ozzy/_ozzy__thumb.jpg
 ---
