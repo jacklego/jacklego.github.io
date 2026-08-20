@@ -19,6 +19,23 @@ $success: #00A33F;
 
 /*-- scss:rules --*/
 
+// The navbar's proportions all derive from this one length, redefined per band by
+// the two media queries further down -- `max-width: 991.98px` for the collapsed
+// bar and `min-width: 992px` for the expanded one.
+//
+// This declaration is the fallback for the 0.02px seam between them. Bootstrap's
+// breakpoint idiom leaves that gap everywhere, and a viewport can land in it at
+// fractional widths under browser zoom; there, neither band matches. An
+// undefined `var()` is not benign -- it makes the whole declaration invalid at
+// computed-value time, so `max-height: calc(var(--patch-navbar-scale) * 2)` on
+// the logo would resolve to `none` and render the SVG at its intrinsic 1000px.
+// .95rem -- 22.8px -- is within a pixel of what the expanded band resolves to
+// just above the seam (22.1px at 992px), so a viewport that lands in it gets its
+// neighbour's proportions rather than a broken bar.
+:root {
+  --patch-navbar-scale: .95rem;
+}
+
 #navbarCollapse{
   flex-shrink: 2;
 }
@@ -61,12 +78,6 @@ main #title-block-header,
   &:hover {
       color: $success; 
   }
-}
-
-#quarto-search svg {
-  @media (min-width: 992px) {
-      vertical-align: top;
-    }
 }
 
 // On a carving page, `description:` is SEO metadata -- it feeds
@@ -198,32 +209,16 @@ body.carving #quarto-document-content img {
 // and the bar has room to spare, so the full-size proportions are the intended
 // look and stay untouched.
 @media (max-width: 991.98px) {
-  // The one length the collapsed bar is built from: the wordmark's font-size,
-  // the hamburger, the search magnifier, how much width the brand may take, and
-  // the padding that holds content clear of the fixed header.
+  // Everything here derives from `--patch-navbar-scale`, but the scale itself is
+  // set by the two sub-bands after this block rather than in it. What fits
+  // depends on whether the monogram is in the bar, and the two answers are
+  // different enough to be worth stating separately. Both declare it on `:root`
+  // rather than `.navbar`, because `body.nav-fixed` needs it too and the body is
+  // an ancestor of the navbar, not a descendant.
   //
-  // `min()` caps it at .95rem -- 22.8px, exactly the size the collapsed
-  // wordmark already had -- so from the ~393px crossover up to the breakpoint
-  // the text is the size it has always been, and only below that does the
-  // viewport govern. Nothing here can grow: the cap is the old value, not a new
-  // one.
-  //
-  // Because the text's width and the space allowed for it now scale off the
-  // same number, it cannot ellipse -- the `vw` that shrinks the string shrinks
-  // its demand (10.7x) faster than it shrinks the supply (100vw - 48 - 2.8x).
-  //
-  // 5.8vw is measured rather than derived. Raising it until the wordmark
-  // ellipses puts the edge at 6.14vw on a 280px viewport (a folded Galaxy Fold,
-  // the narrowest width worth supporting) and 6.35vw at 320px, so this keeps
-  // 6-9% in hand at the two tightest widths. From the crossover up it is the
-  // .95rem cap that governs, not the `vw`, and there the string clears its box
-  // by 37px -- no factor truncates it.
-  //
-  // Declared on `:root` rather than `.navbar` because `body.nav-fixed` needs it
-  // too, and the body is an ancestor of the navbar, not a descendant.
-  :root {
-    --patch-navbar-scale: min(.95rem, 5.8vw);
-  }
+  // Because every width in the row scales off that one number, the wordmark
+  // cannot ellipse at any viewport: whatever shrinks the string shrinks its
+  // demand faster than it shrinks the supply.
 
   // Overriding the Bootstrap custom properties rather than the SCSS variables
   // behind them (`$navbar-padding-y` and friends). Those compile once and can't
@@ -258,23 +253,6 @@ body.carving #quarto-document-content img {
     padding-right: 0;
   }
 
-  // The monogram is dropped, not shrunk. At any size it costs ~46px of the one
-  // scarce dimension in the bar while duplicating what the wordmark says, and
-  // the wordmark is the half a first-time visitor can read. Above 992px both
-  // are kept -- there is room for them there.
-  //
-  // Hiding the anchor rather than the <img>: Quarto emits two of those inside
-  // it, `light-content` and `dark-content`. The anchor is also the only thing
-  // whose absence collapses the flex gap.
-  //
-  // `#quarto-header` is load-bearing, not decoration. Quarto's
-  // `.navbar-brand.navbar-brand-logo { display: inline-flex }` carries two
-  // classes, so a bare `.navbar-brand-logo` loses to it and the monogram stays
-  // on screen; the id outranks it outright.
-  #quarto-header .navbar-brand-logo {
-    display: none;
-  }
-
   // No rule for `.navbar-title` itself is needed, and one would be dead code.
   // Quarto's `.navbar-title { font-size: 1.25em }` looks like it would multiply
   // the brand font-size out from under the scale above, but it is scoped to
@@ -286,7 +264,7 @@ body.carving #quarto-document-content img {
   // for the shrunken ones. A fixed reserve can't work once those are fluid --
   // whatever number fits at 320px wastes width at 991px. Derived from the same
   // scale instead: hamburger 1x plus its `.5em` margin (.33x) plus 2px of
-  // border, search 1.4x plus its `.25rem` margin -- rounded up to 2.8x + 12px.
+  // border, search 1.33x plus its `.25rem` margin -- rounded up to 2.8x + 12px.
   //
   // The brand keeps Bootstrap's `overflow: hidden; text-overflow: ellipsis`.
   // Nothing should reach the cap now, but if a longer title ever does, an
@@ -295,51 +273,84 @@ body.carving #quarto-document-content img {
     max-width: calc(100% - (var(--patch-navbar-scale) * 2.8 + 12px));
   }
 
-  // Quarto pins the magnifier at a flat 26px and its container at 40px, in
-  // selectors carrying `#quarto-search` plus up to six classes. The
-  // `#quarto-header` prefix is what outranks them -- two ids beat one whatever
-  // the class counts -- rather than relying on our rules being emitted last.
+}
+
+// The narrow end of the collapsed band, where the monogram stops being worth
+// what it costs.
+//
+// And it is a cost, not a fit: the expression in the band below shrinks the
+// wordmark to make whatever room the monogram needs, so it never stops fitting --
+// forced visible and walked down a pixel at a time, it still fits at 260px. What
+// it spends is text size. At 412px the wordmark is 21.8px with the monogram and
+// 23.8px without, an 8% haircut; by 360px that is 12% and by 280px 17%. So below
+// the line the trade goes the other way: the monogram goes, and the wordmark --
+// the half a first-time visitor can read -- keeps its size.
+//
+// 412px is where that line is drawn, which is exactly a Pixel's width (6 through
+// 9 all report 412px), so those get the monogram along with the 430px Pro Maxes,
+// while the 390-393px iPhones and everything narrower keep the larger wordmark
+// instead.
+//
+// Hiding the anchor rather than the <img>: Quarto emits two of those inside it,
+// `light-content` and `dark-content`. The anchor is also the only thing whose
+// absence collapses the flex gap beside the wordmark.
+//
+// `#quarto-header` is load-bearing, not decoration. Quarto's
+// `.navbar-brand.navbar-brand-logo { display: inline-flex }` carries two
+// classes, so a bare `.navbar-brand-logo` loses to it and the monogram stays on
+// screen; the id outranks it outright.
+@media (max-width: 411.98px) {
+  // With no monogram, the wordmark and the two controls are the whole bar, and
+  // 5.8vw is the largest slope that fits it: raising the factor until the
+  // wordmark ellipses puts the edge at 6.14vw on a 280px viewport (a folded
+  // Galaxy Fold, the narrowest width worth supporting) and 6.35vw at 320px, so
+  // this keeps 6-9% in hand at the two tightest widths.
   //
-  // 1.4 and .9 reproduce that 40px and 26px at the top of the scale, so the
-  // search button is untouched above the crossover and tracks the wordmark
-  // below it.
-  //
-  // The svg is reached without naming its parents because the collapsed search
-  // has none of the ones Quarto's own selectors imply: in `type-overlay` mode
-  // the markup is `.aa-Autocomplete > button.aa-DetachedSearchButton >
-  // .aa-DetachedSearchButtonIcon > svg.aa-SubmitIcon`, with no `.aa-Form`
-  // anywhere -- that only exists in the detached overlay, which lives outside
-  // #quarto-header entirely.
-  #quarto-header #quarto-search .aa-Autocomplete {
-    width: calc(var(--patch-navbar-scale) * 1.4);
+  // The 1.25rem ceiling is the same one the expanded bar uses, and 5.8vw would
+  // not reach it until 517px -- outside this band -- so here the viewport
+  // governs throughout and the ceiling is only there for form's sake.
+  :root {
+    --patch-navbar-scale: min(1.25rem, 5.8vw);
   }
 
-  #quarto-header #quarto-search svg {
-    width: calc(var(--patch-navbar-scale) * .9);
-    height: calc(var(--patch-navbar-scale) * .9);
+  #quarto-header .navbar-brand-logo {
+    display: none;
   }
 
-  // Bootstrap's reboot sets a bare `svg { vertical-align: middle }`, which sat
-  // the magnifier low against the wordmark; the `text-top` that used to be here
-  // corrected it for one specific pair of sizes. Neither survives a scaled icon,
-  // because both align the icon to a *baseline* -- one struck from the button's
-  // inherited 24px font, which no longer has anything to do with how big the
-  // icon is. Measured, the icon drifted ~5px above the bar's centre line.
-  //
-  // Centring the button and the icon's wrapper as flex boxes takes the baseline
-  // out of it entirely: `vertical-align` has no effect on a flex item, and the
-  // button is already centred in the bar by `.container-fluid`'s
-  // `align-items: center`. Both are needed -- the wrapper alone still left the
-  // icon 2.3px high, because the button is 38px tall (its own line box) and was
-  // not centring what it contained. Measured at 0.0px off centre from 280px to
-  // 991px, where Quarto's own alignment is 2px high.
-  //
-  // Only the inline button is affected -- the detached overlay it opens is
-  // appended to <body>, outside #quarto-search.
-  #quarto-header #quarto-search .aa-DetachedSearchButton,
-  #quarto-header #quarto-search .aa-DetachedSearchButtonIcon {
-    display: flex;
-    align-items: center;
+  // Fitted to the measured header height with no logo in the bar -- 58.5px at
+  // 280px wide, 68.1px at 390px -- where the wordmark's line box governs
+  // instead. Adding up the box model predicts ~9px short of what the browser
+  // actually lays out, so the fitted constants win. Quarto's JS overwrites this
+  // with the header's measured `clientHeight` on load anyway, so an error here
+  // costs a smaller flash, never a broken layout.
+  body.nav-fixed {
+    padding-top: calc(var(--patch-navbar-scale) * 1.5 + 34px);
+  }
+}
+
+
+// The rest of the collapsed range, where the monogram is in the bar.
+//
+// Here the fit is stated outright rather than fitted by experiment. Laid end to
+// end the row wants 10.7x of wordmark, 2x + 8px of monogram, 2.8x + 12px for the
+// hamburger and search, and 36px of gutters, so it fits while
+// x <= (100vw - 56px) / 15.55. Dividing by 16 and taking 64px off is that same
+// constraint with ~3% held back. It holds at any width, so where this band stops
+// is a judgement about the wordmark's size rather than a fit boundary -- see the
+// band above.
+//
+// The 1.25rem ceiling is reached at 544px, and from there up to the breakpoint
+// the bar sits at full desktop proportions -- 30px wordmark, 60px monogram, 26px
+// magnifier -- with only the four links tucked behind the hamburger. That is
+// deliberately *not* continuous with the far side of the breakpoint, where the
+// same row has to find room for those links inline and drops back to 22.1px:
+// using the width a given viewport actually has matters more than making 991px
+// and 992px look alike. The header's height happens to land within half a pixel
+// either side regardless (94.2px against 94.6px), so what the jump reads as is
+// the links arriving, not the bar resizing.
+@media (min-width: 412px) and (max-width: 991.98px) {
+  :root {
+    --patch-navbar-scale: min(1.25rem, calc((100vw - 64px) / 16));
   }
 
   // Quarto ships a static `body.nav-fixed { padding-top: 82px }` and
@@ -348,17 +359,76 @@ body.carving #quarto-document-content img {
   // with JS off, where it is the whole story. It has to be fluid for the same
   // reason everything else here is.
   //
-  // 1.5x + 34px is fitted to the header height measured in Chromium across the
-  // scale's whole range -- 58.5px at 280px wide, 68.1px at 390px, 76.9px at
-  // 991px -- and holds to within half a pixel. Adding up the box model instead
-  // (brand line box + the anchor's 0.3125rem of padding + the navbar's .4rem)
-  // predicts ~9px short of what the browser actually lays out, so the fitted
-  // constants win. The JS corrects any residual drift anyway, so an error here
-  // costs a smaller flash, never a broken layout.
+  // With the monogram in the bar it, not the wordmark, is the tallest thing in
+  // it: 2x of logo, the brand anchor's 15px of padding, and the navbar's own
+  // .4rem twice.
   body.nav-fixed {
-    padding-top: calc(var(--patch-navbar-scale) * 1.5 + 34px);
+    padding-top: calc(var(--patch-navbar-scale) * 2 + 34px);
   }
 }
+
+
+// The logo is sized off the scale in both bands, so it tracks the wordmark
+// wherever it is shown: 2x, which is the 60px logo beside a 30px wordmark that
+// the site already had at desktop widths, and which keeps the pair's proportions
+// unchanged across the 992px breakpoint. Below 430px the rule is moot -- the
+// anchor is hidden there -- so this needs no media query of its own.
+img.navbar-logo {
+  max-height: calc(var(--patch-navbar-scale) * 2);
+}
+
+
+// The search button is in the scale at every width for the same reason, where it
+// used to sit at Quarto's flat 40px box and 26px magnifier above the breakpoint
+// and only scale below it. 1.333 and .867 reproduce exactly those two numbers at
+// the 1.25rem ceiling, so the widest viewports are unchanged and everything
+// narrower keeps the magnifier in proportion with the wordmark beside it.
+//
+// Quarto pins both in selectors carrying `#quarto-search` plus up to six
+// classes. The `#quarto-header` prefix is what outranks them -- two ids beat one
+// whatever the class counts -- rather than relying on our rules being emitted
+// last.
+//
+// The svg is reached without naming its parents because the collapsed search has
+// none of the ones Quarto's own selectors imply: in `type-overlay` mode the
+// markup is `.aa-Autocomplete > button.aa-DetachedSearchButton >
+// .aa-DetachedSearchButtonIcon > svg.aa-SubmitIcon`, with no `.aa-Form` anywhere
+// -- that only exists in the detached overlay, which is appended to <body>,
+// outside #quarto-header entirely.
+#quarto-header #quarto-search .aa-Autocomplete {
+  width: calc(var(--patch-navbar-scale) * 1.333);
+}
+
+#quarto-header #quarto-search svg {
+  width: calc(var(--patch-navbar-scale) * .867);
+  height: calc(var(--patch-navbar-scale) * .867);
+}
+
+
+// Bootstrap's reboot sets a bare `svg { vertical-align: middle }`, which sat the
+// magnifier low against the wordmark, and a `text-top` here used to correct it
+// for one specific pair of sizes. Neither survives a scaled icon, because both
+// align it to a *baseline* -- one struck from the button's inherited 24px font,
+// which has nothing to do with how big the icon is. Measured, the icon drifted
+// ~5px above the bar's centre line.
+//
+// Centring the button and the icon's wrapper as flex boxes takes the baseline
+// out of it entirely: `vertical-align` has no effect on a flex item, and the
+// button is already centred in the bar by `.container-fluid`'s `align-items:
+// center`. Both are needed -- the wrapper alone still left the icon 2.3px high,
+// because the button is 38px tall (its own line box) and was not centring what
+// it contained.
+//
+// A `#quarto-search svg { vertical-align: top }` rule used to sit further up the
+// file for the same purpose. It was removed rather than left in place: with the
+// svg a flex item at every width, the property is ignored, so the rule could
+// only mislead. Reach for `align-items` here, not `vertical-align`.
+#quarto-header #quarto-search .aa-DetachedSearchButton,
+#quarto-header #quarto-search .aa-DetachedSearchButtonIcon {
+  display: flex;
+  align-items: center;
+}
+
 
 // Above the breakpoint the bar has the opposite problem to the one below it, and
 // the same cure. The four links come inline, and at this root size they want
@@ -374,7 +444,7 @@ body.carving #quarto-document-content img {
 // fluid length, every dimension in the row derived from it, and a cap that is
 // exactly today's value so nothing can grow. At the cap this band is a no-op --
 // brand 30px, links 24px, logo 60px, both paddings 1rem -- and it is only below
-// ~1282px that anything moves.
+// ~1343px that anything moves.
 //
 // 2.23vw is measured, by raising the factor until either the wordmark ellipses
 // or a link wraps to a second line, at every width from 992px to 1440px: the
@@ -404,13 +474,6 @@ body.carving #quarto-document-content img {
     --bs-navbar-padding-y: calc(var(--patch-navbar-scale) * .8);
   }
 
-  // 2x, so the 60px logo is twice the 30px wordmark beside it, as now. This is
-  // the only rule the logo needs in either band: below the breakpoint its anchor
-  // is hidden outright, so there is nothing left to size.
-  img.navbar-logo {
-    max-height: calc(var(--patch-navbar-scale) * 2);
-  }
-
   // The links are what actually overflows, so they have to be in the scale, not
   // just the brand: .8x holds them at the 1rem they render at today, and .48x
   // reproduces Quarto's .6rem of padding. That padding is worth scaling rather
@@ -429,10 +492,9 @@ body.carving #quarto-document-content img {
   }
 
   // Fitted the same way as the collapsed bar's: the logo (2x) plus the brand
-  // anchor's 15px of padding plus the navbar's own 1.6x. The search button is
-  // deliberately left at Quarto's fixed 40px/26px here -- unlike the collapsed
-  // bar, where it was one of three things competing for a phone's width, it is
-  // 4% of this row and scaling it would buy nothing.
+  // anchor's 15px of padding plus the navbar's own 1.6x. The search button plays
+  // no part -- it is shorter than the logo at every width -- but it does take
+  // width off the row, and it is sized globally above rather than here.
   body.nav-fixed {
     padding-top: calc(var(--patch-navbar-scale) * 3.6 + 15px);
   }
@@ -450,12 +512,21 @@ body.carving #quarto-document-content img {
 // focus lands on one child or the other and never on the container itself.
 //
 // The wordmark's <a> already has the colour rule; this only widens what
-// triggers it. The logo is an <img>, where `color` does nothing -- but the PNG
-// is a flat #ff8800 monogram on a solid black square, which makes a filter
-// chain exact rather than approximate: hue-rotate and saturate are linear
+// triggers it. The logo is an <img>, where `color` does nothing -- but the file
+// behind it is a flat #ff8800 monogram on a solid black square, which makes a
+// filter chain exact rather than approximate: hue-rotate and saturate are linear
 // matrices and brightness is a multiply, so the black stays at luminance zero,
 // invisible against the black navbar, while #ff8800 lands on #19ab52 -- within
 // a hair of the #1aac52 the wordmark turns.
+//
+// That file is `_favicon/favicon.svg` -- an SVG since the favicon rework, where
+// it used to be `android-chrome-192x192.png`, but a 1000x1000 `<rect
+// fill="#000000">` behind the same flat #ff8800 mark, so the chain above is
+// unaffected. It is the `small:` entry in `_brand.yml` that lands here: Quarto's
+// navbar takes the small logo, so pointing `small:` at `monogram.svg` instead
+// would put a *transparent*, 1.42:1 mark in the bar -- which keeps the filter
+// working (same flat colour) but widens the brand by ~25px at desktop sizes,
+// where the row is already the tightest thing on the site.
 //
 // No transition, so the two halves change together instantly.
 .navbar-brand-container:hover,
