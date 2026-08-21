@@ -117,18 +117,6 @@
     ]
   },
   {
-    "listing": "/pumpkins/2026/index.html",
-    "items": []
-  },
-  {
-    "listing": "/pumpkins/2013/index.html",
-    "items": [
-      "/pumpkins/2013/r2d2/index.html",
-      "/pumpkins/2013/teamster-logo/index.html",
-      "/pumpkins/2013/potc-medallion/index.html"
-    ]
-  },
-  {
     "listing": "/pumpkins/2016/index.html",
     "items": [
       "/pumpkins/2016/lopez-island-creamery/index.html",
@@ -143,6 +131,18 @@
       "/pumpkins/2016/stones-throw/index.html",
       "/pumpkins/2016/youngstocks-farm/index.html"
     ]
+  },
+  {
+    "listing": "/pumpkins/2013/index.html",
+    "items": [
+      "/pumpkins/2013/r2d2/index.html",
+      "/pumpkins/2013/teamster-logo/index.html",
+      "/pumpkins/2013/potc-medallion/index.html"
+    ]
+  },
+  {
+    "listing": "/pumpkins/2026/index.html",
+    "items": []
   },
   {
     "listing": "/pumpkins/2022/index.html",
