@@ -16,13 +16,13 @@ source: Frankenstein (1931)
 #   Animals        Music           Logos           Melons
 #   Movies         Unthemed
 #
-# Anything not on that list is ignored, and Connor gets told about it.
+# Anything not on that list is ignored unless it is first added to `scripts/categories.txt`.
 # ---------------------------------------------------------------------------
 
 
 # Other things you can set. Remove the # to use one.
 #
-# name: Frankenstein (1931)   the title, if you'd rather not rename the photo
+# name: Frankenstein (1931)   the title, if you'd rather not rename the photo file
 # logo: yes                   it's a business or organization logo
 # medium: watermelon          it isn't a pumpkin
 # off-theme: yes              it doesn't fit this year's theme
