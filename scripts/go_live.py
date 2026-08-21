@@ -118,7 +118,7 @@ Still yours to do:
   1. _homepage-memo.md    -- replace with Peter's note for the {year} season
   2. review order         -- carvings are in upload order; resequence `order:`
                              if Peter wants a different one
-  3. close out the open `needs-polish` issues
+  3. close out the open `review` issues
   4. archive originals    -- move anything left in _inbox/ into
                              _full-sized-assets/all-pumpkins/{year}/
   5. quarto publish gh-pages

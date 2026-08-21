@@ -1,16 +1,23 @@
 # Optional details for a carving. 
 # Every line is optional -- delete what you don't need. 
 # Upload this file together with the photo.
-# Anything after a # is a comment and gets ignored.
+# Anything after a # is a comment and gets ignored (leave a space before the #).
+
+# Uploading more than one photo at once? Say which photo this file is about!
+# Remove the starting # on the `source-file` line below and put the photo's exact file name after the colon.
+# With a single photo you can leave this out -- there's nothing to mix it up with.
 
 
 categories: Horror, Monsters, Movies
-source: Frankenstein (1931)
+# source-file: Frankenstein (1931).jpg
+# source-material: Frankenstein (1931)
 
 # ---------------------------------------------------------------------------
 # Categories -- use only those in `scripts/categories.txt`, exactly as they appear.
 
-# Source -- the work that this carving is from (e.g. the specific book, movie, etc.)
+# Source-file -- used to match this document to the source file. Optional if doing one photo upload at a time. 
+
+# Source material -- the work that this carving is from (e.g. the specific book, movie, etc.)
 # ---------------------------------------------------------------------------
 
 

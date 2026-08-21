@@ -65,7 +65,7 @@ def clean_text(s: str) -> str:
 
     Strips a UTF-8 BOM (Notepad writes one, and it breaks a strict YAML parser
     on the very first key), folds smart quotes and dashes back to ASCII, and
-    collapses whn't need. Upload this file togeitespace. Applied to every value read from a sidecar or a
+    collapses whitespace. Applied to every value read from a sidecar or a
     filename before anything else looks at it.
     """
     if not isinstance(s, str):

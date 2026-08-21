@@ -37,9 +37,23 @@ file alongside the photo. Copy **`TEMPLATE.txt`**, fill in the lines you care
 about, delete the rest, and drag it in *together with the photo* so they arrive
 in one go.
 
-Name it whatever you like. When you're uploading several photos at once, it's 
-clearer if name of the text file matches the name of the photo file, e.g.
-`Frankenstein.txt` alongside `Frankenstein.jpg`, but it isn't required.
+Name it whatever you like. With one photo and one text file, they get paired no
+matter what either is called.
+
+**When you upload several photos at once, each text file has to say which photo
+it belongs to.** Uncomment the `source-file:` line in your copy and put the
+photo's exact file name after it:
+
+```
+source-file: Frankenstein (1931).jpg
+```
+
+Naming the text file after the photo — `Frankenstein.txt` alongside
+`Frankenstein.jpg` — works too. What doesn't work is several photos and a text
+file called something generic like `notes.txt`: there's no way to tell which
+photo it meant, so it gets left alone and the page is built without it. The
+photos still become pages either way, and the review issue says which file was
+skipped.
 
 You can also skip this and defer it for later.
 

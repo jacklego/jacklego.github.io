@@ -58,7 +58,20 @@ SIDECAR_KEYS = {
     "name", "title", "categories", "category", "source", "logo", "medium",
     "off-theme", "offtheme", "note", "notes", "order", "slug", "year", "date",
     "group",
+    # `source-file:` names the photo this sidecar belongs to. It is the only key
+    # read before the pairing is decided -- see `collect()`.
+    "source-file", "source_file", "sourcefile", "photo", "file",
+    # The template asks for `source-material:`, which reads as English next to
+    # `source-file:`; `source:` is the front matter key and still accepted.
+    "source-material", "source_material", "sourcematerial",
 }
+
+# Aliases for `source-file:`, in the order they are consulted.
+SOURCE_FILE_KEYS = ("source-file", "source_file", "sourcefile", "photo", "file")
+
+# Aliases for the work a carving is from, written to front matter as
+# `meta.source`. The template's spelling comes first.
+SOURCE_KEYS = ("source-material", "source_material", "sourcematerial", "source")
 
 
 # --------------------------------------------------------------------------
@@ -335,11 +348,41 @@ image: {thumb}
 # the pipeline
 # --------------------------------------------------------------------------
 
+def pick(sidecar: dict, *keys: str) -> str | None:
+    """The first key present with a non-empty value, or None."""
+    for key in keys:
+        if sidecar.get(key):
+            return sidecar[key]
+    return None
+
+
+def declared_photo(sidecar: dict) -> str | None:
+    """The photo a sidecar says it belongs to, from `source-file:` or an alias."""
+    value = pick(sidecar, *SOURCE_FILE_KEYS)
+    if value is None:
+        return None
+    # Tolerate a pasted path: the web UI shows `_inbox/Frankenstein.jpg`.
+    return value.replace("\\", "/").rstrip("/").split("/")[-1].strip()
+
+
 def collect(inbox: Path) -> tuple[list[dict], list[str]]:
-    """Group inbox contents into carvings, by MIME then by filename stem."""
+    """Group inbox contents into carvings, by MIME then by name.
+
+    Pairing a sidecar with its photo is tried three ways, most explicit first:
+
+      1. `source-file: Frankenstein (1931).jpg` inside the sidecar. This is the
+         only one that works when several photos arrive in one commit, so the
+         template asks for it and README mandates it for a multi-photo upload.
+         A value naming no uploaded photo is *not* guessed at -- the sidecar is
+         skipped and flagged, because a wrong pairing writes the wrong prose
+         onto a page and reads as correct.
+      2. an exact stem match, `frankenstein.txt` beside `Frankenstein.jpg`.
+      3. one photo and one sidecar, whatever they are called -- the case where
+         insisting on either of the above would be ceremony.
+    """
     notes: list[str] = []
     images: dict[str, list[tuple[int, Path]]] = {}
-    sidecars: dict[str, Path] = {}
+    sidecar_stems: dict[Path, str] = {}
 
     usable = [
         p for p in sorted(inbox.iterdir())
@@ -356,30 +399,94 @@ def collect(inbox: Path) -> tuple[list[dict], list[str]]:
         if mime_type(path).startswith("image/"):
             images.setdefault(stem, []).append((index, path))
         else:
-            sidecars[stem] = path
+            # A list, not a stem-keyed dict: two sidecars can now legitimately
+            # share a stem (`notes.txt`, `notes 2.txt`) and be told apart by
+            # their `source-file:` lines.
+            sidecar_stems[path] = stem
 
+    # Read each candidate once for its pairing key only; `build()` re-reads the
+    # file for everything else, so parse flags are reported against the carving.
+    declared = {path: declared_photo(read_sidecar(path)[0])
+                for path in sidecar_stems}
+
+    # Every name a photo answers to -> the group it belongs to, so
+    # `source-file: Frankenstein 2.jpg` resolves to the Frankenstein carving.
+    photo_names: dict[str, str] = {}
+    for stem, group in images.items():
+        for _, photo in group:
+            photo_names[photo.name.strip().lower()] = stem
+            photo_names[photo.stem.strip().lower()] = stem
+
+    paired: dict[str, Path] = {}
+    leftover: list[Path] = []
+    orphans: list[tuple[Path, str]] = []
+
+    # 1. the declared pairing
+    for path, want in declared.items():
+        if not want:
+            leftover.append(path)
+            continue
+        stem = photo_names.get(want.lower()) or photo_names.get(Path(want).stem.strip().lower())
+        if stem is None:
+            orphans.append((path, f"`source-file: {want}` names no uploaded photo"))
+        elif stem in paired:
+            orphans.append((path, f"`source-file: {want}` names a photo already "
+                                  f"claimed by `{paired[stem].name}`"))
+        else:
+            paired[stem] = path
+
+    # 2. exact stem match
+    for path in list(leftover):
+        stem = sidecar_stems[path]
+        hit = next((s for s in images if s.lower() == stem.lower()), None)
+        if hit is not None and hit not in paired:
+            paired[hit] = path
+            leftover.remove(path)
+
+    # 3. the single-photo, single-sidecar case, so Peter never has to make the
+    #    two filenames agree when there is nothing to confuse them with. A
+    #    `source-file:` that matched nothing is forgiven here rather than
+    #    dropping the only sidecar uploaded -- with one photo there is nothing
+    #    else it could belong to, and the likeliest cause is an uncommented
+    #    example line left in a copy of TEMPLATE.txt.
+    pair_flags: dict[str, list[str]] = {}
+    if len(images) == 1 and len(sidecar_stems) == 1 and not paired:
+        only = next(iter(images))
+        if leftover:
+            paired[only] = leftover.pop()
+        else:
+            path, reason = orphans.pop()
+            paired[only] = path
+            pair_flags[only] = [f"paired the only sidecar uploaded even though "
+                                f"{reason} -- check it belongs to this carving"]
+
+    for path in leftover:
+        orphans.append((path, "no `source-file:` line, and its name matches no photo"))
+
+    orphan_names = sorted("`" + p.name + "`" for p, _ in orphans)
     items = []
-    unclaimed = dict(sidecars)
     for stem, group in images.items():
         group.sort()
-        sidecar = None
-        # Exact stem match first; then the single-image / single-sidecar case,
-        # so Peter never has to make the two filenames agree.
-        for key in list(unclaimed):
-            if key.lower() == stem.lower():
-                sidecar = unclaimed.pop(key)
-                break
-        if sidecar is None and len(images) == 1 and len(unclaimed) == 1:
-            sidecar = unclaimed.pop(next(iter(unclaimed)))
+        sidecar = paired.get(stem)
+        flags = pair_flags.get(stem, [])
+        # Surfaced on the carving that went without: the sidecar itself gets no
+        # issue of its own, and a dropped sidecar is otherwise invisible.
+        if sidecar is None and orphan_names:
+            flags.append(
+                "unmatched sidecar%s in this upload (%s) -- if one of them "
+                "belongs here, give it a `source-file:` line naming the photo"
+                % ("s" if len(orphan_names) != 1 else "", ", ".join(orphan_names))
+            )
         items.append({
             "stem": stem,
             "main": group[0][1],
             "extras": [p for _, p in group[1:]],
             "sidecar": sidecar,
+            "pair_flags": flags,
         })
 
-    for stem, path in unclaimed.items():
-        notes.append(f"sidecar `{path.name}` matched no photo -- left in place")
+    for path, reason in orphans:
+        notes.append(f"sidecar `{path.name}` skipped -- {reason} -- left in place")
     return items, notes
 
 
@@ -391,6 +498,7 @@ def build(item: dict, args, pagetitles: dict[str, str],
     flags += sflags
     if not item["sidecar"]:
         flags.append("no sidecar -- categories need filling in")
+    flags += item.get("pair_flags") or []
 
     name = carving.clean_text(sidecar.get("name") or sidecar.get("title") or item["stem"])
     # A sidecar `slug:` is normalized too, so `slug: My Thing` cannot produce a
@@ -403,7 +511,7 @@ def build(item: dict, args, pagetitles: dict[str, str],
     if medium in ("pumpkin", ""):
         medium = None
     logo = as_bool(sidecar.get("logo"))
-    source = sidecar.get("source") or None
+    source = pick(sidecar, *SOURCE_KEYS)
     group = as_bool(sidecar.get("group"))
 
     categories, unknown = parse_categories(

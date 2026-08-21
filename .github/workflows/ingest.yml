@@ -72,7 +72,7 @@ jobs:
           # this repo lives under jacklego, but review is Connor's job.
           ASSIGNEE: ${{ vars.REVIEWER || github.repository_owner }}
         run: |
-          gh label create needs-polish --color FF8800 \
+          gh label create review --color FF8800 \
             --description "A carving page needs its prose and tags reviewed" 2>/dev/null || true
           uv run python scripts/report.py /tmp/ingest.json --issues-dir /tmp/issues
           for body in /tmp/issues/*.body; do
@@ -81,9 +81,9 @@ jobs:
             # Retry without --assignee: gh rejects an assignee who is not a
             # collaborator, and an unassigned issue beats no issue at all.
             gh issue create --title "$title" --body-file "$body" \
-                 --label needs-polish --assignee "$ASSIGNEE" \
+                 --label review --assignee "$ASSIGNEE" \
               || gh issue create --title "$title" --body-file "$body" \
-                 --label needs-polish
+                 --label review
           done
 
       # Peter is looking at his own commit, not at the Actions tab, so the links
