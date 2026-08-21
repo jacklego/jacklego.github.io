@@ -58,43 +58,30 @@
     ]
   },
   {
-    "listing": "/pumpkins/2018/index.html",
+    "listing": "/pumpkins/2026/index.html",
+    "items": []
+  },
+  {
+    "listing": "/pumpkins/2011/index.html",
     "items": [
-      "/pumpkins/2018/the-shining/index.html",
-      "/pumpkins/2018/evil-witch/index.html",
-      "/pumpkins/2018/frankenstein/index.html",
-      "/pumpkins/2018/beast/index.html",
-      "/pumpkins/2018/psycho/index.html",
-      "/pumpkins/2018/ghostface/index.html",
-      "/pumpkins/2018/friday-the-13th/index.html",
-      "/pumpkins/2018/freddy-krueger/index.html",
-      "/pumpkins/2018/pennywise/index.html",
-      "/pumpkins/2018/halloween/index.html",
-      "/pumpkins/2018/xiezhi/index.html",
-      "/pumpkins/2018/grizzly/index.html",
-      "/pumpkins/2018/porkula/index.html",
-      "/pumpkins/2018/mad-cow/index.html"
+      "/pumpkins/2011/barbossa/index.html",
+      "/pumpkins/2011/death-star/index.html"
     ]
   },
   {
-    "listing": "/pumpkins/2014/index.html",
+    "listing": "/pumpkins/2020/index.html",
     "items": [
-      "/pumpkins/2014/army-of-mushrooms/index.html",
-      "/pumpkins/2014/boba-fett/index.html",
-      "/pumpkins/2014/eye-of-sauron/index.html",
-      "/pumpkins/2014/one-pumpkin-to-rule-them-all/index.html",
-      "/pumpkins/2014/flaming-skull/index.html"
-    ]
-  },
-  {
-    "listing": "/non-pumpkins/index.html",
-    "items": [
-      "/non-pumpkins/3omsyoga-full/index.html",
-      "/non-pumpkins/uw-husky/index.html",
-      "/non-pumpkins/island-in-the-sun/index.html",
-      "/non-pumpkins/rose/index.html",
-      "/non-pumpkins/om/index.html",
-      "/non-pumpkins/pineapple/index.html"
+      "/pumpkins/2020/snoke/index.html",
+      "/pumpkins/2020/luke-vs-the-new-order/index.html",
+      "/pumpkins/2020/kylo-ren/index.html",
+      "/pumpkins/2020/darth-vader/index.html",
+      "/pumpkins/2020/captain-phasma/index.html",
+      "/pumpkins/2020/darth-maul/index.html",
+      "/pumpkins/2020/boba-fett/index.html",
+      "/pumpkins/2020/carousel/index.html",
+      "/pumpkins/2020/lucky-lion/index.html",
+      "/pumpkins/2020/rip-sir-sean/index.html",
+      "/pumpkins/2020/rip-eddie/index.html"
     ]
   },
   {
@@ -251,26 +238,43 @@
     ]
   },
   {
-    "listing": "/pumpkins/2020/index.html",
+    "listing": "/non-pumpkins/index.html",
     "items": [
-      "/pumpkins/2020/snoke/index.html",
-      "/pumpkins/2020/luke-vs-the-new-order/index.html",
-      "/pumpkins/2020/kylo-ren/index.html",
-      "/pumpkins/2020/darth-vader/index.html",
-      "/pumpkins/2020/captain-phasma/index.html",
-      "/pumpkins/2020/darth-maul/index.html",
-      "/pumpkins/2020/boba-fett/index.html",
-      "/pumpkins/2020/carousel/index.html",
-      "/pumpkins/2020/lucky-lion/index.html",
-      "/pumpkins/2020/rip-sir-sean/index.html",
-      "/pumpkins/2020/rip-eddie/index.html"
+      "/non-pumpkins/3omsyoga-full/index.html",
+      "/non-pumpkins/uw-husky/index.html",
+      "/non-pumpkins/island-in-the-sun/index.html",
+      "/non-pumpkins/rose/index.html",
+      "/non-pumpkins/om/index.html",
+      "/non-pumpkins/pineapple/index.html"
     ]
   },
   {
-    "listing": "/pumpkins/2011/index.html",
+    "listing": "/pumpkins/2014/index.html",
     "items": [
-      "/pumpkins/2011/barbossa/index.html",
-      "/pumpkins/2011/death-star/index.html"
+      "/pumpkins/2014/army-of-mushrooms/index.html",
+      "/pumpkins/2014/boba-fett/index.html",
+      "/pumpkins/2014/eye-of-sauron/index.html",
+      "/pumpkins/2014/one-pumpkin-to-rule-them-all/index.html",
+      "/pumpkins/2014/flaming-skull/index.html"
+    ]
+  },
+  {
+    "listing": "/pumpkins/2018/index.html",
+    "items": [
+      "/pumpkins/2018/the-shining/index.html",
+      "/pumpkins/2018/evil-witch/index.html",
+      "/pumpkins/2018/frankenstein/index.html",
+      "/pumpkins/2018/beast/index.html",
+      "/pumpkins/2018/psycho/index.html",
+      "/pumpkins/2018/ghostface/index.html",
+      "/pumpkins/2018/friday-the-13th/index.html",
+      "/pumpkins/2018/freddy-krueger/index.html",
+      "/pumpkins/2018/pennywise/index.html",
+      "/pumpkins/2018/halloween/index.html",
+      "/pumpkins/2018/xiezhi/index.html",
+      "/pumpkins/2018/grizzly/index.html",
+      "/pumpkins/2018/porkula/index.html",
+      "/pumpkins/2018/mad-cow/index.html"
     ]
   },
   {
