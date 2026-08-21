@@ -1,0 +1,103 @@
+# Turns photos dropped in _inbox/ into finished carving pages.
+#
+# Peter uploads through the GitHub web UI; this commits the built directory back
+# to main and opens one issue per carving so Connor gets notified. It does NOT
+# publish -- deploys stay manual, via publish.yml.
+name: Ingest carvings
+
+on:
+  push:
+    branches: [main]
+    paths: ['_inbox/**']
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Overwrite carving directories that already exist'
+        type: boolean
+        default: false
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The runner image normally ships ImageMagick; install only if it doesn't,
+      # so the common path costs nothing.
+      - name: Ensure ImageMagick
+        run: |
+          command -v convert >/dev/null || command -v magick >/dev/null || {
+            sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+          }
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Ingest
+        id: ingest
+        run: uv run scripts/ingest.py --summary /tmp/ingest.json ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "nothing to commit"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          uv run python scripts/report.py /tmp/ingest.json --commit-message > /tmp/msg.txt
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -F /tmp/msg.txt
+          git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      # Assignment is what makes this notify: GitHub's repo Watch settings cover
+      # issues, PRs, releases and security alerts, but not pushes -- so there is
+      # no built-in way to be emailed when a file lands.
+      - name: Open review issues
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Set the REVIEWER repository variable to whoever polishes prose.
+          # Falls back to the repo owner, which may not be the right person:
+          # this repo lives under jacklego, but review is Connor's job.
+          ASSIGNEE: ${{ vars.REVIEWER || github.repository_owner }}
+        run: |
+          gh label create needs-polish --color FF8800 \
+            --description "A carving page needs its prose and tags reviewed" 2>/dev/null || true
+          uv run python scripts/report.py /tmp/ingest.json --issues-dir /tmp/issues
+          for body in /tmp/issues/*.body; do
+            [ -e "$body" ] || continue
+            title=$(cat "${body%.body}.title")
+            # Retry without --assignee: gh rejects an assignee who is not a
+            # collaborator, and an unassigned issue beats no issue at all.
+            gh issue create --title "$title" --body-file "$body" \
+                 --label needs-polish --assignee "$ASSIGNEE" \
+              || gh issue create --title "$title" --body-file "$body" \
+                 --label needs-polish
+          done
+
+      # Peter is looking at his own commit, not at the Actions tab, so the links
+      # to his new pages go there. Nothing on the site links to a drafted
+      # carving, so this comment is his only route to it.
+      - name: Comment on the upload commit
+        if: steps.commit.outputs.committed == 'true' && github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          uv run python scripts/report.py /tmp/ingest.json --summary > /tmp/comment.md
+          gh api "repos/${{ github.repository }}/commits/${{ github.sha }}/comments" \
+            -f body@/tmp/comment.md || echo "commit comment failed -- links are in the run summary"
+
+      - name: Summary
+        if: always()
+        run: uv run python scripts/report.py /tmp/ingest.json --summary >> "$GITHUB_STEP_SUMMARY"

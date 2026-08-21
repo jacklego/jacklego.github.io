@@ -1,0 +1,32 @@
+# Optional details for a carving. Every line is optional -- delete what you
+# don't need. Upload this file together with the photo.
+#
+# Anything after a # is a comment and gets ignored.
+
+categories: Horror, Monsters, Movies
+source: Frankenstein (1931)
+
+
+# ---------------------------------------------------------------------------
+# Categories -- use only these, most specific first:
+#
+#   Star Wars      James Bond      The Simpsons    Rocky Horror
+#   Lord of the Rings              Disney          Story Book
+#   Horror         Monsters        Villains        Pirates & Skulls
+#   Animals        Music           Logos           Melons
+#   Movies         Unthemed
+#
+# Anything not on that list is ignored, and Connor gets told about it.
+# ---------------------------------------------------------------------------
+
+
+# Other things you can set. Remove the # to use one.
+#
+# name: Frankenstein (1931)   the title, if you'd rather not rename the photo
+# logo: yes                   it's a business or organization logo
+# medium: watermelon          it isn't a pumpkin
+# off-theme: yes              it doesn't fit this year's theme
+# note: anything you want written down
+# order: 3                    where it sits in the year (default: last)
+# year: 2026                  which season it belongs to (default: the photo's)
+# slug: frankenstein          the web address, if you want a shorter one

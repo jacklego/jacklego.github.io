@@ -1,5 +1,9 @@
 project:
   type: website
+  # Keeps year visibility in step with `currentYear` / `ptheme` in
+  # _variables.yml. Stdlib-only, so Quarto can run it with any python3.
+  pre-render:
+    - scripts/sync_drafts.py
   resources:
     - "_favicon/"
     - "favicon.ico"
@@ -12,6 +16,11 @@ website:
   favicon: _favicon/favicon.ico
   open-graph: true
   twitter-card: true
+  # A season that isn't live yet renders at its real URLs -- so Peter can review
+  # it -- but is excluded from every listing, the sitemap, search, and the feed.
+  # `draft-mode` defaults to `gone`, so this has to be stated explicitly.
+  # Which years are drafts is decided by scripts/sync_drafts.py.
+  draft-mode: unlinked
   navbar:
     background: black
     left: 

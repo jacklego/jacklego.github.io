@@ -1,0 +1,19 @@
+---
+title: "2026"
+pagetitle: "2026 pumpkin carvings"
+description: ""
+date: 2026-10-31
+listing:
+  contents: ./*/index.qmd
+  sort: "order asc"
+  type: grid
+  fields: [title, image]
+  field-types:
+    extras: number
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+page-layout: full
+body-classes: patch-listing
+---

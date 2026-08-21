@@ -11,3 +11,7 @@ _full-sized-assets/
 CLAUDE.md
 
 /.quarto/
+
+# Python bytecode from scripts/
+__pycache__/
+*.pyc
