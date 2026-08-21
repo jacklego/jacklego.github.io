@@ -1,0 +1,21 @@
+# The closed set of category tags, most-specific-first. This order is the
+# canonical tag order for a carving's `categories:` list, so reordering lines
+# here reorders the tags every ingest writes. Blank lines and #-comments are
+# ignored; everything else is a tag, verbatim.
+Star Wars
+James Bond
+The Simpsons
+Rocky Horror
+Lord of the Rings
+Disney
+Story Book
+Horror
+Monsters
+Villains
+Pirates & Skulls
+Animals
+Music
+Logos
+Melons
+Movies
+Unthemed

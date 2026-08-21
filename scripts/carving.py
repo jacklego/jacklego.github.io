@@ -2,7 +2,8 @@
 
 This module is the executable form of the conventions recorded in CLAUDE.md.
 Both `ingest.py` and a local run import it, so CI and a laptop produce identical
-output. Nothing here touches the filesystem or the network.
+output. Nothing here touches the network, and the only file it reads is
+`categories.txt` beside it.
 
 Three relations matter, and they are not equally mechanical:
 
@@ -14,34 +15,37 @@ Three relations matter, and they are not equally mechanical:
 is the relation CLAUDE.md documents and the only one that reproduces the
 existing pages exactly. `_local/test_carving.py` measures all three against the
 148 committed pages (local-only; `_local/` is gitignored).
+
+The one exception to "no filesystem" is the category list, which is read from
+`scripts/categories.txt` at import time rather than hard-coded here.
 """
 
 from __future__ import annotations
 
 import re
 import unicodedata
+from pathlib import Path
 
-# The closed set, most-specific-first, from _local/categories.md. Order here is
-# the canonical tag order for a carving's `categories:` list.
-CATEGORIES = [
-    "Star Wars",
-    "James Bond",
-    "The Simpsons",
-    "Rocky Horror",
-    "Lord of the Rings",
-    "Disney",
-    "Story Book",
-    "Horror",
-    "Monsters",
-    "Villains",
-    "Pirates & Skulls",
-    "Animals",
-    "Music",
-    "Logos",
-    "Melons",
-    "Movies",
-    "Unthemed",
-]
+CATEGORIES_FILE = Path(__file__).with_name("categories.txt")
+
+
+def load_categories(path: Path | str | None = None) -> list[str]:
+    """Read the closed set of category tags, one per line.
+
+    Blank lines and #-comments are skipped; every other line is a tag as
+    written. File order is the canonical tag order for a carving's
+    `categories:` list, most-specific-first.
+    """
+    lines = Path(path or CATEGORIES_FILE).read_text(encoding="utf-8").splitlines()
+    tags = [t for t in (ln.strip() for ln in lines) if t and not t.startswith("#")]
+    if not tags:
+        raise ValueError(f"no categories found in {path or CATEGORIES_FILE}")
+    return tags
+
+
+# The closed set, most-specific-first, read from scripts/categories.txt. Order
+# there is the canonical tag order for a carving's `categories:` list.
+CATEGORIES = load_categories()
 
 EM_DASH = "—"
 _YEAR = re.compile(r"^\d{4}$")
@@ -61,7 +65,7 @@ def clean_text(s: str) -> str:
 
     Strips a UTF-8 BOM (Notepad writes one, and it breaks a strict YAML parser
     on the very first key), folds smart quotes and dashes back to ASCII, and
-    collapses whitespace. Applied to every value read from a sidecar or a
+    collapses whn't need. Upload this file togeitespace. Applied to every value read from a sidecar or a
     filename before anything else looks at it.
     """
     if not isinstance(s, str):
