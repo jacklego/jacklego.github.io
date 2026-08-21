@@ -1,32 +1,26 @@
-# Optional details for a carving. Every line is optional -- delete what you
-# don't need. Upload this file together with the photo.
-#
+# Optional details for a carving. 
+# Every line is optional -- delete what you don't need. 
+# Upload this file together with the photo.
 # Anything after a # is a comment and gets ignored.
+
 
 categories: Horror, Monsters, Movies
 source: Frankenstein (1931)
 
-
 # ---------------------------------------------------------------------------
-# Categories -- use only these, most specific first:
-#
-#   Star Wars      James Bond      The Simpsons    Rocky Horror
-#   Lord of the Rings              Disney          Story Book
-#   Horror         Monsters        Villains        Pirates & Skulls
-#   Animals        Music           Logos           Melons
-#   Movies         Unthemed
-#
-# Anything not on that list is ignored unless it is first added to `scripts/categories.txt`.
+# Categories -- use only those in `scripts/categories.txt`, exactly as they appear.
+
+# Source -- the work that this carving is from (e.g. the specific book, movie, etc.)
 # ---------------------------------------------------------------------------
 
 
-# Other things you can set. Remove the # to use one.
+# Other things you can set. Make sure to remove the starting # to use one.
 #
-# name: Frankenstein (1931)   the title, if you'd rather not rename the photo file
-# logo: yes                   it's a business or organization logo
-# medium: watermelon          it isn't a pumpkin
-# off-theme: yes              it doesn't fit this year's theme
-# note: anything you want written down
-# order: 3                    where it sits in the year (default: last)
-# year: 2026                  which season it belongs to (default: the photo's)
-# slug: frankenstein          the web address, if you want a shorter one
+# name: Frankenstein (1931)   # the title, otherwise assumed from photo file name
+# logo: yes                   # it's a business or organization logo
+# medium: watermelon          # it isn't a pumpkin
+# off-theme: yes              # it doesn't fit this year's theme
+# note: text                  # anything you want written down
+# order: 3                    # where it sits in the year (default: last)
+# year: 2026                  # which season it belongs to (default: the photo's)
+# slug: frank                 # the web address, if you want to modify
