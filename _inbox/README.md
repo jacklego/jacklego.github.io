@@ -6,25 +6,23 @@ put files *in*; you never have to edit anything else.
 ## The short version
 
 1. On your computer, rename the photo to the name of the carving —
-   **`Frankenstein.jpg`**, or **`Frankenstein (1931).jpg`** if you want the year
-   shown. Whatever you type becomes the title on the page.
-2. On this page, click **Add file → Upload files**.
-3. Drag the photo in.
-4. Click **Commit changes**.
+   **`Frankenstein.jpg`** or **`Frankenstein (1931).jpg`**, for instance.
+   Whatever you type becomes the title on the page.
+3. On this page, click **Add file → Upload files**.
+4. Drag the photo in.
+5. Click **Commit changes**.
 
-A minute or two later, a comment appears **on the commit you just made** with a
-link to the new page. Connor also gets a note asking him to check the wording.
+A minute or two later, a comment appears on the **_commit_** you just made with a
+link to the new page.
 
 ## Seeing it on the site
 
-Building the page and putting it on the web are two separate steps, so there is
-one more click:
+Now the scaffolding for the page exists. To deploy it to the web:
 
 5. Go to the **Actions** tab, pick **Quarto Publish** on the left, and press
    **Run workflow**.
 
-Wait for the green tick and your link works. (If you'd rather not do this bit,
-just tell Connor and he'll publish.)
+Wait for the green tick and your link works.
 
 ## More than one photo of the same carving
 
@@ -39,33 +37,50 @@ file alongside the photo. Copy **`TEMPLATE.txt`**, fill in the lines you care
 about, delete the rest, and drag it in *together with the photo* so they arrive
 in one go.
 
-Name it whatever you like. `notes.txt` is fine. If the name matches the photo —
-`Frankenstein.txt` next to `Frankenstein.jpg` — that's clearer when you're
-uploading several at once, but it isn't required.
+Name it whatever you like. When you're uploading several photos at once, it's 
+clearer if name of the text file matches the name of the photo file, e.g.
+`Frankenstein.txt` alongside `Frankenstein.jpg`, but it isn't required.
 
-You can skip this entirely. Connor fills in the categories when he checks the
-wording.
+You can also skip this and defer it for later.
 
-## Staying private
+## Visibility
 
-A new season is hidden until it's ready. Your pages are real and the links work,
-but they're left out of every list on the site and search engines can't find
-them. When you're happy with the whole set, tell Connor and he'll take the year
-live.
+A new season (year) is hidden until you're ready. Your pages are live once 
+deployed, but they're left out of every list on the site. In other words, 
+`peterspumpkinpatch.org/pumpkins/2026/` exists, but it shows a heading 
+and nothing else (a hidden carving is hidden from that list too). If you 
+want to view the page before the season is visibly published, use the links
+from your commits. 
 
-One thing this means: **the season's own page will look empty.** Going to
-`peterspumpkinpatch.org/pumpkins/2026/` shows a heading and nothing under it,
-because a hidden carving is hidden from that list too. Use the links from your
-commits until the year goes live — it's worth keeping them somewhere. Everything
-appears at once when Connor flips the switch.
+When you're ready, you can either tell Connor to publish the season, or do it 
+yourself. 
+
+### Publishing the Season
+
+1. From the [project root](https://github.com/jacklego/jacklego.github.io/),
+   edit the file named [`_variables.yml`](/_variables.yml). Change the following:
+   
+     (i) Set the `currentYear:` to the year you want published (there needs to
+     be a space after the colon).
+   
+     (ii) Add an entry immediately following the last entry under `ptheme:`. This
+     should include the current year, a colon + space, and a value (the theme).
+     Make sure to replicate the spacing of the previous entries. For instance,
+   `2026: Harry Potter Villains`.
+2. Commit these changes. 
+3. Go to the current year's folder (under `pumpkins`), and edit the file named
+   `_metadata.yml`. Delete the line that says `draft: true`. Alternatively, you
+   can simply delete this file.
+4. Commit this change.
+5. Deploy the site with the Github **Action**. 
 
 ## Things worth knowing
 
 - **Don't shrink or edit the photo first.** Upload it exactly as it came off the
   camera or phone. The site makes its own smaller copies, and the original's
-  hidden date stamp is what dates the page.
+  timestamp metadata is what dates the page.
 - **Windows won't let you put `:` in a filename.** If the name needs one
   (`Alien: Resurrection`), put it in the `name:` line of a `TEMPLATE.txt` copy
   instead.
 - **Nothing you can do here breaks the site.** If something is wrong or missing,
-  the page still gets built and Connor gets told what to look at.
+  the page still gets built.
