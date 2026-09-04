@@ -4,6 +4,11 @@ project:
   # _variables.yml. Stdlib-only, so Quarto can run it with any python3.
   pre-render:
     - scripts/sync_drafts.py
+  # Adds `<image:image>` entries to the sitemap Quarto just wrote, and drops the
+  # trailing `index.html` from each `<loc>` so it matches the page's canonical.
+  # Must run after Quarto's own sitemap step, which `post-render` guarantees.
+  post-render:
+    - scripts/sitemap_images.py
   resources:
     - "_favicon/"
     - "favicon.ico"

@@ -12,8 +12,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      # Pinned so a season renders with the same Quarto that previewed it.
+      # Unpinned, `setup` installs the latest release on the day the workflow is
+      # dispatched -- and sass/theme.scss and scripts/sitemap_images.py are both
+      # keyed on Quarto's generated markup. Bump this deliberately, alongside
+      # the local install.
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
