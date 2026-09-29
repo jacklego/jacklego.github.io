@@ -1,0 +1,18 @@
+---
+title: "20260307_171815"
+pagetitle: "20260307_171815 pumpkin carving"
+description: "20260307_171815 — a pumpkin carving by Peter Wiegand, 2026."
+image: _20260307-171815__thumb.jpg
+image-alt: "A pumpkin carved with 20260307_171815."
+full: 20260307-171815.jpg
+order: 1
+date: 2026-03-07
+categories: []
+
+meta:
+  captured: "2026-03-07T17:18:17"
+  raw-aspect-ratio: 1.3333
+
+---
+
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}

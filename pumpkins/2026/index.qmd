@@ -16,4 +16,5 @@ listing:
   grid-columns: 2
 page-layout: full
 body-classes: patch-listing
+image: 20260307-171815/_20260307-171815__thumb.jpg
 ---
