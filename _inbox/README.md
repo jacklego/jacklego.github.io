@@ -1,3 +1,5 @@
+*(Target audience: Connor. **Peter:** you want [How to put a pumpkin photo on the website](../_how-to-add-a-pumpkin/README.md) instead.)*
+
 # Adding a carving
 
 Everything here gets turned into a page on the site automatically. You only ever
@@ -8,9 +10,9 @@ put files *in*; you never have to edit anything else.
 1. On your computer, rename the photo to the name of the carving —
    **`Frankenstein.jpg`** or **`Frankenstein (1931).jpg`**, for instance.
    Whatever you type becomes the title on the page.
-3. On this page, click **Add file → Upload files**.
-4. Drag the photo in.
-5. Click **Commit changes**.
+2. On this page, click **Add file → Upload files**.
+3. Drag the photo in.
+4. Click **Commit changes**.
 
 A minute or two later, a comment appears on the **_commit_** you just made with a
 link to the new page.
@@ -82,11 +84,10 @@ yourself.
      Make sure to replicate the spacing of the previous entries. For instance,
    `2026: Harry Potter Villains`.
 2. Commit these changes. 
-3. Go to the current year's folder (under `pumpkins`), and edit the file named
-   `_metadata.yml`. Delete the line that says `draft: true`. Alternatively, you
-   can simply delete this file.
-4. Commit this change.
-5. Deploy the site with the Github **Action**. 
+3. Wait for the **Go live** workflow (Actions tab) to finish. It runs
+   `scripts/go_live.py`, which drops the year's `draft: true` and sets the year
+   page's title, then commits the result. No hand edit of `_metadata.yml` needed.
+4. Deploy the site with the Github **Action**. 
 
 ## Things worth knowing
 
