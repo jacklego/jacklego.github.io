@@ -1,6 +1,6 @@
 version: 3.0
 
-currentYear: 2025
+currentYear: 2026
 
 ptheme:
   2010: ""
@@ -19,3 +19,4 @@ ptheme:
   2023: Bond Villains
   2024: Treehouse of Horror
   2025: Classic Movie Monsters
+  2026: Harry Potter Villains
