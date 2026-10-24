@@ -95,27 +95,18 @@
     ]
   },
   {
-    "listing": "/pumpkins/2022/index.html",
-    "items": [
-      "/pumpkins/2022/20k-leagues/index.html",
-      "/pumpkins/2022/narnia/index.html",
-      "/pumpkins/2022/mrs-frisby/index.html",
-      "/pumpkins/2022/charlottes-web/index.html",
-      "/pumpkins/2022/watership-down/index.html",
-      "/pumpkins/2022/gollum/index.html",
-      "/pumpkins/2022/voldemort/index.html",
-      "/pumpkins/2022/queen-of-hearts/index.html",
-      "/pumpkins/2022/slappy/index.html",
-      "/pumpkins/2022/falkor-and-atreyu/index.html",
-      "/pumpkins/2022/new-hope-church/index.html"
-    ]
+    "listing": "/pumpkins/2026/index.html",
+    "items": []
   },
   {
-    "listing": "/pumpkins/2013/index.html",
+    "listing": "/non-pumpkins/index.html",
     "items": [
-      "/pumpkins/2013/r2d2/index.html",
-      "/pumpkins/2013/teamster-logo/index.html",
-      "/pumpkins/2013/potc-medallion/index.html"
+      "/non-pumpkins/3omsyoga-full/index.html",
+      "/non-pumpkins/uw-husky/index.html",
+      "/non-pumpkins/island-in-the-sun/index.html",
+      "/non-pumpkins/rose/index.html",
+      "/non-pumpkins/om/index.html",
+      "/non-pumpkins/pineapple/index.html"
     ]
   },
   {
@@ -132,19 +123,28 @@
     ]
   },
   {
-    "listing": "/non-pumpkins/index.html",
+    "listing": "/pumpkins/2013/index.html",
     "items": [
-      "/non-pumpkins/3omsyoga-full/index.html",
-      "/non-pumpkins/uw-husky/index.html",
-      "/non-pumpkins/island-in-the-sun/index.html",
-      "/non-pumpkins/rose/index.html",
-      "/non-pumpkins/om/index.html",
-      "/non-pumpkins/pineapple/index.html"
+      "/pumpkins/2013/r2d2/index.html",
+      "/pumpkins/2013/teamster-logo/index.html",
+      "/pumpkins/2013/potc-medallion/index.html"
     ]
   },
   {
-    "listing": "/pumpkins/2026/index.html",
-    "items": []
+    "listing": "/pumpkins/2022/index.html",
+    "items": [
+      "/pumpkins/2022/20k-leagues/index.html",
+      "/pumpkins/2022/narnia/index.html",
+      "/pumpkins/2022/mrs-frisby/index.html",
+      "/pumpkins/2022/charlottes-web/index.html",
+      "/pumpkins/2022/watership-down/index.html",
+      "/pumpkins/2022/gollum/index.html",
+      "/pumpkins/2022/voldemort/index.html",
+      "/pumpkins/2022/queen-of-hearts/index.html",
+      "/pumpkins/2022/slappy/index.html",
+      "/pumpkins/2022/falkor-and-atreyu/index.html",
+      "/pumpkins/2022/new-hope-church/index.html"
+    ]
   },
   {
     "listing": "/pumpkins/index.html",
