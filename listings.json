@@ -96,7 +96,10 @@
   },
   {
     "listing": "/pumpkins/2026/index.html",
-    "items": []
+    "items": [
+      "/pumpkins/2026/20260307-171815/index.html",
+      "/pumpkins/2026/alastor-mad-eye-moody/index.html"
+    ]
   },
   {
     "listing": "/non-pumpkins/index.html",
@@ -149,6 +152,7 @@
   {
     "listing": "/pumpkins/index.html",
     "items": [
+      "/pumpkins/2026/index.html",
       "/pumpkins/2025/index.html",
       "/pumpkins/2024/index.html",
       "/pumpkins/2023/index.html",
@@ -260,6 +264,8 @@
   {
     "listing": "/all-carvings/index.html",
     "items": [
+      "/pumpkins/2026/alastor-mad-eye-moody/index.html",
+      "/pumpkins/2026/20260307-171815/index.html",
       "/pumpkins/2025/frankenstein/index.html",
       "/pumpkins/2025/kong/index.html",
       "/pumpkins/2025/dracula/index.html",
