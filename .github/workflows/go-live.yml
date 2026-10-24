@@ -1,0 +1,74 @@
+# Finishes taking a season live after _variables.yml is edited.
+#
+# Bumping `currentYear` (and adding its `ptheme` entry) is enough for the draft
+# gate, but the year page's pagetitle and description only change through
+# scripts/go_live.py. This runs it and commits whatever it changed back to main.
+# go_live.py is idempotent, so any other edit to _variables.yml is a no-op.
+# It does NOT publish -- deploys stay manual, via publish.yml.
+name: Go live
+
+on:
+  push:
+    branches: [main]
+    paths: ['_variables.yml']
+  workflow_dispatch:
+
+# Shares ingest's group so the two never race each other pushing to main.
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  go-live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Peter's edit never fails the run: anything go_live.py can't act on
+      # becomes a warning in the run summary instead.
+      - name: Check the season
+        id: season
+        run: |
+          year=$(sed -nE 's/^currentYear:[[:space:]]*"?([0-9]{4})"?.*/\1/p' _variables.yml)
+          warn() { echo "::warning::$1"; echo "$1" >> "$GITHUB_STEP_SUMMARY"; echo "ready=false" >> "$GITHUB_OUTPUT"; }
+          if [ -z "$year" ]; then
+            warn "No four-digit currentYear in _variables.yml -- nothing to do."
+          elif [ ! -d "pumpkins/$year" ]; then
+            warn "currentYear is $year, but pumpkins/$year/ does not exist yet -- nothing to take live."
+          # Without a ptheme entry the draft gate keeps the season private, and
+          # go_live.py would add a blank one and publish it. Treat that as not
+          # ready rather than guess at the theme.
+          elif ! grep -qE "^[[:space:]]+$year[[:space:]]*:" _variables.yml; then
+            warn "currentYear is $year, but ptheme has no $year entry, so the season stays a draft. Add \`$year: <theme>\` under ptheme (\`\"\"\` for none) to take it live."
+          else
+            echo "year=$year" >> "$GITHUB_OUTPUT"
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Stdlib-only, so the runner's python3 is enough.
+      - name: Run go_live.py
+        if: steps.season.outputs.ready == 'true'
+        run: |
+          {
+            echo '```'
+            python3 scripts/go_live.py "${{ steps.season.outputs.year }}"
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        if: steps.season.outputs.ready == 'true'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "already live -- nothing to commit"
+            exit 0
+          fi
+          year="${{ steps.season.outputs.year }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Take $year live" -m "Output of scripts/go_live.py $year, run after _variables.yml changed."
+          git pull --rebase
+          git push
