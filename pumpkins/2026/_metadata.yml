@@ -8,4 +8,4 @@
 # To publish it: add a `ptheme` entry for 2026 in _variables.yml and set
 # `currentYear: 2026`. This file then disappears on the next render.
 
-draft: true
+
