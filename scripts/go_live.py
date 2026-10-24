@@ -101,9 +101,6 @@ def main() -> int:
     edit(index, r"^description\s*:.*$",
          f"description: {theme}" if theme else 'description: ""', dry=dry)
 
-    print("\n_quarto.yml -- point This Year's Patch at the new season")
-    edit(ROOT / "_quarto.yml", r"(?<=href: pumpkins/)\d{4}", year, dry=dry)
-
     print("\nDraft gate")
     sys.stdout.flush()  # the child writes straight to fd 1
     if dry:

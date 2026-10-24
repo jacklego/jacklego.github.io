@@ -29,8 +29,10 @@ website:
   navbar:
     background: black
     left: 
+      # Follows `currentYear` in _variables.yml. Quarto renders navbar hrefs
+      # through markdown, so the var shortcode resolves here.
       - text: "This Year's Patch"
-        href: pumpkins/2025
+        href: "pumpkins/{{< var currentYear >}}"
       - text: "Pumpkins"
         href: pumpkins
       - text: "Non-Pumpkins"
