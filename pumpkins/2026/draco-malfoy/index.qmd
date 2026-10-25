@@ -1,0 +1,18 @@
+---
+title: "Draco Malfoy"
+pagetitle: "Draco Malfoy pumpkin carving"
+description: "Draco Malfoy — a pumpkin carving by Peter Wiegand, 2026."
+image: _draco-malfoy__thumb.jpg
+image-alt: "A pumpkin carved with Draco Malfoy."
+full: draco-malfoy.jpg
+order: 6
+date: 2026-10-24
+categories: []
+
+meta:
+  captured: "2026-10-24T19:50:36"
+  raw-aspect-ratio: 1.3333
+
+---
+
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
