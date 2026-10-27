@@ -1,0 +1,18 @@
+---
+title: "Dementor"
+pagetitle: "Dementor pumpkin carving"
+description: "Dementor — a pumpkin carving by Peter Wiegand, 2026."
+image: _dementor__thumb.jpg
+image-alt: "A pumpkin carved with Dementor."
+full: dementor.jpg
+order: 18
+date: 2026-10-26
+categories: []
+
+meta:
+  captured: "2026-10-26T19:20:04"
+  raw-aspect-ratio: 1.3333
+
+---
+
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
