@@ -1,89 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://peterspumpkinpatch.org/</loc>
-    <lastmod>2026-10-28T06:37:59.891Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/about.html</loc>
+    <lastmod>2026-10-28T06:44:53.498Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/freddy-krueger/</loc>
+    <lastmod>2026-10-28T06:44:53.572Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/freddy-krueger/freddy-krueger.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/ghostface/</loc>
+    <lastmod>2026-10-28T06:44:53.574Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/ghostface/ghostface.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/grizzly/</loc>
+    <lastmod>2026-10-28T06:44:53.575Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/grizzly/grizzly.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/friday-the-13th/</loc>
+    <lastmod>2026-10-28T06:44:53.573Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/friday-the-13th/friday-the-13th.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/porkula/</loc>
+    <lastmod>2026-10-28T06:44:53.581Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/porkula/porkula.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/</loc>
+    <lastmod>2026-10-28T06:44:53.576Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/the-shining/</loc>
+    <lastmod>2026-10-28T06:44:53.583Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/the-shining/the-shining.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/xiezhi/</loc>
+    <lastmod>2026-10-28T06:44:53.584Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/xiezhi/xiezhi.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2020/darth-vader/</loc>
-    <lastmod>2026-10-28T06:37:59.986Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.615Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/darth-vader/darth-vader.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/captain-phasma/</loc>
-    <lastmod>2026-10-28T06:37:59.982Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/captain-phasma/captain-phasma.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/carousel/</loc>
-    <lastmod>2026-10-28T06:37:59.983Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/carousel/carousel.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-sir-sean/</loc>
-    <lastmod>2026-10-28T06:37:59.991Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-sir-sean/rip-sir-sean.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/boba-fett/</loc>
-    <lastmod>2026-10-28T06:37:59.981Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/boba-fett/boba-fett.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2020/darth-maul/</loc>
-    <lastmod>2026-10-28T06:37:59.985Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.614Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/darth-maul/darth-maul.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/chinese-dragon/</loc>
-    <lastmod>2026-10-28T06:37:59.916Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-sir-sean/</loc>
+    <lastmod>2026-10-28T06:44:53.622Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/chinese-dragon/chinese-dragon.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-sir-sean/rip-sir-sean.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/star-destroyer/</loc>
-    <lastmod>2026-10-28T06:37:59.920Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/captain-phasma/</loc>
+    <lastmod>2026-10-28T06:44:53.610Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/star-destroyer/star-destroyer.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/captain-phasma/captain-phasma.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-sidious/</loc>
-    <lastmod>2026-10-28T06:37:59.918Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/lucky-lion/</loc>
+    <lastmod>2026-10-28T06:44:53.618Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-sidious/darth-sidious.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/lucky-lion/lucky-lion.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-maul/</loc>
-    <lastmod>2026-10-28T06:37:59.917Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/boba-fett/</loc>
+    <lastmod>2026-10-28T06:44:53.609Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-maul/darth-maul.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/boba-fett/boba-fett.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/millennium-falcon/</loc>
-    <lastmod>2026-10-28T06:37:59.919Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella-de-vil/</loc>
+    <lastmod>2026-10-28T06:44:53.627Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/millennium-falcon/millennium-falcon.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella-de-vil/cruella-de-vil.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella/</loc>
+    <lastmod>2026-10-28T06:44:53.629Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella/cruella.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/syndrome/</loc>
+    <lastmod>2026-10-28T06:44:53.643Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/syndrome/syndrome.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/pan-and-hook/</loc>
+    <lastmod>2026-10-28T06:44:53.634Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/pan-and-hook/pan-and-hook.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/scar/</loc>
+    <lastmod>2026-10-28T06:44:53.636Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/scar/scar.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/disco-ball/</loc>
+    <lastmod>2026-10-28T06:44:53.631Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/disco-ball/disco-ball.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/ursula/</loc>
+    <lastmod>2026-10-28T06:44:53.645Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/ursula/ursula.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2012/dnd-logo/</loc>
+    <lastmod>2026-10-28T06:44:53.519Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2012/dnd-logo/dnd-logo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2012/</loc>
+    <lastmod>2026-10-28T06:44:53.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/black-lagoon/</loc>
+    <lastmod>2026-10-28T06:44:53.710Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/black-lagoon/black-lagoon.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/nosferatu/</loc>
+    <lastmod>2026-10-28T06:44:53.721Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/nosferatu/nosferatu.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/mummy/</loc>
+    <lastmod>2026-10-28T06:44:53.719Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/mummy/mummy.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/the-day-the-earth-stood-still/</loc>
+    <lastmod>2026-10-28T06:44:53.722Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/the-day-the-earth-stood-still/the-day-the-earth-stood-still.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/invisible-man/</loc>
+    <lastmod>2026-10-28T06:44:53.716Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/invisible-man/invisible-man.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/</loc>
+    <lastmod>2026-10-28T06:44:53.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/gunslinger/</loc>
+    <lastmod>2026-10-28T06:44:53.698Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/gunslinger/gunslinger.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/homer/</loc>
+    <lastmod>2026-10-28T06:44:53.699Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/homer/homer.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/groundskeeper-willie/</loc>
+    <lastmod>2026-10-28T06:44:53.696Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/groundskeeper-willie/groundskeeper-willie.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/maggie/</loc>
+    <lastmod>2026-10-28T06:44:53.704Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/maggie/maggie.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/sideshow-bob/</loc>
+    <lastmod>2026-10-28T06:44:53.709Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/sideshow-bob/sideshow-bob.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/</loc>
+    <lastmod>2026-10-28T06:44:53.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/flanders/</loc>
+    <lastmod>2026-10-28T06:44:53.694Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/flanders/flanders.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2010/spiderman/</loc>
+    <lastmod>2026-10-28T06:44:53.512Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/spiderman/spiderman.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2010/</loc>
+    <lastmod>2026-10-28T06:44:53.510Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/darth-vader/</loc>
+    <lastmod>2026-10-28T06:44:53.540Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/darth-vader/darth-vader.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/pirate-skull-tentacles/</loc>
+    <lastmod>2026-10-28T06:44:53.543Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/pirate-skull-tentacles/pirate-skull-tentacles.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/celtic-square-knot/</loc>
+    <lastmod>2026-10-28T06:44:53.539Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/celtic-square-knot/celtic-square-knot.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/youngstocks-farm/</loc>
+    <lastmod>2026-10-28T06:44:53.552Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/youngstocks-farm/youngstocks-farm.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/lopez-island-creamery/</loc>
+    <lastmod>2026-10-28T06:44:53.542Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/lopez-island-creamery/lopez-island-creamery.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/deadpool/</loc>
+    <lastmod>2026-10-28T06:44:53.541Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/deadpool/deadpool.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2011/death-star/</loc>
-    <lastmod>2026-10-28T06:37:59.907Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.517Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2011/death-star/death-star.jpg</image:loc>
     </image:image>
@@ -92,318 +308,468 @@
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/bond-collection/</loc>
-    <lastmod>2026-10-28T06:38:00.035Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/baron-samedi/</loc>
+    <lastmod>2026-10-28T06:44:53.669Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/bond-collection/bond-collection.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/</loc>
-    <lastmod>2026-10-28T06:38:00.035Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/blofeld/</loc>
-    <lastmod>2026-10-28T06:38:00.034Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/blofeld/ernst-stavro-blofeld.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/largo/</loc>
-    <lastmod>2026-10-28T06:38:00.038Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/largo/emilio-largo.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/baron-samedi/baron-samedi.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2023/le-chiffre/</loc>
-    <lastmod>2026-10-28T06:38:00.039Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.677Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/le-chiffre/le-chiffre.jpg</image:loc>
     </image:image>
   </url>
   <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/scaramanga/</loc>
+    <lastmod>2026-10-28T06:44:53.682Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/scaramanga/francisco-scaramanga.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/sofina/</loc>
+    <lastmod>2026-10-28T06:44:53.683Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/sofina/sofina.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/zao/</loc>
+    <lastmod>2026-10-28T06:44:53.686Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/zao/zao.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2023/jaws/</loc>
-    <lastmod>2026-10-28T06:38:00.036Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.673Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/jaws/jaws.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/nw-vape/</loc>
-    <lastmod>2026-10-28T06:38:00.040Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/oddjob/</loc>
+    <lastmod>2026-10-28T06:44:53.680Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/nw-vape/nw-vape-logo.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/oddjob/oddjob.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/porkula/</loc>
-    <lastmod>2026-10-28T06:37:59.959Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/magenta/</loc>
+    <lastmod>2026-10-28T06:44:53.593Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/porkula/porkula.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/magenta/magenta.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/the-shining/</loc>
-    <lastmod>2026-10-28T06:37:59.961Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/rhps-collection/</loc>
+    <lastmod>2026-10-28T06:44:53.600Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/the-shining/the-shining.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/rhps-collection/rhps-collection.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/frankenstein/</loc>
-    <lastmod>2026-10-28T06:37:59.951Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/sunset-on-the-lake/</loc>
+    <lastmod>2026-10-28T06:44:53.606Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/frankenstein/frankenstein.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/sunset-on-the-lake/sunset-on-the-lake.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/sunset-on-the-lake/_light.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/grizzly/</loc>
-    <lastmod>2026-10-28T06:37:59.955Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/columbia/</loc>
+    <lastmod>2026-10-28T06:44:53.588Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/grizzly/grizzly.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/columbia/columbia.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/freddy-krueger/</loc>
-    <lastmod>2026-10-28T06:37:59.952Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/maleficent/</loc>
+    <lastmod>2026-10-28T06:44:53.594Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/freddy-krueger/freddy-krueger.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/maleficent/maleficent.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/evil-witch/</loc>
-    <lastmod>2026-10-28T06:37:59.950Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/lips/</loc>
+    <lastmod>2026-10-28T06:44:53.591Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/evil-witch/evil-witch.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/lips/lips.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/lips/_light.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/friday-the-13th/</loc>
-    <lastmod>2026-10-28T06:37:59.953Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2014/flaming-skull/</loc>
+    <lastmod>2026-10-28T06:44:53.526Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/friday-the-13th/friday-the-13th.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/flaming-skull/flaming-skull.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/psycho/</loc>
-    <lastmod>2026-10-28T06:37:59.960Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/psycho/psycho.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2013/</loc>
-    <lastmod>2026-10-28T06:37:59.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2013/teamster-logo/</loc>
-    <lastmod>2026-10-28T06:37:59.910Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/teamster-logo/teamster-logo.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2012/</loc>
-    <lastmod>2026-10-28T06:37:59.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2012/fire-breathing-dragon/</loc>
-    <lastmod>2026-10-28T06:37:59.908Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2012/fire-breathing-dragon/fire-breathing-dragon.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/</loc>
-    <lastmod>2026-10-28T06:38:00.021Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/narnia/</loc>
-    <lastmod>2026-10-28T06:38:00.023Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/narnia/narnia.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/20k-leagues/</loc>
-    <lastmod>2026-10-28T06:38:00.016Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/20k-leagues/20k-leagues.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/queen-of-hearts/</loc>
-    <lastmod>2026-10-28T06:38:00.026Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/queen-of-hearts/queen-of-hearts.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/mrs-frisby/</loc>
-    <lastmod>2026-10-28T06:38:00.022Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/mrs-frisby/mrs-frisby.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/charlottes-web/</loc>
-    <lastmod>2026-10-28T06:38:00.018Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/charlottes-web/charlottes-web.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/kang/</loc>
-    <lastmod>2026-10-28T06:38:00.058Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/kang/kang.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/lisa/</loc>
-    <lastmod>2026-10-28T06:38:00.060Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/lisa/lisa.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/krusty/</loc>
-    <lastmod>2026-10-28T06:38:00.059Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/krusty/krusty.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/homer/</loc>
-    <lastmod>2026-10-28T06:38:00.058Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/homer/homer.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/maggie/</loc>
-    <lastmod>2026-10-28T06:38:00.062Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/maggie/maggie.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/mr-burns/</loc>
-    <lastmod>2026-10-28T06:38:00.065Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/mr-burns/mr-burns.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/bart/</loc>
-    <lastmod>2026-10-28T06:38:00.053Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/bart/bart.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2014/army-of-mushrooms/</loc>
-    <lastmod>2026-10-28T06:37:59.911Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/army-of-mushrooms/army-of-mushrooms.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2014/eye-of-sauron/</loc>
-    <lastmod>2026-10-28T06:37:59.913Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/eye-of-sauron/eye-of-sauron.jpg</image:loc>
-    </image:image>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2014/</loc>
+    <lastmod>2026-10-28T06:44:53.526Z</lastmod>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2014/boba-fett/</loc>
-    <lastmod>2026-10-28T06:37:59.912Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.524Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/boba-fett/boba-fett.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/skull-and-cross-oars/</loc>
-    <lastmod>2026-10-28T06:37:59.932Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/north-coast/</loc>
+    <lastmod>2026-10-28T06:44:53.562Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/skull-and-cross-oars/skull-and-cross-oars.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/north-coast/north-coast.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/north-coast/_alt.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/</loc>
-    <lastmod>2026-10-28T06:37:59.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/deadpool/</loc>
-    <lastmod>2026-10-28T06:37:59.926Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/eddie/</loc>
+    <lastmod>2026-10-28T06:44:53.556Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/deadpool/deadpool.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/eddie/eddie.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/lopez-island-creamery/</loc>
-    <lastmod>2026-10-28T06:37:59.927Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/bb8/</loc>
+    <lastmod>2026-10-28T06:44:53.554Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/lopez-island-creamery/lopez-island-creamery.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/bb8/bb8.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/stones-throw/</loc>
-    <lastmod>2026-10-28T06:37:59.934Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/ozzy/</loc>
+    <lastmod>2026-10-28T06:44:53.563Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/stones-throw/stones-throw.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/stones-throw/_light.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/pirate-skull-tentacles/</loc>
-    <lastmod>2026-10-28T06:37:59.928Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/pirate-skull-tentacles/pirate-skull-tentacles.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2010/death-star/</loc>
-    <lastmod>2026-10-28T06:37:59.901Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/death-star/death-star.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/death-star/_light.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2010/spiderman/</loc>
-    <lastmod>2026-10-28T06:37:59.902Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/spiderman/spiderman.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/ozzy/ozzy.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2017/</loc>
-    <lastmod>2026-10-28T06:37:59.939Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/holy-diver/</loc>
-    <lastmod>2026-10-28T06:37:59.939Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/holy-diver/holy-diver.jpg</image:loc>
-    </image:image>
+    <lastmod>2026-10-28T06:44:53.557Z</lastmod>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2017/thriller/</loc>
-    <lastmod>2026-10-28T06:37:59.947Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.566Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/thriller/thriller.jpg</image:loc>
     </image:image>
   </url>
   <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/dementor/</loc>
+    <lastmod>2026-10-28T06:44:53.728Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/dementor/dementor.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/alastor-mad-eye-moody/</loc>
+    <lastmod>2026-10-28T06:44:53.725Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/alastor-mad-eye-moody/alastor-mad-eye-moody.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/bellatrix-lestrange/</loc>
+    <lastmod>2026-10-28T06:44:53.726Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/bellatrix-lestrange/bellatrix-lestrange.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/</loc>
+    <lastmod>2026-10-28T06:44:53.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/charlottes-web/</loc>
+    <lastmod>2026-10-28T06:44:53.652Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/charlottes-web/charlottes-web.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/voldemort/</loc>
+    <lastmod>2026-10-28T06:44:53.664Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/voldemort/voldemort.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/mrs-frisby/</loc>
+    <lastmod>2026-10-28T06:44:53.657Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/mrs-frisby/mrs-frisby.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/falkor-and-atreyu/</loc>
+    <lastmod>2026-10-28T06:44:53.654Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/falkor-and-atreyu/falkor-and-atreyu.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/gollum/</loc>
+    <lastmod>2026-10-28T06:44:53.656Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/gollum/gollum.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/</loc>
+    <lastmod>2026-10-28T06:44:53.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2013/teamster-logo/</loc>
+    <lastmod>2026-10-28T06:44:53.522Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/teamster-logo/teamster-logo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2013/</loc>
+    <lastmod>2026-10-28T06:44:53.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/chewbacca/</loc>
+    <lastmod>2026-10-28T06:44:53.528Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/chewbacca/chewbacca.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/chinese-dragon/</loc>
+    <lastmod>2026-10-28T06:44:53.529Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/chinese-dragon/chinese-dragon.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/high-society/</loc>
+    <lastmod>2026-10-28T06:44:53.532Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/high-society/high-society-logo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/</loc>
+    <lastmod>2026-10-28T06:44:53.532Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-sidious/</loc>
+    <lastmod>2026-10-28T06:44:53.531Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-sidious/darth-sidious.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/rose/</loc>
+    <lastmod>2026-10-28T06:44:53.505Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/rose/rose.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/uw-husky/</loc>
+    <lastmod>2026-10-28T06:44:53.508Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/uw-husky/husky.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/om/</loc>
+    <lastmod>2026-10-28T06:44:53.502Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/om/om.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/island-in-the-sun/</loc>
+    <lastmod>2026-10-28T06:44:53.501Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/island-in-the-sun/island.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/</loc>
+    <lastmod>2026-10-28T06:44:53.500Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/pineapple/</loc>
+    <lastmod>2026-10-28T06:44:53.504Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/pineapple/pineapple.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/non-pumpkins/3omsyoga-full/</loc>
+    <lastmod>2026-10-28T06:44:53.499Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/3omsyoga-full/3oms-yoga_full-spread.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/</loc>
+    <lastmod>2026-10-28T06:44:53.498Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/tatooine/</loc>
+    <lastmod>2026-10-28T06:44:53.536Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/tatooine/tatooine.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/tatooine/_alt.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/star-destroyer/</loc>
+    <lastmod>2026-10-28T06:44:53.534Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/star-destroyer/star-destroyer.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-maul/</loc>
+    <lastmod>2026-10-28T06:44:53.530Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/darth-maul/darth-maul.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2015/millennium-falcon/</loc>
+    <lastmod>2026-10-28T06:44:53.533Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/millennium-falcon/millennium-falcon.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2013/r2d2/</loc>
+    <lastmod>2026-10-28T06:44:53.521Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/r2d2/r2d2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/r2d2/_light.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2013/potc-medallion/</loc>
+    <lastmod>2026-10-28T06:44:53.520Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/potc-medallion/potc-medallion.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/queen-of-hearts/</loc>
+    <lastmod>2026-10-28T06:44:53.662Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/queen-of-hearts/queen-of-hearts.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/watership-down/</loc>
+    <lastmod>2026-10-28T06:44:53.666Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/watership-down/watership-down.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/new-hope-church/</loc>
+    <lastmod>2026-10-28T06:44:53.660Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/new-hope-church/new-hope-church.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/slappy/</loc>
+    <lastmod>2026-10-28T06:44:53.663Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/slappy/slappy.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/20k-leagues/</loc>
+    <lastmod>2026-10-28T06:44:53.650Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/20k-leagues/20k-leagues.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2022/narnia/</loc>
+    <lastmod>2026-10-28T06:44:53.658Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/narnia/narnia.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/lucius-malfoy/</loc>
+    <lastmod>2026-10-28T06:44:53.732Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/lucius-malfoy/lucius-malfoy.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/hogwarts-train/</loc>
+    <lastmod>2026-10-28T06:44:53.731Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/hogwarts-train/hogwarts-train.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/draco-malfoy/</loc>
+    <lastmod>2026-10-28T06:44:53.729Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/draco-malfoy/draco-malfoy.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2026/peter-pettigrew/</loc>
+    <lastmod>2026-10-28T06:44:53.733Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/peter-pettigrew/peter-pettigrew.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/proscapes/</loc>
+    <lastmod>2026-10-28T06:44:53.564Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/proscapes/proscapes.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/holy-diver/</loc>
+    <lastmod>2026-10-28T06:44:53.557Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/holy-diver/holy-diver.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/stones-throw/</loc>
+    <lastmod>2026-10-28T06:44:53.565Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/stones-throw/stones-throw.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2017/tiger/</loc>
+    <lastmod>2026-10-28T06:44:53.567Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/tiger/tiger.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2017/island-horticulture/</loc>
-    <lastmod>2026-10-28T06:37:59.943Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.560Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/island-horticulture/island-horticulture.jpg</image:loc>
     </image:image>
@@ -421,441 +787,157 @@
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/stones-throw/</loc>
-    <lastmod>2026-10-28T06:37:59.946Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/stones-throw/stones-throw.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/eddie/</loc>
-    <lastmod>2026-10-28T06:37:59.938Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/eddie/eddie.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/syndrome/</loc>
-    <lastmod>2026-10-28T06:38:00.009Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/syndrome/syndrome.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella-de-vil/</loc>
-    <lastmod>2026-10-28T06:37:59.995Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella-de-vil/cruella-de-vil.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/chernabog/</loc>
-    <lastmod>2026-10-28T06:37:59.994Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/chernabog/chernabog.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/disco-ball/</loc>
-    <lastmod>2026-10-28T06:37:59.999Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/disco-ball/disco-ball.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/schack-art-museum/</loc>
-    <lastmod>2026-10-28T06:38:00.004Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/schack-art-museum/schack-art-museum.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/sid/</loc>
-    <lastmod>2026-10-28T06:38:00.007Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/sid/sid.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/ursula/</loc>
-    <lastmod>2026-10-28T06:38:00.010Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/ursula/ursula.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/nosferatu/</loc>
-    <lastmod>2026-10-28T06:38:00.076Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/nosferatu/nosferatu.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/</loc>
-    <lastmod>2026-10-28T06:38:00.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/haunted-house/</loc>
-    <lastmod>2026-10-28T06:38:00.072Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/haunted-house/haunted-house.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/kong/</loc>
-    <lastmod>2026-10-28T06:38:00.073Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/kong/kong.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/mummy/</loc>
-    <lastmod>2026-10-28T06:38:00.074Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/mummy/mummy.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/black-lagoon/</loc>
-    <lastmod>2026-10-28T06:38:00.067Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/black-lagoon/black-lagoon.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/nascar-trophy/</loc>
-    <lastmod>2026-10-28T06:37:59.972Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/nascar-trophy/nascar-trophy.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/magenta/</loc>
-    <lastmod>2026-10-28T06:37:59.970Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/magenta/magenta.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/frank-n-furter/</loc>
-    <lastmod>2026-10-28T06:37:59.966Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/frank-n-furter/frank-n-furter.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/sunset-on-the-lake/</loc>
-    <lastmod>2026-10-28T06:37:59.978Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/sunset-on-the-lake/sunset-on-the-lake.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/sunset-on-the-lake/_light.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/lips/</loc>
-    <lastmod>2026-10-28T06:37:59.969Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/lips/lips.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/lips/_light.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/ching-shih/</loc>
-    <lastmod>2026-10-28T06:37:59.964Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/ching-shih/ching-shih.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/draco-malfoy/</loc>
-    <lastmod>2026-10-28T06:38:00.082Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/draco-malfoy/draco-malfoy.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/hogwarts-train/</loc>
-    <lastmod>2026-10-28T06:38:00.083Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/hogwarts-train/hogwarts-train.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/lucius-malfoy/</loc>
-    <lastmod>2026-10-28T06:38:00.083Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/lucius-malfoy/lucius-malfoy.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/about.html</loc>
-    <lastmod>2026-10-28T06:37:59.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/</loc>
-    <lastmod>2026-10-28T06:37:59.892Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/pineapple/</loc>
-    <lastmod>2026-10-28T06:37:59.895Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/pineapple/pineapple.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/3omsyoga-full/</loc>
-    <lastmod>2026-10-28T06:37:59.892Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/3omsyoga-full/3oms-yoga_full-spread.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/island-in-the-sun/</loc>
-    <lastmod>2026-10-28T06:37:59.893Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/island-in-the-sun/island.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/om/</loc>
-    <lastmod>2026-10-28T06:37:59.894Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/om/om.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/rose/</loc>
-    <lastmod>2026-10-28T06:37:59.897Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/rose/rose.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/non-pumpkins/uw-husky/</loc>
-    <lastmod>2026-10-28T06:37:59.899Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/non-pumpkins/uw-husky/husky.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/all-carvings/</loc>
-    <lastmod>2026-10-28T06:37:59.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/dementor/</loc>
-    <lastmod>2026-10-28T06:38:00.081Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/dementor/dementor.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/bellatrix-lestrange/</loc>
-    <lastmod>2026-10-28T06:38:00.079Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/bellatrix-lestrange/bellatrix-lestrange.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/peter-pettigrew/</loc>
-    <lastmod>2026-10-28T06:38:00.085Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2026/peter-pettigrew/peter-pettigrew.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2026/</loc>
-    <lastmod>2026-10-28T06:38:00.083Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/riff-raff/</loc>
-    <lastmod>2026-10-28T06:37:59.976Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/riff-raff/riff-raff.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/red-rock-subs/</loc>
-    <lastmod>2026-10-28T06:37:59.973Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/red-rock-subs/red-rock-subs.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/columbia/</loc>
-    <lastmod>2026-10-28T06:37:59.965Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/columbia/columbia.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/rhps-collection/</loc>
-    <lastmod>2026-10-28T06:37:59.974Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/rhps-collection/rhps-collection.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/maleficent/</loc>
-    <lastmod>2026-10-28T06:37:59.971Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/maleficent/maleficent.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2019/</loc>
-    <lastmod>2026-10-28T06:37:59.966Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/the-day-the-earth-stood-still/</loc>
-    <lastmod>2026-10-28T06:38:00.077Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/the-day-the-earth-stood-still/the-day-the-earth-stood-still.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/dracula/</loc>
-    <lastmod>2026-10-28T06:38:00.068Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/dracula/dracula.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/invisible-man/</loc>
-    <lastmod>2026-10-28T06:38:00.072Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/invisible-man/invisible-man.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/frankenstein/</loc>
-    <lastmod>2026-10-28T06:38:00.069Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/frankenstein/frankenstein.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/wolfman/</loc>
-    <lastmod>2026-10-28T06:38:00.078Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/wolfman/wolfman.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2025/godzilla/</loc>
-    <lastmod>2026-10-28T06:38:00.070Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/godzilla/godzilla.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/pan-and-hook/</loc>
-    <lastmod>2026-10-28T06:38:00.001Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/pan-and-hook/pan-and-hook.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/scar/</loc>
-    <lastmod>2026-10-28T06:38:00.003Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/scar/scar.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/monster-mash/</loc>
-    <lastmod>2026-10-28T06:37:59.999Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/monster-mash/monster-mash.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/yzma/</loc>
-    <lastmod>2026-10-28T06:38:00.013Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/yzma/yzma.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella/</loc>
-    <lastmod>2026-10-28T06:37:59.997Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/cruella/cruella.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/</loc>
-    <lastmod>2026-10-28T06:37:59.999Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2021/shan-yu/</loc>
-    <lastmod>2026-10-28T06:38:00.006Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/shan-yu/shan-yu.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/north-coast/</loc>
-    <lastmod>2026-10-28T06:37:59.944Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/north-coast/north-coast.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/north-coast/_alt.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/ozzy/</loc>
-    <lastmod>2026-10-28T06:37:59.945Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/ozzy/ozzy.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/tiger/</loc>
-    <lastmod>2026-10-28T06:37:59.948Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/tiger/tiger.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2017/alice-cooper/</loc>
-    <lastmod>2026-10-28T06:37:59.937Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.553Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/alice-cooper/alice-cooper.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/proscapes/</loc>
-    <lastmod>2026-10-28T06:37:59.945Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/</loc>
+    <lastmod>2026-10-28T06:44:53.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2014/eye-of-sauron/</loc>
+    <lastmod>2026-10-28T06:44:53.525Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/proscapes/proscapes.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/eye-of-sauron/eye-of-sauron.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2017/bb8/</loc>
-    <lastmod>2026-10-28T06:37:59.937Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2014/one-pumpkin-to-rule-them-all/</loc>
+    <lastmod>2026-10-28T06:44:53.527Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2017/bb8/bb8.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/one-pumpkin-to-rule-them-all/one-pumpkin-to-rule-them-all.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2010/pirate-skull/</loc>
-    <lastmod>2026-10-28T06:37:59.901Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2014/army-of-mushrooms/</loc>
+    <lastmod>2026-10-28T06:44:53.523Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/pirate-skull/pirate-skull.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/army-of-mushrooms/army-of-mushrooms.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2010/</loc>
-    <lastmod>2026-10-28T06:37:59.901Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/riff-raff/</loc>
+    <lastmod>2026-10-28T06:44:53.603Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/riff-raff/riff-raff.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/</loc>
+    <lastmod>2026-10-28T06:44:53.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/frank-n-furter/</loc>
+    <lastmod>2026-10-28T06:44:53.589Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/frank-n-furter/frank-n-furter.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/nascar-trophy/</loc>
+    <lastmod>2026-10-28T06:44:53.596Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/nascar-trophy/nascar-trophy.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/ching-shih/</loc>
+    <lastmod>2026-10-28T06:44:53.586Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/ching-shih/ching-shih.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2019/red-rock-subs/</loc>
+    <lastmod>2026-10-28T06:44:53.598Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2019/red-rock-subs/red-rock-subs.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/nw-vape/</loc>
+    <lastmod>2026-10-28T06:44:53.678Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/nw-vape/nw-vape-logo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/largo/</loc>
+    <lastmod>2026-10-28T06:44:53.676Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/largo/emilio-largo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/</loc>
+    <lastmod>2026-10-28T06:44:53.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/bond-collection/</loc>
+    <lastmod>2026-10-28T06:44:53.672Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/bond-collection/bond-collection.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/blofeld/</loc>
+    <lastmod>2026-10-28T06:44:53.670Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/blofeld/ernst-stavro-blofeld.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2023/tarantula/</loc>
+    <lastmod>2026-10-28T06:44:53.685Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/tarantula/tarantula.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2011/</loc>
+    <lastmod>2026-10-28T06:44:53.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2011/barbossa/</loc>
+    <lastmod>2026-10-28T06:44:53.514Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2011/barbossa/barbossa.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/</loc>
+    <lastmod>2026-10-28T06:44:53.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/stones-throw/</loc>
+    <lastmod>2026-10-28T06:44:53.550Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/stones-throw/stones-throw.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/stones-throw/_light.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/samurai/</loc>
+    <lastmod>2026-10-28T06:44:53.547Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/samurai/samurai.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/3d-pumpkin/</loc>
+    <lastmod>2026-10-28T06:44:53.538Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/3d-pumpkin/3d-pumpkin.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2016/revolvers/</loc>
-    <lastmod>2026-10-28T06:37:59.930Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.545Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/revolvers/revolvers.jpg</image:loc>
     </image:image>
@@ -867,68 +949,67 @@
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/samurai/</loc>
-    <lastmod>2026-10-28T06:37:59.930Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2016/skull-and-cross-oars/</loc>
+    <lastmod>2026-10-28T06:44:53.548Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/samurai/samurai.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/skull-and-cross-oars/skull-and-cross-oars.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/celtic-square-knot/</loc>
-    <lastmod>2026-10-28T06:37:59.924Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2010/death-star/</loc>
+    <lastmod>2026-10-28T06:44:53.510Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/celtic-square-knot/celtic-square-knot.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/death-star/death-star.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/death-star/_light.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/3d-pumpkin/</loc>
-    <lastmod>2026-10-28T06:37:59.924Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2010/pirate-skull/</loc>
+    <lastmod>2026-10-28T06:44:53.511Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/3d-pumpkin/3d-pumpkin.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2010/pirate-skull/pirate-skull.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/darth-vader/</loc>
-    <lastmod>2026-10-28T06:37:59.925Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/mr-burns/</loc>
+    <lastmod>2026-10-28T06:44:53.707Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/darth-vader/darth-vader.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/mr-burns/mr-burns.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2016/youngstocks-farm/</loc>
-    <lastmod>2026-10-28T06:37:59.935Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/lisa/</loc>
+    <lastmod>2026-10-28T06:44:53.702Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2016/youngstocks-farm/youngstocks-farm.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/lisa/lisa.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2014/flaming-skull/</loc>
-    <lastmod>2026-10-28T06:37:59.914Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/marge/</loc>
+    <lastmod>2026-10-28T06:44:53.706Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/flaming-skull/flaming-skull.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/marge/marge.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2014/</loc>
-    <lastmod>2026-10-28T06:37:59.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2014/one-pumpkin-to-rule-them-all/</loc>
-    <lastmod>2026-10-28T06:37:59.914Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/krusty/</loc>
+    <lastmod>2026-10-28T06:44:53.701Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2014/one-pumpkin-to-rule-them-all/one-pumpkin-to-rule-them-all.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/krusty/krusty.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/sideshow-bob/</loc>
-    <lastmod>2026-10-28T06:38:00.066Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/bart/</loc>
+    <lastmod>2026-10-28T06:44:53.693Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/sideshow-bob/sideshow-bob.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/bart/bart.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2024/a-chopwork-orange/</loc>
-    <lastmod>2026-10-28T06:38:00.051Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.691Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/a-chopwork-orange/a-chopwork-orange.jpg</image:loc>
     </image:image>
@@ -940,113 +1021,184 @@
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/groundskeeper-willie/</loc>
-    <lastmod>2026-10-28T06:38:00.055Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2024/kang/</loc>
+    <lastmod>2026-10-28T06:44:53.700Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/groundskeeper-willie/groundskeeper-willie.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/kang/kang.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/flanders/</loc>
-    <lastmod>2026-10-28T06:38:00.054Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/kong/</loc>
+    <lastmod>2026-10-28T06:44:53.718Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/flanders/flanders.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/kong/kong.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/gunslinger/</loc>
-    <lastmod>2026-10-28T06:38:00.057Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/frankenstein/</loc>
+    <lastmod>2026-10-28T06:44:53.713Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/gunslinger/gunslinger.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/frankenstein/frankenstein.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/</loc>
-    <lastmod>2026-10-28T06:38:00.058Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2024/marge/</loc>
-    <lastmod>2026-10-28T06:38:00.063Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/wolfman/</loc>
+    <lastmod>2026-10-28T06:44:53.723Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2024/marge/marge.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/wolfman/wolfman.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/gollum/</loc>
-    <lastmod>2026-10-28T06:38:00.021Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/godzilla/</loc>
+    <lastmod>2026-10-28T06:44:53.714Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/gollum/gollum.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/godzilla/godzilla.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/falkor-and-atreyu/</loc>
-    <lastmod>2026-10-28T06:38:00.020Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/dracula/</loc>
+    <lastmod>2026-10-28T06:44:53.711Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/falkor-and-atreyu/falkor-and-atreyu.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/dracula/dracula.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/voldemort/</loc>
-    <lastmod>2026-10-28T06:38:00.028Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2025/haunted-house/</loc>
+    <lastmod>2026-10-28T06:44:53.715Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/voldemort/voldemort.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2025/haunted-house/haunted-house.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/new-hope-church/</loc>
-    <lastmod>2026-10-28T06:38:00.024Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2012/fire-breathing-dragon/</loc>
+    <lastmod>2026-10-28T06:44:53.520Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/new-hope-church/new-hope-church.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/slappy/</loc>
-    <lastmod>2026-10-28T06:38:00.027Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/slappy/slappy.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2022/watership-down/</loc>
-    <lastmod>2026-10-28T06:38:00.030Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2022/watership-down/watership-down.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2012/dnd-logo/</loc>
-    <lastmod>2026-10-28T06:37:59.908Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2012/dnd-logo/dnd-logo.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2012/fire-breathing-dragon/fire-breathing-dragon.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2012/darth-vader/</loc>
-    <lastmod>2026-10-28T06:37:59.907Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.518Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2012/darth-vader/darth-vader.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2013/potc-medallion/</loc>
-    <lastmod>2026-10-28T06:37:59.909Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/schack-art-museum/</loc>
+    <lastmod>2026-10-28T06:44:53.638Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/potc-medallion/potc-medallion.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/schack-art-museum/schack-art-museum.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2013/r2d2/</loc>
-    <lastmod>2026-10-28T06:37:59.910Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/</loc>
+    <lastmod>2026-10-28T06:44:53.631Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/shan-yu/</loc>
+    <lastmod>2026-10-28T06:44:53.640Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/r2d2/r2d2.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/shan-yu/shan-yu.jpg</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/chernabog/</loc>
+    <lastmod>2026-10-28T06:44:53.625Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2013/r2d2/_light.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/chernabog/chernabog.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/monster-mash/</loc>
+    <lastmod>2026-10-28T06:44:53.632Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/monster-mash/monster-mash.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/sid/</loc>
+    <lastmod>2026-10-28T06:44:53.642Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/sid/sid.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2021/yzma/</loc>
+    <lastmod>2026-10-28T06:44:53.647Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2021/yzma/yzma.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-eddie/</loc>
+    <lastmod>2026-10-28T06:44:53.621Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-eddie/rip-eddie.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/</loc>
+    <lastmod>2026-10-28T06:44:53.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/snoke/</loc>
+    <lastmod>2026-10-28T06:44:53.623Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/snoke/snoke.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/luke-vs-the-new-order/</loc>
+    <lastmod>2026-10-28T06:44:53.619Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/luke-vs-the-new-order/luke-vs-the-new-order.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/carousel/</loc>
+    <lastmod>2026-10-28T06:44:53.612Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/carousel/carousel.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2020/kylo-ren/</loc>
+    <lastmod>2026-10-28T06:44:53.616Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/kylo-ren/kylo-ren.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/psycho/</loc>
+    <lastmod>2026-10-28T06:44:53.582Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/psycho/psycho.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/beast/</loc>
+    <lastmod>2026-10-28T06:44:53.569Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/beast/beast.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/frankenstein/</loc>
+    <lastmod>2026-10-28T06:44:53.571Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/frankenstein/frankenstein.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/halloween/</loc>
+    <lastmod>2026-10-28T06:44:53.576Z</lastmod>
+    <image:image>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/halloween/halloween.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2018/mad-cow/</loc>
-    <lastmod>2026-10-28T06:37:59.958Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.578Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/mad-cow/mad-cow.jpg</image:loc>
     </image:image>
@@ -1059,165 +1211,20 @@
   </url>
   <url>
     <loc>https://peterspumpkinpatch.org/pumpkins/2018/pennywise/</loc>
-    <lastmod>2026-10-28T06:37:59.959Z</lastmod>
+    <lastmod>2026-10-28T06:44:53.580Z</lastmod>
     <image:image>
       <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/pennywise/pennywise.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/beast/</loc>
-    <lastmod>2026-10-28T06:37:59.950Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/pumpkins/2018/evil-witch/</loc>
+    <lastmod>2026-10-28T06:44:53.570Z</lastmod>
     <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/beast/beast.jpg</image:loc>
+      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/evil-witch/evil-witch.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/xiezhi/</loc>
-    <lastmod>2026-10-28T06:37:59.962Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/xiezhi/xiezhi.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/halloween/</loc>
-    <lastmod>2026-10-28T06:37:59.956Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/halloween/halloween.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/ghostface/</loc>
-    <lastmod>2026-10-28T06:37:59.954Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2018/ghostface/ghostface.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2018/</loc>
-    <lastmod>2026-10-28T06:37:59.956Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/</loc>
-    <lastmod>2026-10-28T06:38:00.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/baron-samedi/</loc>
-    <lastmod>2026-10-28T06:38:00.032Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/baron-samedi/baron-samedi.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/tarantula/</loc>
-    <lastmod>2026-10-28T06:38:00.046Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/tarantula/tarantula.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/scaramanga/</loc>
-    <lastmod>2026-10-28T06:38:00.044Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/scaramanga/francisco-scaramanga.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/zao/</loc>
-    <lastmod>2026-10-28T06:38:00.047Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/zao/zao.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/sofina/</loc>
-    <lastmod>2026-10-28T06:38:00.044Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/sofina/sofina.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2023/oddjob/</loc>
-    <lastmod>2026-10-28T06:38:00.042Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2023/oddjob/oddjob.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2011/barbossa/</loc>
-    <lastmod>2026-10-28T06:37:59.903Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2011/barbossa/barbossa.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2011/</loc>
-    <lastmod>2026-10-28T06:37:59.907Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/high-society/</loc>
-    <lastmod>2026-10-28T06:37:59.919Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/high-society/high-society-logo.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/chewbacca/</loc>
-    <lastmod>2026-10-28T06:37:59.916Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/chewbacca/chewbacca.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/tatooine/</loc>
-    <lastmod>2026-10-28T06:37:59.922Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/tatooine/tatooine.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2015/tatooine/_alt.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2015/</loc>
-    <lastmod>2026-10-28T06:37:59.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/kylo-ren/</loc>
-    <lastmod>2026-10-28T06:37:59.986Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/kylo-ren/kylo-ren.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-eddie/</loc>
-    <lastmod>2026-10-28T06:37:59.990Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/rip-eddie/rip-eddie.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/lucky-lion/</loc>
-    <lastmod>2026-10-28T06:37:59.988Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/lucky-lion/lucky-lion.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/snoke/</loc>
-    <lastmod>2026-10-28T06:37:59.992Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/snoke/snoke.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/luke-vs-the-new-order/</loc>
-    <lastmod>2026-10-28T06:37:59.989Z</lastmod>
-    <image:image>
-      <image:loc>https://peterspumpkinpatch.org/pumpkins/2020/luke-vs-the-new-order/luke-vs-the-new-order.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://peterspumpkinpatch.org/pumpkins/2020/</loc>
-    <lastmod>2026-10-28T06:37:59.986Z</lastmod>
+    <loc>https://peterspumpkinpatch.org/all-carvings/</loc>
+    <lastmod>2026-10-28T06:44:53.498Z</lastmod>
   </url>
 </urlset>
