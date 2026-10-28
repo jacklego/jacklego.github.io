@@ -95,35 +95,15 @@
     ]
   },
   {
-    "listing": "/non-pumpkins/index.html",
+    "listing": "/pumpkins/2026/index.html",
     "items": [
-      "/non-pumpkins/3omsyoga-full/index.html",
-      "/non-pumpkins/uw-husky/index.html",
-      "/non-pumpkins/island-in-the-sun/index.html",
-      "/non-pumpkins/rose/index.html",
-      "/non-pumpkins/om/index.html",
-      "/non-pumpkins/pineapple/index.html"
-    ]
-  },
-  {
-    "listing": "/pumpkins/2015/index.html",
-    "items": [
-      "/pumpkins/2015/high-society/index.html",
-      "/pumpkins/2015/chinese-dragon/index.html",
-      "/pumpkins/2015/darth-sidious/index.html",
-      "/pumpkins/2015/chewbacca/index.html",
-      "/pumpkins/2015/tatooine/index.html",
-      "/pumpkins/2015/darth-maul/index.html",
-      "/pumpkins/2015/star-destroyer/index.html",
-      "/pumpkins/2015/millennium-falcon/index.html"
-    ]
-  },
-  {
-    "listing": "/pumpkins/2013/index.html",
-    "items": [
-      "/pumpkins/2013/r2d2/index.html",
-      "/pumpkins/2013/teamster-logo/index.html",
-      "/pumpkins/2013/potc-medallion/index.html"
+      "/pumpkins/2026/alastor-mad-eye-moody/index.html",
+      "/pumpkins/2026/lucius-malfoy/index.html",
+      "/pumpkins/2026/draco-malfoy/index.html",
+      "/pumpkins/2026/peter-pettigrew/index.html",
+      "/pumpkins/2026/bellatrix-lestrange/index.html",
+      "/pumpkins/2026/dementor/index.html",
+      "/pumpkins/2026/hogwarts-train/index.html"
     ]
   },
   {
@@ -143,14 +123,35 @@
     ]
   },
   {
-    "listing": "/pumpkins/2026/index.html",
+    "listing": "/pumpkins/2013/index.html",
     "items": [
-      "/pumpkins/2026/alastor-mad-eye-moody/index.html",
-      "/pumpkins/2026/lucius-malfoy/index.html",
-      "/pumpkins/2026/draco-malfoy/index.html",
-      "/pumpkins/2026/peter-pettigrew/index.html",
-      "/pumpkins/2026/bellatrix-lestrange/index.html",
-      "/pumpkins/2026/dementor/index.html"
+      "/pumpkins/2013/r2d2/index.html",
+      "/pumpkins/2013/teamster-logo/index.html",
+      "/pumpkins/2013/potc-medallion/index.html"
+    ]
+  },
+  {
+    "listing": "/pumpkins/2015/index.html",
+    "items": [
+      "/pumpkins/2015/high-society/index.html",
+      "/pumpkins/2015/chinese-dragon/index.html",
+      "/pumpkins/2015/darth-sidious/index.html",
+      "/pumpkins/2015/chewbacca/index.html",
+      "/pumpkins/2015/tatooine/index.html",
+      "/pumpkins/2015/darth-maul/index.html",
+      "/pumpkins/2015/star-destroyer/index.html",
+      "/pumpkins/2015/millennium-falcon/index.html"
+    ]
+  },
+  {
+    "listing": "/non-pumpkins/index.html",
+    "items": [
+      "/non-pumpkins/3omsyoga-full/index.html",
+      "/non-pumpkins/uw-husky/index.html",
+      "/non-pumpkins/island-in-the-sun/index.html",
+      "/non-pumpkins/rose/index.html",
+      "/non-pumpkins/om/index.html",
+      "/non-pumpkins/pineapple/index.html"
     ]
   },
   {
@@ -268,6 +269,7 @@
   {
     "listing": "/all-carvings/index.html",
     "items": [
+      "/pumpkins/2026/hogwarts-train/index.html",
       "/pumpkins/2026/dementor/index.html",
       "/pumpkins/2026/bellatrix-lestrange/index.html",
       "/pumpkins/2026/peter-pettigrew/index.html",
