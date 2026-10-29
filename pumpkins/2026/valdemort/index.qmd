@@ -1,0 +1,18 @@
+---
+title: "Valdemort"
+pagetitle: "Valdemort pumpkin carving"
+description: "Valdemort — a pumpkin carving by Peter Wiegand, 2026."
+image: _valdemort__thumb.jpg
+image-alt: "A pumpkin carved with Valdemort."
+full: valdemort.jpg
+order: 8
+date: 2026-10-28
+categories: []
+
+meta:
+  captured: "2026-10-28T19:19:29"
+  raw-aspect-ratio: 1.3333
+
+---
+
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
