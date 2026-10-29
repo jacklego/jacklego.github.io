@@ -77,7 +77,7 @@ def issue(c: dict) -> tuple[str, str]:
     """The review issue for one carving, as (title, body)."""
     rows = [
         ("slug", f"`{c['slug']}`", "derived"),
-        ("order", c["order"], "upload order"),
+        ("order", c["order"], "last in `order.txt` unless the sidecar said otherwise"),
         ("date", c["date"], "EXIF"),
         ("pagetitle", c["pagetitle"], "derived"),
         ("description", c["description"], "derived"),

@@ -23,6 +23,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+import sync_order  # noqa: E402
 
 
 def edit(path: Path, pattern: str, replacement: str, *, dry: bool,
@@ -110,11 +112,22 @@ def main() -> int:
         subprocess.run([sys.executable, str(ROOT / "scripts" / "sync_drafts.py")],
                        check=False)
 
+    print(f"\npumpkins/{year}/order.txt -- what Peter rearranges to set the order")
+    order_file = year_dir / sync_order.NAME
+    if order_file.exists():
+        print(f"  ok {order_file.relative_to(ROOT)}: exists")
+    else:
+        print(f"  {'would write' if dry else 'wrote'} {order_file.relative_to(ROOT)}")
+        if not dry:
+            order_file.write_text(sync_order.render(sync_order.carvings(year_dir)),
+                                  encoding="utf-8")
+    edit(ROOT / "_how-to-add-a-pumpkin" / "README.md",
+         r"pumpkins/\d{4}/order\.txt", f"pumpkins/{year}/order.txt", dry=dry)
+
     print(f"""
 Still yours to do:
   1. _homepage-memo.md    -- replace with Peter's note for the {year} season
-  2. review order         -- carvings are in upload order; resequence `order:`
-                             if Peter wants a different one
+  2. review order         -- Peter sets it by editing pumpkins/{year}/order.txt
   3. close out the open `review` issues
   4. archive originals    -- move anything left in _inbox/ into
                              _full-sized-assets/all-pumpkins/{year}/

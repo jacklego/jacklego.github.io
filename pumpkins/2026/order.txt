@@ -1,0 +1,15 @@
+# The order of the pumpkins on this page, top to bottom.
+#
+# To change it, move the lines up or down (cut and paste), then click
+# "Commit changes". The website picks up the new order in about a minute.
+#
+# Keep the names exactly as they are -- just move them around.
+# Lines starting with # are ignored.
+
+Lucius Malfoy
+Draco Malfoy
+Peter Pettigrew
+Bellatrix Lestrange
+Dementor
+Hogwarts train
+Alastor Mad Eye Moody

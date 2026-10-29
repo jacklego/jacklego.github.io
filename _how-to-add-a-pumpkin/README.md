@@ -132,6 +132,30 @@ You're done. Connor gets an automatic email saying a new pumpkin went up, and he
 
 ---
 
+## When you've uploaded them all: put them in order
+
+New pumpkins go at the end of the page, in the order you uploaded them. Once all of this year's pumpkins are up, you can rearrange them. You can do this as often as you like.
+
+1. Click this link. It opens the list of this year's pumpkins, top to bottom in the order they appear on the page:
+
+   ### 👉 [Edit this year's order](https://github.com/jacklego/jacklego.github.io/edit/main/pumpkins/2026/order.txt)
+
+2. Ignore the lines at the top that start with `#`. Below them is one pumpkin per line.
+3. Move the lines into the order you want. The easiest way: click anywhere on a line, then hold **Alt** and press the **↑** or **↓** arrow key to move that line up or down. (Cut and paste works too.)
+   - Don't change the names themselves, only move them.
+   - Don't add numbers. The order of the lines *is* the order.
+4. In the top-right corner of the page, click the green **Commit changes...** button. A small box pops up. Don't change anything in it, and click the green **Commit changes** button at the bottom of the box.
+5. Click this link and wait for the top line, which says **Reorder carvings** in small grey text, to get a green check mark. It usually takes under a minute. Press **F5** to refresh.
+
+   ### 👉 [Progress page](https://github.com/jacklego/jacklego.github.io/actions)
+
+   A **red X** means it failed. You can ask Connor about it.
+6. Do **Part 4** again to put the new order on the website, then check it as in **Part 5**.
+
+If you misspell a name or delete a line by accident, nothing breaks: that pumpkin just goes to the end of the page, and it's back in the list next time you open it.
+
+---
+
 ## If you get lost
 
 - **Clicking a link above shows a page you don't recognize.** Close it and click the link in these instructions again. You can always start over from the beginning of the Part you were on.

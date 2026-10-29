@@ -5,7 +5,7 @@ description: "Hogwarts train — a pumpkin carving by Peter Wiegand, 2026."
 image: _hogwarts-train__thumb.jpg
 image-alt: "A pumpkin carved with Hogwarts train."
 full: hogwarts-train.jpg
-order: 24
+order: 6
 date: 2026-10-27
 categories: []
 

@@ -1,0 +1,54 @@
+# Applies a season's order.txt to its carvings' `order:` keys.
+#
+# Peter rearranges the lines of pumpkins/<year>/order.txt in GitHub's web editor
+# once he's finished uploading; this renumbers every carving to match and
+# commits the result back to main. Lines it can't match become warnings in the
+# run summary, never a failure. It does NOT publish -- deploys stay manual, via
+# publish.yml.
+#
+# Its own commit touches order.txt too, but pushes made with GITHUB_TOKEN don't
+# trigger workflows, so it can't loop. Ingest's commits don't trigger it either,
+# which is fine: ingest.py syncs the order itself.
+name: Reorder carvings
+
+on:
+  push:
+    branches: [main]
+    paths: ['pumpkins/*/order.txt', 'non-pumpkins/order.txt']
+  workflow_dispatch:
+
+# Shares ingest's group so the two never race each other pushing to main.
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  reorder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Stdlib-only, so the runner's python3 is enough.
+      - name: Run sync_order.py
+        run: |
+          {
+            echo '```'
+            python3 scripts/sync_order.py
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "order already matches -- nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Reorder carvings" -m "Output of scripts/sync_order.py, run after an order.txt changed."
+          git pull --rebase
+          git push

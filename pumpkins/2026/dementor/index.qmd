@@ -5,7 +5,7 @@ description: "Dementor — a pumpkin carving by Peter Wiegand, 2026."
 image: _dementor__thumb.jpg
 image-alt: "A pumpkin carved with Dementor."
 full: dementor.jpg
-order: 18
+order: 5
 date: 2026-10-26
 categories: []
 

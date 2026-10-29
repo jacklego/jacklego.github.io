@@ -5,7 +5,7 @@ description: "Lucius Malfoy — a pumpkin carving by Peter Wiegand, 2026."
 image: _lucius-malfoy__thumb.jpg
 image-alt: "A pumpkin carved with Lucius Malfoy."
 full: lucius-malfoy.jpg
-order: 4
+order: 1
 date: 2026-10-24
 categories: []
 

@@ -28,6 +28,6 @@ categories: Horror, Monsters, Movies
 # medium: watermelon          # it isn't a pumpkin
 # off-theme: yes              # it doesn't fit this year's theme
 # note: text                  # anything you want written down
-# order: 3                    # where it sits in the year (default: last)
+# order: 3                    # where it sits in the year (default: last -- easier to rearrange them all at the end, see the instructions)
 # year: 2026                  # which season it belongs to (default: the photo's)
 # slug: frank                 # the web address, if you want to modify

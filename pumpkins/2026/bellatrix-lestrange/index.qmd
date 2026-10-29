@@ -5,7 +5,7 @@ description: "Bellatrix Lestrange — a pumpkin carving by Peter Wiegand, 2026."
 image: _bellatrix-lestrange__thumb.jpg
 image-alt: "A pumpkin carved with Bellatrix Lestrange."
 full: bellatrix-lestrange.jpg
-order: 13
+order: 4
 date: 2026-10-25
 categories: []
 

@@ -40,6 +40,7 @@ from PIL import Image, ImageOps
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import carving  # noqa: E402
 import sync_drafts  # noqa: E402
+import sync_order  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -307,6 +308,9 @@ def existing_pagetitles() -> dict[str, str]:
 def next_order(parent: Path, assigned: dict[Path, int]) -> int:
     """The next `order:` in a season -- an append, never a renumber.
 
+    Provisional: once the page is written, `sync_order.place()` files it in the
+    season's `order.txt` and renumbers to match, which is what Peter edits.
+
     `assigned` carries the orders handed out earlier in this same run, so a batch
     of several photos numbers correctly and --dry-run reports the same numbers a
     real run would use.
@@ -538,10 +542,15 @@ def build(item: dict, args, pagetitles: dict[str, str],
 
     if medium:
         target = ROOT / "non-pumpkins" / slug
-        order = int(sidecar.get("order") or next_order(target.parent, assigned))
     else:
         target = ROOT / "pumpkins" / str(year) / slug
-        order = int(sidecar.get("order") or next_order(target.parent, assigned))
+    wanted = None
+    if sidecar.get("order"):
+        if re.fullmatch(r"\d+", str(sidecar["order"]).strip()):
+            wanted = int(sidecar["order"])
+        else:
+            flags.append(f"`order: {sidecar['order']}` isn't a number -- put it last")
+    order = wanted or next_order(target.parent, assigned)
 
     report = {
         "name": name, "slug": slug, "path": str(target.relative_to(ROOT)),
@@ -636,6 +645,10 @@ def build(item: dict, args, pagetitles: dict[str, str],
         suffix = "" if n == 1 else f"-{n}"
         resize(extra, target / f"_alt{suffix}.jpg", WEB_EDGE, WEB_QUALITY)
     (target / "index.qmd").write_text(render_qmd(fm, meta, body), encoding="utf-8")
+    # order.txt is the source of truth for the season's order, so the page goes
+    # in there -- last, or where a sidecar `order:` puts it -- and every
+    # `order:` in the season is renumbered to match.
+    report["order"] = sync_order.place(target.parent, slug, wanted)
 
     if not medium:
         year_index = target.parent / "index.qmd"
