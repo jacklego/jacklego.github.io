@@ -20,8 +20,15 @@ Design rules, in order of importance:
   3. Re-running is safe. An existing target directory is skipped unless
      --force, which is what makes the workflow idempotent.
 
+A photo for a carving that already exists is skipped as a parked original --
+unless `--changed` lists it, meaning it arrived in the push being processed. That
+is a replacement: Peter re-uploaded the carving under the same name, so the two
+image tiers and the date are rebuilt from the new photo and everything else on
+the page (prose, categories, order) is kept.
+
 Usage:
   uv run scripts/ingest.py [--dry-run] [--force] [--inbox DIR] [--summary FILE]
+                           [--changed FILE]
 """
 
 from __future__ import annotations
@@ -485,6 +492,7 @@ def collect(inbox: Path) -> tuple[list[dict], list[str]]:
             "stem": stem,
             "main": group[0][1],
             "extras": [p for _, p in group[1:]],
+            "group": group,
             "sidecar": sidecar,
             "pair_flags": flags,
         })
@@ -492,6 +500,96 @@ def collect(inbox: Path) -> tuple[list[dict], list[str]]:
     for path, reason in orphans:
         notes.append(f"sidecar `{path.name}` skipped -- {reason} -- left in place")
     return items, notes
+
+
+def replacement_photo(item: dict, args) -> Path | None:
+    """The photo in this group that arrived in the current push, if any.
+
+    Usually the main photo. But a re-upload whose name differs from the parked
+    original only by spacing (`Hogwarts train.jpg` beside `Hogwarts train .jpg`)
+    lands in the same group, and whichever sorts first would be "main" -- so the
+    changed one is picked out explicitly. Extra photos (`Dementor 2.jpg`) never
+    count: only the main image is replaced.
+    """
+    changed = getattr(args, "changed", None)
+    if not changed:
+        return None
+    return next((p for i, p in item["group"] if i == 0 and p.name in changed), None)
+
+
+def find_by_title(listing: Path, name: str) -> Path | None:
+    """The one carving in a listing titled `name`, ignoring case and spacing."""
+    want = sync_order.norm(name)
+    hits = [c["qmd"].parent for c in sync_order.carvings(listing)
+            if sync_order.norm(c["title"]) == want] if listing.is_dir() else []
+    return hits[0] if len(hits) == 1 else None
+
+
+def replace(item: dict, photo: Path, target: Path, report: dict, args) -> dict:
+    """Swap an existing carving's photo, keeping everything else on its page."""
+    qmd = target / "index.qmd"
+    text = qmd.read_text(encoding="utf-8")
+
+    def field(key: str) -> str | None:
+        m = re.search(rf"^{key}:\s*(.*?)\s*$", text, re.MULTILINE)
+        return m.group(1).strip('"') if m else None
+
+    full, thumb = field("full"), field("image")
+    if not full or not thumb:
+        report["skipped"] = (f"{target.relative_to(ROOT)} exists, but its page has no "
+                             "`full:` / `image:` keys to replace -- do it by hand")
+        return report
+
+    flags = ["the photo was replaced -- check `image-alt` still describes it"]
+    captured, ratio = probe(photo)
+    old_date = field("date") or ""
+    if captured:
+        text = re.sub(r"^date:.*$", f"date: {captured[:10]}", text, count=1, flags=re.M)
+        text = re.sub(r"^(\s+captured:).*$", rf'\1 "{captured}"', text, count=1, flags=re.M)
+        if old_date[:4] != captured[:4]:
+            flags.append(f"**the new photo is from {captured[:4]}, the old one from "
+                         f"{old_date[:4]}** -- `description` and `pagetitle` may still "
+                         "name the old year")
+    else:
+        flags.append("the new photo has no EXIF date -- kept the old date")
+    if ratio is not None:
+        text = re.sub(r"^(\s+raw-aspect-ratio:).*$", rf"\g<1> {ratio:.4f}", text,
+                      count=1, flags=re.M)
+    if item["sidecar"]:
+        flags.append(f"sidecar `{item['sidecar'].name}` ignored -- a replacement keeps "
+                     "the page's text; edit the page to change it")
+    if any(i > 0 and p.name in args.changed for i, p in item["group"]):
+        flags.append("extra photos are not replaced automatically")
+
+    cats = field("categories") or ""
+    report.update({
+        "replaced": True,
+        "name": field("title") or report["name"],
+        "slug": target.name,
+        "path": str(target.relative_to(ROOT)),
+        "order": int(field("order") or 0),
+        "date": (captured or old_date)[:10],
+        "categories": [c.strip() for c in cats.strip("[]").split(",") if c.strip()],
+        "pagetitle": field("pagetitle") or "",
+        "description": field("description") or "",
+        "image-alt": field("image-alt") or "",
+        "source_files": [photo.name],
+        "extras": 0,
+        "flags": flags,
+    })
+    if args.dry_run:
+        return report
+
+    resize(photo, target / full, WEB_EDGE, WEB_QUALITY)
+    resize(photo, target / thumb, THUMB_EDGE, THUMB_QUALITY)
+    qmd.write_text(text, encoding="utf-8")
+    # The inbox keeps one original per carving, so archiving at go-live picks up
+    # the right one: a differently-spelled old original is retired here.
+    for i, old in item["group"]:
+        if i == 0 and old != photo:
+            old.unlink()
+            flags.append(f"removed the old original `{old.name}` from `_inbox/`")
+    return report
 
 
 def build(item: dict, args, pagetitles: dict[str, str],
@@ -544,6 +642,17 @@ def build(item: dict, args, pagetitles: dict[str, str],
         target = ROOT / "non-pumpkins" / slug
     else:
         target = ROOT / "pumpkins" / str(year) / slug
+
+    # "Already exists" is decided by title as well as by slug, because a
+    # directory may have been renamed since it was built (`black-lagoon`) while
+    # its original is still parked here -- matching the slug alone would rebuild
+    # it under the old name. Only within the photo's own season, so a new Darth
+    # Vader is never mistaken for an old one.
+    if not target.exists():
+        target = find_by_title(target.parent, name) or target
+    # A photo that arrived in this push, for a carving that already exists, is
+    # a replacement.
+    new_photo = replacement_photo(item, args)
     wanted = None
     if sidecar.get("order"):
         if re.fullmatch(r"\d+", str(sidecar["order"]).strip()):
@@ -560,6 +669,8 @@ def build(item: dict, args, pagetitles: dict[str, str],
     }
 
     if target.exists() and not args.force:
+        if new_photo:
+            return replace(item, new_photo, target, report, args)
         report["skipped"] = f"{target.relative_to(ROOT)} already exists"
         return report
 
@@ -681,7 +792,15 @@ def main() -> int:
                     help="overwrite a carving directory that already exists")
     ap.add_argument("--summary", type=Path,
                     help="write a JSON report here for the workflow to read")
+    ap.add_argument("--changed", type=Path,
+                    help="file listing the inbox paths added or modified by the "
+                         "push being processed; a listed photo for an existing "
+                         "carving replaces its images")
     args = ap.parse_args()
+    if args.changed:
+        args.changed = {Path(ln.strip()).name for ln in
+                        args.changed.read_text(encoding="utf-8").splitlines()
+                        if ln.strip()}
 
     inbox = args.inbox if args.inbox.is_absolute() else ROOT / args.inbox
     if not inbox.is_dir():
@@ -711,7 +830,8 @@ def main() -> int:
         if r["skipped"]:
             print(f"\nSKIP {r['name']}: {r['skipped']}")
             continue
-        print(f"\n{r['name']}  ->  {r['path']}")
+        print(f"\n{r['name']}  ->  {r['path']}"
+              + ("   (photo replaced)" if r.get("replaced") else ""))
         print(f"  order {r['order']}   date {r['date']}   "
               f"categories: {', '.join(r['categories']) or '(none)'}")
         print(f"  pagetitle:   {r['pagetitle']}")
@@ -721,7 +841,7 @@ def main() -> int:
             print(f"  created {r['created_year']}")
         for flag in r["flags"]:
             print(f"  ! {flag}")
-        if args.dry_run:
+        if args.dry_run and r.get("qmd"):
             print("\n" + "\n".join("    " + ln for ln in r["qmd"].splitlines()))
 
     if not args.dry_run and any(not r["skipped"] for r in reports):

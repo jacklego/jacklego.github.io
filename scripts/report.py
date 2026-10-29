@@ -47,13 +47,23 @@ def commit_message(data: dict) -> str:
     if not made:
         return "No carvings ingested\n"
     if len(made) == 1:
-        subject = f"Add {made[0]['name']} ({made[0]['path']})"
+        verb = "Replace photo of" if made[0].get("replaced") else "Add"
+        subject = f"{verb} {made[0]['name']} ({made[0]['path']})"
     else:
-        subject = f"Add {len(made)} carvings"
+        n_new = sum(not c.get("replaced") for c in made)
+        n_rep = len(made) - n_new
+        parts = []
+        if n_new:
+            parts.append(f"Add {n_new} carving{'s' if n_new != 1 else ''}")
+        if n_rep:
+            parts.append(f"replace {n_rep} photo{'s' if n_rep != 1 else ''}")
+        subject = ", ".join(parts)
+        subject = subject[0].upper() + subject[1:]
 
     lines = [subject, ""]
     for c in made:
-        lines.append(f"{c['name']} -> {c['path']}")
+        lines.append(f"{c['name']} -> {c['path']}"
+                     + (" (photo replaced)" if c.get("replaced") else ""))
         lines.append(f"  from {', '.join(c['source_files'])}")
         lines.append(f"  order {c['order']}, date {c['date']}, "
                      f"categories: {', '.join(c['categories']) or 'none'}")
@@ -73,8 +83,32 @@ def strip_md(text: str) -> str:
     return text.replace("**", "").replace("`", "")
 
 
+def replaced_issue(c: dict) -> tuple[str, str]:
+    """A replaced photo keeps its reviewed page, so only the photo needs a look."""
+    body = [
+        f"### {c['name']} — `{c['path']}/`",
+        "",
+        f"Peter uploaded a new photo (`{c['source_files'][0]}`). The images, "
+        "`date:` and `meta.captured` / `raw-aspect-ratio` were rebuilt from it; "
+        "the title, prose, categories and order were kept.",
+        "",
+        f"`image-alt`: {c['image-alt']}",
+        "",
+        "**Flags**",
+        "",
+    ] + [f"- {f}" for f in c.get("flags", [])] + [
+        "",
+        f"<{url_for(c['path'])}> once the site is published.",
+        "",
+        "<sub>Opened by the ingest workflow.</sub>",
+    ]
+    return f"{c['name']} — photo replaced", "\n".join(body) + "\n"
+
+
 def issue(c: dict) -> tuple[str, str]:
     """The review issue for one carving, as (title, body)."""
+    if c.get("replaced"):
+        return replaced_issue(c)
     rows = [
         ("slug", f"`{c['slug']}`", "derived"),
         ("order", c["order"], "last in `order.txt` unless the sidecar said otherwise"),
@@ -135,7 +169,8 @@ def summary(data: dict) -> str:
     if made:
         out += [f"Built {len(made)} carving page{'s' if len(made) != 1 else ''}.", ""]
         for c in made:
-            out.append(f"### {c['name']}")
+            out.append(f"### {c['name']}"
+                       + (" — photo replaced" if c.get("replaced") else ""))
             out.append("")
             out.append(f"**{url_for(c['path'])}**")
             out.append("")

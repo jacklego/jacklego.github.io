@@ -40,9 +40,31 @@ jobs:
 
       - uses: astral-sh/setup-uv@v5
 
+      # Which inbox files this push added or modified. A listed photo for a
+      # carving that already exists is a replacement; every other photo for an
+      # existing carving is a parked original and is skipped. Only the two
+      # commits' trees are needed, not the history between them, so the shallow
+      # checkout is kept and `before` is fetched alone. A manual run, a new
+      # branch, or a failed fetch gives no list, and so no replacements.
+      - name: List changed inbox files
+        if: github.event_name == 'push'
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          : > /tmp/changed.txt
+          if [ "$BEFORE" != "0000000000000000000000000000000000000000" ] \
+             && git fetch --no-tags --depth=1 origin "$BEFORE"; then
+            git -c core.quotePath=false diff --name-only --diff-filter=AM \
+              "$BEFORE" HEAD -- _inbox/ > /tmp/changed.txt
+          fi
+          cat /tmp/changed.txt
+
       - name: Ingest
         id: ingest
-        run: uv run scripts/ingest.py --summary /tmp/ingest.json ${{ inputs.force && '--force' || '' }}
+        run: |
+          uv run scripts/ingest.py --summary /tmp/ingest.json \
+            ${{ github.event_name == 'push' && '--changed /tmp/changed.txt' || '' }} \
+            ${{ inputs.force && '--force' || '' }}
 
       - name: Commit
         id: commit

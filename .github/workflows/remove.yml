@@ -1,0 +1,72 @@
+# Removes one carving: its page, its parked original in _inbox/, its line in
+# order.txt, and the year page's image if it showed this carving. See
+# scripts/remove.py.
+#
+# Peter runs this by hand from the Actions tab and types the pumpkin's name. A
+# name that matches nothing, or more than one pumpkin, fails the run having
+# changed nothing -- the red X is how he finds out. It does NOT publish --
+# deploys stay manual, via publish.yml.
+name: Remove a pumpkin
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "The pumpkin's name, as the website shows it. If more than one pumpkin has that name, add the year, e.g. Darth Vader 2020."
+        type: string
+        required: true
+
+# Shares ingest's group so the two never race each other pushing to main.
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v5
+
+      # The name goes through env, never ${{ }} inside the script, so nothing
+      # typed into the box can be run as shell.
+      - name: Remove
+        env:
+          NAME: ${{ inputs.name }}
+        run: |
+          set -o pipefail
+          {
+            echo '```'
+            uv run scripts/remove.py "$NAME" --summary /tmp/remove.json 2>&1
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          title=$(jq -r .title /tmp/remove.json)
+          path=$(jq -r .path /tmp/remove.json)
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Remove $title ($path)" \
+                     -m "$(jq -r '(.done | map("- " + .)) + (.todo | map("! " + .)) | join("\n")' /tmp/remove.json)" \
+                     -m "Run of scripts/remove.py from the Remove a pumpkin workflow."
+          git pull --rebase
+          git push
+
+      # The carving's review issue would otherwise sit open forever.
+      - name: Close its review issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          path=$(jq -r .path /tmp/remove.json)
+          gh issue list --label review --state open --limit 200 --json number,body \
+            | jq -r --arg p "\`$path/\`" '.[] | select(.body | contains($p)) | .number' \
+            | while read -r n; do
+                gh issue close "$n" --comment "Carving removed by the *Remove a pumpkin* workflow." || true
+              done

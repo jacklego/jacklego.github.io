@@ -156,6 +156,41 @@ If you misspell a name or delete a line by accident, nothing breaks: that pumpki
 
 ---
 
+## Replace a pumpkin's photo with a different one
+
+Use this when a pumpkin is already on the website but you have a better photo of it. Everything else about the pumpkin stays the same: its name, its place on the page, and anything Connor has tidied up.
+
+1. Rename the new photo to **exactly the same name** as the pumpkin has on the website, for example `Dementor.jpg`. Capitals don't matter, but spelling does.
+2. Upload it exactly as in **Part 2**. GitHub may say a file with that name already exists. That's fine; the new one replaces it.
+   - **Don't delete anything first.** Deleting the pumpkin and uploading it again loses Connor's tidying-up and moves it to the end of the page.
+3. Wait for **Ingest carvings** to get its green check mark, as in **Part 3**.
+4. Do **Part 4** to put the new photo on the website.
+
+If the name doesn't match, you'll get a second pumpkin instead of a new photo. Nothing is lost: remove the extra one with the steps below, or ask Connor.
+
+---
+
+## Remove a pumpkin completely
+
+This takes the pumpkin, its photo, and its page off the website.
+
+1. Click this link:
+
+   ### 👉 [Remove a pumpkin](https://github.com/jacklego/jacklego.github.io/actions/workflows/remove.yml)
+
+2. On the right side of the page there's a blue strip with a **Run workflow** button in it, just like in Part 4. Click **Run workflow**.
+3. A small box opens with a space labeled **The pumpkin's name**. Type the name exactly as the website shows it, for example `Alastor Mad Eye Moody`. Capitals don't matter.
+   - If more than one pumpkin has that name, add the year after it, like `Darth Vader 2020`.
+   - Or paste the pumpkin's web address instead of its name.
+4. Click the green **Run workflow** button at the bottom of the box.
+5. Wait for the new line at the top of the list to get a **green check mark**. It usually takes under a minute. Press **F5** to refresh.
+   - A **red X** means it couldn't find that pumpkin, or found more than one with that name, and **nothing was removed**. Click on the line to see the reason, then try again with a different name, or ask Connor.
+6. Do **Part 4** to take it off the website.
+
+If you remove the wrong pumpkin, Connor can bring it back. Nothing is ever truly lost.
+
+---
+
 ## If you get lost
 
 - **Clicking a link above shows a page you don't recognize.** Close it and click the link in these instructions again. You can always start over from the beginning of the Part you were on.
