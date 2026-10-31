@@ -1,0 +1,18 @@
+---
+title: "Voldemort"
+pagetitle: "Voldemort pumpkin carving"
+description: "Voldemort — a pumpkin carving by Peter Wiegand, 2026."
+image: _voldemort__thumb.jpg
+image-alt: "A pumpkin carved with Voldemort."
+full: voldemort.jpg
+order: 4
+date: 2026-10-28
+categories: []
+
+meta:
+  captured: "2026-10-28T19:19:29"
+  raw-aspect-ratio: 1.3333
+
+---
+
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
