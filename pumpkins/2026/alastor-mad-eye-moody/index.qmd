@@ -5,7 +5,7 @@ description: "Alastor Mad Eye Moody — a pumpkin carving by Peter Wiegand, 2026
 image: _alastor-mad-eye-moody__thumb.jpg
 image-alt: "A pumpkin carved with Alastor Mad Eye Moody."
 full: alastor-mad-eye-moody.jpg
-order: 7
+order: 8
 date: 2026-10-23
 categories: []
 

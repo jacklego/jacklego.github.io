@@ -5,7 +5,7 @@ description: "Peter Pettigrew — a pumpkin carving by Peter Wiegand, 2026."
 image: _peter-pettigrew__thumb.jpg
 image-alt: "A pumpkin carved with Peter Pettigrew."
 full: peter-pettigrew.jpg
-order: 3
+order: 1
 date: 2026-10-25
 categories: []
 

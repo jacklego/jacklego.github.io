@@ -5,7 +5,7 @@ description: "Valdemort — a pumpkin carving by Peter Wiegand, 2026."
 image: _valdemort__thumb.jpg
 image-alt: "A pumpkin carved with Valdemort."
 full: valdemort.jpg
-order: 8
+order: 4
 date: 2026-10-28
 categories: []
 

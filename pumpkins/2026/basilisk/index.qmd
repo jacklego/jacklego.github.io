@@ -5,7 +5,7 @@ description: "Basilisk — a pumpkin carving by Peter Wiegand, 2026."
 image: _basilisk__thumb.jpg
 image-alt: "A pumpkin carved with Basilisk."
 full: basilisk.jpg
-order: 10
+order: 5
 date: 2026-10-30
 categories: []
 
