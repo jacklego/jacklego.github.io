@@ -1,0 +1,18 @@
+---
+title: "Basilisk"
+pagetitle: "Basilisk pumpkin carving"
+description: "Basilisk — a pumpkin carving by Peter Wiegand, 2026."
+image: _basilisk__thumb.jpg
+image-alt: "A pumpkin carved with Basilisk."
+full: basilisk.jpg
+order: 10
+date: 2026-10-30
+categories: []
+
+meta:
+  captured: "2026-10-30T18:41:14"
+  raw-aspect-ratio: 1.3333
+
+---
+
+![]({{< meta full >}}){fig-align="center" fig-alt="{{< meta image-alt >}}"}
