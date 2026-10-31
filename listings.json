@@ -112,7 +112,7 @@
     "items": [
       "/pumpkins/2026/basilisk/index.html",
       "/pumpkins/2026/snape/index.html",
-      "/pumpkins/2026/valdemort/index.html",
+      "/pumpkins/2026/voldemort/index.html",
       "/pumpkins/2026/hogwarts-train/index.html",
       "/pumpkins/2026/dementor/index.html",
       "/pumpkins/2026/bellatrix-lestrange/index.html",
@@ -273,16 +273,16 @@
   {
     "listing": "/pumpkins/2026/index.html",
     "items": [
-      "/pumpkins/2026/lucius-malfoy/index.html",
-      "/pumpkins/2026/draco-malfoy/index.html",
       "/pumpkins/2026/peter-pettigrew/index.html",
+      "/pumpkins/2026/snape/index.html",
+      "/pumpkins/2026/lucius-malfoy/index.html",
+      "/pumpkins/2026/voldemort/index.html",
+      "/pumpkins/2026/basilisk/index.html",
       "/pumpkins/2026/bellatrix-lestrange/index.html",
       "/pumpkins/2026/dementor/index.html",
-      "/pumpkins/2026/hogwarts-train/index.html",
       "/pumpkins/2026/alastor-mad-eye-moody/index.html",
-      "/pumpkins/2026/valdemort/index.html",
-      "/pumpkins/2026/snape/index.html",
-      "/pumpkins/2026/basilisk/index.html"
+      "/pumpkins/2026/draco-malfoy/index.html",
+      "/pumpkins/2026/hogwarts-train/index.html"
     ]
   },
   {
