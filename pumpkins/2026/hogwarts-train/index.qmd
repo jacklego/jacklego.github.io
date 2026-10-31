@@ -1,15 +1,16 @@
 ---
 title: "Hogwarts train"
-pagetitle: "Hogwarts train pumpkin carving"
-description: "Hogwarts train — a pumpkin carving by Peter Wiegand, 2026."
+pagetitle: "Hogwarts Express pumpkin carving"
+description: "Hogwarts Express from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _hogwarts-train__thumb.jpg
-image-alt: "A pumpkin carved with Hogwarts train."
+image-alt: "A pumpkin carved with the Hogwarts train from Harry Potter."
 full: hogwarts-train.jpg
 order: 10
 date: 2026-10-27
-categories: []
+categories: [Story Book, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-27T18:54:46"
   raw-aspect-ratio: 1.3333
 

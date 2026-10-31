@@ -1,15 +1,16 @@
 ---
 title: "Alastor Mad Eye Moody"
-pagetitle: "Alastor Mad Eye Moody pumpkin carving"
-description: "Alastor Mad Eye Moody — a pumpkin carving by Peter Wiegand, 2026."
+pagetitle: "Alastor 'Mad-Eye' Moody pumpkin carving"
+description: "Alastor 'Mad-Eye' Moody from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _alastor-mad-eye-moody__thumb.jpg
-image-alt: "A pumpkin carved with Alastor Mad Eye Moody."
+image-alt: "A pumpkin carved with Alastor 'Mad-Eye' Moody from Harry Potter."
 full: alastor-mad-eye-moody.jpg
 order: 8
 date: 2026-10-23
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-23T19:09:55"
   raw-aspect-ratio: 1.3333
 

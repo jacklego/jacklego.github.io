@@ -1,18 +1,19 @@
 ---
 title: "Lord Voldemort (Harry Potter)"
-pagetitle: "Lord Voldemort pumpkin carving"
+pagetitle: "Lord Voldemort pumpkin carving, v1, 2022"
 description: "Lord Voldemort from Harry Potter — a pumpkin carving by Peter Wiegand, 2022."
 image: _voldemort__thumb.jpg
 image-alt: "A pumpkin carved with Lord Voldemort from Harry Potter."
 full: voldemort.jpg
 order: 7
 date: 2022-10-22
-categories: [Story Book, Villains]
+categories: [Story Book, Villains, Movies]
 
 meta:
   source: "Harry Potter"
   captured: "2022-10-22T18:39:53"
   raw-aspect-ratio: 1.3333
+  version: 1
 
 ---
 

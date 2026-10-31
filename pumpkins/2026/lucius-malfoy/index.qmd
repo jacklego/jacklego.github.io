@@ -1,15 +1,16 @@
 ---
 title: "Lucius Malfoy"
 pagetitle: "Lucius Malfoy pumpkin carving"
-description: "Lucius Malfoy — a pumpkin carving by Peter Wiegand, 2026."
+description: "Lucius Malfoy from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _lucius-malfoy__thumb.jpg
-image-alt: "A pumpkin carved with Lucius Malfoy."
+image-alt: "A pumpkin carved with Lucius Malfoy from Harry Potter."
 full: lucius-malfoy.jpg
 order: 3
 date: 2026-10-24
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-24T18:16:00"
   raw-aspect-ratio: 1.3333
 

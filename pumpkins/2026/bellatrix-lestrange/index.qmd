@@ -1,15 +1,16 @@
 ---
 title: "Bellatrix Lestrange"
 pagetitle: "Bellatrix Lestrange pumpkin carving"
-description: "Bellatrix Lestrange — a pumpkin carving by Peter Wiegand, 2026."
+description: "Bellatrix Lestrange from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _bellatrix-lestrange__thumb.jpg
-image-alt: "A pumpkin carved with Bellatrix Lestrange."
+image-alt: "A pumpkin carved with Bellatrix Lestrange from Harry Potter."
 full: bellatrix-lestrange.jpg
 order: 6
 date: 2026-10-25
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-25T19:30:04"
   raw-aspect-ratio: 1.3333
 

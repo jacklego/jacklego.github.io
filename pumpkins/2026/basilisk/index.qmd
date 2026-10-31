@@ -1,15 +1,16 @@
 ---
 title: "Basilisk"
-pagetitle: "Basilisk pumpkin carving"
-description: "Basilisk — a pumpkin carving by Peter Wiegand, 2026."
+pagetitle: "Basilisk pumpkin carving (Harry Potter)"
+description: "Basilisk from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _basilisk__thumb.jpg
-image-alt: "A pumpkin carved with Basilisk."
+image-alt: "A pumpkin carved with the Basilisk from Harry Potter."
 full: basilisk.jpg
 order: 5
 date: 2026-10-30
-categories: []
+categories: [Story Book, Monsters, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-30T18:41:14"
   raw-aspect-ratio: 1.3333
 

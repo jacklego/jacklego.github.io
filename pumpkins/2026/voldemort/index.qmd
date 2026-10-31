@@ -1,17 +1,19 @@
 ---
 title: "Voldemort"
-pagetitle: "Voldemort pumpkin carving"
-description: "Voldemort — a pumpkin carving by Peter Wiegand, 2026."
+pagetitle: "Voldemort pumpkin carving, v2, 2026"
+description: "Voldemort from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _voldemort__thumb.jpg
-image-alt: "A pumpkin carved with Voldemort."
+image-alt: "A pumpkin carved with Voldemort from Harry Potter."
 full: voldemort.jpg
 order: 4
 date: 2026-10-28
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-28T19:19:29"
   raw-aspect-ratio: 1.3333
+  version: 2
 
 ---
 

@@ -1,15 +1,16 @@
 ---
 title: "Draco Malfoy"
 pagetitle: "Draco Malfoy pumpkin carving"
-description: "Draco Malfoy — a pumpkin carving by Peter Wiegand, 2026."
+description: "Draco Malfoy from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _draco-malfoy__thumb.jpg
-image-alt: "A pumpkin carved with Draco Malfoy."
+image-alt: "A pumpkin carved with Draco Malfoy from Harry Potter."
 full: draco-malfoy.jpg
 order: 9
 date: 2026-10-24
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-24T19:50:36"
   raw-aspect-ratio: 1.3333
 

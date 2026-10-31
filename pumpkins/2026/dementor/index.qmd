@@ -1,15 +1,16 @@
 ---
 title: "Dementor"
 pagetitle: "Dementor pumpkin carving"
-description: "Dementor — a pumpkin carving by Peter Wiegand, 2026."
+description: "Dementor from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _dementor__thumb.jpg
-image-alt: "A pumpkin carved with Dementor."
+image-alt: "A pumpkin carved with a Dementor from Harry Potter."
 full: dementor.jpg
 order: 7
 date: 2026-10-26
-categories: []
+categories: [Story Book, Monsters, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-26T19:20:04"
   raw-aspect-ratio: 1.3333
 

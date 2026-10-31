@@ -1,15 +1,16 @@
 ---
 title: "Snape"
-pagetitle: "Snape pumpkin carving"
-description: "Snape — a pumpkin carving by Peter Wiegand, 2026."
+pagetitle: "Severus Snape pumpkin carving"
+description: "Severus Snape from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _snape__thumb.jpg
-image-alt: "A pumpkin carved with Snape."
+image-alt: "A pumpkin carved with Severus Snape from Harry Potter."
 full: snape.jpg
 order: 2
 date: 2026-10-29
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-29T19:06:23"
   raw-aspect-ratio: 1.3333
 

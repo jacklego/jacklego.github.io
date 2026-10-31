@@ -1,15 +1,16 @@
 ---
 title: "Peter Pettigrew"
 pagetitle: "Peter Pettigrew pumpkin carving"
-description: "Peter Pettigrew — a pumpkin carving by Peter Wiegand, 2026."
+description: "Peter Pettigrew from Harry Potter — a pumpkin carving by Peter Wiegand, 2026."
 image: _peter-pettigrew__thumb.jpg
-image-alt: "A pumpkin carved with Peter Pettigrew."
+image-alt: "A pumpkin carved with Peter Pettigrew from Harry Potter."
 full: peter-pettigrew.jpg
 order: 1
 date: 2026-10-25
-categories: []
+categories: [Story Book, Villains, Movies]
 
 meta:
+  source: "Harry Potter"
   captured: "2026-10-25T18:21:13"
   raw-aspect-ratio: 1.3333
 
