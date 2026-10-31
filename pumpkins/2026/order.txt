@@ -6,13 +6,13 @@
 # Keep the names exactly as they are -- just move them around.
 # Lines starting with # are ignored.
 
-Lucius Malfoy
-Draco Malfoy
 Peter Pettigrew
+Snape
+Lucius Malfoy
+Valdemort
+Basilisk
 Bellatrix Lestrange
 Dementor
-Hogwarts train
 Alastor Mad Eye Moody
-Valdemort
-Snape
-Basilisk
+Draco Malfoy
+Hogwarts train
