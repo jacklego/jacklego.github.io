@@ -97,8 +97,20 @@
     ]
   },
   {
+    "listing": "/non-pumpkins/index.html",
+    "items": [
+      "/non-pumpkins/3omsyoga-full/index.html",
+      "/non-pumpkins/uw-husky/index.html",
+      "/non-pumpkins/island-in-the-sun/index.html",
+      "/non-pumpkins/rose/index.html",
+      "/non-pumpkins/om/index.html",
+      "/non-pumpkins/pineapple/index.html"
+    ]
+  },
+  {
     "listing": "/all-carvings/index.html",
     "items": [
+      "/pumpkins/2026/basilisk/index.html",
       "/pumpkins/2026/snape/index.html",
       "/pumpkins/2026/valdemort/index.html",
       "/pumpkins/2026/hogwarts-train/index.html",
@@ -259,17 +271,6 @@
     ]
   },
   {
-    "listing": "/non-pumpkins/index.html",
-    "items": [
-      "/non-pumpkins/3omsyoga-full/index.html",
-      "/non-pumpkins/uw-husky/index.html",
-      "/non-pumpkins/island-in-the-sun/index.html",
-      "/non-pumpkins/rose/index.html",
-      "/non-pumpkins/om/index.html",
-      "/non-pumpkins/pineapple/index.html"
-    ]
-  },
-  {
     "listing": "/pumpkins/2026/index.html",
     "items": [
       "/pumpkins/2026/lucius-malfoy/index.html",
@@ -280,7 +281,8 @@
       "/pumpkins/2026/hogwarts-train/index.html",
       "/pumpkins/2026/alastor-mad-eye-moody/index.html",
       "/pumpkins/2026/valdemort/index.html",
-      "/pumpkins/2026/snape/index.html"
+      "/pumpkins/2026/snape/index.html",
+      "/pumpkins/2026/basilisk/index.html"
     ]
   },
   {
